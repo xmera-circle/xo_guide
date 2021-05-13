@@ -1,0 +1,11 @@
+name: xos-doc
+title: xmera Omnia Dokumentationshandbuch
+version: '0.1'
+nav:
+- modules/einfuerung/nav.adoc
+- modules/installation/nav.adoc
+- modules/administrator/nav.adoc
+- modules/objektverantwortlicher/nav.adoc
+- modules/anwender/nav.adoc
+- modules/api/nav.adoc
+- modules/glossar/nav.adoc

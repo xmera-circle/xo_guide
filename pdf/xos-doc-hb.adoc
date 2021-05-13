@@ -1,0 +1,47 @@
+= xmera Omnia Standard Dokumentationshandbuch: xmera Solutions GmbH
+Bernd Hampe; Liane Hampe
+v0.1, 29.03.2021
+:description: Dieses Handbuch beschreibt die Installation, Einrichtung und Bedienung der Softwarelösung xmera Omnia Standard.
+:organization: xmera Solutions GmbH
+:doctype: book
+// Settings:
+:icons: font
+:listing-caption: Listing
+:lang: de
+:sectnums:
+//Table of content
+:toc: left
+:toc-title: Inhalt
+:toclevels: 3
+:xrefstyle: short
+// PDF-Theme
+ifdef::backend-pdf[]
+:pdf-theme: chronicles
+:pdf-themesdir: ./themes
+:title-logo-image: image:../images/gesamt/xmera.png[pdfwidth=4.25in,align=center]
+:source-highlighter: rouge
+:rouge-style: github
+endif::[]
+// Übersetzungen 
+ifdef::lang[include::./locale/attributes-{lang}.adoc[]]
+
+:web-xmera: https://xmera.de
+:imagesdir: ../images
+:leveloffset: 1
+
+[glossary]
+include::../modules/glossary/pages/xos-doc-hb_glossary.adoc[]
+
+include::../modules/kap1/pages/xos-doc-hb_kap1.adoc[]
+
+include::../modules/kap2/pages/xos-doc-hb_kap2.adoc[]
+
+include::../modules/kap3/pages/xos-doc-hb_kap3.adoc[]
+
+include::../modules/kapx/pages/xos-doc-hb_kapx.adoc[]
+
+[appendix]
+include::../modules/appendix/pages/xos-doc-hb_appendix1.adoc[]
+
+[appendix]
+include::../modules/appendix/pages/xos-doc-hb_appendix2.adoc[]
