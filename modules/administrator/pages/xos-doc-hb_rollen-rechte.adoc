@@ -4,25 +4,25 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Die Rechte zur Bedienung von xmera Omnia sowie die Workflows für die Statusführung von Maßnahmen werden über Rollen den Benutzern zugewiesen bzw. gesteuert. Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden.
+Die Rechte zur Bedienung von xmera Omnia sowie die Workflows für die Statusführung von Aufgaben werden über Rollen gesteuert. Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden.
 
 == Basisrollen
 Die Basisrollen sind die Rollen im System, mit denen funktional die Abläufe eines ISMS abgebildet werden können. Sie können als Grundlage für die Erstellung weiterer Rollen dienen, die von diesen Basisrollen die Rechte und Workflows übernehmen können.
 
 === Administrator
-Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich "Rollen und Rechte" verwaltet, sondern einem oder mehreren Benutzen im Bereich der Bentzterverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
+Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich "Rollen und Rechte" verwaltet, sondern einem oder mehreren Benutzen im Bereich der Benutzterverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
 
 === Objektverantwortlich
-Der Objektveratwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordung der Benutzer mit den Rollen in dem Objekt verantwortlich.
+Der Objektveratwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
 
 === Überwachungsverantwortlich
-Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprizip gefordert ist, für die Überprüfung der operativen erledigten Aufgaben verantwortlich. Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
+Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprizip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
 
 === Aufgabenverantwortlich
-Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgbabe veratnwortlich.
+Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
 
 === Nicht-Mitlglied
-Die Rolle "Nicht-Mitglied" ist eine globale Rollenbeschreibung, die die Rechte eines angemeldeten Benutzer für Objekte definiert, in denen Ihm keine Rolle zugewiesen wurde. 
+Die Rolle Nicht-Mitglied ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne zugewiesen Rolle in dem öffentlichen Objekt hat. 
 
 === Anonym
-Die Rolle "Anonym" ist eine globale Rollenbeschreigung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle Anonym Zugriff auf alle als öffentlich markierten Objekte.
+Die Rolle Annonym ist nur relevant, wenn xmera Omnia so konfiguriert wurde, dass eine Authentifizierung nicht notwendig ist. Die Rolle Anonym ist in diesem Fall eine globale Rollenbeschreibung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle Anonym Zugriff auf alle öffentlichen Objekte.
