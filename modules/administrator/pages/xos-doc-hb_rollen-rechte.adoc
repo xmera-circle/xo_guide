@@ -18,10 +18,13 @@ Der Objektveratwortliche konfiguriert ein Objekt. Er ist für die Beschreibung d
 === Überwachungsverantwortlich
 Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprizip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
 
+=== Risikoverantwortlich
+Der Risikoverantwortliche ist der Verantwortliche der die Risiken im Unternehmen verantwortet. Er ist in die Workflows eingebunden, in denen ein Risiko Bewertet werden muss.
+
 === Aufgabenverantwortlich
 Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
 
-=== Nicht-Mitlglied
+=== Nichtmitlglied
 Die Rolle Nicht-Mitglied ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne zugewiesen Rolle in dem öffentlichen Objekt hat. 
 
 === Anonym

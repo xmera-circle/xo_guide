@@ -4,4 +4,28 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Workflow
+== Basis-Workflows
+
+=== Aufgabe und Störung
+
+image::administrator/20210703_workflow_aufgabe.png[Workflow Aufgabe und Störung]
+
+=== Vorfall
+
+image::administrator/20210703_workflow_vorfall.png[Workflow Vorfall]
+
+=== Risiko
+
+image::administrator/20210703_workflow_risiko.png[Workflow Risikobewertung]
+
+=== Maßnahme
+
+image::administrator/20210703_workflow_maßnahme.png[Workflow Maßnahme]
+
+=== Prüfung
+
+image::administrator/20210703_workflow_pruefung.png[Workflow Prüfung]
+
+=== Verarbeitungstätigkeit
+
+image::administrator/20210703_workflow_verarbeitungstaetigkeit.png[Workflow Maßnahme]
