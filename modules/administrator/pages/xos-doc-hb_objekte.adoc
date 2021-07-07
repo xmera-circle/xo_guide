@@ -4,4 +4,36 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Objekte
+Objekte sind die kleinste Systemeinheit. Ein Objekt ist ein in sich abgeschlossener Bereich, in dem verschiedene Module aktiviert werden können. Beipiele für Module sind: Aufgaben, Wiki, Dokumente, Meldungen, u.a.
+
+Für jedes Objekt können Unterobjekte erstellt werden. So lässt sich mit Objekten eine hierarchische Strukur aufbauen.
+
+== Basisobjekte
+
+Die Objekte der obersten Hierarchieebene heißen Basisobjekte. Sie übernehmen die Funktion von Arbeitsbereichen, die individuell ausgebaut werden können. 
+
+=== A Management
+Im Arbeitsbereich "Management" werden die Datenschutz- und der Informationssicherheitssicherheitsmanagementprozesse geplant, koordiniert, durchgeführt und überwacht. 
+
+In dieser Objektebene können Richtlinien und andere Dokumente zentral und managementsystemübergreifend verwaltet und gelenkt werden. 
+
+==== DSGVO
+Eine gesetzeskonforme Umsetzung des Datenschutzes erfordert eine gute Organisation und Koordination. In diesem Arbeitsbereich kann der Datenschutzbeauftragte seine Aufgaben planen.
+
+==== ISMS
+
+Die Einführung und der Betrieb des ISMS wird in diesem Arbeitsbereich geplannt. 
+
+=== B Organisation und Personal
+
+=== C Anwendungen
+
+=== D IT-Systeme und Netze
+
+=== E Infrastruktur
+
+=== F Changeprojekte
+
+=== G Audit
+
+=== H Meldungen

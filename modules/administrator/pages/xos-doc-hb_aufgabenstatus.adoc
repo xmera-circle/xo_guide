@@ -4,8 +4,6 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-...
-
 == Basis-Aufgabenstatus
 Die Basis-Aufgabenstatus sind vordefinierte Aufgabenstus im System, mit denen funktional der Aufgabenfortschritt abgebildet werden kann. Dabei ist neben der Aufgabenbearbeitung auch die Überprüfung / Abnahme der Aufgabe mit bestandteil des Prozesses.
 Im Zusammenspiel mit den Aufgabentypen und den Rollen werden die Aufgabenstatus zur Steuerung des Workflows genutzt.
