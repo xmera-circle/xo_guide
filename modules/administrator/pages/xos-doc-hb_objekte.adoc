@@ -26,14 +26,28 @@ Die Einführung und der Betrieb des ISMS wird in diesem Arbeitsbereich geplannt.
 
 === B Organisation und Personal
 
+Im Bereich "Organisation und Personal" werden die kritischen Prozesse bearbeitet und informationssicherheitsrelevante Themen rund um das Personal dokumentiert.
+
 === C Anwendungen
+
+In diesem Bereich wird für jede kritische Anwendung ein Objekt generiert.
 
 === D IT-Systeme und Netze
 
+Die notwendigen Systeme, die von den kritischen Anwendungen benötigt werden, sind diesem Bereich untergeordnet.
+
 === E Infrastruktur
+
+Zur Infrastruktur gehören Versorgungs- und Arbeitsbereiche. Sie werden in diesem Bereich abgebildet.
 
 === F Changeprojekte
 
+Für komplexe Maßnahmen zur Steigerung der Informationssicherheit können im Bereich "Changeprojekte" Unterobjekte erstellt werden.
+
 === G Audit
 
+Die Auditplanung findet in diesem Bereich statt.
+
 === H Meldungen
+
+Störungen und Vorfälle sind Meldungen, die im Bereich "Meldungen" eingehen.
