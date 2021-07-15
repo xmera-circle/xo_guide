@@ -16,6 +16,10 @@ In der Basiskonfiguration sind für folgende Module grundlegende Felder vorkonfi
 Eigene Felder für Aufgaben lassen sich einem oder mehreren Aufgabentypen zuordnen.
 Nachfolgend sind die Felder für den jeweiligen Aufgabentyp aufgelistet.
 
+### Sicherheitsanforderung
+
+- Relevant für
+
 ### Maßnahme
 
 - Wirksamkeitsprüfung
