@@ -37,10 +37,12 @@ für Bedrohungsszenarien kommen folgende in Betracht
 
 Zusatzmaßnahmen zur Risikominimierung werden als Verknüpfung oder Unteraufgabe zugeordnet und dokumentiert.
 
+=== Sicherheitsanforderung
+Eine Sicherheitsanforderung ensteht aus den Vorgaben der Normen (BSI-Grundschutz, ISO 27000, ISIS12, ...).
+
 === Maßnahme
 Eine Maßnahme beschreibt eine Aufgabe zur Erreichung eines sicheren Betriebs. Als Quellen dienen Maßnahmen
 
-- aus Normen (BSI-Grundschutz, ISO 27000, ISIS12, ...),
 - aus dem Vorfallmanagement (Maßnahme aus der Vorfall-Analyse)
 - aus dem Risikomanagement (Maßnahme aus der Risikobewertung)
 - aus sonstigen unternehmensspezifischen Vorgaben (manuelle Erfassung)
