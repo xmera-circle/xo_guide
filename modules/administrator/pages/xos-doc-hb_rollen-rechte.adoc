@@ -13,13 +13,13 @@ Die Basisrollen sind die Rollen im System, mit denen funktional die Abläufe ein
 Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich "Rollen und Rechte" verwaltet, sondern einem oder mehreren Benutzen im Bereich der Benutzterverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
 
 === Objektverantwortlich
-Der Objektveratwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
+Der Objektverantwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
 
 === Überwachungsverantwortlich
 Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprizip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
 
 === Risikoverantwortlich
-Der Risikoverantwortliche ist der Verantwortliche der die Risiken im Unternehmen verantwortet. Er ist in die Workflows eingebunden, in denen ein Risiko Bewertet werden muss.
+Der Risikoverantwortliche verantwortet im Unternehmen die Risiken. Er ist in die Workflows eingebunden, in denen ein Risiko bewertet werden muss.
 
 === Aufgabenverantwortlich
 Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
