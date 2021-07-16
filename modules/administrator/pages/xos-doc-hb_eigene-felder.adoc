@@ -148,12 +148,12 @@ Zusatzmaßnahmen zur Risikominimierung werden als Verknüpfung oder Unteraufgabe
   - hoch
   - sehr hoch
 - PbD
-- MTA (in Std.)
+- MTA (Std.)
   - 4
   - 24
   - 72
   - > 72
-- MTD (in Std.)
+- MTD (Std.)
   - 4
   - 24
   - 72
