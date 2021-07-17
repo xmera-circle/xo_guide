@@ -51,3 +51,7 @@ Die Auditplanung findet in diesem Bereich statt.
 === H Meldungen
 
 Störungen und Vorfälle sind Meldungen, die im Bereich "Meldungen" eingehen.
+
+=== I Handbücher
+
+Unternehmensweite Handbücher, auf die alle Mitarbeiter Zugriff haben.
