@@ -27,3 +27,17 @@ Ein Projekt enthält alle typischen Projektmanagement-Module wie bspw.
 Diese Objektklasse kann überall dort angewendet werden wo eine komplexe, 
 länger andauernede Aufgabe mit mehreren Beteiligten durchgeführt werden muss.
 
+=== Vorlage
+
+Das Basis-Objekt "Vorlage" wird hauptsächlich während der Ersteinrichtung gebraucht. 
+Es enthält bereits Einstellungen zu den aktivierten Modulen, Aufgabentypen und 
+Eigenen Feldern.
+
+Die Tabelle zur Schutzbedarfsfeststellung ist angelegt und die typischen Schadenszenarien
+sind formuliert.
+
+Die Möglichkeiten zur Verwendung des Wikis sind durch Verlinkungen zum öffentlichen
+Handbuch angedeutet.
+
+Die Vorlage sollte vor der ersten Verwendung an die Anforderungen des Unternehmens
+angepasst werden.
