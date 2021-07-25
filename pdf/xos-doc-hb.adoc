@@ -30,18 +30,38 @@ ifdef::lang[include::./locale/attributes-{lang}.adoc[]]
 :leveloffset: 1
 
 [glossary]
-include::../modules/glossary/pages/xos-doc-hb_glossary.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_aufgabenstatus.adoc[]
 
-include::../modules/kap1/pages/xos-doc-hb_kap1.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_aufgabentyp.adoc[]
 
-include::../modules/kap2/pages/xos-doc-hb_kap2.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_aufzaehlung.adoc[]
 
-include::../modules/kap3/pages/xos-doc-hb_kap3.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_benutzer.adoc[]
 
-include::../modules/kapx/pages/xos-doc-hb_kapx.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_eigene-bezeichnungen.adoc[]
 
-[appendix]
-include::../modules/appendix/pages/xos-doc-hb_appendix1.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_eigene-felder.adoc[]
 
-[appendix]
-include::../modules/appendix/pages/xos-doc-hb_appendix2.adoc[]
+include::../modules/administrator/pages/xos-doc-hb_genehmigungs-workflows.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_gruppen.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_informationen.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_konfiguration.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_ldap-authentifizierung.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_objekte.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_objektklassen.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_plugins.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_rollen-rechte.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_tabellenkonfiguration.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_ueberblick.adoc[]
+
+include::../modules/administrator/pages/xos-doc-hb_workflow.adoc[]
