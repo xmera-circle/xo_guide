@@ -29,3 +29,42 @@ Die Rolle Nicht-Mitglied ist eine globale Rollenbeschreibung für öffentliche O
 
 === Anonym
 Die Rolle Annonym ist nur relevant, wenn xmera Omnia so konfiguriert wurde, dass eine Authentifizierung nicht notwendig ist. Die Rolle Anonym ist in diesem Fall eine globale Rollenbeschreibung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle Anonym Zugriff auf alle öffentlichen Objekte.
+
+
+== Definition von Rollen
+
+Die Definition von Rollen beinhaltet Einstellung zur Aufgabendelegation, Sichtbarkeit von Aufgaben, Zeiten und Benutzern sowie Berechtigungen zur Nutzung der einzelnen Objektmodule.
+
+=== Aufgabendelegation
+
+Es besteht die Möglichkeit eine Rolle aus der Aufgabendelegation auszuschließen. Dieser Rolle können dann keine Aufgaben zugeordnet werden.
+
+=== Sichtbarkeit
+
+Eine gut durchdachte Struktur in der Objekthierarchie legt die Basis zur Bildung von in sich abgeschlossenen Arbeitsbereichen. Neben den modulbezogenen Berechtigungen lässt sich die Sichtbarkeit von Aufgaben, Zeiten und Benutzern weiter einschränken.
+
+==== Aufgaben
+
+Einer Rolle kann eine von drei Optionen zugeordnet werden. Sie regelt die generelle Sichtbarkeit der Aufgaben. Zusätzlich kann die Sichtbarkeit auf bestimmte Aufgabentypen beschränkt werden. 
+
+Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
+
+===== Option: Alle Aufgaben
+
+Mit dieser Rolle sieht ein Benutzer alle Aufgaben von Objekten, in denen er diese Rolle hat.
+
+===== Option: Alle öffentlichen Aufgaben
+
+Bei der Auswahl dieser Option kann der Rolleninhaber keine privaten Aufgaben sehen.
+
+===== Option: Aufgaben, die der Benutzer erstellt hat oder ihm zugewiesen sind
+
+Die dritte Option schränkt die Sichtbarkeit der Aufgaben auf genau die diejenigen ein, an denen er beteiligt ist. 
+
+
+==== Zeiten
+
+==== Benutzer
+
+=== Berechtigungen
+
