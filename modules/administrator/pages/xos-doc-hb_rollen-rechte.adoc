@@ -45,7 +45,9 @@ Eine gut durchdachte Struktur in der Objekthierarchie legt die Basis zur Bildung
 
 ==== Aufgaben
 
-Einer Rolle kann eine von drei Optionen zugeordnet werden. Sie regelt die generelle Sichtbarkeit der Aufgaben. Zusätzlich kann die Sichtbarkeit auf bestimmte Aufgabentypen beschränkt werden. 
+Einer Rolle kann eine von drei Optionen zugeordnet werden. Sie regelt die generelle Sichtbarkeit der Aufgaben. 
+
+Zusätzlich kann die Sichtbarkeit auf bestimmte Aufgabentypen beschränkt werden. Innerhalb eines Aufgabentyps widerum gibt es die Möglichkeit die Sichtbarkeit von eigene Feldern rollenweise zu steuern. 
 
 Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
 
