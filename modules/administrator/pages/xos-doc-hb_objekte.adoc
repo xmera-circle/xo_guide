@@ -24,21 +24,29 @@ Eine gesetzeskonforme Umsetzung des Datenschutzes erfordert eine gute Organisati
 
 Die Einführung und der Betrieb des ISMS wird in diesem Arbeitsbereich geplannt. 
 
-=== B Organisation und Personal
+=== B Prozesse & Informationen
 
-Im Bereich "Organisation und Personal" werden die kritischen Prozesse bearbeitet und informationssicherheitsrelevante Themen rund um das Personal dokumentiert.
+Prozesse und Informationen bilden die primären Werte einer Organisation. Ihr Schutzbedarf ist Ausgangspunkt für alle weiteren zu treffenden Sicherheitsmaßnahmen.
 
-=== C Anwendungen
+Geschäftsprozesse erzeugen, verarbeiten oder speichern Informationen. Die Schutzziele Vertraulichkeit und Integrität werden typischerweise auf Informationen abgebildet. Die Verfügbarkeit dagegen, ist ein typisches Schutzziel für einen Prozess.
 
-In diesem Bereich wird für jede kritische Anwendung ein Objekt generiert.
+In diesem Bereich wird der Schutzbedarf von Geschäftsprozessen und Informationsobjekten der Organisation bewertet.
 
-=== D IT-Systeme und Netze
+=== C Personal
 
-Die notwendigen Systeme, die von den kritischen Anwendungen benötigt werden, sind diesem Bereich untergeordnet.
+Mitarbeiter müssen in den Informationssicherheitsprozess integriert werden und Sicherheit aktiv mitgestalten. Dazu bedarf es organistorischer Regeln, die sich über den gesamten Beschäftiungszyklus erstrecken.
+
+Richtlinien, Regelungen und Maßnahmen, die direkten Personalbezug haben, können in diesem Bereich geplant werden.
+
+
+=== D IT-Betrieb
+
+Der gesamte IT-Verbund hat unterstützende Funktion. Hierzu gehören beispielsweise Anwendungen, Endgeräte, Server und Netzwerk. Der Schutzbedarf der Prozesse und Informationen vererbt sich auf diese sekundären Werte. Schutzbedarf, Risikomanagement und die Maßnahmensteuerung sind wesentliche Aufgaben, die im Bereich 'IT-Betrieb' umgesetzt werden.
+
 
 === E Infrastruktur
 
-Zur Infrastruktur gehören Versorgungs- und Arbeitsbereiche. Sie werden in diesem Bereich abgebildet.
+Zur Infrastruktur gehören Versorgungs-, Arbeitsbereiche und das mobile Arbeiten. Sie werden in diesem Bereich abgebildet.
 
 === F Changeprojekte
 

@@ -4,19 +4,29 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Die Rechte zur Bedienung von xmera Omnia sowie die Workflows für die Statusführung von Aufgaben werden über Rollen gesteuert. Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden.
+Die Rechte zur Bedienung von xmera Omnia werden über Rollen gesteuert. 
+
+Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. 
+
+Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden. Erhält ein Benutzer in einem Objekt mehrere Rollen, wirken diese kumulativ.
+
+Die Definition von Rollen wird hauptsächlich im Administrationsbereich unter _Rollen und Rechte_ vorgenommen. Weitere Einstellungsmöglichkeiten zur Sichtbarkeit sind in den Bereichen _Workflows_ und _Eigene Felder_ möglich. 
 
 == Basisrollen
 Die Basisrollen sind die Rollen im System, mit denen funktional die Abläufe eines ISMS abgebildet werden können. Sie können als Grundlage für die Erstellung weiterer Rollen dienen, die von diesen Basisrollen die Rechte und Workflows übernehmen können.
 
 === Administrator
-Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich "Rollen und Rechte" verwaltet, sondern einem oder mehreren Benutzen im Bereich der Benutzterverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
+Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich _Rollen und Rechte_ verwaltet, sondern einem oder mehreren Benutzern im Bereich der Benutzerverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. 
+
+Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
 
 === Objektverantwortlich
-Der Objektverantwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
+Der Objektverantwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordnung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
 
 === Überwachungsverantwortlich
-Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprizip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
+Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprinzip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. 
+
+Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
 
 === Risikoverantwortlich
 Der Risikoverantwortliche verantwortet im Unternehmen die Risiken. Er ist in die Workflows eingebunden, in denen ein Risiko bewertet werden muss.
@@ -25,48 +35,147 @@ Der Risikoverantwortliche verantwortet im Unternehmen die Risiken. Er ist in die
 Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
 
 === Nichtmitlglied
-Die Rolle Nicht-Mitglied ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne zugewiesen Rolle in dem öffentlichen Objekt hat. 
+Die Rolle _Nicht-Mitglied_ ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne Mitgliedschaft automatische in dem öffentlichen Objekt hat.
 
 === Anonym
-Die Rolle Annonym ist nur relevant, wenn xmera Omnia so konfiguriert wurde, dass eine Authentifizierung nicht notwendig ist. Die Rolle Anonym ist in diesem Fall eine globale Rollenbeschreibung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle Anonym Zugriff auf alle öffentlichen Objekte.
+Die Rolle _Anonym_ ist nur relevant, wenn xmera Omnia so konfiguriert wurde, dass eine Authentifizierung nicht notwendig ist. Die Rolle _Anonym_ ist in diesem Fall eine globale Rollenbeschreibung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. 
+
+Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle _Anonym_ Zugriff auf alle öffentlichen Objekte.
 
 
 == Definition von Rollen
 
-Die Definition von Rollen beinhaltet Einstellung zur Aufgabendelegation, Sichtbarkeit von Aufgaben, Zeiten und Benutzern sowie Berechtigungen zur Nutzung der einzelnen Objektmodule.
+Die Definition von Rollen beinhaltet Einstellungen zur Aufgabendelegation, Sichtbarkeit von Aufgaben, Zeiten und Benutzern sowie Berechtigungen zur Nutzung der einzelnen Objektmodule.
+
+Die grundsätzliche Sichtbarkeit von Aufgaben, Zeiten und Benutzern bildet die erste Berechtigungsebene. 
+
+Eine zweite Berechtigungsebene bilden die Module, aus denen eine Rolle wahlweise ausgeschlossen werden kann.
+
+Die dritte Ebene umfassst die Berechtigungen innerhalb eines Moduls.
 
 === Aufgabendelegation
 
 Es besteht die Möglichkeit eine Rolle aus der Aufgabendelegation auszuschließen. Dieser Rolle können dann keine Aufgaben zugeordnet werden.
 
-=== Sichtbarkeit
+=== Sichtbarkeit von Aufgaben
 
-Eine gut durchdachte Struktur in der Objekthierarchie legt die Basis zur Bildung von in sich abgeschlossenen Arbeitsbereichen. Neben den modulbezogenen Berechtigungen lässt sich die Sichtbarkeit von Aufgaben, Zeiten und Benutzern weiter einschränken.
+Jede der nachfolgenden Optionen bestimmt die generelle Sichtbarkeit von Aufgaben für eine Rolle in einem Objekt.
 
-==== Aufgaben
+Alle Aufgaben::
 
-Einer Rolle kann eine von drei Optionen zugeordnet werden. Sie regelt die generelle Sichtbarkeit der Aufgaben. 
+Mit dieser Rolle sieht ein Benutzer alle öffentlichen und alle privaten Aufgaben in einem Objekt.
 
-Zusätzlich kann die Sichtbarkeit auf bestimmte Aufgabentypen beschränkt werden. Innerhalb eines Aufgabentyps widerum gibt es die Möglichkeit die Sichtbarkeit von eigene Feldern rollenweise zu steuern. 
-
-Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
-
-===== Option: Alle Aufgaben
-
-Mit dieser Rolle sieht ein Benutzer alle Aufgaben von Objekten, in denen er diese Rolle hat.
-
-===== Option: Alle öffentlichen Aufgaben
+Alle öffentlichen Aufgaben::
 
 Bei der Auswahl dieser Option kann der Rolleninhaber keine privaten Aufgaben sehen.
 
-===== Option: Aufgaben, die der Benutzer erstellt hat oder ihm zugewiesen sind
+Aufgaben, die der Benutzer erstellt hat oder ihm zugewiesen sind::
 
 Die dritte Option schränkt die Sichtbarkeit der Aufgaben auf genau die diejenigen ein, an denen er beteiligt ist. 
 
+[NOTE]
+Die Sichtbarkeit von Aufgaben lässt sich über den _Aufgabentyp_ weiter einschränken. 
 
-==== Zeiten
+=== Sichtbarkeit von Zeiten
 
-==== Benutzer
+=== Sichtbarkeit von Benutzern
 
-=== Berechtigungen
+=== Berechtigungen für Module
 
+==== Objekt
+
+==== Foren
+
+
+==== Kalender
+
+==== DMS
+
+
+==== Dokumente
+
+==== Dateien
+
+==== Verlauf
+
+==== Aufgaben-Synchronisation
+
+==== Aufgaben
+
+Aufgaben anzeigen:: 
+  Der Benutzer darf Aufgaben lesen.
+
+Aufgaben hinzufügen::
+  Der Benutzer darf Aufgaben erstellen.
+
+Aufgaben bearbeiten::
+  Der Benutzer darf in allen Aufgaben Felder wie bspw. Thema, Priorität, Status usw. bearbeiten.
+
+Eigene Aufgaben bearbeiten:: 
+  Der Benutzer darf lediglich Aufgaben, die er selbst erstellt hat, bearbeiten. Aufgaben, die ihm zugeordnet wurden, kann er mit diesem Recht nicht bearbeiten.
+
+Aufgaben kopieren:: 
+  Der Benutzer darf Aufgaben innerhalb des Objektes und je nach Systemkonfiguration auch zu anderen Objekten durch kopieren hinzufügen.
+
+Aufgaben-Beziehungen verwalten::
+  Der Benutzer darf Beziehungen zu anderen Aufgaben herstellen und wieder entfernen.
+
+Untergeordnete Aufgaben verwalten:: 
+  Der Benutzer darf Aufgaben anderen Aufgaben unterordnen und die Unterordnung wieder aufheben.
+
+Aufgaben als privat oder öffentlich markieren:: 
+  Der Benutzer darf eine beliebige Aufgabe als privat markieren und wieder aufheben. Eine private Aufgabe ist nur für die Benutzer sichtbar, die alle Aufgaben sehen dürfen, siehe <<_sichtbarkeit_von_aufgaben>>. 
+
+Eigene Aufgaben privat oder öffentlich markieren:: 
+  Der Benutzer darf lediglich Aufgaben, die er selbst erstellt hat, als privat markieren und wieder aufheben.
+
+Kommentare hinzufügen:: 
+  Der Benutzer darf einen Kommentar zu einer Aufgabe hinzufügen.
+
+Kommentare bearbeiten:: 
+  Der Benutzer darf Kommentare an Aufgaben bearbeiten.
+
+Eigene Kommentare bearbeiten:: 
+  Der Benutzer darf Kommentare, die er selbst erstellt hat, bearbeiten.
+
+Private Kommentare sehen:: 
+  Der Benutzer darf private Kommentare von anderen Benutzern sehen.
+
+Kommentar als privat markieren:: 
+  Der Benutzer seine Kommentare als privat markieren.
+
+Aufgabe löschen:: 
+  Der Benutzer darf eine Aufgabe löschen.
+
+Liste der Beobachter ansehen:: 
+  Der Benutzer darf sehen, welche Mitglieder eine Aufgabe beobachten.
+
+Beobachter hinzufügen::
+  Der Benutzer darf Mitglieder als Beobachter für eine Aufgabe definieren.
+
+Beobachter löschen:: 
+  Der Benutzer darf Beobachter einer Aufgabe wieder entfernen.
+
+Aufgaben importieren:: 
+  Der Benutzer darf Aufgaben mittels CSV-Datei importieren.
+
+Aufgaben-Kategorien verwalten:: 
+  Der Benutzer darf Aufgaben-Kategorien erstellen an Mitglieder zuordnen, bearbeiten und löschen.
+
+==== Mitteilung
+
+==== Archiv
+
+==== Zeiterfassung
+
+==== Wiki
+
+
+
+====== Textschnipsel
+
+sowie die Workflows für die Statusführung von Aufgaben
+
+=======
+Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
+=======
