@@ -34,6 +34,9 @@ Der Risikoverantwortliche verantwortet im Unternehmen die Risiken. Er ist in die
 === Aufgabenverantwortlich
 Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
 
+=== Beobachter
+Der Beobachter hat lediglich Leserechte.
+
 === Nichtmitlglied
 Die Rolle _Nicht-Mitglied_ ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne Mitgliedschaft automatische in dem öffentlichen Objekt hat.
 
