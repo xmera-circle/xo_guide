@@ -171,11 +171,6 @@ Aufgaben-Kategorien verwalten::
 ==== Wiki
 
 
-
-====== Textschnipsel
-
-sowie die Workflows für die Statusführung von Aufgaben
-
 =======
 Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
 =======

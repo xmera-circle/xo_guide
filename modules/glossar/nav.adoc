@@ -1,1 +1,1 @@
-* xref:xos-hb_glossar.adoc[Glossar]
+* xref:xo-hb_glossar.adoc[Glossar]
