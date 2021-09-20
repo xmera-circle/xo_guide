@@ -4,4 +4,14 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-.
+Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbereich unter "Konfiguration" festgelegt.
+
+== Aufgaben
+
+--eventuell noch verschieben!--
+
+Um im Aufgaben-Katalog nachverfolgen zu können, welche Aufgaben wohin synchronisiert wurden und im weiteren Verlauf ihren Fortschritt beobachten zu können, müssen folgende Einstellungen vorgenommen werden: 
+
+- Aufgaben-Beziehungen zwischen Objekten erlauben
+- Aufgaben beim Kopieren verlinken: Ja
+

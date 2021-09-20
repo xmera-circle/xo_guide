@@ -4,4 +4,160 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-.
+Mit eigenen Feldern lassen sich einzelne Module auf indiviuelle Anforderungen anpassen.
+
+In der Basiskonfiguration sind für folgende Module grundlegende Felder vorkonfiguriert:
+
+- Aufgaben
+- Tabellen
+
+## Aufgaben
+
+Eigene Felder für Aufgaben lassen sich einem oder mehreren Aufgabentypen zuordnen.
+Nachfolgend sind die Felder für den jeweiligen Aufgabentyp aufgelistet.
+
+### Sicherheitsanforderung
+
+- Relevant für
+- Kapitel
+
+### Maßnahme
+
+- Quelle
+- Wirksamkeitsprüfung
+
+### Vorfall
+
+- 1. Was? (Auswirkung)
+- 2. Warum? (Direke Ursache)
+- 3. Warum? (Tiefere Ursache)
+- 4. Warum? (Orga.-Mangel)
+- 5. Warum? (Systemmangel)
+
+### Risikobewertung
+
+Zur Basiskonfiguration gehören die nachstehenden eigenen Felder 
+
+- Risikoverantwortlicher
+- Betroffene Schutzziele
+- Bedrohungszenario 
+- Möglicher Schaden
+- Mögliche Ursachen
+- Schadensklasse (aktuell)
+  - vernachlässigbar  (1)
+  - begrenzt          (2)
+  - beträchtlich      (3)
+  - existenzbedrohend (4)
+- Eintrittshäufigkeit (aktuell)
+  - selten            (1)
+  - mittel            (2)
+  - häufig            (3)
+  - sehr häufig       (4)
+- Risiko (aktuell)
+  - gering            (1)
+  - gering            (2)
+  - gering            (3)
+  - gering            (4)
+  - mittel            (5)
+  - mittel            (6)
+  - hoch              (7)
+  - hoch              (8)
+  - sehr hoch         (9)
+  - sehr hoch         (10)
+  - sehr hoch         (11)
+  - sehr hoch         (12)
+  - sehr hoch         (13)
+  - sehr hoch         (14)
+  - sehr hoch         (15)
+  - sehr hoch         (16)
+- Behandlungsoption
+- Erläuterung
+- Schadensklasse (nacher)
+  - wie oben
+- Eintrittshäufigkeit (nacher)
+  - wie oben
+- Risiko (nacher)
+  - wie oben
+
+Zusatzmaßnahmen zur Risikominimierung werden als Verknüpfung oder Unteraufgabe zugeordnet und dokumentiert.
+
+### Verarbeitungstätigkeit
+
+- Verantwortlich
+- Auftragsdatenverarbeiter
+- Vertrag zur Verarbeitung (AVV)
+- Zwecke der Verarbeitung
+- Name der Anwendung
+- Kategorie Betroffener
+  - Beschäftigte
+  - Interessierte
+  - Lieferanten
+  - Kunden
+  - Beschäftigte von Kunden oder Lieferanten
+  - Sonstige
+- Sonstige Kategorien
+- Kategorie der erfassten Daten
+- sonstige Datenkategorien
+- Empfänger / Nutzer
+- Datenübermittlung an Drittland
+  - Datenübermittlung findet nicht statt und ist auch nicht geplant
+  - Datenübermittlung in Drittstaat
+- Name des Drittlands
+- Dokumentation Garantien
+  - nach Privacy-Shield zertifiziert
+  - vertragliche Vereinbarung
+  - EU-Standardvertragsklausel
+  - unterliegt Code of Conduct
+  - Vertrag zwischen Verantwortlichen und betroffener Person
+  - Einwilligung der betroffenen Person liegt vor
+  - Wichtige Gründe des öffentlichen Interesses
+  - Im Interesse der betroffenen Person
+  - Zur Durchsetzung von Rechtsansprüchen
+  - Sonstiges
+- Löschfrist
+- Datenschutzfolgeabschätzung
+- Rechtsgrundlage
+  - Art. 6 DS-GVO lit a. Einwilligung
+  - Art. 6 DS-GVO lit b. Erfüllung eines Vertrags
+  - Art. 6 DS-GVO lit c. Erfüllung einer rechtlichen Verpflichtung
+  - Art. 6 DS-GVO lit d. lebenswichtige Interessen der betroffenen Person schützen
+  - Art. 6 DS-GVO lit. e öffentlichen Interesse
+  - Art. 6 DS-GVO lit f. Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten
+  - § 26 BDSG Verarbeitung für Zwecke des Beschäftigungsverhältnisses
+- Informationspflichten
+  - Vertragsdaten
+  - Einwilligung liegt vor
+  - Information bereits bekannt
+  - erfolgte durch Datenschutzerklärung
+  - erfolgte individuell per E-Mail / Brief
+
+## Tabellen
+
+### Schutzbedarf
+
+- Schadenszenarien
+- Vertraulichkeit
+  - normal
+  - hoch
+  - sehr hoch
+- Integrität
+  - normal
+  - hoch
+  - sehr hoch
+- Verfügbarkeit
+  - normal
+  - hoch
+  - sehr hoch
+- PbD
+- MTA (Std.)
+  - 4
+  - 24
+  - 72
+  - > 72
+- MTD (Std.)
+  - 4
+  - 24
+  - 72
+  - > 72
+- Begründung
+

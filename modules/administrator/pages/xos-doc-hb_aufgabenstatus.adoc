@@ -5,23 +5,26 @@
 :web-xmera: https://xmera.de
 
 == Basis-Aufgabenstatus
-Die Basis-Aufgabenstatus sind vordefinierte Aufgabenstus im System, mit denen funktional der Aufgabenfortschritt abgebildet werden kann. Dabei ist neben der Aufgabenbearbeitung auch die Überprüfung / Abnahme der Aufgabe mit bestandteil des Prozesses.
+Die Basis-Aufgabenstatus sind vordefinierte Aufgabenstatus im System, mit denen funktional der Aufgabenfortschritt abgebildet werden kann. Dabei ist neben der Aufgabenbearbeitung auch die Überprüfung / Abnahme der Aufgabe mit Bestandteil des Prozesses.
 Im Zusammenspiel mit den Aufgabentypen und den Rollen werden die Aufgabenstatus zur Steuerung des Workflows genutzt.
 
 === Neu
 Eine neue Aufgabe wird angelegt.
 
+=== Nicht relevant
+Eine Sicherheitsanforderung ist für das Unternehmen nicht relevant.
+
 === Bewertung
 Ein Vorfall oder ein Risiko werden bewertet bzw. analysiert.
 
 === In Bearbeitung
-Die Aufgabe wird operativ bearbeitet
+Eine Aufgabe wird operativ bearbeitet.
 
 === Bearbeitet
 Die Arbeiten and der Aufgabe wurde von dem Aufgabenverantwortlichen abgeschlossen.
 
 === Feedback
-Zur Lösung der Aufgabe gibt es Anmerkungen durch den Überwachungs- bzw. Objektverantworlichen 
+Zur Lösung der Aufgabe gibt es Anmerkungen durch den Überwachungs- bzw. Objektverantworlichen.
 
 === Geprüft
 Die Ausführung der Aufgabe wurde von einem Überwachungsverantwortlichen überprüft und freigegeben.

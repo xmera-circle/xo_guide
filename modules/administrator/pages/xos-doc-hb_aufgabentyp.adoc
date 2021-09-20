@@ -25,28 +25,31 @@ Bei dem Aufgabetyp "Störung" handelt es sich um eine Aufgabe zur Behebung einer
 
 === Vorfall
 Mit dem Aufgabentyp Vorfall wird das Vorfall-Management (Incident-Management) durchgeführt. Das Vorfallmanagement beinhaltet in der Standarversion eigene Felder, die die https://de.wikipedia.org/wiki/5-Why-Methode[5 W-Metode] abbilden.
+
 Die Dokumentation der Maßnahmen, die sich aus der Analyse ergeben, werden als Unteraufgaben abgebildet werden.
 
 === Risikobewertung
-Mit dem Aufgabentyp "Risikobewertung" werden die Einschätzung des Risikos aus einer Bedrohung dokumentiert. Hierzu stehen eigene Felder wie 
+Mit dem Aufgabentyp "Risikobewertung" wird die Einschätzung des Risikos aus einer Bedrohung dokumentiert. Als Quellen
+für Bedrohungsszenarien kommen folgende in Betracht
 
-- Schwachstellen
-- Eintrittswahrscheinlichkeit
-- Auswirkung (berechnetes Feld)
+- Normen (BSI-Grundschutz, ISO 27005, NIST 800-30)
+- aus sonstigen unternehmenspezifischen Vorgaben (manuelle Erfassung)
 
-zur Verfügung. Maßnahmen zur Risikominimierung werden als Verknüpfung bzw. Unteraufgabe zugeorndet und dokumentiert.
+Zusatzmaßnahmen zur Risikominimierung werden als Verknüpfung oder Unteraufgabe zugeordnet und dokumentiert.
+
+=== Sicherheitsanforderung
+Eine Sicherheitsanforderung ensteht aus den Vorgaben der Normen (BSI-Grundschutz, ISO 27000, ISIS12, ...).
 
 === Maßnahme
 Eine Maßnahme beschreibt eine Aufgabe zur Erreichung eines sicheren Betriebs. Als Quellen dienen Maßnahmen
 
-- aus Normen (BSI-Grundschutz, ISO27000, ISIS12, ...),
 - aus dem Vorfallmanagement (Maßnahme aus der Vorfall-Analyse)
 - aus dem Risikomanagement (Maßnahme aus der Risikobewertung)
 - aus sonstigen unternehmensspezifischen Vorgaben (manuelle Erfassung)
 
-Der Maßnahme können weitere operative Unteraufgaben zugeordnet werden, die für die Umsetzung der Maßnahme notwendige sind.
+Einer Maßnahme können weitere operative Unteraufgaben zugeordnet werden, die für die Umsetzung der Maßnahme notwendig sind.
 
-DeM Aufgabentyp Maßnahme sind eigene Felder zur Bewertung der Wirksamkeit zugeordnet.
+Dem Aufgabentyp "Maßnahme" sind eigene Felder zur Bewertung der Wirksamkeit zugeordnet.
 
 === Verarbeitungstätigkeit
 Zu jedem Prozess können über den Aufgabentyp Verarbeitungstätigkeit die Dokumentation der Verarbeitungsvorgänge von personenbezogenen Daten gemäß der Datenschutz-Grundverordnung (DSGVO) und in der Gesamtheit der Verabeitungstätigkeiten das Verzeichnis von Verarbeitungstätigkeiten erstellt werden. Hierzu sind bereits Fragen und Kathaloge vorbereitet über die eigenen Felder vorbereitet. Diese dienen der Unterstützung der Administaration und zeigen einen Überblick der Themen. Die Richtigkeit und Vollständigkeit der Dokumentation der Verarbeitungstätigkeit gem DSGVO liegt in der Verantwortung des Nutzers.

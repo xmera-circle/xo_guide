@@ -4,4 +4,16 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Gruppen
+xmera Omnia erlaubt dem Administrator individuelle Gruppen zu definieren und die Basisgruppen _Anonyme Benutzer_ und _Nichtmitglieder_ zu konfigurieren.
+
+== Individuelle Gruppen
+Es können beliebige Gruppen erstellt werden. Benutzer, die Mitglied in einer Gruppe sind, haben automatisch Zugang zu den Objekten, die der Gruppe zugeordnet wurden.
+
+Bei der Zuordnung von Objekten zu einer Gruppe, wird gleichzeitig eine Rolle vergeben, die allen Mitgliedern der Gruppe die entsprechenden Rechte überträgt.
+
+[NOTE]
+Die Übersichtsseite eines Objektes zeigt in der Mitglieder-Box jedes einzelne Mitglieder der Gruppe mit seinem Namen und den Titel der Gruppe selbst an.
+
+== Gruppe Nichtmitglieder
+
+== Gruppe Anonyme Benutzer
