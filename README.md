@@ -20,10 +20,10 @@ Antora needs an playbook (yml file), where the location of the content (the modu
 
 In the antora.yml the first navigation level is defined. The entries are links to the navigation files of the next navigation level. In this nav.yml in each module, the links to the content.yml's are specified.
 
-The structure of the pdf file is specified in the xos-doc-hb.adoc. The basic information are defined in the header. In this case a special theme (cronicles theme)is used. You can download it [here](https://github.com/asciidoctor/asciidoctor-pdf/blob/fe1a0d8ef830e37c3bb9fa689ad888ca4e7924ba/examples/chronicles-theme.yml).  
+The structure of the pdf file is specified in the xo-doc-hb.adoc. The basic information are defined in the header. In this case a special theme (cronicles theme)is used. You can download it [here](https://github.com/asciidoctor/asciidoctor-pdf/blob/fe1a0d8ef830e37c3bb9fa689ad888ca4e7924ba/examples/chronicles-theme.yml).  
 In the content part of the adoc document, the content files in the module folders of the antora structure are inculded into the main document.
 
-The relative links to the images in antora start in the folder of the content file, the relative path in the Asciidoctor PDF starts in the folder of the xos-doc-hb.adoc. To run both, html and pdf, there is an image folder parallel to the pdf folder with symlinks to the image folders in every modul. Doing so, the relative path is equal in both systems.
+The relative links to the images in antora start in the folder of the content file, the relative path in the Asciidoctor PDF starts in the folder of the xo-doc-hb.adoc. To run both, html and pdf, there is an image folder parallel to the pdf folder with symlinks to the image folders in every modul. Doing so, the relative path is equal in both systems.
 
 ## Create documents and pages
 
@@ -31,7 +31,7 @@ The relative links to the images in antora start in the folder of the content fi
 
 To create the antora html pages you have to run
 
-    $ antora xos-doc-hb-playbook.yml
+    $ antora xo-doc-hb-playbook.yml
 
 A folder pages is created. You can start the index.html in the folder pages to see the outcome.
 
@@ -39,9 +39,9 @@ A folder pages is created. You can start the index.html in the folder pages to s
 
 To create pdf document you have to run
 
-    $ asciidoctor-pdf pdf/xos-doc-hb.yml
+    $ asciidoctor-pdf pdf/xo-doc-hb.yml
 
-A pdf-file (xos-doc-hb.pdf) is created.
+A pdf-file (xo-doc-hb.pdf) is created.
 
 ### Create documents and pages with makefile
 

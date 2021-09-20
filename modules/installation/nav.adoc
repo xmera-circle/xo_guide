@@ -1,1 +1,1 @@
-* xref:xos-hb_administrator.installation[Installation]
+* xref:xo-hb_administrator.installation[Installation]

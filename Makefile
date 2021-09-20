@@ -27,9 +27,9 @@ help: #: Show help topics
 	@grep "#:" Makefile* | grep -v "@grep" | sort | sed "s/\([A-Za-z_ -]*\):.*#\(.*\)/$$(tput setaf 3)\1$$(tput sgr0)\2/g"
 
 html: #: Generate antora html output
-	@antora xos-doc-hb-playbook.yml; \
+	@antora xo-doc-hb-playbook.yml; \
 	firefox build/site/index.html
 
 pdf: #: Generate asciidoctor pdf document
-	@asciidoctor-pdf pdf/xos-doc-hb.adoc; \
-	xreader pdf/xos-doc-hb.pdf
+	@asciidoctor-pdf pdf/xo-doc-hb.adoc; \
+	xreader pdf/xo-doc-hb.pdf

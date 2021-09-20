@@ -1,1 +1,1 @@
-* xref:xos-doc-hb_einfuehrung.adoc[Einführung]
+* xref:xo-doc-hb_einfuehrung.adoc[Einführung]
