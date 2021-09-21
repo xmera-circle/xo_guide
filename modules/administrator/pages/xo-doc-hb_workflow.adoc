@@ -20,7 +20,7 @@ image::administrator/20210703_workflow_risiko.png[Workflow Risikobewertung]
 
 === Maßnahme
 
-image::administrator/20210703_workflow_maßnahme.png[Workflow Maßnahme]
+image::administrator/20210703_workflow_massnahme.png[Workflow Maßnahme]
 
 === Prüfung
 

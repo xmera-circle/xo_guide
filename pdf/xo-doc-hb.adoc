@@ -29,7 +29,6 @@ ifdef::lang[include::./locale/attributes-{lang}.adoc[]]
 :imagesdir: ../images
 :leveloffset: 1
 
-[glossary]
 include::../modules/administrator/pages/xo-doc-hb_aufgabenstatus.adoc[]
 
 include::../modules/administrator/pages/xo-doc-hb_aufgabentyp.adoc[]

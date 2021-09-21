@@ -30,6 +30,8 @@ html: #: Generate antora html output
 	@antora xo-doc-hb-playbook.yml; \
 	firefox build/site/index.html
 
-pdf: #: Generate asciidoctor pdf document
-	@asciidoctor-pdf pdf/xo-doc-hb.adoc; \
+xo-pdf: #: Generate asciidoctor pdf document
+	@cd ./pdf; \
+	asciidoctor-pdf xo-doc-hb.adoc; \
+	cd ..; \
 	xreader pdf/xo-doc-hb.pdf
