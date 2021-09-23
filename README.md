@@ -47,8 +47,8 @@ A pdf-file (xo-doc.pdf) is created.
 
 Create the antora html pages and start the the page with firefox run:
 
-    $ make html
+    $ make xo-doc_html
 
 Create the pdf document and start the document in the document reader run:
 
-    $ make pdf
+    $ make xo-doc_pdf
