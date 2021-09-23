@@ -33,8 +33,25 @@ ifdef::lang[include::./locale/attributes-{lang}.adoc[]]
 
 = Installation
 
-= Basiskonfiguration
+include::../modules/basiskonfig/pages/basiskonfig_einleitung.adoc[]
 
+:leveloffset: 2
+
+include::../modules/basiskonfig/pages/basiskonfig_objektklassen.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_objekte.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_rollen-rechte.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_aufgabentyp.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_aufgabenstatus.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_workflow.adoc[]
+
+include::../modules/basiskonfig/pages/basiskonfig_eigene-felder.adoc[]
+
+:leveloffset: 1
 = Administratorhandbuch
 :leveloffset: 2
 

@@ -1,0 +1,43 @@
+= Objektklassen
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+Objektklassen sind vorkonfiguierte Objekte, die wie eine Vorlage zu verstehen sind.
+Ihre Konfiguration und Inhalte werden beim Erstellen eines neuen Objektes übernommen,
+wenn es einer Objektklasse zugeordnet wird.
+
+== Basis-Objektklassen
+
+Die Basis-Objektklassen sind generische Objektklassen. Sie sind vorkonfiguriert
+und können als Vorlage bei der Erstellung von spezifischen Objektklassen, die
+die individuellen Anforderungen des vorliegenden Anwendungsfall erfüllen, dienen.
+
+=== Projekt
+Ein Projekt enthält alle typischen Projektmanagement-Module wie bspw. 
+
+- Aufgaben,
+- Mitteilung,
+- Wiki,
+- Kalender,
+- Verlauf,
+- DMS.
+
+Diese Objektklasse kann überall dort angewendet werden wo eine komplexe, 
+länger andauernede Aufgabe mit mehreren Beteiligten durchgeführt werden muss.
+
+=== Vorlage
+
+Das Basis-Objekt "Vorlage" wird hauptsächlich während der Ersteinrichtung gebraucht. 
+Es enthält bereits Einstellungen zu den aktivierten Modulen, Aufgabentypen und 
+Eigenen Feldern.
+
+Die Tabelle zur Schutzbedarfsfeststellung ist angelegt und die typischen Schadenszenarien
+sind formuliert.
+
+Die Möglichkeiten zur Verwendung des Wikis sind durch Verlinkungen zum öffentlichen
+Handbuch angedeutet.
+
+Die Vorlage sollte vor der ersten Verwendung an die Anforderungen des Unternehmens
+angepasst werden.

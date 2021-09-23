@@ -2,7 +2,7 @@ site:
   title: Dokumentationshandbuch der xmera Solutions GmbH
   # the 404 page and sitemap files only get generated when the url property is set
   url: /
-  start_page: xo-doc:einfuehrung:xo-doc-hb_einfuehrung.adoc
+  start_page: xo-doc:einfuehrung:einfuehrung_einfuehrung.adoc
 content:
   sources: 
   - url: .

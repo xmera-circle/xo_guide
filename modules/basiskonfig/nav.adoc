@@ -1,1 +1,8 @@
 * xref:basiskonfig_einleitung.adoc[Basiskonfiguration]
+** xref:basiskonfig_objektklassen.adoc[Objektklassen]
+** xref:basiskonfig_objekte.adoc[Objekte]
+** xref:basiskonfig_rollen-rechte.adoc[Rollen und Rechte]
+** xref:basiskonfig_aufgabentyp.adoc[Aufgabentyp]
+** xref:basiskonfig_aufgabenstatus.adoc[Aufgabenstatus]
+** xref:basiskonfig_workflow.adoc[Workflows]
+** xref:basiskonfig_eigene-felder.adoc[Eigene Felder]
