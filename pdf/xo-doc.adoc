@@ -1,0 +1,80 @@
+= xmera Omnia Standard Dokumentationshandbuch: xmera Solutions GmbH
+Bernd Hampe; Liane Hampe
+v0.1, 29.03.2021
+:description: Dieses Handbuch beschreibt die Installation, Einrichtung und Bedienung der Softwarelösung xmera Omnia Standard.
+:organization: xmera Solutions GmbH
+:doctype: book
+// Settings:
+:icons: font
+:listing-caption: Listing
+:lang: de
+:sectnums:
+//Table of content
+:toc: left
+:toc-title: Inhalt
+:toclevels: 3
+:xrefstyle: short
+// PDF-Theme
+ifdef::backend-pdf[]
+:pdf-theme: chronicles
+:pdf-themesdir: ./themes
+:title-logo-image: image:../images/gesamt/xmera.png[pdfwidth=4.25in,align=center]
+:source-highlighter: rouge
+:rouge-style: github
+endif::[]
+// Übersetzungen 
+ifdef::lang[include::./locale/attributes-{lang}.adoc[]]
+
+:web-xmera: https://xmera.de
+:imagesdir: ../images
+:leveloffset: 1
+
+= Einführung
+
+= Installation
+
+= Basiskonfiguration
+
+= Administratorhandbuch
+:leveloffset: 2
+
+include::../modules/admin/pages/admin_aufgabenstatus.adoc[]
+
+include::../modules/admin/pages/admin_aufgabentyp.adoc[]
+
+include::../modules/admin/pages/admin_aufzaehlung.adoc[]
+
+include::../modules/admin/pages/admin_benutzer.adoc[]
+
+include::../modules/admin/pages/admin_eigene-bezeichnungen.adoc[]
+
+include::../modules/admin/pages/admin_eigene-felder.adoc[]
+
+include::../modules/admin/pages/admin_genehmigungs-workflows.adoc[]
+
+include::../modules/admin/pages/admin_gruppen.adoc[]
+
+include::../modules/admin/pages/admin_informationen.adoc[]
+
+include::../modules/admin/pages/admin_konfiguration.adoc[]
+
+include::../modules/admin/pages/admin_ldap-authentifizierung.adoc[]
+
+include::../modules/admin/pages/admin_objekte.adoc[]
+
+include::../modules/admin/pages/admin_objektklassen.adoc[]
+
+include::../modules/admin/pages/admin_plugins.adoc[]
+
+include::../modules/admin/pages/admin_rollen-rechte.adoc[]
+
+include::../modules/admin/pages/admin_tabellenkonfiguration.adoc[]
+
+include::../modules/admin/pages/admin_ueberblick.adoc[]
+
+include::../modules/admin/pages/admin_workflow.adoc[]
+
+:leveloffset: 1
+= Anwenderhandbuch
+
+= Glossar

@@ -31,7 +31,7 @@ The relative links to the images in antora start in the folder of the content fi
 
 To create the antora html pages you have to run
 
-    $ antora xo-doc-hb-playbook.yml
+    $ antora xo-doc-playbook.yml
 
 A folder pages is created. You can start the index.html in the folder pages to see the outcome.
 
@@ -39,9 +39,9 @@ A folder pages is created. You can start the index.html in the folder pages to s
 
 To create pdf document you have to run
 
-    $ asciidoctor-pdf pdf/xo-doc-hb.yml
+    $ asciidoctor-pdf pdf/xo-doc.yml
 
-A pdf-file (xo-doc-hb.pdf) is created.
+A pdf-file (xo-doc.pdf) is created.
 
 ### Create documents and pages with makefile
 
