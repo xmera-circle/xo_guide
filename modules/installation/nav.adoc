@@ -1,1 +1,1 @@
-* xref:xo-hb_administrator.installation[Installation]
+* xref:installation_vorraussetzungen.adoc[Installation]

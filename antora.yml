@@ -4,8 +4,7 @@ version: '0.1'
 nav:
 - modules/einfuehrung/nav.adoc
 - modules/installation/nav.adoc
-- modules/administrator/nav.adoc
-- modules/objektverantwortlicher/nav.adoc
+- modules/basiskonfig/nav.adoc
+- modules/admin/nav.adoc
 - modules/anwender/nav.adoc
-- modules/api/nav.adoc
 - modules/glossar/nav.adoc
