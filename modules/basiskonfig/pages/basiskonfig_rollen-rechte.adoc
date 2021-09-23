@@ -1,0 +1,35 @@
+= Rollen und Rechte
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+== Basisrollen
+Die Basisrollen sind die Rollen im System, mit denen funktional die Abläufe eines ISMS abgebildet werden können. Sie können als Grundlage für die Erstellung weiterer Rollen dienen, die von diesen Basisrollen die Rechte und Workflows übernehmen können.
+
+=== Administrator
+Die Rolle des Administrators wird nicht als veränderbare Rolle im Bereich _Rollen und Rechte_ verwaltet, sondern einem oder mehreren Benutzern im Bereich der Benutzerverwaltung zugewiesen. Mit der Festlegung erhält der Benutzer, unabhägig von den sonstigen Rollenzuordnungen, *alle Rechte* im System. 
+
+Nur Beutzer mit der Admin-Zuordnung haben Zugriff auf den Administrationsbereich von xmera Omnia.
+
+=== Objektverantwortlich
+Der Objektverantwortliche konfiguriert ein Objekt. Er ist für die Beschreibung des Objektes, die Auswahl und Ausgestaltung der Module in dem Objekt sowie die Zuordnung der Benutzer mit ihren Rollen in dem Objekt verantwortlich.
+
+=== Überwachungsverantwortlich
+Der  Überwachungsverantwortliche ist bei Aufgabentypen, bei denen ein 4-Augenprinzip gefordert ist, für die Überprüfung der operativ erledigten Aufgaben verantwortlich. 
+
+Nur der Überwachungsverantwortliche kann bei diesen Aufgabentypen die Status auswählen, die eine Aufgabe schließen.
+
+=== Risikoverantwortlich
+Der Risikoverantwortliche verantwortet im Unternehmen die Risiken. Er ist in die Workflows eingebunden, in denen ein Risiko bewertet werden muss.
+
+=== Aufgabenverantwortlich
+Der Aufgabenverantwortliche ist für die Pflege des Objektes bis zur operativen Erledigung der Aufgabe verantwortlich.
+
+=== Nichtmitlglied
+Die Rolle _Nicht-Mitglied_ ist eine globale Rollenbeschreibung für öffentliche Objekte. Die Rolle definiert die Rechte eines angemeldeten Benutzers, die er ohne Mitgliedschaft automatische in dem öffentlichen Objekt hat.
+
+=== Anonym
+Die Rolle _Anonym_ ist nur relevant, wenn xmera Omnia so konfiguriert wurde, dass eine Authentifizierung nicht notwendig ist. Die Rolle _Anonym_ ist in diesem Fall eine globale Rollenbeschreibung, die die Rechte eines Nutzers definiert, der nicht angemeldet ist. 
+
+Ein nicht angeldeter Nutzer hat mit den Rechten der Rolle _Anonym_ Zugriff auf alle öffentlichen Objekte.
