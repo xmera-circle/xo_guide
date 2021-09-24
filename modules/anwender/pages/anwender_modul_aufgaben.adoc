@@ -1,0 +1,15 @@
+= Modul Aufgaben
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+== Aufgaben anlegen
+
+== Aufgaben verknüpfen
+
+== Pakete zuordnen
+
+== Aufgabenkategorien
+
+== Eigene Felder

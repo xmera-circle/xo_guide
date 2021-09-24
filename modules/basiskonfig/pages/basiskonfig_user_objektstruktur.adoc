@@ -1,10 +1,5 @@
-= Einführung und Grundlagen
+= Objektstruktur
 :doctype: article
 :icons: font
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
-
-== Hauptseite und Anmeldung
-
-== Anwendungsmenüs
-

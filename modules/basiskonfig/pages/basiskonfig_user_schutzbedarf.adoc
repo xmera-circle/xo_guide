@@ -1,4 +1,4 @@
-= Basiskonfiguration
+= Schutzbedarfe ermitteln
 :doctype: article
 :icons: font
 :imagesdir: ../images/
