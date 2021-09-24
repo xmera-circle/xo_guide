@@ -1,10 +1,8 @@
-= Einführung und Grundlagen
+= Modul Foren
 :doctype: article
 :icons: font
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-== Hauptseite und Anmeldung
-
-== Anwendungsmenüs
+== Forum ablegen
 

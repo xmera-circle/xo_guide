@@ -1,0 +1,15 @@
+= Individualisieren der Anwendung
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+== Mein Konto
+
+== Meine Seite
+
+== Filter/Gruppierungen
+
+== Private Kommentare
+
+

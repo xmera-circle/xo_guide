@@ -1,4 +1,4 @@
-= Tabellenkonfiguration
+= Vorfallmanagement
 :doctype: article
 :icons: font
 :imagesdir: ../images/
