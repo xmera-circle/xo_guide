@@ -1,6 +1,6 @@
 * Basiskonfiguration ISMS
 ** Anwenderhandbuch ISMS
-*** xref:basiskonfig_objektstruktur.adoc[]
+*** xref:basiskonfig_user_objektstruktur.adoc[]
 *** xref:basiskonfig_user_rollen_u_workflows.adoc[]
 *** xref:basiskonfig_user_massnahmenmanagement.adoc[]
 *** xref:basiskonfig_user_schutzbedarf.adoc[]
