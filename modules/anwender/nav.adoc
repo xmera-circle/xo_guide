@@ -1,7 +1,6 @@
 * Anwenderhandbuch
-** xref:anwender_aufbau.adoc[Aufbau]
-** xref:anwender_individualisieren.adoc[Individualiesieren]
-** xref:anwender_objekte.adoc[Objekte]
+** xref:anwender_aufbau.adoc[]
+** xref:anwender_objekte.adoc[]
 ** Objektmodule
 *** xref:anwender_modul_archiv.adoc[]
 *** xref:anwender_modul_aufgaben.adoc[]
@@ -14,3 +13,4 @@
 *** xref:anwender_modul_tabellen.adoc[]
 *** xref:anwender_modul_verlauf.adoc[]
 *** xref:anwender_modul_wiki.adoc[]
+** xref:anwender_individualisieren.adoc[]
