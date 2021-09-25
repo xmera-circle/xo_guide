@@ -18,13 +18,13 @@ Die Objektdaten werden in der Objektübersicht dargestellt (siehe folgendes Bild
 
 image::anwender/objektuebersicht_undefined.png[Objekthierarchie]
 
-<1> Objektbezeichung +
-<2> Objektbeschreibung +
-<3> Spezifische Objektdaten (Benutzerdefinierte Felder) +
-<4> xref:anwender_modul_aufgaben.adoc[Aufgaben] +
-<5> <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
-<6> <<Objekthierarchie,Unterobjekte>> (Hierachie) +
-<7> Verknüpfte Objekte (funktionale Zusammenhänge)
+&#10112; Objektbezeichung +
+&#10113; Objektbeschreibung +
+&#10114; Spezifische Objektdaten (Benutzerdefinierte Felder) +
+&#10115; xref:anwender_modul_aufgaben.adoc[Aufgaben] +
+&#10116; <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
+&#10117; <<Objekthierarchie,Unterobjekte>> (Hierachie) +
+&#10118; Verknüpfte Objekte (funktionale Zusammenhänge)
 
 == Objekthierarchie
 
@@ -32,24 +32,48 @@ Die Objekthierarchie bietet die Möglichkeit Arbeitsbereiche, Verantwortlichkeit
 
 image::anwender/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
-In der Objektübersicht wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. <1> zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
+In der Objektübersicht wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. &#10112; zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
 
 image::anwender/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
 
-In dem Bereich Unterobjekte <2> sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
+In dem Bereich Unterobjekte &#10113; sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
 
 == Objektverknüpfungen
 
 Neben der hierarchischen Verknüpfung der Objekte bietet xmera Omnia noch die "funktionale" Objektverknüpfung. Die Verknüpfung dient der Abbildung von Dienststrukturen. So kann in einem Objekt angegeben werden, von welchen anderen Objekte Dienste genutzt werden.
 
+Beispiele für solche Verknüpfungen sind
+
+- Prozess nutzt Anwendung,
+- Client nutzt Server oder
+- Server steht in Serverraum.
+
+Die <<Objektverknüpfungen, Festlegung der Objektverknüpfung>> erfolgt in der Objektkonfiguration.
+
 == Objekte erstellen und konfigurieren
 
-=== Objekte anlegen
+=== Objektklasse
 
-=== Objekte konfigurieren
+=== Objektname
+
+=== Objektbeschreibung
+
+=== Objektdaten
+
+=== Objektverknüpfungen
+
+Die Verknüpfungen basieren auf den Objektklassen. In der Konfiguration einer Objektklassen wird festgelegt, welche Objektklassen (Dienste) von den Objekten der zu konfigurierenden Objektklasse genutzt werden. +
+In der Konfiguaration des Objekts werden dann die konkreten Objektverknüpfungen festgelet.
+
+Das folgende Bild zeigt die Konfigurationsmaske eines Beispieobjekts.
+
+image::anwender/verknuepfung_konfiguration_undefined.png[Verknüpfung mit Diensten (Ojekte)]
+
+Zu sehen sind die bereitgestellten Dienste (Objekte einer Objektklasse), die mit dem Objekt in der Konfiguration verknüpft werden können.
+
+
+=== Objektmodule
 
 === Mitglieder verwalten
-
-== Objektklassen
 
 == Objektjournal
