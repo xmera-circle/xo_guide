@@ -4,50 +4,52 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-== Funktion der Objekt
+== Funktion der Objekte
+Objekte sind das zentrale Ordnungselement in xmera Omnia. Objekte zeichnen sich durch folgende Eigenschaften aus:
+
+- Objekte können hierarchisch strukturiert werden
+- Objekten werden Mitglieder mit Rollen zugeordent
+- Objekten werden Module (Funktionen) zugeordnet
+- Objekte gehören einer Objektklasse an
+
+Die Übersicht der Objekte wird im xref:anwender_aubau.adoc#_anwendungsmenüs[Topmenü] über den Menüpunkt Objekte aufgerufen. Jeder Anwender sieht die öffentlichen Objekte und die Objekte, in denen er eine Rolle zugewiesen bekommen hat.
+
+Die Objektdaten werden in der Objektübersicht dargestellt (siehe folgendes Bild):
+
+image::anwender/objektuebersicht_undefined.png[Objekthierarchie]
+
+<1> Objektbezeichung +
+<2> Objektbeschreibung +
+<3> Spezifische Objektdaten (Benutzerdefinierte Felder) +
+<4> xref:anwender_modul_aufgaben.adoc[Aufgaben] +
+<5> <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
+<6> <<Objekthierarchie,Unterobjekte>> (Hierachie) +
+<7> Verknüpfte Objekte (funktionale Zusammenhänge)
 
 == Objekthierarchie
 
-== Objektkonfiguration
+Die Objekthierarchie bietet die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten / Organisationen als auch Sicherheitszonen / Cluster strukturiert darzustellen. Die hierarchische Struktur wird durch die Festlegung des übergeordneten Objekts bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objekts>> definiert. So entsteht ein Objektbaum, der sich in der Listanzeige der Objektübersicht darstellen läßt.
 
-=== Objektdaten
+image::anwender/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
-=== Mitglieder von Objekten
+In der Objektübersicht wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. <1> zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
+
+image::anwender/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
+
+In dem Bereich Unterobjekte <2> sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
+
+== Objektverknüpfungen
+
+Neben der hierarchischen Verknüpfung der Objekte bietet xmera Omnia noch die "funktionale" Objektverknüpfung. Die Verknüpfung dient der Abbildung von Dienststrukturen. So kann in einem Objekt angegeben werden, von welchen anderen Objekte Dienste genutzt werden.
+
+== Objekte erstellen und konfigurieren
+
+=== Objekte anlegen
+
+=== Objekte konfigurieren
+
+=== Mitglieder verwalten
 
 == Objektklassen
 
 == Objektjournal
-
-== Objektmodule
-
-=== Aufgaben
-
-==== Aufgaben anlegen
-
-==== Aufgaben verknüpfen
-
-==== Pakete zuordnen
-
-==== Aufgabenkategorien
-
-==== Kalender / Verlauf
-
-=== Dokumente
-
-==== Dateien
-
-==== Dokumentenmanagement
-
-=== Dokumentenmanagementsystem (DMS)
-
-==== Ordnerstruktur
-
-==== Dokumentenablage
-
-==== Versionierung
-
-==== Genehmigungs-Workflow
-
-
-
-
