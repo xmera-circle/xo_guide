@@ -74,8 +74,11 @@ image::anwender/objektuebersicht_neues-unterobjekt_undefined.png[Neues Unterobje
 
 Es wird dann die Konfigurationsmaske des neuen Objekts geöffnet. Die wichtigsten Punkte werden in den folgenden Unterkapitel beschrieben. 
 
+[IMPORTANT]
+*Wichtig:* Die mit [red]#*# gekennzeichneten Felder sind Pflichtfelder und müssen ausgefüllt werden.
 
-
+[NOTE]
+*Notiz:* Wird die Auswahl "Neues Objekt" oder "Neues Unterobjekt" nicht angezeigt, so fehlt dem Anwender das entsprechende Recht.
 
 === Objektklasse
 
