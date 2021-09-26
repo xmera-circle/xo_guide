@@ -18,13 +18,13 @@ Die Objektdaten werden in der Objektübersicht dargestellt (siehe folgendes Bild
 
 image::anwender/objektuebersicht_undefined.png[Objekthierarchie]
 
-&#10112; Objektbezeichung +
-&#10113; Objektbeschreibung +
-&#10114; Spezifische Objektdaten (Benutzerdefinierte Felder) +
-&#10115; xref:anwender_modul_aufgaben.adoc[Aufgaben] +
-&#10116; <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
-&#10117; <<Objekthierarchie,Unterobjekte>> (Hierachie) +
-&#10118; Verknüpfte Objekte (funktionale Zusammenhänge)
+&#10122; Objektbezeichung +
+&#10123; Objektbeschreibung +
+&#10124; Spezifische Objektdaten (Benutzerdefinierte Felder) +
+&#10125; xref:anwender_modul_aufgaben.adoc[Aufgaben] +
+&#10126; <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
+&#10127; <<Objekthierarchie,Unterobjekte>> (Hierachie) +
+&#10128; Verknüpfte Objekte (funktionale Zusammenhänge)
 
 == Objekthierarchie
 
@@ -32,11 +32,11 @@ Die Objekthierarchie bietet die Möglichkeit Arbeitsbereiche, Verantwortlichkeit
 
 image::anwender/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
-In der Objektübersicht wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. &#10112; zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
+In der Objektübersicht wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. &#10122; zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
 
 image::anwender/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
 
-In dem Bereich Unterobjekte &#10113; sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
+In dem Bereich Unterobjekte &#10123; sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
 
 == Objektverknüpfungen
 
@@ -50,7 +50,32 @@ Beispiele für solche Verknüpfungen sind
 
 Die <<Objektverknüpfungen, Festlegung der Objektverknüpfung>> erfolgt in der Objektkonfiguration.
 
+== Mitglieder
+
+Der <<Mitglieder verwalten, Verwaltung von Mitgliedern>> und deren Rollen ist nicht zentral für die Anwendung definiert, sondern kann in jedem Objekt einzeln erfolgen. Zentral verwaltet werden 
+
+- die Benutzer des Systems, also Diejenigen, die Mitglieder von Gruppen werden können, 
+- die Gruppen und die Zuordnung der Benutzer zu den Gruppen, als auch 
+- die Rollen und Rechte, die einem Mitglied zugeordnet werden.
+
+Jedem Mitglied bzw. jeder Gruppe, die Mitglied einer Gruppe ist, ist mindestens eine Rolle zugewiesen worden. Damit sind die Rechte jedes Mitglieds eindeutig definiert.
+
+Eine Sonderrolle spielen öffentliche Projekte. Wird ein Projekt als öffentlich parametriert, so können auch Nichtmitglieder und anonyme Benutzer (nicht angemeldet) Rechte im Objekt erhalten. Diese Rechte sind in den Rollen Nichtmitglied und Anonym definiert.
+
 == Objekte erstellen und konfigurieren
+
+Objekt könne aus der Objektseite (siehe Bild) 
+
+image::anwender/objekt_neues-objekt_undefined.png[Neues Objekt]
+
+als auch, wie im folgenden Bild zu sehen, aus jedem Objekt von der Übersichtsseite als Unterobjekt angelegt werden.
+
+image::anwender/objektuebersicht_neues-unterobjekt_undefined.png[Neues Unterobjekt]
+
+Es wird dann die Konfigurationsmaske des neuen Objekts geöffnet. Die wichtigsten Punkte werden in den folgenden Unterkapitel beschrieben. 
+
+
+
 
 === Objektklasse
 
@@ -58,7 +83,7 @@ Die <<Objektverknüpfungen, Festlegung der Objektverknüpfung>> erfolgt in der O
 
 === Objektbeschreibung
 
-=== Objektdaten
+=== Objektdaten (Benutzerdefinierte Felder)
 
 === Objektverknüpfungen
 
