@@ -7,7 +7,7 @@ content:
   sources: 
   - url: .
     # tags: [0.1, 0.3]
-    branches: implement_first_headline_structure
+    branches: HEAD
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
