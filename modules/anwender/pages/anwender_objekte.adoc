@@ -182,7 +182,8 @@ image::anwender/objekt_konfig_module_darstellung.png[Aktivierte Module in Menül
 
 image::anwender/objekt_konfig_mitglieder_liste.png[Konfiguration Mitglieder]
 
-In der Liste sind,siehe Punkt &#10122;, alle Mitglieder und Gruppen mit Ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder auch gelöscht werden.
+In der Liste sind,siehe Punkt &#10122;, alle Mitglieder und Gruppen mit Ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder auch gelöscht werden. +
+Sollten Sie Administrationsrechte besitzten, erscheint der Button Administration &#10125;. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung.
 
 [NOTE]
 *Notiz:* Aus dem überlagerten Objekt geerbte Mitglieder und deren Rollen können nicht gelöscht werden. Es können nur weitere Mitglieder oder Rollen hinzugefügt werden und nur diese Einträge lassen sich auch wieder löschen.
@@ -201,3 +202,11 @@ Es wird der Listeintrag des ausgewählten Mitarbeiters aufgeklappt und durch An-
 Werden alle Rollen eines Mitglieds gelöscht, wird dieses Mitglied gelöscht.
 
 == Objektjournal
+
+Das Journal eines Objekts zeigt die Aktivitäten in ausgewählten Modulenim Projekt chronologisch an. Beim Standardaufruf werden die letzten 10 Tage bis zum aktuellen Datum angezeigt. Das Datum kann durch den Nutzer geändert werden.
+
+image::anwender/objekt_journal_undefined.png[Objektjournal]
+
+In der Sidebar besteht die Möglichkeit die Aktivitäten zu filtern. So können die Aktivitäten durch Auswahl der Module, die betrachtet werden sollen, eingeschränkt werden. Weiter können die angezeigten Aktivitäten  auf eine Person eingegrenzt werden. Die Änderungen in der Auswahl in der Sidebar werden mit dem Button "Anwenden" übernommen und die Liste der Aktivitäten neu aufgebaut.
+
+Die Aktivitäten sind als Links dargestellt, so dass direkt zu den Änderungen gesprungen werden kann.
