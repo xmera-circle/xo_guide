@@ -203,7 +203,10 @@ Werden alle Rollen eines Mitglieds gelöscht, wird dieses Mitglied gelöscht.
 
 == Objektjournal
 
-Das Journal eines Objekts zeigt die Aktivitäten in ausgewählten Modulenim Projekt chronologisch an. Beim Standardaufruf werden die letzten 10 Tage bis zum aktuellen Datum angezeigt. Das Datum kann durch den Nutzer geändert werden.
+Das Journal eines Objekts zeigt die Aktivitäten von ausgewählten Modulen chronologisch an. Beim Standardaufruf werden die letzten 10 Tage  bis zum aktuellen Datum angezeigt. Das Datum kann durch den Nutzer geändert werden.
+
+[NOTE]
+*Notiz:* Die Anzahl der Tage, im Standard 10, die chronologisch dargestellt werden, kann in der Systemkonfiguration angepasst werden.
 
 image::anwender/objekt_journal_undefined.png[Objektjournal]
 
