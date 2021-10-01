@@ -4,11 +4,87 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
+Aufgaben sind wichtigste Modul in der Anwendung. Aufgaben können dabei 
+
+- konkrete ToDo's
+- allgemeine Ziele, wie z.B. Sichereitsziele.
+- die Dokumenation eines Status, wie z.B. ein Verarbeitungsverzeichnis oder eine Risikobeurteilung,
+
+sein. Erreicht wird dieses durch die xref:admin:admin_aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung der Aufgabenmaske. Hier besteht die Möglichkeit durch ein- bzw. ausblenden der Standardeinträge (bis auf die Pflichtfelder) oder das Hinzufügen von xref:admin:admin_eigene-felder.adoc[benutzerdefinierten Feldern] die Aufgabenmaske individuell zu gestalten.
+
+Das Modul Aufgaben muss im Objekt aktiviert werden. Ist das Modul aktiviert, wird in dem Objektreiter Aufgaben angezeigt.
+
+image::anwender/modul_aufgaben_reiter.png[Objektmodul Aufgabe]
+
+Wird der Reiter Aufgaben ausgewählt, wird die <<Aufgabenübersicht>> eingeblendet.
+
+== Aufgabenübersicht
+
+Die Aufgabenübersicht zeigt die alle nicht abgeschlossenen Aufgaben des Objekts inklusive den Aufgaben der Unterobjekte an. Die Objektübersicht baut sich wie folgt auf
+
+image::anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
+
+&#10122; Aufgabenliste +
+&#10123; Seitennavigation +
+&#10124; Filter und Darstellungsoptionen +
+&#10125; #Benutzerdefinierte# Abfragen +
+&#10126; #Schnellmenü# +
+&#10127; Aufgabenexport
+
+Aufgabenliste:: 
+
+Die Aufgabenliste zeigt die Aufgaben nach der ID sortiert an. Die Sortiertung kann durch klicken auf die Spalte, nach der Sortiert werden soll, geändert werden. Die Reihenfolge der Sortierungg wird durch nochmaliges Klicken auf die Spaltenüberschrift geändert werden. + 
+Die Suchreihenfolge wird durch die Symbol image:anwender/modul_aufgaben_sortierung_up.png[] und image:anwender/modul_aufgaben_sortierung_down.png[] in der Spaltenüberschrift dargestellt +
++
+ID und das Thema sind mit der Aufgabe verlinkt. Andere Links, wie z.B. der Mitgliedsname an den die Aufgabe zugewiesen wurde, zeigt auf die Aktivitätsseite des Mitarbeiters.
+
+Seitennavigation:: 
+
+Die Anzahl der Aufträge auf einer Übersichtsseite ist begrenzt. Zum Navigieren ist unterhalb der Auftragsliste Button's, mit denen man in der dargestellten Liste weiter oder zurück gehen kann oder zu einem definierten Teil navigieren kann. +
+Neben der Navigationsleiste besteht noch die Möglichkeit die Anzahl der Aufträge, die angezeigt werden zu verändern.
+
+[NOTE]
+*Notiz:* Die Anzahl der Aufträge auf einer Seite ist durch den Administrator konfigurierbar. Hier wurde zum Standard 25, 50, 100 noch die 10 hinzugefügt, damit die Bilder im Handbuch nicht zu groß werden.
+
+Filter::
+
+Der Filter dient dazu, die Auftragsliste nach spezifischen Einträgen zu filtern. +
++
+image:anwender/modul_aufgaben_filter.png[]
++
+Die Filtereinstellungen lassen durch die Pfeile links neben dem Namen auf und zuklappen. Der Filter baut sich aus den Zeilen zusammen, die Und-Verknüpft den Filter beschreiben. Im Beispiel oben wird nach Aufgaben gesucht deren Status offen ist, heißt nicht endgültig abgeschlossen wurde, und die den Aufgabentyp _Aufgabe_ besitzen. +
++
+Durch das Häkchen vor dem Feld, nach dem gefiltert wird, kann dieser Filter aktiviert und deaktiviert werden. +
++
+Das Auswahlfeld Filter hinzufügen lassen sich zahlreiche Filter hinzufügen. +
++
+Mit dem Klicken auf den Button _Anwenden_ wird der Filter aktiviert. Mit _Zurücksetzen_ wird wieder auf den Standard-Filter (Status offen) angewendet. Mit dem Button _Speichern_ lassen sich Filter mit den Darstellungsoptionen als _Benutzerdefinierte Abfrage_ speichern.
+
+Optionen (Darstellungsoptionen)::
+
+Die Darstellungsoptionen bieten zahlreiche Möglichkeiten den Aufbau der Liste anzupassen. Durch klicken auf den Pfeil neben Optionen lassen sich die Darstellungseinstellungen aufklappen. (siehe folgendem Bild) +
++
+image:anwender/modul_aufgaben_optionen.png[]
++
+In dem Bereich Spalten lassen sich Spalten durch Auswahl in der Tabelle _Verfügbare Spalten_ und betätigung der Pfeiltaste nach rechts in die Ausgewählten Spalten zur Tabelle hinzufügen oder durch den Umgekehrten Weg herausnehmen. Durch die Felder rechts neben den Ausgewählten Spalten läßt sich die Reihenfolge der Spalten verändern. +
++
+Mit der Auswahl eines Felds wird die Tabelle nach diesem Element gruppiert. +
++
+Durch setzen eines oder mehrer Langtextfelder werden diese unterhalb jeder Aufgabe in der Auswahl angezeigt.
++
+Durch die Auswahl der Summe bei dem _Geschätzten Aufwand_ oder der _Aufgewenden Zeit_ wird bei einer Gruppierung der Daten, die Summe der ausgewählten Zeiten bei der Gruppe mit angezeigt. +
++
+Mit dem Klicken auf den Button _Anwenden_ wird die Darstellungsoption aktiviert. Mit _Zurücksetzen_ wird wieder auf die Standard-Darstellung (Durch die Administration Vorgegeben) angewendet. Mit dem Button _Speichern_ lassen sich Darstellungoptionen mit den Filter als _Benutzerdefinierte Abfrage_ speichern.
+
+Benutzerdefinierte Abfrage:: 
+
+Text
+
 == Aufgaben anlegen
 
 == Aufgaben verknüpfen
 
-== Pakete zuordnen
+== Pakete
 
 == Aufgabenkategorien
 
