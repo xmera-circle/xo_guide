@@ -1,0 +1,7 @@
+= Modul Zeiterfassung
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+== Zeiterfassung aktivieren

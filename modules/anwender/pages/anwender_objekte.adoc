@@ -146,58 +146,58 @@ Objektdaten (Eigene Felder)::
 
 xmera Omnia bietet die Möglichkeit Objekten __eigene Felder__ zuzufügen. Die eigenen Felder werden durch den Administrator bereitgestellt und in der Konfigurationsmaske des Objekts gepflegt. Die Darstellung erfolgt in der Tabelle der __spezifischen Objektdaten__.
 
-=== Objektverknüpfungen
+Objektverknüpfungen:: 
 
 Die Verknüpfungen basieren auf den Objektklassen. In der Konfiguration einer Objektklassen wird festgelegt, welche Objektklassen Dienste anbieten, die von anderen Objektklassen genutzt werden. +
-In der Konfiguaration des Objekts werden dann die konkreten Objektverknüpfungen festgelet.
-
+In der Konfiguaration des Objekts werden dann die konkreten Objektverknüpfungen festgelet. +
++
 [IMPORTANT]
 *Wichtig:* Das Objekt mit seiner Objektklasse muss, damit die Objektverküpfungen aktiviert werden, im xmera Omnia bekannt sein. Damit wird die Auswahl erst nach dem ersten speichern des Objekts angezeigt.
-
-Das folgende Bild zeigt die Konfigurationsmaske eines Beispielobjekts.
-
-image::anwender/verknuepfung_konfiguration_undefined.png[Verknüpfung mit Diensten (Ojekte)]
-
++
+Das folgende Bild zeigt die Konfigurationsmaske eines Beispielobjekts. +
++
+image:anwender/verknuepfung_konfiguration_undefined.png[Verknüpfung mit Diensten (Ojekte)]
++
 Zu sehen sind die bereitgestellten Dienste (Objekte einer Objektklasse), die mit dem Objekt in der Konfiguration verknüpft werden können.
 
-=== Objektmodule
+Objektmodule:: 
 
-Objektmodule sind die Werkzeuge im xmera Omnia. Nicht in jedem Objekt werden alle Module benötigt. Damit die Anwendung nicht zu unübersichtlich wird, können die Module zu jedem Objekt ein und ausgeschaltet werden.
-
-Ein Beispiel ist im folgenden Bild zu sehen:
-
-image::anwender/objekt_konfig_module_auswahl.png[Module ein- und ausschalten]
-
-Die aktivierten Module werden als Reiter in den Objektmasken angezeigt. Für die oben dargestellte Auswahl ergibt sich dann folgende Menüleiste:
-
-image::anwender/objekt_konfig_module_darstellung.png[Aktivierte Module in Menüleiste]
-
+Objektmodule sind die Werkzeuge im xmera Omnia. Nicht in jedem Objekt werden alle Module benötigt. Damit die Anwendung nicht zu unübersichtlich wird, können die Module zu jedem Objekt ein und ausgeschaltet werden. +
++
+Ein Beispiel ist im folgenden Bild zu sehen: +
++
+image:anwender/objekt_konfig_module_auswahl.png[Module ein- und ausschalten]
++
+Die aktivierten Module werden als Reiter in den Objektmasken angezeigt. Für die oben dargestellte Auswahl ergibt sich dann folgende Menüleiste: +
++
+image:anwender/objekt_konfig_module_darstellung.png[Aktivierte Module in Menüleiste]
++
 [NOTE]
 *Notiz:* Wird ein Modul deaktiviert, in dem bereits Daten erfasst wurden, so werden die bereits erfassten Daten nicht gelöscht. Wird das Modul wieder aktiviert, so werden diese Daten wieder angezeit.
 
 
-=== Mitglieder verwalten
+Mitglieder verwalten:: 
 
-Über den Reiter Mitglieder in der Konfigurationsseite eines Objekts lassen sich die Mitglieder eines Objekts mit Ihren Rollen verwalten.
-
-image::anwender/objekt_konfig_mitglieder_liste.png[Konfiguration Mitglieder]
-
+Über den Reiter Mitglieder in der Konfigurationsseite eines Objekts lassen sich die Mitglieder eines Objekts mit Ihren Rollen verwalten. +
++
+image:anwender/objekt_konfig_mitglieder_liste.png[Konfiguration Mitglieder]
++
 In der Liste sind,siehe Punkt &#10122;, alle Mitglieder und Gruppen mit Ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder auch gelöscht werden. +
-Sollten Sie Administrationsrechte besitzten, erscheint der Button Administration &#10125;. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung.
-
+Sollten Sie Administrationsrechte besitzten, erscheint der Button Administration &#10125;. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung. +
++
 [NOTE]
 *Notiz:* Aus dem überlagerten Objekt geerbte Mitglieder und deren Rollen können nicht gelöscht werden. Es können nur weitere Mitglieder oder Rollen hinzugefügt werden und nur diese Einträge lassen sich auch wieder löschen.
-
-Sollen neue Mitglieder hinzugefügt werden, wird ein Popup-Fenster mit den möglichen Mitgliedern und Gruppen sowie die Liste der möglichen Rollen angezeigt. 
-
-image::anwender/objekt_konfig_mitglieder_neu.png[neue Mitglieder hinzufügen]
-
-Für die Aufnahme von Mitgliedern sind die Benutzer bzw. die Gruppen auszuwählen die aufgenommen werden sollen. Weiter ist die Rolle bzw. sind die Rollen auszuwählen, die diese im Objekt haben sollen. Nur in der Kombination aus Benutzer/Gruppe mit der/den Rolle(n) können neue Mitglieder durch klicken des Buttons __Hinzufügen__ aufgenommen werden.
-
-Sollen Rollen eines Mitglieds oder einer Gruppe verändert werden, so erfogt das über Button __Bearbeiten__. 
-
-image::anwender/objekt_konfig_mitglieder_bearbeiten.png[Rollen von Mitgliedern bearbeiten]
-
++
+Sollen neue Mitglieder hinzugefügt werden, wird ein Popup-Fenster mit den möglichen Mitgliedern und Gruppen sowie die Liste der möglichen Rollen angezeigt. +
++
+image:anwender/objekt_konfig_mitglieder_neu.png[neue Mitglieder hinzufügen]
++
+Für die Aufnahme von Mitgliedern sind die Benutzer bzw. die Gruppen auszuwählen die aufgenommen werden sollen. Weiter ist die Rolle bzw. sind die Rollen auszuwählen, die diese im Objekt haben sollen. Nur in der Kombination aus Benutzer/Gruppe mit der/den Rolle(n) können neue Mitglieder durch klicken des Buttons __Hinzufügen__ aufgenommen werden. +
++
+Sollen Rollen eines Mitglieds oder einer Gruppe verändert werden, so erfogt das über Button __Bearbeiten__. +
++
+image:anwender/objekt_konfig_mitglieder_bearbeiten.png[Rollen von Mitgliedern bearbeiten]
++
 Es wird der Listeintrag des ausgewählten Mitarbeiters aufgeklappt und durch An- bzw Abwahl können die Rollen verändert werden. Rollen, die ein Mitglied von einer Gruppe oder dem vorgelagerten Objekt geerbt hat können nicht verädert werden. Dieses ist in der Maske gekennzeichnet.+
 Werden alle Rollen eines Mitglieds gelöscht, wird dieses Mitglied gelöscht.
 

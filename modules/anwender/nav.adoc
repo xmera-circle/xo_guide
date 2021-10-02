@@ -13,4 +13,5 @@
 *** xref:anwender_modul_tabellen.adoc[]
 *** xref:anwender_modul_verlauf.adoc[]
 *** xref:anwender_modul_wiki.adoc[]
+*** xref:anwender_modul_zeiterfassung.adoc[]
 ** xref:anwender_individualisieren.adoc[]

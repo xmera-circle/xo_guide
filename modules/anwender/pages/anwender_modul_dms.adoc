@@ -1,42 +1,8 @@
-= Objekte
+= Dokumentenmanagementsystem (DMS)
 :doctype: article
 :icons: font
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
-
-== Funktion der Objekt
-
-== Objekthierarchie
-
-== Objektkonfiguration
-
-=== Objektdaten
-
-=== Mitglieder von Objekten
-
-== Objektklassen
-
-== Objektjournal
-
-== Objektmodule
-
-=== Aufgaben
-
-==== Aufgaben anlegen
-
-==== Aufgaben verknüpfen
-
-==== Pakete zuordnen
-
-==== Aufgabenkategorien
-
-==== Kalender / Verlauf
-
-=== Dokumente
-
-==== Dateien
-
-==== Dokumentenmanagement
 
 === Dokumentenmanagementsystem (DMS)
 
@@ -47,7 +13,4 @@
 ==== Versionierung
 
 ==== Genehmigungs-Workflow
-
-
-
 
