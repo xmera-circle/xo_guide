@@ -76,11 +76,23 @@ Durch die Auswahl der Summe bei dem _Geschätzten Aufwand_ oder der _Aufgewenden
 +
 Mit dem Klicken auf den Button _Anwenden_ wird die Darstellungsoption aktiviert. Mit _Zurücksetzen_ wird wieder auf die Standard-Darstellung (Durch die Administration Vorgegeben) angewendet. Mit dem Button _Speichern_ lassen sich Darstellungoptionen mit den Filter als _Benutzerdefinierte Abfrage_ speichern.
 
-Benutzerdefinierte Abfrage:: 
+Abfrage:: 
 
-Text
+Eine Abfrage setzt sich aus einem Filter und den Darstellungsoptionen zusammen. Durch Auswahl einer Abfrage wird diese in der Abfragenliste umgesetzt. Dabei gibt es zwei Arten. Zum einen die _eigenen Abfragen_, die von einem selbst angelegt wurden und nur von mir gesehen werden und ausgewählt werden können. Auf der anderen Seite können auch anderen Anwendern diese Abfragen bereitgestellt werden. Diese werden von unter Benutzerdefnierte Abfragen bereitgestellt. +
++
+Das speichern einer Abfrage erfolgt über den Button _Speichern_ bzw. _Bearbeiten_ im unteren Bereich der Filter und Optionsbereichs. Mit dem Klick erscheint folgende Maske. +
++
+image:anwender/anwender_modul_abfrage.png[Abfrage speichern]
++
+In der obersten Zeile steht der Name bzw. ist bei neuen Abfragen einzufügen. Darunter wird abgefragt welche Nutzer diese Abfrage nutzen können und ob diese Abfrage nur für dieses oder alle Objekte zur Verfügung steht. +
++
+In den Feldern darunter werden die aus dem Filter und den Optionen bekannten Einstellungsmöglichkeiten. +
++
+Mit dem Button speichern wird die geänderte bzw. neue Abfrage gespeichert. +
++
+Ebenso kann eine Abfrage wieder gelöscht werden (Löschbutton neben dem Bearbeiten button. Nach dem Klicken erfolgt noch einmal die Abfrage, ob die Löschung gewollt ist. Bei Bestätigung wird die Abfrage gelöscht.
 
-== Aufgaben anlegen
+== Aufgaben anlegen und bearbeiten
 
 == Aufgaben verknüpfen
 
