@@ -27,8 +27,8 @@ image::anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
 &#10122; Aufgabenliste +
 &#10123; Seitennavigation +
 &#10124; Filter und Darstellungsoptionen +
-&#10125; #Benutzerdefinierte# Abfragen +
-&#10126; #Schnellmenü# +
+&#10125; Abfragen +
+&#10126; 3 Punkte Menü +
 &#10127; Aufgabenexport
 
 Aufgabenliste:: 
@@ -92,7 +92,32 @@ Mit dem Button speichern wird die geänderte bzw. neue Abfrage gespeichert. +
 +
 Ebenso kann eine Abfrage wieder gelöscht werden (Löschbutton neben dem Bearbeiten button. Nach dem Klicken erfolgt noch einmal die Abfrage, ob die Löschung gewollt ist. Bei Bestätigung wird die Abfrage gelöscht.
 
+3 Punkte Menü:: 
+
+Das 3 Punkte Menü beinhaltet die Möglichkeiten +
+- eine Zusammenfassung (Statistik) aufzurufen
+- Aufgaben zu importieren
+- in die Aufgabenkonfiguration zu springen und
+- eine xref:anwender_modul_sync.adoc[Synchronisation] anzustoßen. +
++
+image:anwender/anwender_modul_aufgaben_3-punkte-menue.png[]
++
+[NOTE]
+*Notiz:* Das vollständige Menü wird nur bei den entsprechenden Berechtigungen angezeigt.
+
++
+Die Zusammenfassung zeigt einen Bereicht die Anzahl der Aufgaben nach dem Umsetzungsgrad in Bezug auf verschiedene Kriterien an. +
+Mit der Importfunktion besteht die Möglichkeit über einen csv-Datei <<Aufgaben importieren ,Aufgaben zu importieren>>. +
+Mit dem Menüpunkt Aufgabenkonfiguration springt der Anwender direkt in die Aufgabenkonfiguration des Objekts. +
+Mit dem Menüpunkt xref:anwender_modul_sync.adoc[Synchronisation] wird die Synchronisationsmaske für das Synchroniseren von Aufgabenlisten geöffnet. 
+
+Aufgabenexport:: 
+
+...
+
 == Aufgaben anlegen und bearbeiten
+
+== Aufgaben importieren
 
 == Aufgaben verknüpfen
 
@@ -101,3 +126,5 @@ Ebenso kann eine Abfrage wieder gelöscht werden (Löschbutton neben dem Bearbei
 == Aufgabenkategorien
 
 == Eigene Felder
+
+
