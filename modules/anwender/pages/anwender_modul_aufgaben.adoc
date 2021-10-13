@@ -113,7 +113,18 @@ Mit dem Menüpunkt xref:anwender_modul_sync.adoc[Synchronisation] wird die Synch
 
 Aufgabenexport:: 
 
-...
+Die Aufgabenliste bietet die Möglichkeit die Aufgaben in verschiedenen Formaten zu exportieren &#10127;. Die Auswahl ist unterhalb der Aufgabenliste auf der Rechten Seite zu finden. Es stehen drei Formate zu Verfügung +
++
+- Atom (xml nach atom-Standard)
+- csv-Datei
+- pdf-Datei 
+
++
+Der Atom- und der pdf-Exprot exportieren die gesamten im Filter &#10124; definierten Aufträge. Beim csv-Export besteht die Möglichkeit eine Auswahl von Aufträgen (durch setzen eines Hakens links vom Auftrag) und eine Auswahl an Attributen zu exportieren. Beim öffenen der csv-Eportfunktion öffent sich folgendes Fenster: +
+ +
+image:anwender/modul_aufgaben_csv-export.png[] +
+ +
+Durch die Auswahl der Optionen bzw Auswahl läßt sich der csv-Export beeinflussen. Im unteren Bereich ist noch die Auswahl der Kodierung. Für die Nutzung von Umlauten ist hier UTF-8 zu wählen.
 
 == Aufgaben anlegen und bearbeiten
 
