@@ -28,7 +28,7 @@ image::anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
 &#10123; Seitennavigation +
 &#10124; Filter und Darstellungsoptionen +
 &#10125; Abfragen +
-&#10126; 3 Punkte Menü +
+&#10126; Neue Aufgabe + 3 Punkte Menü +
 &#10127; Aufgabenexport
 
 Aufgabenliste:: 
@@ -91,10 +91,10 @@ In den Feldern darunter werden die aus dem Filter und den Optionen bekannten Ein
 Mit dem Button speichern wird die geänderte bzw. neue Abfrage gespeichert. +
 +
 Ebenso kann eine Abfrage wieder gelöscht werden (Löschbutton neben dem Bearbeiten button. Nach dem Klicken erfolgt noch einmal die Abfrage, ob die Löschung gewollt ist. Bei Bestätigung wird die Abfrage gelöscht.
+[#neue_aufgabe]
+Neue Aufgabe + 3 Punkte Menü:: 
 
-3 Punkte Menü:: 
-
-Das 3 Punkte Menü beinhaltet die Möglichkeiten +
+Über den Button _Neue Aufgabe_ kann eine <<Aufgaben anlegen und bearbeiten,neue Aufgabe angelegt>> werden. Das 3 Punkte Menü beinhaltet die Möglichkeiten +
 - eine Zusammenfassung (Statistik) aufzurufen
 - Aufgaben zu importieren
 - in die Aufgabenkonfiguration zu springen und
@@ -128,14 +128,108 @@ Durch die Auswahl der Optionen bzw Auswahl läßt sich der csv-Export beeinfluss
 
 == Aufgaben anlegen und bearbeiten
 
-== Aufgaben importieren
+=== Aufgaben anlegen
+
+über den Button <<neue_aufgabe,Aufgabe anlegen>> in der Auftragsübersicht wird die Maske zum Anlagen eines Auftrags geöffnet.
+
+image::anwender/modul_aufgaben_neue-aufgabe.png[]
+
+In dieser Maske werden all Basisdaten für einen Auftrag erfasst. Die Pflichtfelder sind mit einem roten [.red]#*# gekennzeichnet.
+
+&#10122; Objekt:: 
+
+Das Attribut Objekt gibt an, welchem Objekt die Aufgabe zugeordnet ist. Dieses Attribut wird mit dem Objekt vorbelegt, aus dem die Erstellungsmaske aufgerufen wurde.
+
+&#10123; Aufgabentyp:: 
+
+Der Aufgabentyp definiert die Art der Aufgabe. Der Aufgabentyp definiert die Inhalte (spezielle Attribute) und das Verhalten (z.B. Statusführung / Berechtigungen). Mit der Auswahl des Auftragstyps wird die Maske neu Aufgebaut und die spezifischen Felder / Attribute werden eingeblendet. In dem Bild oben ist es z.B. die Wirksamkeitsprüfung, die spezifisch ist.
+
+&#10124; Thema:: 
+
+Das Thema ist die Kurzbeschreibung des Auftrags. Das Thema wird in der Aufgabenübersicht dargestellt und sollte daher die Arbeit so beschreiben, dass diese sich von den anderen Arbeiten im Objekt unterscheidet.
+
+&#10125; Beschreibung::
+
+In der Beschreibung kann die Aufgabe detailiert beschrieben werden. Hierzu steht die Wiki Toolbar zur Verfügung.
+
+&#10126; Status::
+
+Der Status gibt den Bearbeitungsstand des Auftrags wieder. Zu jedem Auftragstyp gibt es einen startwert. Die Statusführung wird durch die Administration für jeden Aufgabentyp einzeln festgelegt.
+
+&#10127; Priorität::
+
+Hier wird die Priorität festgelegt. Es werden im Standard  +
+- Niedrig
+- Normal
+- Hoch
+- Dringend
+- Sofort
+
++
+unterschieden. Die Priortäten lassen sich durch den Administrator anpassen.
+
+&#10128; Zugewiesen an::
+
+Hier wird festgelegt, wer für die Durchführung der Aufgabe verantwortlich ist. Zur Auswahl stehen alle, die in dem den Auftrag zugewisenen Objekt das Recht besitzt, Aufgaben auszuführen.
+
+&#10129; Übergeordnete Aufgabe::
+
+Es besteht die Möglichkeit, Aufgaben hierarchisch zu organisieren. In der Unteraufgabe wird dazu die übergeordnete Aufgabe zugeordnet. Weitere erläuterungen finden Sie im Kapitel #XXX#
+
+&#10130; Beginn und Abgabedatum::
+
+Mit dem Datum für den Beginn und dem Abgabedatum der Aufgabe kann der Zeitrahmen aufgespannt werden, in dem die Aufgabe durchgeführt werden soll. Für die Module Kalender und Verlauf werden diese Informationen benötigt, um die Aufgabe zu darzustellen. 
+
+&#10131; Geschätzter Aufwand::
+
+Im Feld _geschätzter Aufwand_ besteht die Möglichkeit den zu werwartenden Aufwand in Stunden zur Durchführung der Aufgabe zu dokumentieren.
+
+&#9451; % erledit::
+
+Im Feld _% erledigt_ kann der Umsetzungsgrad der Maßnahme nachgeführt werden. Dieser Aufwand kann in Übersichten dargestellt werden und bei entsprechender Konfiguration an die übergeordnete Aufgabe übergeben werden.
+
+&#9452; Spezifische Felder::
+
+Jedem Aufgabentyp können spezifische Felder (eigene Felder) zugeordenet werden. Diese dienen der Dokumentation von aufgabenspezifischen Arbeiten. So wird in dem oben dargestellten Screen-shot das Ergebnis der Wirksamkeitsprüfung abgefragt. +
+Die Felder lassen sich im Rahmen der Administration anpassen.
+
+&#9453; Dateien (hochladen)::
+
+Es können Dateien an die Aufgabe angehängt werden. Mit dem Button _Durchsuchen_ wird ein Dateimanager des Anwenderrechners geöffnet, in dem eine oder mehrere Dateien ausgewählt werden können, die hochgeladen werden und dem Auftrag zugeordnet sind. Jeder Datei kann eine Beschreibung zugeordnet werden. +
+ +
+image:anwender/modul_aufgaben_dateien.png[] +
+ +
+Die maximale Größe einer Datei ist dabei im Standard auf 5 MB begrenzt. Die Dateigröße ist durch den Administrator anpassbar.
+
+&#9454; Dokumente (DMS)::
+
+Die Auswahl Dokumente ist nur verfügbar, wenn das Modul DMS (Dokumentenmanagement) aktiviert ist. Hier besteht die Möglichkeit Dokumente anzuhängen, die hochgeladen und im DMS gespeichert werden oder Dateien angehängt werden, die im DMS abgeelgt wurden. +
+ +
+image:anwender/modul_aufgaben_dokumente.png[] +
+ +
+Somit besteht die Möglichkeit Dokumente, die Aufgabenübergreifend benötigt werden und zentral zu dokumentieren sind über im Rahmen einer Aufgabe zu erfassen oder auch ein für die Aufgabenabwiklung benötigtes zentral abgelegtes Dokument der Aufgabe zuzuordnen.  
+
+&#9455; Beobachter::
+
+Beobachter sind Mitglieder des Objekts, die über Änderungen in der Aufgabe per Mail informiert werden. Über die Auswahl werden die Personen festgelegt die diese Aufgabe beobachten.
+
+&#9456; Privat::
+
+Mit der Auwahl _Privat_ kann der Anwender sich eine Aufgabe erstellen, die nur von einem selbst und berechtigten Anwendern (z.B. Administratoren) gesehen werden können.
+
+&#9457; Anlegen / Anlegen und weiter::
+
+Mit dem Button _Anlegen_ oder _Anlegen und weiter_ wird der Auftrag agelefgt. Damit müssen mindestens die Pflichtfelder gefüllt sein. +
+Wird der Prozess über Anlegen abgeschlossen, so wird die Erfassung beendet und die Ansicht wechselt auf die Seite der erfassten Aufgabe. +
+Wird der Prozess mit dem Button Anlegen und weiter abgeschlossen, so wird eine neue Auftragserfassungsmaske geöffnet und ein weitere Auftrag kann erfasst werden.
+
+=== Aufgaben bearbeiten
 
 == Aufgaben verknüpfen
 
-== Pakete
-
 == Aufgabenkategorien
 
-== Eigene Felder
+== Aufgabenpakete
 
+== Aufgaben importieren
 
