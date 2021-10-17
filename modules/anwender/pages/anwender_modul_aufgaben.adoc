@@ -4,11 +4,11 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Aufgaben sind wichtigste Modul in der Anwendung. Aufgaben können dabei 
+Aufgaben sind das wichtigste Modul in der Anwendung. Aufgaben können dabei 
 
 - konkrete ToDo's
-- allgemeine Ziele, wie z.B. Sichereitsziele.
-- die Dokumenation eines Status, wie z.B. ein Verarbeitungsverzeichnis oder eine Risikobeurteilung,
+- allgemeine Ziele, wie z.B. Sicherheitsziele.
+- die Dokumentation eines Status, wie z.B. ein Verarbeitungsverzeichnis oder eine Risikobeurteilung,
 
 sein. Erreicht wird dieses durch die xref:admin:admin_aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung der Aufgabenmaske. Hier besteht die Möglichkeit durch ein- bzw. ausblenden der Standardeinträge (bis auf die Pflichtfelder) oder das Hinzufügen von xref:admin:admin_eigene-felder.adoc[benutzerdefinierten Feldern] die Aufgabenmaske individuell zu gestalten.
 
@@ -33,7 +33,7 @@ image::anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
 
 Aufgabenliste:: 
 
-Die Aufgabenliste zeigt die Aufgaben nach der ID sortiert an. Die Sortiertung kann durch klicken auf die Spalte, nach der Sortiert werden soll, geändert werden. Die Reihenfolge der Sortierungg wird durch nochmaliges Klicken auf die Spaltenüberschrift geändert werden. + 
+Die Aufgabenliste zeigt die Aufgaben nach der ID sortiert an. Die Sortierung kann durch klicken auf die Spalte, nach der Sortiert werden soll, geändert werden. Die Reihenfolge der Sortierung wird durch nochmaliges Klicken auf die Spaltenüberschrift geändert werden. + 
 Die Suchreihenfolge wird durch die Symbol image:anwender/modul_aufgaben_sortierung_up.png[] und image:anwender/modul_aufgaben_sortierung_down.png[] in der Spaltenüberschrift dargestellt +
 +
 ID und das Thema sind mit der Aufgabe verlinkt. Andere Links, wie z.B. der Mitgliedsname an den die Aufgabe zugewiesen wurde, zeigt auf die Aktivitätsseite des Mitarbeiters.
@@ -66,19 +66,19 @@ Die Darstellungsoptionen bieten zahlreiche Möglichkeiten den Aufbau der Liste a
 +
 image:anwender/modul_aufgaben_optionen.png[]
 +
-In dem Bereich Spalten lassen sich Spalten durch Auswahl in der Tabelle _Verfügbare Spalten_ und betätigung der Pfeiltaste nach rechts in die Ausgewählten Spalten zur Tabelle hinzufügen oder durch den Umgekehrten Weg herausnehmen. Durch die Felder rechts neben den Ausgewählten Spalten läßt sich die Reihenfolge der Spalten verändern. +
+In dem Bereich Spalten lassen sich Spalten durch Auswahl in der Tabelle _Verfügbare Spalten_ und Betätigung der Pfeiltaste nach rechts in die Ausgewählten Spalten zur Tabelle hinzufügen oder durch den Umgekehrten Weg herausnehmen. Durch die Felder rechts neben den Ausgewählten Spalten lässt sich die Reihenfolge der Spalten verändern. +
 +
 Mit der Auswahl eines Felds wird die Tabelle nach diesem Element gruppiert. +
 +
-Durch setzen eines oder mehrer Langtextfelder werden diese unterhalb jeder Aufgabe in der Auswahl angezeigt.
+Durch setzen eines oder mehrerer Langtextfelder werden diese unterhalb jeder Aufgabe in der Auswahl angezeigt.
 +
-Durch die Auswahl der Summe bei dem _Geschätzten Aufwand_ oder der _Aufgewenden Zeit_ wird bei einer Gruppierung der Daten, die Summe der ausgewählten Zeiten bei der Gruppe mit angezeigt. +
+Durch die Auswahl der Summe bei dem _Geschätzten Aufwand_ oder der _Aufgewendeten Zeit_ wird bei einer Gruppierung der Daten, die Summe der ausgewählten Zeiten bei der Gruppe mit angezeigt. +
 +
-Mit dem Klicken auf den Button _Anwenden_ wird die Darstellungsoption aktiviert. Mit _Zurücksetzen_ wird wieder auf die Standard-Darstellung (Durch die Administration Vorgegeben) angewendet. Mit dem Button _Speichern_ lassen sich Darstellungoptionen mit den Filter als _Benutzerdefinierte Abfrage_ speichern.
+Mit dem Klicken auf den Button _Anwenden_ wird die Darstellungsoption aktiviert. Mit _Zurücksetzen_ wird wieder auf die Standard-Darstellung (Durch die Administration Vorgegeben) angewendet. Mit dem Button _Speichern_ lassen sich Darstellungsoptionen mit den Filter als _Benutzerdefinierte Abfrage_ speichern.
 
 Abfrage:: 
 
-Eine Abfrage setzt sich aus einem Filter und den Darstellungsoptionen zusammen. Durch Auswahl einer Abfrage wird diese in der Abfragenliste umgesetzt. Dabei gibt es zwei Arten. Zum einen die _eigenen Abfragen_, die von einem selbst angelegt wurden und nur von mir gesehen werden und ausgewählt werden können. Auf der anderen Seite können auch anderen Anwendern diese Abfragen bereitgestellt werden. Diese werden von unter Benutzerdefnierte Abfragen bereitgestellt. +
+Eine Abfrage setzt sich aus einem Filter und den Darstellungsoptionen zusammen. Durch Auswahl einer Abfrage wird diese in der Abfrageliste umgesetzt. Dabei gibt es zwei Arten. Zum einen die _eigenen Abfragen_, die von einem selbst angelegt wurden und nur von mir gesehen werden und ausgewählt werden können. Auf der anderen Seite können auch anderen Anwendern diese Abfragen bereitgestellt werden. Diese werden von unter Benutzerdefinierte Abfragen bereitgestellt. +
 +
 Das speichern einer Abfrage erfolgt über den Button _Speichern_ bzw. _Bearbeiten_ im unteren Bereich der Filter und Optionsbereichs. Mit dem Klick erscheint folgende Maske. +
 +
@@ -106,10 +106,10 @@ image:anwender/anwender_modul_aufgaben_3-punkte-menue.png[]
 *Notiz:* Das vollständige Menü wird nur bei den entsprechenden Berechtigungen angezeigt.
 
 +
-Die Zusammenfassung zeigt einen Bereicht die Anzahl der Aufgaben nach dem Umsetzungsgrad in Bezug auf verschiedene Kriterien an. +
+Die Zusammenfassung zeigt in einem Bericht die Anzahl der Aufgaben nach dem Umsetzungsgrad in Bezug auf verschiedene Kriterien an. +
 Mit der Importfunktion besteht die Möglichkeit über einen csv-Datei <<Aufgaben importieren ,Aufgaben zu importieren>>. +
 Mit dem Menüpunkt Aufgabenkonfiguration springt der Anwender direkt in die Aufgabenkonfiguration des Objekts. +
-Mit dem Menüpunkt xref:anwender_modul_sync.adoc[Synchronisation] wird die Synchronisationsmaske für das Synchroniseren von Aufgabenlisten geöffnet. 
+Mit dem Menüpunkt xref:anwender_modul_sync.adoc[Synchronisation] wird die Synchronisationsmaske für das Synchronisieren von Aufgabenlisten geöffnet. 
 
 Aufgabenexport:: 
 
@@ -120,11 +120,11 @@ Die Aufgabenliste bietet die Möglichkeit die Aufgaben in verschiedenen Formaten
 - pdf-Datei 
 
 +
-Der Atom- und der pdf-Exprot exportieren die gesamten im Filter &#10124; definierten Aufträge. Beim csv-Export besteht die Möglichkeit eine Auswahl von Aufträgen (durch setzen eines Hakens links vom Auftrag) und eine Auswahl an Attributen zu exportieren. Beim öffenen der csv-Eportfunktion öffent sich folgendes Fenster: +
+Der Atom- und der pdf-Export exportieren die gesamten im Filter &#10124; definierten Aufträge. Beim csv-Export besteht die Möglichkeit eine Auswahl von Aufträgen (durch setzen eines Hakens links vom Auftrag) und eine Auswahl an Attributen zu exportieren. Beim öffnen der csv-Exportfunktion öffnet sich folgendes Fenster: +
  +
 image:anwender/modul_aufgaben_csv-export.png[] +
  +
-Durch die Auswahl der Optionen bzw Auswahl läßt sich der csv-Export beeinflussen. Im unteren Bereich ist noch die Auswahl der Kodierung. Für die Nutzung von Umlauten ist hier UTF-8 zu wählen.
+Durch die Auswahl der Optionen bzw Auswahl lässt sich der csv-Export beeinflussen. Im unteren Bereich ist noch die Auswahl der Kodierung. Für die Nutzung von Umlauten ist hier UTF-8 zu wählen.
 
 == Aufgaben anlegen und bearbeiten
 
@@ -150,7 +150,7 @@ Das Thema ist die Kurzbeschreibung des Auftrags. Das Thema wird in der Aufgaben�
 
 &#10125; Beschreibung::
 
-In der Beschreibung kann die Aufgabe detailiert beschrieben werden. Hierzu steht die Wiki Toolbar zur Verfügung.
+In der Beschreibung kann die Aufgabe detailliert beschrieben werden. Hierzu steht die Wiki Toolbar zur Verfügung.
 
 &#10126; Status::
 
@@ -166,15 +166,16 @@ Hier wird die Priorität festgelegt. Es werden im Standard  +
 - Sofort
 
 +
-unterschieden. Die Priortäten lassen sich durch den Administrator anpassen.
+unterschieden. Die Prioritäten lassen sich durch den Administrator anpassen.
 
 &#10128; Zugewiesen an::
 
-Hier wird festgelegt, wer für die Durchführung der Aufgabe verantwortlich ist. Zur Auswahl stehen alle, die in dem den Auftrag zugewisenen Objekt das Recht besitzt, Aufgaben auszuführen.
+Hier wird festgelegt, wer für die Durchführung der Aufgabe verantwortlich ist. Zur Auswahl stehen alle, die in dem den Auftrag zugewiesenen Objekt das Recht besitzt, Aufgaben auszuführen.
 
+[#übergeordnete_aufgabe]
 &#10129; Übergeordnete Aufgabe::
 
-Es besteht die Möglichkeit, Aufgaben hierarchisch zu organisieren. In der Unteraufgabe wird dazu die übergeordnete Aufgabe zugeordnet. Weitere erläuterungen finden Sie im Kapitel #XXX#
+Es besteht die Möglichkeit, Aufgaben hierarchisch zu organisieren. In der Unteraufgabe wird dazu die übergeordnete Aufgabe zugeordnet. Weitere Erläuterungen finden Sie im Kapitel #XXX#
 
 &#10130; Beginn und Abgabedatum::
 
@@ -182,15 +183,15 @@ Mit dem Datum für den Beginn und dem Abgabedatum der Aufgabe kann der Zeitrahme
 
 &#10131; Geschätzter Aufwand::
 
-Im Feld _geschätzter Aufwand_ besteht die Möglichkeit den zu werwartenden Aufwand in Stunden zur Durchführung der Aufgabe zu dokumentieren.
+Im Feld _geschätzter Aufwand_ besteht die Möglichkeit den zu erwartenden Aufwand in Stunden zur Durchführung der Aufgabe zu dokumentieren.
 
-&#9451; % erledit::
+&#9451; % erledigt::
 
 Im Feld _% erledigt_ kann der Umsetzungsgrad der Maßnahme nachgeführt werden. Dieser Aufwand kann in Übersichten dargestellt werden und bei entsprechender Konfiguration an die übergeordnete Aufgabe übergeben werden.
 
 &#9452; Spezifische Felder::
 
-Jedem Aufgabentyp können spezifische Felder (eigene Felder) zugeordenet werden. Diese dienen der Dokumentation von aufgabenspezifischen Arbeiten. So wird in dem oben dargestellten Screen-shot das Ergebnis der Wirksamkeitsprüfung abgefragt. +
+Jedem Aufgabentyp können spezifische Felder (eigene Felder) zugeordnet werden. Diese dienen der Dokumentation von aufgabenspezifischen Arbeiten. So wird in dem oben dargestellten Screen-shot das Ergebnis der Wirksamkeitsprüfung abgefragt. +
 Die Felder lassen sich im Rahmen der Administration anpassen.
 
 &#9453; Dateien (hochladen)::
@@ -203,11 +204,11 @@ Die maximale Größe einer Datei ist dabei im Standard auf 5 MB begrenzt. Die Da
 
 &#9454; Dokumente (DMS)::
 
-Die Auswahl Dokumente ist nur verfügbar, wenn das Modul DMS (Dokumentenmanagement) aktiviert ist. Hier besteht die Möglichkeit Dokumente anzuhängen, die hochgeladen und im DMS gespeichert werden oder Dateien angehängt werden, die im DMS abgeelgt wurden. +
+Die Auswahl Dokumente ist nur verfügbar, wenn das Modul DMS (Dokumentenmanagement) aktiviert ist. Hier besteht die Möglichkeit Dokumente anzuhängen, die hochgeladen und im DMS gespeichert werden oder Dateien angehängt werden, die im DMS abgelegt wurden. +
  +
 image:anwender/modul_aufgaben_dokumente.png[] +
  +
-Somit besteht die Möglichkeit Dokumente, die Aufgabenübergreifend benötigt werden und zentral zu dokumentieren sind über im Rahmen einer Aufgabe zu erfassen oder auch ein für die Aufgabenabwiklung benötigtes zentral abgelegtes Dokument der Aufgabe zuzuordnen.  
+Somit besteht die Möglichkeit Dokumente, die Aufgabenübergreifend benötigt werden und zentral zu dokumentieren sind über im Rahmen einer Aufgabe zu erfassen oder auch ein für die Aufgabenabwicklung benötigtes zentral abgelegtes Dokument der Aufgabe zuzuordnen.  
 
 &#9455; Beobachter::
 
@@ -215,15 +216,114 @@ Beobachter sind Mitglieder des Objekts, die über Änderungen in der Aufgabe per
 
 &#9456; Privat::
 
-Mit der Auwahl _Privat_ kann der Anwender sich eine Aufgabe erstellen, die nur von einem selbst und berechtigten Anwendern (z.B. Administratoren) gesehen werden können.
+Mit der Auswahl _Privat_ kann der Anwender sich eine Aufgabe erstellen, die nur von einem selbst und berechtigten Anwendern (z.B. Administratoren) gesehen werden können.
 
 &#9457; Anlegen / Anlegen und weiter::
 
-Mit dem Button _Anlegen_ oder _Anlegen und weiter_ wird der Auftrag agelefgt. Damit müssen mindestens die Pflichtfelder gefüllt sein. +
+Mit dem Button _Anlegen_ oder _Anlegen und weiter_ wird der Auftrag angelegt. Damit müssen mindestens die Pflichtfelder gefüllt sein. +
 Wird der Prozess über Anlegen abgeschlossen, so wird die Erfassung beendet und die Ansicht wechselt auf die Seite der erfassten Aufgabe. +
 Wird der Prozess mit dem Button Anlegen und weiter abgeschlossen, so wird eine neue Auftragserfassungsmaske geöffnet und ein weitere Auftrag kann erfasst werden.
 
 === Aufgaben bearbeiten
+
+Ruft man eine Aufgabe auf, so öffnet sich folgende Maske
+
+image::anwender/modul_aufgaben_aufgabe.png[]
+
+In der Maske werden alle Informationen zum Auftrag dargestellt. Es handelt sich konkret um folgende Informationen: 
+
+&#10122; Aufgaben-ID:: 
+
+Jede Aufgabe erhält automatisch eine eindeutige Aufgaben-ID. Diese wird für die eindeutige Identifizierung des Auftrags verwendet. Die ID wird insbesondere bei der Verknüpfung von Aufgaben verwendet.
+
+&#10123; Aufgabenname:: 
+
+Zum Aufgabenname wird zusätzlich der Ersteller und die Zeiten der Erfassung und der letzten Aktualisierung dargestellt.
+
+&#10124; Statusinformationen:: 
+
+Unterhalb des Aufgabennamens sind die Statusdaten der Aufgabe dargestellt. Neben dem Aufgabenstatus sind die Priorität, die zugewiesene Person/ Gruppe, die zeitlichen vorgaben sowie der Erledigungsgrad.
+
+&#10125; Aufgabenbeschreibung:: 
+
+Die Beschreibung der Aufgabe wird dargestellt. Mit dem Element Zitieren image:anwender/modul_aufgaben_zitieren.png[] oben rechts vom Beschreibungsfeld wird die Kommentarfunktion der Aufgabe aufgerufen, mit der Beschreibung als Zitat vorangestellt. 
+
+&#10126; Dateien:: 
+
+In dem Bereich Dateien werden die dem Auftrag angehängten Dateien dargestellt, können hochgeladen werden image:anwender/modul_aufgaben_symbol-hochladen.png[], können gelöscht werden image:anwender/modul_aufgaben_symbol-loeschen.png[] oder die Dateibeschreibung geändert image:anwender/modul_aufgaben_symbol-aendern.png[] werden. +
+
+[#unteraufgabe]
+&#10127; Unteraufgaben:: 
+
+Im Bereich Unteraufgaben werden, wie im folgenden Bild zu stehen, die der Aufgabe unterlagerten Aufgaben mit ihrem Status angezeigt. +
+ +
+image:anwender/modul_aufgaben_unteraufgaben.png[]
+ +
+Durch den Link _Hinzufügen_ kann eine neue Unteraufgabe hinzugefügt werden. Es erscheint die Maske für eine neue Aufgabe in der das Attribut <<übergeordnete_aufgabe,Übergeordnete Aufgabe>> bereits vorbelegt ist. Eine neue oder bestehende Aufgabe kann auch durch Zuordnung der übergeordneten Aufgabe im Feld <<übergeordnete_aufgabe,Übergeordnete Aufgabe>> dieser Aufgabe als Unteraufgabe zugeordnet werden. +
+ +
+Ist eine Aufgabe eine Unteraufgabe, so wird die übergeordnete Aufgabe, wie im folgenden Bild zu sehen, oberhalb des Aufgabennamens dargestellt und verlinkt. +
+ +
+image:anwender/modul_aufgaben_uebergeordnete_aufgabe.png[]
+ +
+In dem Bereich Unteraufgaben kann man durch Anklicken der Aufgabennummer der Unteraufgabe in die Unteraufgabe springen. Man kann aber auch die Unteraufgabe direkt beeinflussen. Durch klicken auf das Symbol image:anwender/modul_aufgaben_verbindung_loeschen.png[] kann die verbindung zur Unteraufgabe gelöst werden. Durch das 3-Punkte-Menü kann der Status der Unteraufgabe direkt beeinflusst werden. Das Menü hat folgendes Aussehen: 
+ +
+ +
+image:anwender/modul_aufgaben_unteraufgabe_3-punkte.png[]
+ +
+ +
+Wie zu erkennen kann man zum einen in die Bearbeitungsmaske der Unteraufgabe springen, aber auch die wichtigsten Felder direkt verändern. Selbst das Erstellen einer Unteraufgabe zur Unteraufgabe ist möglich, wie das image:anwender/modul_aufgaben_symbol-kopieren.png[] Kopieren als auch das  image:anwender/modul_aufgaben_symbol-loeschen.png[] Löschen. +
+ +
+[TIP]
+*Tip:* In der Systemadministration kann festgelegt werden, dass der Status der Unteraufgaben den Status der übergeordneten Aufgabe bestimmt. Somit werden die Status als auch der % erledigt auf den Status der übergeordneten Aufgabe übertragen.
+
+&#10128; Zugehörige Aufgaben:: 
+
+Zugehörige Aufgaben ermöglichen es dem Anwender die Aufgabe mit anderen Aufgaben zu verknüpfen um Duplikate zu vermeiden oder die Arbeitsabläufe zu vereinfachen. Die zugeordneten Aufgaben werden, wie im Bild zu sehen, mit ihrer Art der Beziehung und dem Status aufgelistet. +
+ +
+image:anwender/modul_aufgaben_zugehoerige_aufgaben.png[]
+ +
+Entsprechend den Bedienmöglichkeiten der <<unteraufgabe,Unteraufgaben>> lassen sich durch Klicken auf das Symbol image:anwender/modul_aufgaben_verbindung_loeschen.png[] die Verbindung aufheben und durch die Auswahl im 3-Punkte-Menü die zugehörige Aufgabe bearbeiten. +
+ +
+Durch klicken auf hinzufügen lassen sich Aufgaben hinzufügen. Es erscheint folgende Auswahl: +
+ +
+image:anwender/modul_aufgaben_zugehoerige_hinzufuegen.png[]
+ +
+Es lassen sich verschieden Arten der Beziehungen darstellen. +
+- Beziehung mit: +
+Es wird nur ein Link zu einer anderen Aufgabe hergestellt
+- Duplikat von / Dupliziert durch: +
+Ein Duplikat verbindet die Aufgaben in der Weise, dass beim schließen der Aufgabe ein _Duplikat von_ mit gelöscht wurde. Ist die Aufgabe dagegen _Dupliziert durch_ eine zugeordneten Aufgabe so wird die Aufgabe gelöscht, sobald die zugeordnete Aufgabe geschlossen wird. aber nicht umgekehrt.
+- Blockiert / Blockiert durch: +
+_Blockiert_ eine zugeordnete Aufgabe so lange davor geschlossen zu werden, bis die aktuelle Aufgabe geschlossen ist bzw. das schließen der Aufgabe wird _Blockiert durch_ die zugehörige Aufgabe.
+- Vorgänger von / Nachfolger von: +
+Die zugeordnete Aufgabe ist _Vorgänger von_ oder _Nachfolger von_. Durch diese Verknüpfung lassen sich Aufgaben in eine zeitliche Abfolge bringen. Dieses führt dazu, dass Zeitverschiebungen in der Ablaufkette sich auf die nachfolgenden Aufgaben auswirkten.
+- Kopiert nach / Kopiert von: +
+Stellt die Verbindung zwischen den Aufgaben her, die durch die Kopierfunktion angelegt wurden, bzw. die Vorlage für die Aufgabe sind.
+
+&#10129; Änderungsverfolgung und Kommentierung:: 
+
+...
+
+&#10130; Aufgabe bearbeiten:: 
+
+...
+
+&#10131; Aufgabe Beobachten:: 
+
+...
+
+&#9451; Aufgabe Kopieren:: 
+
+...
+
+&#9452; 3 Punkte Menü:: 
+
+...
+
+&#9452; Aufgabe exportieren:: 
+
+...
+
 
 == Aufgaben verknüpfen
 
