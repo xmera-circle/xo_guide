@@ -302,27 +302,40 @@ Stellt die Verbindung zwischen den Aufgaben her, die durch die Kopierfunktion an
 
 &#10129; Änderungsverfolgung und Kommentierung:: 
 
-...
+Alle Änderungen und Kommentierungen zur Aufgabe werden können, wie im folgenden Bild zu sehen abgerufen werden. +
+ +
+image:anwender/modul_aufgaben_historie-kommentare.png[]
+ +
+Es werden 3 Reiter angezeigt, Historie, Notizen und Eigenschaftsänderungen. Beim Aufschalten eines Auftrags wird im Standard der Reiter Notiz aufgeblendet. In diesem Reiter werden eingefügte Kommentare dargestellt. +
+Im Reiter Eigenschaftsänderungen werden alle Änderungen im Bereich des Aufgabenstatus, der Aufgabenbeschreibung und der Verknüpfungen dargestellt +
+Im Reiter Historie werden alle Änderungen chronologisch ungefiltert aufgelistet.
 
 &#10130; Aufgabe bearbeiten:: 
 
-...
+Über den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] gelangt man in den Bearbeitungsmodus des Auftrags. In diesem Bereich lassen sich entsprechend der Erstellung einer Aufgabe die Attribute der Aufgabe ändern. +
++
+image:anwender/modul_aufgaben_bearbeiten.png[]
++
+Beider Bearbeitung der Aufgabe besteht die Möglichkeit Kommentare zu erstellen. Hierzu steht die Wiki-Toolbar zur Verfügung. Der Kommentar kann als _Privat_ gekennzeichnet werden, so dass der Kommentar nur von dem Ersteller und berechtigten Nutzern (z.B. Admin) gelesen werden können.
 
 &#10131; Aufgabe Beobachten:: 
 
-...
+Beobachter einer Aufgabe werden im persönlichen Dashboard (Meine Seite) und per Mail über Änderungen im Auftrag informiert. Über den Button image:anwender/modul_aufgaben_button_beobachten-aus.png[] kann sich der Nutzer auf die Beobachterliste setzen bzw. mit dem Klick auf den Button image:anwender/modul_aufgaben_button_beobachten-ein.png[] die Beobachtung wieder einstellen.
 
 &#9451; Aufgabe Kopieren:: 
 
-...
+Soll ein Auftrag gleich oder ähnlich noch einmal durchgeführt werden, so kann der Auftrag mit seiner Konfiguration durch betätigen des Buttons image:anwender/modul_aufgaben_button_kopieren.png[] kopiert werden. Es erscheint die Erfassungsmaske in dem die Grundeinstellungen von der Quellaufgabe übernommen wurden. +
+
+[TIP]
+*Tip:* In der Administration kann festgelegt werden, das die kopierte Aufgabe mit der Quellaufgabe mit dem Kopiervorgang automatisch verknüpft wird.
 
 &#9452; 3 Punkte Menü:: 
 
-...
+Das 3 Punkte Menü beinhaltet 2 Funktionen. Zum einen _Link kopieren_ mit dem der Aufgabenlink in andere Anwendungen kopiert werden kann. Zum Anderen besteht die Auswahl die Aufgabe zu löschen.
 
 &#9452; Aufgabe exportieren:: 
 
-...
+
 
 
 == Aufgaben verknüpfen
