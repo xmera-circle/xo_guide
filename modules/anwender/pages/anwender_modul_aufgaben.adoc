@@ -333,16 +333,79 @@ Soll ein Auftrag gleich oder ähnlich noch einmal durchgeführt werden, so kann 
 
 Das 3 Punkte Menü beinhaltet 2 Funktionen. Zum einen _Link kopieren_ mit dem der Aufgabenlink in andere Anwendungen kopiert werden kann. Zum Anderen besteht die Auswahl die Aufgabe zu löschen.
 
-&#9452; Aufgabe exportieren:: 
+&#9452; Aufgabe abrufen:: 
+
+Die Aufgabe kann zum einen durch Klicken des Button image:anwender/modul_aufgaben_button_atom.png[] als atom-xml exportiert werden, um die Aufgabe in andere Systeme zu importieren. Zum Anderen kann mit Klicken des Buttons image:anwender/modul_aufgaben_button_pdf.png[] eine PDF erstellt werden, um die Informationen der Aufgabe außerhalb des Systems zu nutzen.
+
+== Aufgaben strukturieren
+
+Für die Strukturierung von Aufgaben stehen in dem Modul aufgaben 2 Funktionen zur Verfügung. Die Aufgabenkategorien dienen im wesentlichen einer feineren Typisierung der Aufgabe und bietet damit einen Weg der automatisierten Aufgabenzuordnung. Die Aufgabenpakte fassen Aufgaben zusammen, die zu einem übergeordneten Thema gehören. Die Pakte können dabei auch objektübergreifend genutzt werden.
+
+=== Aufgabenkategorien
+
+Aufgabenkategorien müssen beim Anlegen des Objekts in der Konfiguration erstellt werden. Wird in der Objektkonfiguration der Reiter _Aufgaben-Kategorien_ ausgewählt erscheint wie unten zu sehen die Übersichtsseiten für die Aufgabenkategorie. 
+
+image::anwender/modul_aufgaben_kategorien-uebersicht.png[]
+
+In diesem Beispiel wurden bereits 4 Kategorien angelegt.  Jede Kategorie hat einen Namen und kann einem Mitglied oder einer Gruppe zugeordnet werden. Wenn die Kategorie bei einer neuen Aufgabe zugeordnet wird, wird die Aufgabe dem Mitglied bzw. der Gruppe zugewiesen, die in der Kategorie definiert wurde.
+
+Eine neue Kategorie kann durch Klicken des Button image:anwender/modul_aufgaben_symbol_neue-kategorie.png[] erstellt werden. Eine bestehende Kategorie kann über den Button image:anwender/modul_aufgaben_symbol-aendern.png[] bearbeitet werden.
+
+In beiden Varianten wird folgende Maske aufgeblendet.
+
+image::anwender/modul_aufgaben_kategorien-bearbeiten.png[]
+
+Der Name ist dabei ein Pflichtfeld, die Zuweisung optional. Durch den Button image:anwender/modul_aufgaben_symbol-speichern.png[] wird die Kategorie übernommen.
+
+Eine bestehende Kategorie wird über den Button image:anwender/modul_aufgaben_symbol-loeschen.png[] in der Kategoriezeile gelöscht. Wenn die Kategorie bereits genutzt wird, erscheint folgende Maske: 
+
+image::anwender/modul_aufgaben_kategorien-verwendet.png[]
+
+Hier besteht kann der Anwender auswählen, ob in den Aufgaben mit der zu löschenden Kategorie entweder die Kategorie gelöscht wird oder eine andere Kategorie gesetzt werden soll. +
+Über den Button image:anwender/modul_aufgaben_symbol-anwenden.png[] kann der gewählte Prozess gestartet werden. Über den Button image:anwender/modul_aufgaben_symbol-abbrechen.png[] wird der Löschvorgang abgebrochen.
+
+=== Aufgabenpakte
+
+Aufgabenpakete geben die Möglichkeit Aufgaben zu einem übergeordneten Thema zuzuordnen. Das können z.B. Projekte oder Jahrgänge sein. 
+
+==== Übersicht Aufgabenpakete
+Diese Zusammenfassung der Pakete in einem Objekt wird als _Stapel_ dargestellt. +
+Sobald ein Paket für ein Objekt zur Verfügung steht, wird im Objektmenü, wie im folgenden Bild zu sehen, der Reiter _Stapel_ angezeigt.
+
+image::anwender/modul_aufgaben_stapel_uebersicht.png[]
+
+Wird der Reiter ausgewählt so werden die zur Verfügung stehenden Pakete mit den zugewiesenen Aufgaben aufgelistet. Neben dem Paketnamen &#10122; wird der Status des Pakets &#10123; und unterhalb (falls gepflegt) ein Umsetzungsende mit der verbleibenden Zeit &#10124; dargestellt. Der Umsetzungsgrad &#10125; (Fortschrittsbalken) des Pakets ermittelt sich automatisch aus den Umsetzungsgraden der zugeordneten Aufgaben. +
+Unterhalb dieser Paketinformationen werden die dem Paket zugeordneten Aufgaben &#10126; gelistet und durch klick auf einen Aufgabe kann dieser geöffnet werden. Über das 3-Punkte-Menü in der Aufgabenzeile können auch direkt die Aufgabeneigenschaften angepasst werden, der Auftrag bearbeitet image:anwender/modul_aufgaben_symbol-aendern.png[], gelöscht image:anwender/modul_aufgaben_symbol-loeschen.png[], kopiert image:anwender/modul_aufgaben_symbol-kopieren.png[], beobachtet image:anwender/modul_aufgaben_symbol-beobachten.png[] oder eine Unteraufgabe hinzugefügt image:anwender/modul_aufgaben_symbol-hinzufuegen.png[]werden.
+
+Ein neues Paket kann über den Button &#10128; _neues Paket_ erstellt werden. Hier wird die folgende Erfassungsmaske für ein Paket aufgerufen.
+
+image::anwender/modul_aufgaben_paket-neu.png[]
+
+Als Pflichtfeld muss ein _Name_ vergeben werden. Weiter kann eine _Beschreibung_ und wenn es im _Wiki_ weiter Informationen gibt ein Link zur Wiki-Seite. Das _Datum_ gibt an, wann das Paket abgeschlossen sein soll. Die gemeinsame Verwendung gibt an, in welchen Objekten das erstellte Paket noch zur Verfügung steht. Zur Auswahl stehen folgende Einträge: 
+
+Nicht gemeinsam verwenden:: 
+Das Paket steht nur in dem Objekt zur Auswahl, in dem es erstellt wurde.
+
+Mit Unterobjekten:: 
+Das Paket steht neben dem Objekt, in dem es erstellt wurde, noch *in allen Unterlagerten Objekten* zur Verfügung.
+
+Mit Objekthierarchie:: 
+Das Paket steht neben dem Objekt, in dem es erstellt wurde, noch in allen Unterlagerten Objekten *sowie den übergeordneten Objekten* zur Verfügung.
+
+Mit Objektbaum:: 
+Das Paket steht neben dem Objekt, in dem es erstellt wurde, noch in allen Unterlagerten Objekten, den übergeordneten Objekten *sowie den von den übergeordneten Objekten abzweigenden Objekten* zur Verfügung.
+
+Mit allen Objekten:: 
+Das Paket steht *in allen Objekten* zur Auswahl.
+
+Mit der Auswahl _Standard-Paket_ kann festgelegt werden, dass diese Paket bei einer neuen Aufgabe automatisch dieses Paket gesetzt wird. +
+[WARNING]
+*Warnung:* Mit dem erzeugen eines Standardpakets werden in allen Objekten, in denen dieses Objekt zur Auswahl steht, dieses Paket zum Standardpaket. Ein nachträgliches Ändern ist nicht möglich!
+
+Mit dem Button image:anwender/modul_aufgaben_button_anlegen.png[] wird das Paket gespeichert
+
+==== Aufgabenpakete verwalten
 
 
-
-
-== Aufgaben verknüpfen
-
-== Aufgabenkategorien
-
-== Aufgabenpakete
 
 == Aufgaben importieren
-
