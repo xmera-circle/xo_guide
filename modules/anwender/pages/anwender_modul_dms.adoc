@@ -1,4 +1,4 @@
-= Dokumentenmanagementsystem (DMS)
+= Dokumentenmanagement (DMS)
 :doctype: article
 :icons: font
 :imagesdir: ../images/
