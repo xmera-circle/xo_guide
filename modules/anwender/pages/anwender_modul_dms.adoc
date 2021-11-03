@@ -4,13 +4,11 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-=== Dokumentenmanagementsystem (DMS)
+== Ordnerstruktur
 
-==== Ordnerstruktur
+== Dokumentenablage
 
-==== Dokumentenablage
+== Versionierung
 
-==== Versionierung
-
-==== Genehmigungs-Workflow
+== Genehmigungs-Workflow
 
