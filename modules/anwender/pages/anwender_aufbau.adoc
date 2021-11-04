@@ -8,3 +8,15 @@
 
 == Anwendungsmenüs
 
+== Bedienoptionen
+
+=== Suchen
+
+=== Oberfläche anpassen
+
+== Listen
+
+=== Filter und Optionen
+
+=== Abfragen
+
