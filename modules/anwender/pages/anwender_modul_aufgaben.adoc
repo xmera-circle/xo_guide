@@ -82,7 +82,7 @@ Eine Abfrage setzt sich aus einem Filter und den Darstellungsoptionen zusammen. 
 +
 Das speichern einer Abfrage erfolgt über den Button _Speichern_ bzw. _Bearbeiten_ im unteren Bereich der Filter und Optionsbereichs. Mit dem Klick erscheint folgende Maske. +
 +
-image:anwender/anwender_modul_abfrage.png[Abfrage speichern]
+image:anwender/modul_aufgaben_abfrage.png[Abfrage speichern]
 +
 In der obersten Zeile steht der Name bzw. ist bei neuen Abfragen einzufügen. Darunter wird abgefragt welche Nutzer diese Abfrage nutzen können und ob diese Abfrage nur für dieses oder alle Objekte zur Verfügung steht. +
 +
@@ -100,7 +100,7 @@ Neue Aufgabe + 3 Punkte Menü::
 - in die Aufgabenkonfiguration zu springen und
 - eine xref:anwender_modul_sync.adoc[Synchronisation] anzustoßen. +
 +
-image:anwender/anwender_modul_aufgaben_3-punkte-menue.png[]
+image:anwender/modul_aufgaben_3-punkte-menue.png[] 
 +
 [NOTE]
 *Notiz:* Das vollständige Menü wird nur bei den entsprechenden Berechtigungen angezeigt.
