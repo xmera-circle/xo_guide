@@ -82,8 +82,8 @@ Der prozentuale Erledigungsgrad wird über ein entsprechend anteilige grüne Ein
 +
 Durch blaue und rote Pfeile werden die Verknüpfungen (blockiert / Vorgänger)zu anderen Elementen dargestellt. +
 +
-Bei Mouse-over wird ein Tooltip angezeigt, in dem, wie unten zu sehen, die wichtigsten Eigenschaften der Aufgabe angezeigt werden. +
+Bei Mouse-over wird ein Tooltip angezeigt, in dem, wie unten zu sehen, die wichtigsten Eigenschaften der Aufgabe angezeigt werden. + 
 +
-image:anwender/modul_verlauf_tooltip.png[]
+image:anwender/modul_verlauf_tooltip.png[,320,240]
 
 Durch klicken auf die Aufgabe im Tooltip gelangt man zur Übersichtsmaske der Aufgabe, durch klicken auf den Objektnamen zur Übersichtsmaske des Objekts.
