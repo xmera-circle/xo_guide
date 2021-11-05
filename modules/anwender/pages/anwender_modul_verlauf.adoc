@@ -18,7 +18,7 @@ image::anwender/modul_verlauf_gantt.png[]
 &#10125; <<monat-vor-zurück,Monat vor/zurück>> +
 &#10126; <<ansicht,Ansicht>> +
 &#10127; <<bereich-vor-zurueck,Anzeigebereich vor/zurück>> +
-&#10128; <<aufbabenbaum,Aufgabenbaum>> +
+&#10128; <<aufgabenbaum,Aufgabenbaum>> +
 &#10128; <<aufgabenverlauf,Aufgabenverlauf>>
 
 [#filter]
@@ -52,7 +52,7 @@ Anzeigebereich::
 
 In den Feldern des Anzeigebereichs wird festgelegt, wie viele Monate im Verlaufsfenster dargestellt werden. Neben der Anzahl wird der erste Monat definiert, der im Verlauf angezeigt wird. 
 
-[#moant-vor-zurueck]
+[#monat-vor-zurück]
 Monat vor/zurück:: 
 Der Startmonat des Gantt-Diagramms kann über die Tasten einen Monat nach vorn bzw. nach hinten bewegt werden. Es werden dabei die konkreten Monate im Button eingeblendet.
 
