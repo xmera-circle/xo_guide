@@ -47,5 +47,27 @@ Weiter ist im linken Bereich jeder Zeile der Button image:anwender/modul_aufgabe
 
 == Berechnungsfunktionen
 
-== Verknüpfte Tabellen
+Das Modul Tabellen besitzt die Möglichkeit Tabellenberechnungen durchzuführen. Die Berechnungen sind durch die Administration zu definieren. Wenn solch eine Berechnung für die Tabelle angelegt ist, wird, wie im Folgenden Beispiel zu sehen, das Berechnungsergebnis oberhalb der Tabelle angezeigt.
 
+image::anwender/modul_tabellen_berechnung.png[]
+
+Das Beispiel zeigt eine Schutzbedarfsfeststellung, bei der per Maximum-Funktion die Ergebnisse der Zeilen der Tabelle zusammengefasst werden.
+
+== Assoziierte Tabellen
+
+xmera Omnia bietet über die Funktionalität der Aggregation von assoziierten Tabellen Vererbungen abzubilden. Assoziierte Tabellen sind Datenblätter mit gleichem Tabellentyp in miteinander Verknüpften Tabellen. Wird in der Berechnungskonfiguration die Option _aggregation von assoziierten Tabellen_ gewählt, wird eine neues Objekt mit dem Berechnungsnamen dem Datenblatt zugeordnet. (siehe Schutzbedarfsfeststellung in Sidebar im nächsten Bild) +
+In diesem Element werden die Ergebnisse der Client-Datenblätter und das Berechnungsergebnis der Analyse im Objekt, wie im folgenden Bild zu sehen, in der Rubrik _einzelne Berechnungsergebnisse_ angezeigt.
+
+image::anwender/modul_tabellen_assosiiert.png[]
+
+Die Zusammenfassung der Ergebnisse aus allen assoziierten Datenblättern wird in der Zeile _Berechnete Ergebnisse_ dargestellt.
+
+Mit dem Button _Übernehmen_ im _Berechneten Ergebnis_ wird das Ergebnis in die Zeile _Berechnung_ übernommen.
+
+[IMPORTANT]
+*Wichtig:* Erst mit der Übernahme bzw. mit der manuellen Pflege der _Berechnung_ steht das Ergebnis den verknüpften Objekten zur Verfügung.
+
+Das Ergebnis der Berechnung kann manuell verändert werden. Hierzu lassen sich über den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] anpassen. Bei einer manuellen Bearbeitung ist zwingend die Bemerkung zu füllen.
+
+[NOTE]
+*Notiz:* Im xmera Omnia wird das Ergebnis der Schutzbedarfsfeststellung auf der Übersichtsseite des Objekt dargestellt.
