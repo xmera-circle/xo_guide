@@ -250,7 +250,7 @@ Die Beschreibung der Aufgabe wird dargestellt. Mit dem Element Zitieren image:an
 
 &#10126; Dateien:: 
 
-In dem Bereich Dateien werden die dem Auftrag angehängten Dateien dargestellt, können hochgeladen werden image:anwender/modul_aufgaben_symbol-hochladen.png[], können gelöscht werden image:anwender/modul_aufgaben_symbol-loeschen.png[] oder die Dateibeschreibung geändert image:anwender/modul_aufgaben_symbol-aendern.png[] werden. +
+In dem Bereich Dateien werden die dem Auftrag angehängten Dateien dargestellt, können heruntergeladen werden image:anwender/button_herunterladen.png[], können gelöscht werden image:anwender/button_loeschen_symbol.png[] oder die Dateibeschreibung geändert image:anwender/button_bearbeiten.png[] werden. +
 
 [#unteraufgabe]
 &#10127; Unteraufgaben:: 
@@ -271,7 +271,7 @@ In dem Bereich Unteraufgaben kann man durch Anklicken der Aufgabennummer der Unt
 image:anwender/modul_aufgaben_unteraufgabe_3-punkte.png[]
  +
  +
-Wie zu erkennen kann man zum einen in die Bearbeitungsmaske der Unteraufgabe springen, aber auch die wichtigsten Felder direkt verändern. Selbst das Erstellen einer Unteraufgabe zur Unteraufgabe ist möglich, wie das image:anwender/modul_aufgaben_symbol-kopieren.png[] Kopieren als auch das  image:anwender/modul_aufgaben_symbol-loeschen.png[] Löschen. +
+Wie zu erkennen kann man zum einen in die Bearbeitungsmaske der Unteraufgabe springen, aber auch die wichtigsten Felder direkt verändern. Selbst das Erstellen einer Unteraufgabe zur Unteraufgabe ist möglich, wie das image:anwender/button_kopieren_symbol.png[] Kopieren als auch das  image:anwender/button_loeschen_symbol.png[] Löschen. +
  +
 [TIP]
 *Tip:* In der Systemadministration kann festgelegt werden, dass der Status der Unteraufgaben den Status der übergeordneten Aufgabe bestimmt. Somit werden die Status als auch der % erledigt auf den Status der übergeordneten Aufgabe übertragen.
@@ -312,7 +312,7 @@ Im Reiter Historie werden alle Änderungen chronologisch ungefiltert aufgelistet
 
 &#10130; Aufgabe bearbeiten:: 
 
-Über den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] gelangt man in den Bearbeitungsmodus des Auftrags. In diesem Bereich lassen sich entsprechend der Erstellung einer Aufgabe die Attribute der Aufgabe ändern. +
+Über den Button image:anwender/button_bearbeiten.png[] gelangt man in den Bearbeitungsmodus des Auftrags. In diesem Bereich lassen sich entsprechend der Erstellung einer Aufgabe die Attribute der Aufgabe ändern. +
 +
 image:anwender/modul_aufgaben_bearbeiten.png[]
 +
@@ -320,11 +320,11 @@ Beider Bearbeitung der Aufgabe besteht die Möglichkeit Kommentare zu erstellen.
 
 &#10131; Aufgabe Beobachten:: 
 
-Beobachter einer Aufgabe werden im persönlichen Dashboard (Meine Seite) und per Mail über Änderungen im Auftrag informiert. Über den Button image:anwender/modul_aufgaben_button_beobachten-aus.png[] kann sich der Nutzer auf die Beobachterliste setzen bzw. mit dem Klick auf den Button image:anwender/modul_aufgaben_button_beobachten-ein.png[] die Beobachtung wieder einstellen.
+Beobachter einer Aufgabe werden im persönlichen Dashboard (Meine Seite) und per Mail über Änderungen im Auftrag informiert. Über den Button image:anwender/button_beobachten_aus.png[] kann sich der Nutzer auf die Beobachterliste setzen bzw. mit dem Klick auf den Button image:anwender/button_beobachten_ein.png[] die Beobachtung wieder einstellen.
 
 &#9451; Aufgabe Kopieren:: 
 
-Soll ein Auftrag gleich oder ähnlich noch einmal durchgeführt werden, so kann der Auftrag mit seiner Konfiguration durch betätigen des Buttons image:anwender/modul_aufgaben_button_kopieren.png[] kopiert werden. Es erscheint die Erfassungsmaske in dem die Grundeinstellungen von der Quellaufgabe übernommen wurden. +
+Soll ein Auftrag gleich oder ähnlich noch einmal durchgeführt werden, so kann der Auftrag mit seiner Konfiguration durch betätigen des Buttons image:anwender/button_kopieren.png[] kopiert werden. Es erscheint die Erfassungsmaske in dem die Grundeinstellungen von der Quellaufgabe übernommen wurden. +
 
 [TIP]
 *Tip:* In der Administration kann festgelegt werden, das die kopierte Aufgabe mit der Quellaufgabe mit dem Kopiervorgang automatisch verknüpft wird.
@@ -335,7 +335,7 @@ Das 3 Punkte Menü beinhaltet 2 Funktionen. Zum einen _Link kopieren_ mit dem de
 
 &#9452; Aufgabe abrufen:: 
 
-Die Aufgabe kann zum einen durch Klicken des Button image:anwender/modul_aufgaben_button_atom.png[] als atom-xml exportiert werden, um die Aufgabe in andere Systeme zu importieren. Zum Anderen kann mit Klicken des Buttons image:anwender/modul_aufgaben_button_pdf.png[] eine PDF erstellt werden, um die Informationen der Aufgabe außerhalb des Systems zu nutzen.
+Die Aufgabe kann zum einen durch Klicken des Button image:anwender/button_atom.png[] als atom-xml exportiert werden, um die Aufgabe in andere Systeme zu importieren. Zum Anderen kann mit Klicken des Buttons image:anwender/button_pdf.png[] eine PDF erstellt werden, um die Informationen der Aufgabe außerhalb des Systems zu nutzen.
 
 == Aufgaben konfigurieren
 
@@ -345,7 +345,7 @@ image::anwender/modul_aufgaben_konfigurieren.png[]
 
 Für die Aufgaben in dem Objekt kann die Auswahl der Aufgabentypen im Bereich _Aufgabentyp_ eingeschränkt werden, es können die in den Aufgaben zur Verfügung stehenden _eigenen Felder_ eingeschränkt werden und es können das Standard-Paket und der Standardbearbeiter, die als Default bei neuen Aufgaben gesetzt werden, definiert bzw. geändert werden. 
 
-Änderungen müssen mit dem Button image:anwender/modul_aufgaben_button_speichern.png[] übernommen werden.
+Änderungen müssen mit dem Button image:anwender/button_speichern.png[] übernommen werden.
 
 == Aufgaben strukturieren
 
@@ -359,20 +359,20 @@ image::anwender/modul_aufgaben_kategorien-uebersicht.png[]
 
 In diesem Beispiel wurden bereits 4 Kategorien angelegt.  Jede Kategorie hat einen Namen und kann einem Mitglied oder einer Gruppe zugeordnet werden. Wenn die Kategorie bei einer neuen Aufgabe zugeordnet wird, wird die Aufgabe dem Mitglied bzw. der Gruppe zugewiesen, die in der Kategorie definiert wurde.
 
-Eine neue Kategorie kann durch Klicken des Button image:anwender/modul_aufgaben_symbol_neue-kategorie.png[] erstellt werden. Eine bestehende Kategorie kann über den Button image:anwender/modul_aufgaben_symbol-aendern.png[] bearbeitet werden.
+Eine neue Kategorie kann durch Klicken des Button image:anwender/button_neue-kategorie.png[] erstellt werden. Eine bestehende Kategorie kann über den Button image:anwender/button_bearbeiten.png[] bearbeitet werden.
 
 In beiden Varianten wird folgende Maske aufgeblendet.
 
 image::anwender/modul_aufgaben_kategorien-bearbeiten.png[]
 
-Der Name ist dabei ein Pflichtfeld, die Zuweisung optional. Durch den Button image:anwender/modul_aufgaben_symbol-speichern.png[] wird die Kategorie übernommen.
+Der Name ist dabei ein Pflichtfeld, die Zuweisung optional. Durch den Button image:anwender/button_speichern.png[] wird die Kategorie übernommen.
 
-Eine bestehende Kategorie wird über den Button image:anwender/modul_aufgaben_symbol-loeschen.png[] in der Kategoriezeile gelöscht. Wenn die Kategorie bereits genutzt wird, erscheint folgende Maske: 
+Eine bestehende Kategorie wird über den Button image:anwender/button_loeschen_symbol.png[] in der Kategoriezeile gelöscht. Wenn die Kategorie bereits genutzt wird, erscheint folgende Maske: 
 
 image::anwender/modul_aufgaben_kategorien-verwendet.png[]
 
 Hier besteht kann der Anwender auswählen, ob in den Aufgaben mit der zu löschenden Kategorie entweder die Kategorie gelöscht wird oder eine andere Kategorie gesetzt werden soll. +
-Über den Button image:anwender/modul_aufgaben_symbol-anwenden.png[] kann der gewählte Prozess gestartet werden. Über den Button image:anwender/modul_aufgaben_symbol-abbrechen.png[] wird der Löschvorgang abgebrochen.
+Über den Button image:anwender/button_anwenden.png[] kann der gewählte Prozess gestartet werden. Über den Button image:anwender/button_abbrechen.png[] wird der Löschvorgang abgebrochen.
 
 === Aufgabenpakte
 
@@ -386,7 +386,7 @@ Sobald ein Paket für ein Objekt zur Verfügung steht, wird im Objektmenü, wie 
 image::anwender/modul_aufgaben_stapel_uebersicht.png[]
 
 Wird der Reiter ausgewählt so werden die zur Verfügung stehenden Pakete mit den zugewiesenen Aufgaben aufgelistet. Neben dem Paketnamen &#10122; wird der Status des Pakets &#10123; und unterhalb (falls gepflegt) ein Umsetzungsende mit der verbleibenden Zeit &#10124; dargestellt. Der Umsetzungsgrad &#10125; (Fortschrittsbalken) des Pakets ermittelt sich automatisch aus den Umsetzungsgraden der zugeordneten Aufgaben. +
-Unterhalb dieser Paketinformationen werden die dem Paket zugeordneten Aufgaben &#10126; gelistet und durch klick auf einen Aufgabe kann dieser geöffnet werden. Über das 3-Punkte-Menü in der Aufgabenzeile können auch direkt die Aufgabeneigenschaften angepasst werden, der Auftrag bearbeitet image:anwender/modul_aufgaben_symbol-aendern.png[], gelöscht image:anwender/modul_aufgaben_symbol-loeschen.png[], kopiert image:anwender/modul_aufgaben_symbol-kopieren.png[], beobachtet image:anwender/modul_aufgaben_symbol-beobachten.png[] oder eine Unteraufgabe hinzugefügt image:anwender/modul_aufgaben_symbol-hinzufuegen.png[]werden.
+Unterhalb dieser Paketinformationen werden die dem Paket zugeordneten Aufgaben &#10126; gelistet und durch klick auf einen Aufgabe kann dieser geöffnet werden. Über das 3-Punkte-Menü in der Aufgabenzeile können auch direkt die Aufgabeneigenschaften angepasst werden, der Auftrag bearbeitet image:anwender/button_bearbeiten_symbol.png[], gelöscht image:anwender/button_loeschen_symbol.png[], kopiert image:anwender/button_kopieren_symbol.png[], beobachtet image:anwender/button_beobachten.png[] oder eine Unteraufgabe hinzugefügt image:anwender/button_hinzufuegen.png[] werden.
 
 Ein neues Paket kann über den Button &#10128; _neues Paket_ erstellt werden. Es wird eine Erfassungsmaske aufgeblendet. Eine Beschreibung finden Sie <<Neues Paket,hier>>.
 
@@ -422,11 +422,11 @@ Als Pflichtfeld muss ein _Name_ vergeben werden. Weiter kann eine _Beschreibung_
 +
 Mit der Auswahl _Standard-Paket_ kann festgelegt werden, dass diese Paket bei einer neuen Aufgabe automatisch dieses Paket gesetzt wird. +
 +
-Mit dem Button image:anwender/modul_aufgaben_button_anlegen.png[] wird das Paket gespeichert.
+Mit dem Button image:anwender/button_anlegen.png[] wird das Paket gespeichert.
 
 Paket bearbeiten:: 
 
-Über den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] in der Paketzeile kann das Paket bearbeitet werden. Es erscheint folgende Maske, die in Großteilen der Maske bei der Erstellung eines Pakets entspricht. +
+Über den Button image:anwender/button_bearbeiten.png[] in der Paketzeile kann das Paket bearbeitet werden. Es erscheint folgende Maske, die in Großteilen der Maske bei der Erstellung eines Pakets entspricht. +
 +
 image:anwender/modul_aufgaben_paket_bearbeiten.png[]
 +
@@ -443,13 +443,13 @@ Neu ist das Feld Status. Das Paket kann folgende Status annehmen: +
 |===
 +
 [NOTE]
-*Notiz:* Im Stapel können auch abgeschlossenen Pakete angezeigt werden, in dem über den Filter (wird über das Symbol image:anwender/modul_aufgaben_symbol-einblenden.png[] am linken Bildschirmrand eingeblendet) geschlossene Pakete hinzugefügt werden.
+*Notiz:* Im Stapel können auch abgeschlossenen Pakete angezeigt werden, in dem über den Filter (wird über das Symbol image:anwender/button_einblenden.png[] am linken Bildschirmrand eingeblendet) geschlossene Pakete hinzugefügt werden.
 +
 In der Bearbeitung von Objekten fehlt die Möglichkeit, das Paket als Standardpaket zu deklarieren. Dieses ist nach der Erstellung nur noch über die <<Aufgaben konfigurieren,Aufgabenkonfiguration>> des Objekts möglich.
 
 Paket löschen:: 
 
-Über den Button image:anwender/modul_aufgaben_button-loeschen.png[] wird das paket gelöscht und steht nicht weiter zur Verfügung. Das Löschen ist nur möglich, wenn keine Aufgabe mit dem Paket verbunden ist. Ist das der Fall, wird der Löschvorgang mit folgender Meldung abgebrochen. +
+Über den Button image:anwender/button-loeschen.png[] wird das paket gelöscht und steht nicht weiter zur Verfügung. Das Löschen ist nur möglich, wenn keine Aufgabe mit dem Paket verbunden ist. Ist das der Fall, wird der Löschvorgang mit folgender Meldung abgebrochen. +
 +
 image:anwender/modul_aufgaben_paket_fehler-loeschen.png[] 
 
@@ -459,7 +459,7 @@ Mit dem Button image:anwender/modul_aufgaben_vollstaendige-pakete.png[] werden a
 
 == Aufgaben importieren
 
-xmera Omnia bietet die Möglichkeit Aufgaben zu importieren. Der Import-Prozess kann in die Auftragsübersicht und dort über die Auswahl image:anwender/modul_aufgaben_button_importieren.png[] im 3-Punkte-Menü gestartet werden. 
+xmera Omnia bietet die Möglichkeit Aufgaben zu importieren. Der Import-Prozess kann in die Auftragsübersicht und dort über die Auswahl image:anwender/button_importieren.png[] im 3-Punkte-Menü gestartet werden. 
 
 Formatvorgaben für die Importdatei:: 
 
@@ -476,7 +476,7 @@ Der Importprozess startet mit der Auswahl der Importdatei. +
 +
 image:anwender/modul_aufgaben_import-datei.png[]
 +
-Über den Button _Durchsuchen..._ kann die Importdatei über den Dateiexplorer ausgewählt werden. Durch image:anwender/modul_aufgaben_button_weiter.png[] wird der nächste Schritt aufgerufen. +
+Über den Button _Durchsuchen..._ kann die Importdatei über den Dateiexplorer ausgewählt werden. Durch image:anwender/button_weiter_rot.png[] wird der nächste Schritt aufgerufen. +
 +
 Jetzt werden die csv-Optionen abgefragt. +
 +
@@ -484,7 +484,7 @@ image:anwender/modul_aufgaben_import-csv-optionen.png[]
 +
 Hier geht es um die Trennzeichen , Textqualifizierer, Kodierung,Datumsformat und die Auswahlmöglichkeit, E-Mails für die  importierten Aufgaben zu versenden. +
 Im Regelfall ist die Kodierung anzupassen, da diese im Default nicht die UTF-8 ist, die im deutschen Raum üblich ist. +
-Durch image:anwender/modul_aufgaben_button_weiter.png[] wird der nächste Schritt aufgerufen. +
+Durch image:anwender/button_weiter_rot.png[] wird der nächste Schritt aufgerufen. +
 +
 In diesem Schritt erfolgt die Zuordnung der Aufgaben-Attribute zu den csv-Attributen. Dieses erfolgt in der folgenden Maske: +
 +
@@ -498,7 +498,7 @@ So weit möglich ordnet der Importprozess Felder bereits den Attributen imn xmer
 +
 Sind im Aufgabenimport auch Verknüpfungen zwischen den importierten Aufgaben abgebildet, so sind die Zuordnungen im Bereich _Zuweisung von Beziehungen_ zu pflegen. +
 +
-Mit dem Button image:anwender/modul_aufgaben_button_zurueck.png[] gelangt man wieder zu den csv-Optionen. Mit image:anwender/modul_aufgaben_button_start-import.png[] wird der Import gestartet.
+Mit dem Button image:anwender/button_zurueck_rot.png[] gelangt man wieder zu den csv-Optionen. Mit image:anwender/button_start-import.png[] wird der Import gestartet.
 
 Importbericht:: 
 

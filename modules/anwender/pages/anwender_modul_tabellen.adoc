@@ -16,34 +16,34 @@ Auf der Übersichtsseite werden die bereits bestehenden Datenblätter als Kachel
 
 Eine Kachel enthält den Datenblattnamen und wenn vorhanden die Beschreibung des Datenblatts sowie das Berechnungsergebnis.
 
-In der Sidebar sind die Datenblätter nach der zu grunde liegenden Tabelle sortiert. Dem Datenblatt unterlager wird das Berechnungsergebnis dargestellt. durch Klicken auf den Datenblattnamen gelangt man auf die Bearbeitungsseite des Datenblatts. Durch Klicken auf den Button image:anwender/modul_tabellen_button_neues-datenblatt.png[] kommt man in die Erfassungsmaske für ein neues Datenblatt.
+In der Sidebar sind die Datenblätter nach der zu grunde liegenden Tabelle sortiert. Dem Datenblatt unterlager wird das Berechnungsergebnis dargestellt. durch Klicken auf den Datenblattnamen gelangt man auf die Bearbeitungsseite des Datenblatts. Durch Klicken auf den Button image:anwender/button_neues-datenblatt.png[] kommt man in die Erfassungsmaske für ein neues Datenblatt.
 
 == Datenblatt erstellen und bearbeiten
 
 Datenblatt erstellen:: 
 
-Mit dem Button image:anwender/modul_tabellen_button_neues-datenblatt.png[] kann der Anwender aus verschiedenen Masken heraus ein neues Datenblatt erstellen. er kommt auf folgende Seite. +
+Mit dem Button image:anwender/button_neues-datenblatt.png[] kann der Anwender aus verschiedenen Masken heraus ein neues Datenblatt erstellen. er kommt auf folgende Seite. +
 +
 image:anwender/modul_tabellen_neues_datenblatt.png[]
 +
 Dem Datenblatt muss einen Namen erhalten. Die Beschreibung des Datenblatts ist optional. Zur Erstellung der Beschreibung steht die Wiki-Toolbar zur Verfügung. +
-Die Tabelle, auf der das Datenblatt beruht, ist wiederum ein Pflichtfeld. Mit dem Button image:anwender/modul_tabellen_button_anlegen.png[] wird das Datenblatt erstellt und man kommt auf die Übersichtsseite des Datenblatts.
+Die Tabelle, auf der das Datenblatt beruht, ist wiederum ein Pflichtfeld. Mit dem Button image:anwender/button_anlegen.png[] wird das Datenblatt erstellt und man kommt auf die Übersichtsseite des Datenblatts.
 
 Datenblatt bearbeiten:: 
 
-Das Datenblatt sind neben den Eigenschaften des Datenblatts die erfassten Zeilen mit den erfassten Spaltenwerten.+
+Das Datenblatt sind neben den Eigenschaften des Datenblatts die erfassten Zeilen mit den erfassten Spaltenwerten. +
 +
 image:anwender/modul_tabellen_datenblatt.png[]
 +
-Durch klicken auf den Button image:anwender/modul_tabellen_button_neue-zeile.png[] oder durch klicken auf den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] im rechten Teil der Zeile wird die Bearbeitungsmakse für die neue bzw. die gewählte Zeile geöffnet. +
+Durch klicken auf den Button image:anwender/button_neue-zeile.png[] oder durch klicken auf den Button image:anwender/button_bearbeiten.png[] im rechten Teil der Zeile wird die Bearbeitungsmakse für die neue bzw. die gewählte Zeile geöffnet. +
 +
 image:anwender/modul_tabellen_zeile_bearbeiten.png[]
 +
 Hier sind die Attribute gelistet und die Werte können entsprechend der Feldtypen bearbeitet werden. +
 +
-Mit Klicken des Buttons image;anwender/modul_tabellen_button_anlegen.png[] werden die Werte übernommen. +
+Mit Klicken des Buttons image;anwender/button_anlegen.png[] werden die Werte übernommen. +
 +
-Weiter ist im linken Bereich jeder Zeile der Button image:anwender/modul_aufgaben_button-loeschen.png[], mit dem die Zeile gelöscht werden kann.
+Weiter ist im linken Bereich jeder Zeile der Button image:anwender/button_loeschen.png[], mit dem die Zeile gelöscht werden kann.
 
 == Berechnungsfunktionen
 
@@ -67,7 +67,7 @@ Mit dem Button _Übernehmen_ im _Berechneten Ergebnis_ wird das Ergebnis in die 
 [IMPORTANT]
 *Wichtig:* Erst mit der Übernahme bzw. mit der manuellen Pflege der _Berechnung_ steht das Ergebnis den verknüpften Objekten zur Verfügung.
 
-Das Ergebnis der Berechnung kann manuell verändert werden. Hierzu lassen sich über den Button image:anwender/modul_aufgaben_button_bearbeiten.png[] anpassen. Bei einer manuellen Bearbeitung ist zwingend die Bemerkung zu füllen.
+Das Ergebnis der Berechnung kann manuell verändert werden. Hierzu lassen sich über den Button image:anwender/button_bearbeiten.png[] anpassen. Bei einer manuellen Bearbeitung ist zwingend die Bemerkung zu füllen.
 
 [NOTE]
 *Notiz:* Im xmera Omnia wird das Ergebnis der Schutzbedarfsfeststellung auf der Übersichtsseite des Objekt dargestellt.

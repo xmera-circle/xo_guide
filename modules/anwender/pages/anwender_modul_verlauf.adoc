@@ -58,7 +58,7 @@ Der Startmonat des Gantt-Diagramms kann über die Tasten einen Monat nach vorn b
 
 [#ansicht]
 Ansicht:: 
-Über die Button image:anwender/modul_verlauf_button_vergroessern.png[] bzw. image:anwender/modul_verlauf_button_verkleinern.png[] lässt sich die Granularität der Datumanzeige im Gantt-Diagramm anpassen. Es gibt 4 Stufen (von klein nach groß) +
+Über die Button image:anwender/button_vergroessern.png[] bzw. image:anwender/button_verkleinern.png[] lässt sich die Granularität der Datumanzeige im Gantt-Diagramm anpassen. Es gibt 4 Stufen (von klein nach groß) +
 - Nur der Monat
 - Monat und Kalenderwoche
 - Monat, Kalenderwoche, Wochentag
@@ -67,7 +67,7 @@ Ansicht::
 [#bereich-vor-zurueck]
 Anzeigebereich vor/zurück:: 
 
-Mit den Button image:anwender/modul_verlauf_button_zurueck.png[] bzw. image:anwender/modul_verlauf_button_weiter.png[] wird im Gantt-Diagramm der Anzeigeblock vor dem aktuellen Anzeigeblock bzw. der folgende Anzeigeblock angezeigt.
+Mit den Button image:anwender/button_zurueck_grau.png[] bzw. image:anwender/button_weiter_grau.png[] wird im Gantt-Diagramm der Anzeigeblock vor dem aktuellen Anzeigeblock bzw. der folgende Anzeigeblock angezeigt.
 
 [#aufgabenbaum]
 Aufgabenbaum:: 
