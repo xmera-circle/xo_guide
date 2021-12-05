@@ -33,6 +33,6 @@ Ein Dokument kann über die Dokumentenseite bearbeitet werden. Hier besteht die 
 
 image::anwender/modul_dokumente_bearbeiten.png[]
 
-Die dem Dokument zugeordneten Dateien lassen sich direkt in der Dokumentenseite bearbeiten. Über die Button image:anwender/button_herunterladen.png[] lassen sich die Dateien herunterladen und über den Button image:anwender/button_loeschen.png[] löschen. Mit der Funktion image:anwender/button_bearbeiten_symbol.png[] können die Erläuterungen zum dokument bearbeitet werden.+
+Die dem Dokument zugeordneten Dateien lassen sich direkt in der Dokumentenseite bearbeiten. Über die Button image:anwender/button_herunterladen.png[] lassen sich die Dateien herunterladen und über den Button image:anwender/button_loeschen.png[] löschen. Mit der Funktion image:anwender/button_bearbeiten_symbol.png[] können die Erläuterungen zum dokument bearbeitet werden. +
 Mit dem Button image:anwender/button_neue-datei.png[] oder ein Drag&Drop auf diesen Button lassen sich weitere Dateien an das Dokument anhängen.
  
