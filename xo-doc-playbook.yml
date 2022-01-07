@@ -10,7 +10,11 @@ content:
     branches: HEAD
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+  #  url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/xmera-circle/antora-ui-omnia/releases/download/0.1.0/ui-bundle.zip
   #  url: https://github.com/camptocamp/antora-ui/releases/download/master-LATEST/ui-bundle.zip
   #  url: https://deepsymmetry.org/media/antora/ui-bundle.zip
+  #  url: https://github.com/mulesoft/docs-site-ui/releases/download/prod-35/ui-bundle.zip
+  #  url: https://s3-eu-west-1.amazonaws.com/static-content.neo4j.com/build/ui-bundle.zip
+  #  url: https://github.com/couchbase/docs-ui/releases/download/prod-141/ui-bundle.zip
     snapshot: true
