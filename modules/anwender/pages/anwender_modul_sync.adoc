@@ -14,14 +14,14 @@ Basis der Synchronisation ist
 
 - das Aufgaben-Katalog-Objekt
 - der Aufgabentyp und 
-- ein _Eigenes Feld_ als Zuordnungselement (Sync-Eigenes-Feld)
+- ein _Eigenes Feld_ (Sync-Eigenes-Feld) für die Zuordnungselement 
 
-In der Administration wird festgelegt, in welchen Objekt die Aufgaben liegen, die synchronisiert werden sollen (Aufgaben-Katalog-Objekt). Weiter wird festgelegt, welche Aufgabentypen zur Synchronisation genutzt werden können und welches _Eigene Feld_ als Auswahlkriterium genutzt werden soll.
+In der Administration wird festgelegt, in welchen Objekt die Aufgaben liegen, die synchronisiert werden sollen (Aufgaben-Katalog-Objekt). Weiter wird festgelegt, welche Aufgabentypen zur Synchronisation genutzt werden können und in welchem _Eigene Feld_ die Zuordnungselemente abgebildet werden.
 
 Die zu synchronisierenden Aufgaben müssen dieses _Sync-Eigenes-Feld_ besitzen und einen Aufgabentyp aus der Liste der möglichen Aufgabentypen besitzen.
 
 
-In dem zu synchronisierenden Objekt muss das Modul _Aufgaben-Synchronisation_ aktiviert sein und es muss in der Konfiguration Synchronisation mindestens ein _möglicher Wert_ ausgewählt sein.
+In dem zu synchronisierenden Objekt muss das Modul _Aufgaben-Synchronisation_ aktiviert sein und es muss in der Konfiguration Synchronisation mindestens ein _möglicher Wert_ als Zuordnungselement ausgewählt sein.
 
 image::anwender/modul_sync_konfig_objekt.png[]
 
