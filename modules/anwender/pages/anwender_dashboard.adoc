@@ -1,0 +1,56 @@
+= Dashboard
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+Über den Menüpunkt Hauptseite gelangt man zu den Dashboards in xmera Omnia.  Das Dashboard dient dazu die Wichtigsten Kennzahlen aus dem System kompakt zusammenzufassen. Dabei können durch die Nutzer eigene Dashboards angelegte werden, oder auch öffentliche Dashboards aufgerufen werden. Beim Aufruf der Hauptseite wird immer das Systemdashboard (festgelegt durch die Administration) geöffnet. 
+
+image::anwender/modul_dashboard_isb.png[]
+
+Das Dashboard baut sich aus verschiedenen Blöcken auf, mit denen sich 
+
+- Kennzahlen aus Abfragen, 
+- Feeds, 
+- Mitteilungen, 
+- Texte oder 
+- Button 
+
+im Dashboard darstellen lassen.
+
+== Dashboard aufrufen
+
+Mit dem Aufruf der Hauptseite wird zunächst das Systemdashboard aufgeschaltet. Dieses wird durch den Systemadministrator festgelegt. Über das 3-Punkte-Menü kann man ein anderes öffentliches Dashboard aufrufen.
+
+image:anwender/modul_dashboard_waehlen.png[]
+
+In dem Beispiel stehen die Dashboards _Test-Dashboard_ und _Welcome dashboard_ zur Auswahl, die durch einen Klick auf das entsprechende Dashboard aufgerufen werden können.
+
+Alternativ besteht aus dem 3-Punkte-Menü die Möglichkeit die Seitenleiste anzuzeigen. Wird diese Option gewählt, erscheint auf der Linken Seite des Dashboards eine Sidebar, über das andere Dashboards aufgerufen werden können und es werden Informationen zum aktuell aufgeblendeten Dashboard gezeigt.
+
+image:anwender/modul_dashboard_sidebar.png[]
+
+Durch Klicken auf den Pfleil image:anwender/button_sidebar_ausblenden.png[] bzw. image:anwender/button_sidebar_einblenden.png[] lässt sich die Sidebar aus- bzw. einblenden.
+
+== Dashboard anlegen
+
+Jeder Nutzer kann eigene Dashboards anlegen. Durch Klicken auf _neues Dashboard_ im 3-Punkte-Menü wird die Maske zum Erstellen eines neuen Dashboards geöffnet.
+
+image:anwender/modul_dashboard_neu.png[]
+
+Pflichtfeld ist der Name des Dashboards, der durch eine Beschreibung ergänzt werden kann. Unter der der Beschreibung wird die Sichtbarkeit festgelegt. Im Standard ist das Dashboard privat und kann nicht von anderen Nutzern gesehen werden. Das Dashboard kann aber für alle Nutzer oder für bestimmte Rollen freigegeben werden.
+
+Weiter kann zu dem Dashboard festgelegt werden, ob die Seitenleiste beim Aufrufen aktiviert wird. 
+
+Hat der Nutzer Admin-Rechte, kann er das Dashboard zum Systemdashboard machen, das beim Aufruf der Hauptseite aufgeschaltet wird. Wird dieses Durchgeführt, wird das bisherige Systemdashboard durch dieses Dashboard ersetzt.
+
+Mit dem Speichern wird das Dashboard mit einem Standardblock geöffnet. Anschließend kann das Dashboard (siehe folgendem Kapitel) angepasst werden.
+
+== Dashboard bearbeiten
+
+=== Dashboard-Daten bearbeiten
+
+Über den Button image:anwender/button_dashboard_bearbeiten wird die Bearbeitungsmaske für die Dashboard-Daten mit dem Namen, der Beschreibung, den Zugriffsrechten und den Strukturelementen. Anpassungen werden mit dem Button image:anwender/button_speichern.png[Speichern] übernommen.
+
+=== Dashboard-Inhalte bearbeiten
+
