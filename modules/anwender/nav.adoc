@@ -16,3 +16,4 @@
 *** xref:anwender_modul_mitteilungen.adoc[]
 *** xref:anwender_modul_zeiterfassung.adoc[]
 ** xref:anwender_individualisieren.adoc[]
+** xref:anwender_dashboard.adoc[]
