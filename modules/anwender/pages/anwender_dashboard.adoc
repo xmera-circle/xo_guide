@@ -50,7 +50,38 @@ Mit dem Speichern wird das Dashboard mit einem Standardblock geöffnet. Anschlie
 
 === Dashboard-Daten bearbeiten
 
-Über den Button image:anwender/button_dashboard_bearbeiten wird die Bearbeitungsmaske für die Dashboard-Daten mit dem Namen, der Beschreibung, den Zugriffsrechten und den Strukturelementen. Anpassungen werden mit dem Button image:anwender/button_speichern.png[Speichern] übernommen.
+Über den Button image:anwender/button_dashboard_bearbeiten.png[Dashboard bearbeiten] wird die Bearbeitungsmaske für die Dashboard-Daten mit dem Namen, der Beschreibung, den Zugriffsrechten und den Strukturelementen. Anpassungen werden mit dem Button image:anwender/button_speichern.png[Speichern] übernommen.
 
 === Dashboard-Inhalte bearbeiten
+
+Wird die Maus über eine Block geführt, erscheint ein Blockmenü image:anwender/modul_dashboard_blockmenue.png[Blockmenü]. Über dieses Blockmenü lassen sich die Dashboard-Inhalte bearbeiten.
+
+Block löschen::
+
+Durch Klicken auf image:anwender/modul_dashboard_blockmenue_loeschen.png[Block löschen] wird, nach einer Bestätigung, dass der Block gelöscht werden soll, der gewählte Block aus dem Dashboard entfernt.
+
+Block konfigurieren::
+
+Durch Klicken auf image:anwender/modul_dashboard_blockmenue_konfig.png[Block konfigurieren] erscheint oberhalb der Blockinhalte die Konfigurationsmaske, in der die Konfiguration des Blocks angepasst werden kann.
+
+Block platzieren::
+
+Durch halten der linken Maustaste beim Klick auf den Button image:anwender/modul_dashboard_blockmenue_verschieben.png[Block verschieben] kann der Block an einer anderen Stelle im Dashboard verschoben werden.
+
+Solange die linke Maustaste gehalten wird, wird der Block auf dem Dashboard verschoben. Dabei wird die möglich neue Position als grau hinterlegter Bereich auf dem Dashboard angezeigt.
+
+image:anwender/modul_dashboard_block_verschieben.png[Block verschieben]
+
+Wird die linke Maustaste losgelassen, wird der Block an der neuen Position dargestellt.
+
+[NOTE]
+Zum verschieben von Blöcken müssen mindestens 2 Blöcke vorhanden sein.
+
+Das Dashboard hat dabei eine definierte Seitenstruktur, in der die Blöcke eingefügt werden können.
+
+image:anwender/modul_dashboard_seitenstruktur.png[Dashboard Seitenstruktur]
+
+Das Dashboard gliedert sich in verschieden große Blockrahmen, die einen oder mehrere Blöcke aufnehmen können. Werden mehrere Blöcke einem Rahmen zugeordnet, werden die Blöcke neben- bzw. nebeneinander angeordnet.
+
+Die Änderungen müssen nicht gespeichert werden, sondern sind mit dem Verschieben übernommen.
 
