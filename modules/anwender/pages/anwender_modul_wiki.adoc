@@ -60,7 +60,7 @@ Die Sidebar kann aber auch individuell ergänzt werden. Über den Button image:a
 
 Die Wiki-Seite mit dem Namen _Sidebar_ wird, sobald diese vorhanden ist, oberhalb der Standardelemente dargestellt. So lassen sich über die Verlinkung im Markdown ein Inhaltsverzeichnis aufbauen.
 
-Soll dieses automatisiert erfolgen, bietet sich der Shortcode {{child_pages}} an. Dieser listet alle untergeordenten Seiten dar. Wird die Seite _Sidebar_ der restlichen Seitenstruktur wie im folgenden Bild zu sehen, übergeordnet
+Soll dieses automatisiert erfolgen, bietet sich der Shortcode +{{child_pages}}+ an. Dieser listet alle untergeordenten Seiten dar. Wird die Seite _Sidebar_ der restlichen Seitenstruktur wie im folgenden Bild zu sehen, übergeordnet
 
 image:anwender/modul_wiki_sidebar_struktur.png[]
 
@@ -72,7 +72,7 @@ in der Seite _Sidebar_ automatisiert die Seitenstruktur anzeigen.
 
 image:anwender/modul_wiki_sidebar_toc.png[]
 
-Soll das Inhaltsverzeichnis auf die ersten _x_ Ebenen begrenzt werden, so kann dieses über den Zusatz {{child_pages(depth=_x_)}} eingeschränkt werden.
+Soll das Inhaltsverzeichnis auf die ersten _x_ Ebenen begrenzt werden, so kann dieses über den Zusatz +{{child_pages(depth=_x_)}}+ eingeschränkt werden.
 
 Soll diese Untergliederung zur _Sidebar_ nicht erfolgen oder stimmt ist alphabetische Reihenfolge ungünstig, kann man sich aber auch die einzelnen Bäume auch einzeln zugeordnet werden.
 
