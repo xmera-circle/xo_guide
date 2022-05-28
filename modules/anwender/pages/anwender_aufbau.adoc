@@ -191,7 +191,7 @@ image:anwender/einfuehrung_option_gruppieren.png[]
 +
 In der Gruppierten Liste werden die Anzahl der Elemente pro Gruppe als rot hinterlegte Zahl dargestellt. Die Elemente der Gruppe können über Klicken auf den Pfeil image:anwender/button_einklappen.png[] eingeklappt bzw. über den Pfeil image:anwender/button_ausklappen.png[] ausgeklappt werden.
 
-Summe::
+Summe:: 
 
 Sind Zahlenwerte teil der Attribute, so kann man pro Gruppe auch den Summenwert darstellen. +
 +
