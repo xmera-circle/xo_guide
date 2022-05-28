@@ -449,7 +449,7 @@ In der Bearbeitung von Objekten fehlt die Möglichkeit, das Paket als Standardpa
 
 Paket löschen:: 
 
-Über den Button image:anwender/button-loeschen.png[] wird das paket gelöscht und steht nicht weiter zur Verfügung. Das Löschen ist nur möglich, wenn keine Aufgabe mit dem Paket verbunden ist. Ist das der Fall, wird der Löschvorgang mit folgender Meldung abgebrochen. +
+Über den Button image:anwender/button_loeschen.png[] wird das paket gelöscht und steht nicht weiter zur Verfügung. Das Löschen ist nur möglich, wenn keine Aufgabe mit dem Paket verbunden ist. Ist das der Fall, wird der Löschvorgang mit folgender Meldung abgebrochen. +
 +
 image:anwender/modul_aufgaben_paket_fehler-loeschen.png[] 
 
