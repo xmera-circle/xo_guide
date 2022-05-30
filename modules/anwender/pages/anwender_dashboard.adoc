@@ -52,6 +52,14 @@ Mit dem Speichern wird das Dashboard mit einem Standardblock geöffnet. Anschlie
 
 Über den Button image:anwender/button_dashboard_bearbeiten.png[Dashboard bearbeiten] wird die Bearbeitungsmaske für die Dashboard-Daten mit dem Namen, der Beschreibung, den Zugriffsrechten und den Strukturelementen. Anpassungen werden mit dem Button image:anwender/button_speichern.png[Speichern] übernommen.
 
+=== Dashboard-Block hinzufügen
+
+Über das Auswahlfeld _Block hinzufügen:_ können Blöcke verschiedenen Typs der Seite hinzugefügt werden.
+
+image:anwender/modul_dashboard_block_hinzufuegen.png[]
+
+Durch klicken auf den gewünschten Blocktyp wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
+
 === Dashboard-Inhalte bearbeiten
 
 Wird die Maus über eine Block geführt, erscheint ein Blockmenü image:anwender/modul_dashboard_blockmenue.png[Blockmenü]. Über dieses Blockmenü lassen sich die Dashboard-Inhalte bearbeiten.
