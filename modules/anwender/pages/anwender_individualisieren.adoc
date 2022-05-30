@@ -77,11 +77,11 @@ Die Informationen werden auf der Seite in Blöcken zur Verfügung gestellt. Der 
 
 Block hinzufügen:
 
-Die Zusammenstellung der Blöcke erfolgt gleich dem des Dashboards. Über das Auswahlfeld _Hinzufügen:_ können Blöcke verschiedenen Typs der Seite hinzugefügt werden
+Über das Auswahlfeld _Hinzufügen:_ können Blöcke verschiedenen Typs der Seite hinzugefügt werden
 
 image:anwender/individuell_meine-seite_block_hinzufuegen.png[]
 
-durch klicken auf den gewünschten Blocktyp wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
+Durch klicken auf den gewünschten Blocktyp wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
 
 Die Bearbeitung der Blöcke ist gleich der Bearbeitung der Blöcke des Dashboards. Die Beschreibung finden sie xref:anwender_dashboard.adoc#_dashboard_inhalte_bearbeiten[hier].
 
