@@ -1,10 +1,7 @@
 name: xo-doc
 title: xmera Omnia Dokumentationshandbuch
 version: '1.0'
+start_page: ROOT:index.adoc
 nav:
-#- modules/einfuehrung/nav.adoc
-#- modules/installation/nav.adoc
-#- modules/basiskonfig/nav.adoc
-#- modules/admin/nav.adoc
-- modules/anwender/nav.adoc
-#- modules/glossar/nav.adoc
+
+- modules/ROOT/partials/nav.adoc
