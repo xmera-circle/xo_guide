@@ -1,9 +1,8 @@
 * Anwenderhandbuch
-include::einfuehrung:partials$nav.adoc[]
 ** xref:anwender:anwender_aufbau.adoc[]
-** xref:anwender:anwender_objekte.adoc[]
 ** xref:anwender:anwender_individualisieren.adoc[]
 ** xref:anwender:anwender_dashboard.adoc[]
+** xref:anwender:anwender_objekte.adoc[]
 ** Objektmodule
 *** xref:anwender:anwender_modul_archiv.adoc[]
 *** xref:anwender:anwender_modul_aufgaben.adoc[]
