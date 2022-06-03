@@ -1,4 +1,6 @@
-* xref:1.0@xo-doc-gesamt:ROOT:index.adoc[Zurück zur xmera Omnia Dokumentation]
-* xref:index.adoc[Einführung]
+---
+
 include::anwender:partial$nav.adoc[]
 include::admin:partial$nav.adoc[]
+
+* xref:1.0@xo-docs:ROOT:index.adoc[*Zurück zur Hauptseite*]
