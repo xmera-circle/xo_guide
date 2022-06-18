@@ -4,8 +4,4 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-== Funktionsweise
-
-== Archiv verbinden
-
-== Commits mit Aufgaben verknüpfen
+Das Modul Archiv dient der Anbindung von Repositories. Es ist für den ISMS-Betrieb nicht notwendig. Die Beschreibung wird zu einem späteren Zeitpunkt erfolgen.

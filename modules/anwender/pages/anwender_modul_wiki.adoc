@@ -119,9 +119,7 @@ image::anwender/modul_wiki_seite_loeschen.png[]
 
 Nach der Auswahl wird nochmals abgefragt, ob die Seite wirklich gelöscht werden soll. Wird mit OK bestätigt ist die Wiki-Seite gelöscht.
 
-== Wiki bearbeiten
-
-=== Wiki-Seite bearbeiten
+== Wiki-Seite bearbeiten
 
 Über Klick auf den Button image:anwender/button_bearbeiten.png[Bearbeiten] gelangt man in den Bearbeitungsmodus für das Wiki.
 
