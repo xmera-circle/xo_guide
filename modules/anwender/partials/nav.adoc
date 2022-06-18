@@ -4,7 +4,6 @@
 ** xref:anwender:anwender_dashboard.adoc[]
 ** xref:anwender:anwender_objekte.adoc[]
 ** Objektmodule
-*** xref:anwender:anwender_modul_archiv.adoc[]
 *** xref:anwender:anwender_modul_aufgaben.adoc[]
 *** xref:anwender:anwender_modul_dateien.adoc[]
 *** xref:anwender:anwender_modul_dms.adoc[]
@@ -16,4 +15,5 @@
 *** xref:anwender:anwender_modul_verlauf.adoc[]
 *** xref:anwender:anwender_modul_wiki.adoc[]
 *** xref:anwender:anwender_modul_mitteilungen.adoc[]
+*** xref:anwender:anwender_modul_archiv.adoc[]
 *** xref:anwender:anwender_modul_zeiterfassung.adoc[]
