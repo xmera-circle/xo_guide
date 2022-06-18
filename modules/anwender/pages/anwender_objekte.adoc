@@ -30,11 +30,11 @@ image::anwender/objektuebersicht_undefined.png[Objekthierarchie]
 
 Die Objekthierarchie bietet die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten/Organisationen als auch Sicherheitszonen/Cluster strukturiert darzustellen. Die hierarchische Struktur wird durch die Festlegung des übergeordneten Objekts bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objekts>> definiert. So entsteht ein Objektbaum, der sich in der Listanzeige der __Objektübersicht__ darstellen läßt.
 
-image::anwender/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
+image:anwender/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
 In der __Objektübersicht__ wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. &#10122; zu sehen, mit den Links zu den übergeordneten Objekten dargesetellt.
 
-image::anwender/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
+image:anwender/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
 
 In dem Bereich Unterobjekte &#10123; sind die dem Objekt unterlagerten Objekte zu sehen bzw. verlinkt.
 
@@ -68,11 +68,11 @@ Eine Sonderrolle spielen öffentliche Projekte. Wird ein Projekt als öffentlich
 
 Objekte können aus der Objektseite (siehe Bild) 
 
-image::anwender/objekt_neues-objekt_undefined.png[Neues Objekt]
+image:anwender/objekt_neues-objekt_undefined.png[Neues Objekt]
 
 als auch, wie im folgenden Bild zu sehen, aus jeder Objektübersichtsseite als Unterobjekt angelegt werden.
 
-image::anwender/objektuebersicht_neues-unterobjekt_undefined.png[Neues Unterobjekt]
+image:anwender/objektuebersicht_neues-unterobjekt_undefined.png[Neues Unterobjekt]
 
 [NOTE]
 *Notiz:* Wird die Auswahl "Neues Objekt" oder "Neues Unterobjekt" nicht angezeigt, so fehlt dem Anwender das entsprechende Recht.

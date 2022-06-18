@@ -14,7 +14,7 @@ sein. Erreicht wird dieses durch die xref:admin:admin_aufgabentyp.adoc[frei konf
 
 Das Modul Aufgaben muss im Objekt aktiviert werden. Ist das Modul aktiviert, wird in dem Objektreiter Aufgaben angezeigt.
 
-image::anwender/modul_aufgaben_reiter.png[Objektmodul Aufgabe]
+image:anwender/modul_aufgaben_reiter.png[Objektmodul Aufgabe]
 
 Wird der Reiter Aufgaben ausgewählt, wird die <<Aufgabenübersicht>> eingeblendet.
 
@@ -22,7 +22,7 @@ Wird der Reiter Aufgaben ausgewählt, wird die <<Aufgabenübersicht>> eingeblend
 
 Die Aufgabenübersicht zeigt die alle nicht abgeschlossenen Aufgaben des Objekts inklusive den Aufgaben der Unterobjekte an. Die Objektübersicht baut sich wie folgt auf
 
-image::anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
+image:anwender/modul_aufgaben_uebersicht.png[Aufgabenübersicht]
 
 &#10122; Aufgabenliste +
 &#10123; Seitennavigation +
@@ -341,7 +341,7 @@ Die Aufgabe kann zum einen durch Klicken des Button image:anwender/button_atom.p
 
 In der Objektkonfiguration können einige Punkte für die Aufgaben in dem Projekt eingestellt werden. Dieses geschieht in der Objektkonfiguration in dem Reiter _Aufgaben_, in dem folgende Auswahlmöglichkeiten bestehen.
 
-image::anwender/modul_aufgaben_konfigurieren.png[]
+image:anwender/modul_aufgaben_konfigurieren.png[]
 
 Für die Aufgaben in dem Objekt kann die Auswahl der Aufgabentypen im Bereich _Aufgabentyp_ eingeschränkt werden, es können die in den Aufgaben zur Verfügung stehenden _eigenen Felder_ eingeschränkt werden und es können das Standard-Paket und der Standardbearbeiter, die als Default bei neuen Aufgaben gesetzt werden, definiert bzw. geändert werden. 
 
@@ -355,7 +355,7 @@ Für die Strukturierung von Aufgaben stehen in dem Modul aufgaben 2 Funktionen z
 
 Aufgabenkategorien müssen beim Anlegen des Objekts in der Konfiguration erstellt werden. Wird in der Objektkonfiguration der Reiter _Aufgaben-Kategorien_ ausgewählt erscheint wie unten zu sehen die Übersichtsseiten für die Aufgabenkategorie. 
 
-image::anwender/modul_aufgaben_kategorien-uebersicht.png[]
+image:anwender/modul_aufgaben_kategorien-uebersicht.png[]
 
 In diesem Beispiel wurden bereits 4 Kategorien angelegt.  Jede Kategorie hat einen Namen und kann einem Mitglied oder einer Gruppe zugeordnet werden. Wenn die Kategorie bei einer neuen Aufgabe zugeordnet wird, wird die Aufgabe dem Mitglied bzw. der Gruppe zugewiesen, die in der Kategorie definiert wurde.
 
@@ -363,13 +363,13 @@ Eine neue Kategorie kann durch Klicken des Button image:anwender/button_neue-kat
 
 In beiden Varianten wird folgende Maske aufgeblendet.
 
-image::anwender/modul_aufgaben_kategorien-bearbeiten.png[]
+image:anwender/modul_aufgaben_kategorien-bearbeiten.png[]
 
 Der Name ist dabei ein Pflichtfeld, die Zuweisung optional. Durch den Button image:anwender/button_speichern.png[] wird die Kategorie übernommen.
 
 Eine bestehende Kategorie wird über den Button image:anwender/button_loeschen_symbol.png[] in der Kategoriezeile gelöscht. Wenn die Kategorie bereits genutzt wird, erscheint folgende Maske: 
 
-image::anwender/modul_aufgaben_kategorien-verwendet.png[]
+image:anwender/modul_aufgaben_kategorien-verwendet.png[]
 
 Hier besteht kann der Anwender auswählen, ob in den Aufgaben mit der zu löschenden Kategorie entweder die Kategorie gelöscht wird oder eine andere Kategorie gesetzt werden soll. +
 Über den Button image:anwender/button_anwenden.png[] kann der gewählte Prozess gestartet werden. Über den Button image:anwender/button_abbrechen.png[] wird der Löschvorgang abgebrochen.
@@ -383,7 +383,7 @@ Aufgabenpakete geben die Möglichkeit Aufgaben zu einem übergeordneten Thema zu
 Diese Zusammenfassung der Pakete in einem Objekt wird als _Stapel_ dargestellt. +
 Sobald ein Paket für ein Objekt zur Verfügung steht, wird im Objektmenü, wie im folgenden Bild zu sehen, der Reiter _Stapel_ angezeigt.
 
-image::anwender/modul_aufgaben_stapel_uebersicht.png[]
+image:anwender/modul_aufgaben_stapel_uebersicht.png[]
 
 Wird der Reiter ausgewählt so werden die zur Verfügung stehenden Pakete mit den zugewiesenen Aufgaben aufgelistet. Neben dem Paketnamen &#10122; wird der Status des Pakets &#10123; und unterhalb (falls gepflegt) ein Umsetzungsende mit der verbleibenden Zeit &#10124; dargestellt. Der Umsetzungsgrad &#10125; (Fortschrittsbalken) des Pakets ermittelt sich automatisch aus den Umsetzungsgraden der zugeordneten Aufgaben. +
 Unterhalb dieser Paketinformationen werden die dem Paket zugeordneten Aufgaben &#10126; gelistet und durch klick auf einen Aufgabe kann dieser geöffnet werden. Über das 3-Punkte-Menü in der Aufgabenzeile können auch direkt die Aufgabeneigenschaften angepasst werden, der Auftrag bearbeitet image:anwender/button_bearbeiten_symbol.png[], gelöscht image:anwender/button_loeschen_symbol.png[], kopiert image:anwender/button_kopieren_symbol.png[], beobachtet image:anwender/button_beobachten.png[] oder eine Unteraufgabe hinzugefügt image:anwender/button_hinzufuegen.png[] werden.
@@ -394,7 +394,7 @@ Ein neues Paket kann über den Button &#10128; _neues Paket_ erstellt werden. Es
 
 Aufgabenpakete werden in der Konfiguration eines Objekts konfiguriert. In der Objektkonfiguration gelangt man über den Reiter Pakete in der Liste der in diesem Objekt erstellten Pakete.
 
-image::anwender/modul_aufgaben_pakete_uebersicht.png[]
+image:anwender/modul_aufgaben_pakete_uebersicht.png[]
 
 In der Liste der Pakete werden beim öffnen die Pakete mit dem Status _offen_ angezeigt. Der Filter kann für die Suche nach _gesperrten_ oder _abgeschlossen_ Pakete angepasst werden.
 

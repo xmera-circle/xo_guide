@@ -8,11 +8,11 @@
 
 Das Modul Dokumente verwaltet im Vergleich zum Modul Dateien Dokumentensätze. Das bedeutet, dass einem Dokument mehrere Dateien zugeordnet werden können. Dieses könnte als Beispiel ein Vertrag mit den Anlagen sein. Die Dokumentenübersicht zeigt daher, wie im folgenden Bild zu sehen, nicht die herunterladbaren Dateien, sondern die Attribute / Beschreibung des Dokuments.
 
-image::anwender/modul_dokumente_uebersicht.png[]
+image:anwender/modul_dokumente_uebersicht.png[]
 
 Die Auflistung kann über die Sortierkriterien in der linken Sidebar sortiert werden. Die Dokumentenkategorie ist Für jedes Dokument werden der Dokumentenname, das Erfassungsdatum und die Beschreibung dargestellt. Durch einen Klick auf den Dokumentennamen springt man auf die Seite des Dokuments.
 
-image::anwender/modul_dokumente_dokument.png[]
+image:anwender/modul_dokumente_dokument.png[]
 
 In dieser Ansicht wird das Dokument mit seinen Metadaten angezeigt. Hierzu gehören auch "Eigene Felder", die das Dokument näher beschreiben. In diesem Fall sind die Version, der Stand und ein Auswahlfeld beispielhaft eingefügt.
 Unterhalb der Metadaten werden die Dateien des Dokuments gelistet und können von hieraus durch Klicken auf das image:anwender/button_herunterladen.png[] heruntergeladen werden.
@@ -21,7 +21,7 @@ Unterhalb der Metadaten werden die Dateien des Dokuments gelistet und können vo
 
 In der Übersicht und in der Dokumentenseite kann über das Klicken auf den Button image:anwender/button_neues-dokument.png[] ein neues Dokument angelegt werden. Es erscheint folgende Maske.
 
-image::anwender/modul_dokumente_neues_dokument.png[]
+image:anwender/modul_dokumente_neues_dokument.png[]
 
 Zwingend einzugeben ist der Titel des Dokuments. Weiter Felder sind die Dokumentenkategorie und die Beschreibung des Dokuments. Die Felder Version, Stand und Auswahl sind in diesem Beispiel als "Eigene Felder" über die Administration dem Dokument hinzugefügt worden.
 
@@ -31,7 +31,7 @@ Die Dateien können durch  den Button image:anwender/button_durchsuchen.png[], d
 
 Ein Dokument kann über die Dokumentenseite bearbeitet werden. Hier besteht die Möglichkeit durch Klicken auf den Button image:anwender/button_loeschen_grau.png[] das Dokument zu löschen oder durch Klicken auf den Button image:anwender/button_bearbeiten.png[] die Metadaten des Dokuments in folgender Maske zu bearbeiten.
 
-image::anwender/modul_dokumente_bearbeiten.png[]
+image:anwender/modul_dokumente_bearbeiten.png[]
 
 Die dem Dokument zugeordneten Dateien lassen sich direkt in der Dokumentenseite bearbeiten. Über die Button image:anwender/button_herunterladen.png[] lassen sich die Dateien herunterladen und über den Button image:anwender/button_loeschen.png[] löschen. Mit der Funktion image:anwender/button_bearbeiten_symbol.png[] können die Erläuterungen zum dokument bearbeitet werden. +
 Mit dem Button image:anwender/button_neue-datei.png[] oder ein Drag&Drop auf diesen Button lassen sich weitere Dateien an das Dokument anhängen.

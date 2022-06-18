@@ -4,4 +4,6 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-== Zeiterfassung aktivieren
+Die Zeiterfassung dient der Planung und Nachverfolgung der geleisteten Personalressourcen. Dieses Modul muss zur Nutzung in der Administration für die Instanz aktiviert werden und steht dann in den Modulen zur Auswahl und kann pro Modul aktiviert werden. 
+
+Dieses Modul ist nicht ISMS relevant. Die Beschreibung des Moduls wird zu einem späteren Zeitpunkt erfolgen.
