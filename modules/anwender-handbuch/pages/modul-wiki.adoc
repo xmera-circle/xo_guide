@@ -14,25 +14,25 @@ Ist das Modul Wiki für das Objekt aktiviert, so kann das Objekt-Wiki über den 
 
 Ist noch keine Wiki-Seite gespeichert, so wird eine Erfassungsseite mit der Wiki-Toolbar geöffnet.
 
-image::anwender/modul_wiki_neu.png[]
+image::anwender-handbuch/modul_wiki_neu.png[]
 
 Im Standard von xmera Omnia ist als Auszeichnungssprache Markdown verwendet. Über die Administration kann die Anwendung aber auch auf Textile umgestellt werden.
 
-image::anwender/modul_wiki_seite_bearbeiten.png[]
+image::anwender-handbuch/modul_wiki_seite_bearbeiten.png[]
 
 Ein Text kann erstellt werden. Für die Formatierung steht eine Toolbar zur Verfügung. Das Ergebnis kann man sich über die Vorschau anschauen. Jede Anpassung kann kommentiert werden. Damit hat man in der Veränderungshistorie des Wiki die Möglichkeit, Änderungen leichter nachzuvollziehen.
 
-Mit Klick auf den Button image:anwender/button_speichern.png[] wird die aktuelle Seite gespeichert. Es erscheint die Wiki-Startseite.
+Mit Klick auf den Button image:anwender-handbuch/button_speichern.png[] wird die aktuelle Seite gespeichert. Es erscheint die Wiki-Startseite.
 
-image::anwender/modul_wiki_startseite.png[]
+image::anwender-handbuch/modul_wiki_startseite.png[]
 
 Die erste erstellte Seite erhält immer den Namen wiki und ist die Hauptseite (als erstes angezeigte Seite) des Wiki. Der Name, die Festlegung der Hauptseite sowie die Inhalte lassen sich durch die berechtigten Mitglieder durch das <<Seiteumgenennen, Umbenennen>> und das <<Wikibearbeiten, Bearbeiten>> jederzeit anpassen.
 
 == Neue Seite
 
-Eine weitere Wiki-Seite wird über das 3-Punkte-Menü und die Auswahl image:anwender/button_neue_wiki_seite.png[] aufgerufen. Im Dialog _Neue Wiki-Seite_ müssen der Titel und die _Übergeordnete Seite_ festgelegt werden.
+Eine weitere Wiki-Seite wird über das 3-Punkte-Menü und die Auswahl image:anwender-handbuch/button_neue_wiki_seite.png[] aufgerufen. Im Dialog _Neue Wiki-Seite_ müssen der Titel und die _Übergeordnete Seite_ festgelegt werden.
 
-image::anwender/modul_wiki_neue_seite.png[]
+image::anwender-handbuch/modul_wiki_neue_seite.png[]
 
 Anschließend öffnet sich das Bearbeitungsfenster mit der Wiki-Toolbar. 
 
@@ -48,29 +48,29 @@ Die Sidebar dient der leichteren Navigation im Wiki. Erbietet im Standard die Au
 
 Im Standard wird die als Hauptseite definierte Wiki-Seite geöffnet.
 
-image:anwender/modul_wiki_sidebar_hauptseite.png[]
+image:anwender-handbuch/modul_wiki_sidebar_hauptseite.png[]
 
 Die Navigation zu den anderen Wiki-Seiten erfolgt dann über die Verlinkung über die Wiki-Seiten.
 
 Mit der Auswahl _Seiten nach Titel sortiert_ oder _Seiten nach Datum sortiert_ werden die erstellten Wiki-Seiten aufgelistet. Im folgenden Beispiel die Sortierung nach Datum.
 
-image:anwender/modul_wiki_sidebar_nach_datum.png[]
+image:anwender-handbuch/modul_wiki_sidebar_nach_datum.png[]
 
-Die Sidebar kann aber auch individuell ergänzt werden. Über den Button image:anwender/button_bearbeiten.png[bearbeiten] im oberen Bereich der Sidebar gelangt man in die Bearbeitungsseite der Sidebar.
+Die Sidebar kann aber auch individuell ergänzt werden. Über den Button image:anwender-handbuch/button_bearbeiten.png[bearbeiten] im oberen Bereich der Sidebar gelangt man in die Bearbeitungsseite der Sidebar.
 
 Die Wiki-Seite mit dem Namen _Sidebar_ wird, sobald diese vorhanden ist, oberhalb der Standardelemente dargestellt. So lassen sich über die Verlinkung im Markdown ein Inhaltsverzeichnis aufbauen.
 
 Soll dieses automatisiert erfolgen, bietet sich der Shortcode +{{child_pages}}+ an. Dieser listet alle untergeordenten Seiten dar. Wird die Seite _Sidebar_ der restlichen Seitenstruktur wie im folgenden Bild zu sehen, übergeordnet
 
-image:anwender/modul_wiki_sidebar_struktur.png[]
+image:anwender-handbuch/modul_wiki_sidebar_struktur.png[]
 
 so lässt sich mit dem folgenden Eintrag 
 
-image:anwender/modul_wiki_sidebar_child_pages.png[]
+image:anwender-handbuch/modul_wiki_sidebar_child_pages.png[]
 
 in der Seite _Sidebar_ automatisiert die Seitenstruktur anzeigen.
 
-image:anwender/modul_wiki_sidebar_toc.png[]
+image:anwender-handbuch/modul_wiki_sidebar_toc.png[]
 
 Soll das Inhaltsverzeichnis auf die ersten _x_ Ebenen begrenzt werden, so kann dieses über den Zusatz +{{child_pages(depth=_x_)}}+ eingeschränkt werden.
 
@@ -91,14 +91,14 @@ Im Folgenden ist ein Beispiel der Sidebar-Seite zu sehen
 
 Die Sidebar sieht dann in dem Beispiel wie folgt aus.
 
-image:anwender/modul_wiki_sidebar_manuell.png[]
+image:anwender-handbuch/modul_wiki_sidebar_manuell.png[]
 
 
 == Seite umbenennen
 
 Über das 3 Punkte Menü auf der Seite gelangt man zur Umbenennungsmaske der Wiki-Seite. 
 
-image::anwender/modul_wiki_umbenennen.png[]
+image::anwender-handbuch/modul_wiki_umbenennen.png[]
 
 Über diese Maske kann
 
@@ -115,15 +115,15 @@ image::anwender/modul_wiki_umbenennen.png[]
 
 Eine Wiki-Seite kann über das 3-Punkte-Menü und die Auswahl _Löschen_ gelöscht werden.
 
-image::anwender/modul_wiki_seite_loeschen.png[]
+image::anwender-handbuch/modul_wiki_seite_loeschen.png[]
 
 Nach der Auswahl wird nochmals abgefragt, ob die Seite wirklich gelöscht werden soll. Wird mit OK bestätigt ist die Wiki-Seite gelöscht.
 
 == Wiki-Seite bearbeiten
 
-Über Klick auf den Button image:anwender/button_bearbeiten.png[Bearbeiten] gelangt man in den Bearbeitungsmodus für das Wiki.
+Über Klick auf den Button image:anwender-handbuch/button_bearbeiten.png[Bearbeiten] gelangt man in den Bearbeitungsmodus für das Wiki.
 
-image::anwender/modul_wiki_seite_bearbeiten2.png[]
+image::anwender-handbuch/modul_wiki_seite_bearbeiten2.png[]
 
 Die Bearbeitungsseite baut sich wie folgt (von oben nach unten) auf:
 
@@ -145,26 +145,26 @@ Die Textbearbeitung erfolgt in diesem Beispiel mit der Auszeichnungssprache Mark
 +
 In beiden Fällen bietet xmera Omnia eine Vorschau und sowie die wichtigsten Formatierungselemente als Toolbar. Somit ist ein schneller Einstieg in die Bearbeitung möglich. +
 +
-Die Umschaltung zwischen dem Bearbeitungsmodus und der Vorschau erfolgt über die Reiter image:anwender/modul_wiki_toolbar_bearbeiten_vorschau.png[Bearbeiten/Vorschau]. +
+Die Umschaltung zwischen dem Bearbeitungsmodus und der Vorschau erfolgt über die Reiter image:anwender-handbuch/modul_wiki_toolbar_bearbeiten_vorschau.png[Bearbeiten/Vorschau]. +
  +
 Die Bearbeitung erfolgt über die folgenden Button: +
 +
-- image:anwender/modul_wiki_toolbar_fett.png[] Schrift in fett
-- image:anwender/modul_wiki_toolbar_kursiv.png[] Schrift in kursiv
-- image:anwender/modul_wiki_toolbar_unterstrichen.png[] Text unterstrichen
-- image:anwender/modul_wiki_toolbar_durchgestrichen.png[] Text durchgestrichen
-- image:anwender/modul_wiki_toolbar_quelltext.png[] Darstellung des Texts als Quelltext ohne Formatierung
-- image:anwender/modul_wiki_toolbar_ueberschrift.png[] Überschriften der Ebene 1 bis 3
-- image:anwender/modul_wiki_toolbar_aufzaehlung.png[] Aufzählung 
-- image:anwender/modul_wiki_toolbar_num_liste.png[] nummerierte Auflistung
-- image:anwender/modul_wiki_toolbar_zitat.png[] Darstellung / Rücknahme eines Zitatbereichs
-- image:anwender/modul_wiki_toolbar_tabelle.png[] Erstellen eines Tabellenrahmens
-- image:anwender/modul_wiki_toolbar_praeformatierter_text.png[] Darstellung eines Textes in einem gesonderten Feld
-- image:anwender/modul_wiki_toolbar_highlighted_code.png[] Abbildung von Code-Elementen mit farblicher Hervorhebung der Syntax
-- image:anwender/modul_wiki_toolbar_link.png[] Link zu einer anderen Wiki-Seite
-- image:anwender/modul_wiki_toolbar_grafik.png[] Einbindung einer Grafik.
-- image:anwender/modul_wiki_toolbar_drawio_diagramm.png[] Einbindung eines Drawio Diagramms
-- image:anwender/modul_wiki_toolbar_hilfe.png[] Öffnen einer Hilfe für die verwendete Auszeichnungssprache (hier Markdown)
+- image:anwender-handbuch/modul_wiki_toolbar_fett.png[] Schrift in fett
+- image:anwender-handbuch/modul_wiki_toolbar_kursiv.png[] Schrift in kursiv
+- image:anwender-handbuch/modul_wiki_toolbar_unterstrichen.png[] Text unterstrichen
+- image:anwender-handbuch/modul_wiki_toolbar_durchgestrichen.png[] Text durchgestrichen
+- image:anwender-handbuch/modul_wiki_toolbar_quelltext.png[] Darstellung des Texts als Quelltext ohne Formatierung
+- image:anwender-handbuch/modul_wiki_toolbar_ueberschrift.png[] Überschriften der Ebene 1 bis 3
+- image:anwender-handbuch/modul_wiki_toolbar_aufzaehlung.png[] Aufzählung 
+- image:anwender-handbuch/modul_wiki_toolbar_num_liste.png[] nummerierte Auflistung
+- image:anwender-handbuch/modul_wiki_toolbar_zitat.png[] Darstellung / Rücknahme eines Zitatbereichs
+- image:anwender-handbuch/modul_wiki_toolbar_tabelle.png[] Erstellen eines Tabellenrahmens
+- image:anwender-handbuch/modul_wiki_toolbar_praeformatierter_text.png[] Darstellung eines Textes in einem gesonderten Feld
+- image:anwender-handbuch/modul_wiki_toolbar_highlighted_code.png[] Abbildung von Code-Elementen mit farblicher Hervorhebung der Syntax
+- image:anwender-handbuch/modul_wiki_toolbar_link.png[] Link zu einer anderen Wiki-Seite
+- image:anwender-handbuch/modul_wiki_toolbar_grafik.png[] Einbindung einer Grafik.
+- image:anwender-handbuch/modul_wiki_toolbar_drawio_diagramm.png[] Einbindung eines Drawio Diagramms
+- image:anwender-handbuch/modul_wiki_toolbar_hilfe.png[] Öffnen einer Hilfe für die verwendete Auszeichnungssprache (hier Markdown)
 
 +
 Diese Funktionen lassen sich gut über die Vorschau ausprobieren und man kann sich so in die Auszeichnungssprache einarbeiten. Die Hilfe lässt sich durch einen Link am Ende der Hilfe erweitern. So erhält man noch weitere Tips zur Formatierung der Texte und zum Einbinden von Informationen aus dem restlichen ISMS System. Einige wichtige Elemente sind für Markdown im Kapitel <<Syntax Markdown, Syntax Markdown>> beschrieben.
@@ -181,16 +181,16 @@ Dateianhänge::
 
 Hier können Dokumente an die Wiki-Seite angehängt werden, die auf der Wiki-Seite zum Download angehängt werden. +
 +
-image::anwender/modul_wiki_dateianhang_erstellen.png[]
+image::anwender-handbuch/modul_wiki_dateianhang_erstellen.png[]
 +
 [CAUTION]
 Die maximale Dateigröße wird durch die Administration begrenzt. Im Standard sind dieses 5 MB. 
 +
 Die so hinzugefügte Datei steht im unteren Bereich zur Ansicht bzw. zum Download bereit. +
 +
-image::anwender/modul_wiki_dateianhang_abrufen.png[]
+image::anwender-handbuch/modul_wiki_dateianhang_abrufen.png[]
 +
-Ein Dateianhang kann aber auch ohne den Weg über _Seite bearbeiten_ über den Button image:anwender/button_browse.png[Browse] an die Seite gehängt werden. +
+Ein Dateianhang kann aber auch ohne den Weg über _Seite bearbeiten_ über den Button image:anwender-handbuch/button_browse.png[Browse] an die Seite gehängt werden. +
 +
 [TIP]
 An das Wiki angehängte Bilder lassen sich über den Shortcode +
@@ -200,7 +200,7 @@ leicht in die Wiki-Seite einbinden.
  
 == Seite beobachten
 
-Um bei Änderungen auf der Wiki-Seite informiert zu werden, kann der Button image:anwender/button_beobachten_aus.png[Beobachten] zugeschaltet werden. Er wechselt dann auf die Darstellung image:anwender/button_beobachten_ein.png[Beobachten]. Durch einen weiteren Klick auf den Button wird der Beobachtungsmodus wieder ausgeschaltet.
+Um bei Änderungen auf der Wiki-Seite informiert zu werden, kann der Button image:anwender-handbuch/button_beobachten_aus.png[Beobachten] zugeschaltet werden. Er wechselt dann auf die Darstellung image:anwender-handbuch/button_beobachten_ein.png[Beobachten]. Durch einen weiteren Klick auf den Button wird der Beobachtungsmodus wieder ausgeschaltet.
 
 [NOTE]
 Der Modus wirkt sich immer nur auf die eine Wiki-Seite aus.
@@ -209,25 +209,25 @@ Der Modus wirkt sich immer nur auf die eine Wiki-Seite aus.
 
 Alle Änderungen auf der Wiki-Seite wird in der Historie dokumentiert. Erreicht wird die Historie über das 3-Punkte-Menü und die Auswahl _Historie_
 
-image:anwender/modul_wiki_historie_aufrufen.png[]
+image:anwender-handbuch/modul_wiki_historie_aufrufen.png[]
 
 Es wird eine Liste der Wiki-Änderungen aufgeblendet.
 
-image:anwender/modul_wiki_historie_liste.png[]
+image:anwender-handbuch/modul_wiki_historie_liste.png[]
 
-In der Liste werden das Datum der Änderung der Autor und der Kommentar gelistet. Über die Auswahlpunkte zu beginn jeder Zeile können 2 Änderungsschritte ausgewählt werden, die über den Button image:anwender/button_unterschiede_anzeigen.png[] verglichen werden. 
+In der Liste werden das Datum der Änderung der Autor und der Kommentar gelistet. Über die Auswahlpunkte zu beginn jeder Zeile können 2 Änderungsschritte ausgewählt werden, die über den Button image:anwender-handbuch/button_unterschiede_anzeigen.png[] verglichen werden. 
 
-image:anwender/modul_wiki_historie_unterschiede.png[]
+image:anwender-handbuch/modul_wiki_historie_unterschiede.png[]
 
 Rot hinterlegt sind gelöschte Passagen und grün hinterlegt sind hinzugefügte Passagen.
 
 Durch Klicken auf _Annotieren_ in der Zeile der Veränderung wird die Wiki_Seite mit den einzelnen Änderungsschritten dargestellt.
 
-image:anwender/modul_wiki_historie_annotieren.png[Annotieren]
+image:anwender-handbuch/modul_wiki_historie_annotieren.png[Annotieren]
 
 Jeder Änderungsschritt ist mit seiner Nummer und dem Autor mit einer eigenen Farbe dargestellt. Klickt man auf die Nummer des Änderungsschritts, wird die Wiki-Seite mit dem Bearbeitungsstand des gewählten Bearbeitungsschritts aufgeschaltet. Über das dann erscheinende 3-Punkte Menü kann auf diese Version zurückgesetzt werden.
 
-image:anwender/modul_wiki_historie_zuruecksetzen.png[]
+image:anwender-handbuch/modul_wiki_historie_zuruecksetzen.png[]
 
 Wird _Auf diese Version zurücksetzen_ gewählt, wird die Bearbeitung der Wiki-Seite mit dem ausgewählten Bearbeitungsstand geöffnet. Mit dem (ggf. Kommentieren) Speichern ist der Stand wiederhergestellt. 
 
@@ -237,6 +237,6 @@ Markdown ist eine Auszeichnungssprache die auch aus dem git-Umdeld bekannt ist. 
 
 Von Markdown gibt es allerdings verschiedenste Ausprägungen. Auch wenn die wichtigsten Elemente standardisiert sind, weichen die Ausprägungen in spezielleren Elementen voneinander ab. Hier sind z.B. die Verweise auf xmera Omnia Aufgaben oder auf Dateien im Dokumentenmanagement sind spezielle Ausprägungen.
 
-Die wichtigsten Elemente sind sicher über den Button image:anwender/modul_wiki_toolbar_hilfe.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
+Die wichtigsten Elemente sind sicher über den Button image:anwender-handbuch/modul_wiki_toolbar_hilfe.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
 
 Wenn weitere Hilfe benötigt wird hilf die Suche im Internet mit den Suchbegriffen markdown und redmine. 

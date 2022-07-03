@@ -8,13 +8,13 @@
 
 Wenn keine öffentlichen Objekte definiert sind, wird der Nutzer automatisch auf die Login-Seite geleitet.
 
-image:anwender/einfuehrung_login.png[]
+image:anwender-handbuch/einfuehrung_login.png[]
 
 Hat man die Zwei-Faktor-Authentifizierung aktiviert, erscheint anschließend die Abfrage des codes. 
 
-image:anwender/einfuehrung_otp.png[]
+image:anwender-handbuch/einfuehrung_otp.png[]
 
-Anschließend gelangt man auf die Hauptseite von xmera Omnia. Diese beinhaltet das xref:anwender_dashboard.adoc[xmera Omnia Dashboard].
+Anschließend gelangt man auf die Hauptseite von xmera Omnia. Diese beinhaltet das xref:dashboard.adoc[xmera Omnia Dashboard].
 
 == Anwendungsmenüs
 
@@ -24,16 +24,16 @@ In xmera Omnia gibt es drei Menüs:
 - Nutzermenü
 - Objektmenü (nur bei Objektseiten)
 
-image:anwender/einfuehrung_menues.png[]
+image:anwender-handbuch/einfuehrung_menues.png[]
 
 Hauptmenü::
 
 Über das Hauptmenü im linken Bereichs des Seitenkopfs gelangt man zu den Hauptelementen von xmera Omnia: +
 +
-- *Hauptseite:* Zugang zu den xref:anwender_dashboard.adoc[Dashboards]
+- *Hauptseite:* Zugang zu den xref:dashboard.adoc[Dashboards]
 - *Meine Seite:* Zugang zur persönlichen Übersichtsseite
-- *Objekte:* Zugang zu den xref:anwender_objekte.adoc[Objekten] (Projekten, Prozessen, Assets)
-- *DMS:* Zugang zum xref:anwender_modul_dms.adoc[Dokumenten-Management-System]
+- *Objekte:* Zugang zu den xref:objekte.adoc[Objekten] (Projekten, Prozessen, Assets)
+- *DMS:* Zugang zum xref:modul-dms.adoc[Dokumenten-Management-System]
 
 Nutzermenü::
 
@@ -54,7 +54,7 @@ Das Objektmenü wird in Objektseiten angezeigt und bietet den Zugriff auf die Ob
 
 Im oberen Rechten Bereich der Seite, unterhalb des Nutzermenüs, befindet sich ein Such- und Schnellnavigationsbereich über den Zugriff auf die letzten Objekte und eine Suche über alle Objekte und Module ermöglicht wird.
 
-image:anwender/einfuehrung_suche_schnellnavigation.png[]
+image:anwender-handbuch/einfuehrung_suche_schnellnavigation.png[]
 
 Über diesen Bereich ist eine Navigation zu den gewünschten Objekten ohne die Navigation durch die Objektstrukturen möglich.
 
@@ -66,7 +66,7 @@ Suche::
 
 In dem Suchfenster kann ein Text eingegeben werden, nach dem in allen Objekten und den darin enthaltenen Modulen gesucht wird. Die Suche beginnt nach dem _Return_ und man gelangt zu den Suchergebnissen. +
 +
-image:anwender/einfuehrung_suchergebnisse.png[]
+image:anwender-handbuch/einfuehrung_suchergebnisse.png[]
 +
 Im oberen Bereich (grau hinterlegt) kann die Suche weiter eingeschränkt oder der Suchtext angepasst werden. +
 +
@@ -79,11 +79,11 @@ Unterhalb des grauen Bereichs sind die Suchergebnisse aufgeführt. Im oberen rec
 
 Der Anzeigebereich für den Inhalt kann in xmera Omnia auf eine begrenzte Breite reduzieren (lesen von Texten wird angenehmer) werden oder auch auf die gesamte Seitenbreite reduziert werden. Im folgenden das Beispiel für die gesamte Seitenbreite.
 
-image:anwender/einfuehrung_seite_breit.png[]
+image:anwender-handbuch/einfuehrung_seite_breit.png[]
 
 Durch einen Klick auf das rote + (rot umrandet) kann auf die feste breite des Anzeigebereich reduziert werden. Damit wird, wie im folgenden Bild gelb hervorgehoben, der Anzeigebereich auf eine definierte Breite reduziert.
 
-image:anwender/einfuehrung_seite_schmal.png[]
+image:anwender-handbuch/einfuehrung_seite_schmal.png[]
 
 Der Rahmen rechts und links von dem Anzeigebereich wird je nach Größe des Browserfensters angepasst.
 
@@ -91,9 +91,9 @@ Der Rahmen rechts und links von dem Anzeigebereich wird je nach Größe des Brow
 
 Listen von Objekten und Aufgaben mit den Filter- (grün), Gliederungs-(Magenta), Sortier- (rot) und Anzeigefunktionen (gelb) werden vielfältig im xmera Omnia verwendet. 
 
-image:anwender/einfuehrung_liste_allgemein.png[]
+image:anwender-handbuch/einfuehrung_liste_allgemein.png[]
 
-Mit der Möglichkeit die so gestalteten Listen als Abfragen (blau)zu speichern und anderen Nutzern zugänglich zu machen, ermöglicht es, Listen mit verschiedensten Sichten auf die Daten zu gestalten und somit einen schnellen Überblick auf die benötigten Informationen zu erhalten. Über den Button image:anwender/button_zuruecksetzen.png[Zurücksetzen] wird der Filter wieder auf die Standard-Liste zurückgesetzt.
+Mit der Möglichkeit die so gestalteten Listen als Abfragen (blau)zu speichern und anderen Nutzern zugänglich zu machen, ermöglicht es, Listen mit verschiedensten Sichten auf die Daten zu gestalten und somit einen schnellen Überblick auf die benötigten Informationen zu erhalten. Über den Button image:anwender-handbuch/button_zuruecksetzen.png[Zurücksetzen] wird der Filter wieder auf die Standard-Liste zurückgesetzt.
 
 [TIP]
 Mit der xmera Omnia Philosophie alle Assets sind Objekte und jede Maßnahme / Handlung ist eine Aufgabe lassen sich mit den Objekt- und Aufgabenlisten ein ISMS effizient gestalten. 
@@ -108,9 +108,9 @@ Die Aufgabenliste listet die Aufgaben des Objekts, in dem diese aufgerufen wurde
 
 === Filter
 
-Im Filterbereich der Liste, der durch den Pfeil image:anwender/button_ausklappen.png[] ausgeklappt bzw. image:anwender/button_einklappen.png[] eingeklappt werden. In den Zeilen im Filterbereich sind die Filter definiert.
+Im Filterbereich der Liste, der durch den Pfeil image:anwender-handbuch/button_ausklappen.png[] ausgeklappt bzw. image:anwender-handbuch/button_einklappen.png[] eingeklappt werden. In den Zeilen im Filterbereich sind die Filter definiert.
 
-image:anwender/einfuehrung_filter_definition.png[]
+image:anwender-handbuch/einfuehrung_filter_definition.png[]
 
 Die 1. Spalte (magenta) zeigt an, ob der Filter in der Zeile aktiv ist.
 Die 2. Spalte (grün) zeigt den Objektnamen
@@ -119,23 +119,23 @@ Die 4. Spalte (rot) zeigt das den Filter-Wert.
 
 Wie zu erkennen ist, ist der Aufbau einer Zeile an den Attributtyp angepasst. Die vorhandenen Regeln lassen sich anpassen. Auch der zur Verfügung stehende Regelsatz ist spezifisch für jeden Attributtyp. Im folgenden Beispiel ist der Regelsatz für ein Datum dargestellt.
 
-image:anwender/einfuehrung_filter_regeln_datum.png[]
+image:anwender-handbuch/einfuehrung_filter_regeln_datum.png[]
 
-Die angepassten Regeln werden durch Klick auf den Button image:anwender/button_anwenden_grau.png[Anwenden] angewendet.
+Die angepassten Regeln werden durch Klick auf den Button image:anwender-handbuch/button_anwenden_grau.png[Anwenden] angewendet.
 
 Filter hinzufügen::
 
 Im rechten oberen Bereich des Filterbereich befindet sich ein das Auswahlfeld für _Filter hinzufügen_. +
 +
-image:anwender/einfuehrung_filter_hinzufuegen.png[]
+image:anwender-handbuch/einfuehrung_filter_hinzufuegen.png[]
 +
 Über das Auswahlfeld werden die zur Verfügung stehenden Attribute angezeigt. Durch Klick auf das gewünschte Filer-Attribut wird dieses der Filterliste hinzugefügt. +
 +
-image:anwender/einfuehrung_filter_auswahl.png[]
+image:anwender-handbuch/einfuehrung_filter_auswahl.png[]
 +
-Wird nach einem Wert gefiltert so kann der gewünschte Wert ausgewählt werden. Durch Klick auf image:anwender/button_plus.png[] bzw. image:anwender/button_minus.png[] kann die Mehrfachauswahl aktiviert werden. +
+Wird nach einem Wert gefiltert so kann der gewünschte Wert ausgewählt werden. Durch Klick auf image:anwender-handbuch/button_plus.png[] bzw. image:anwender-handbuch/button_minus.png[] kann die Mehrfachauswahl aktiviert werden. +
 +
-image:anwender/einfuehrung_filter_mehrfachauswahl.png[]
+image:anwender-handbuch/einfuehrung_filter_mehrfachauswahl.png[]
 +
 Durch Drücken der STRG-Taste bei der Auswahl oder der SPACE-Taste und wählen des 1. und letzten Elements einer Auswahl, können mehrere Elemente gewählt werden. +
 +
@@ -143,7 +143,7 @@ Durch Drücken der STRG-Taste bei der Auswahl oder der SPACE-Taste und wählen d
 Die Darstellung der Mehrfachauswahl werden nur 4 Elemente dargestellt. Durch scrollen in der Liste können alle Elemente dargestellt werden.
 
 +
-Die neu erstllte Regel wird durch Klick auf den Button image:anwender/button_anwenden_grau.png[Anwenden] angewendet.
+Die neu erstllte Regel wird durch Klick auf den Button image:anwender-handbuch/button_anwenden_grau.png[Anwenden] angewendet.
 
 Filter löschen::
 
@@ -155,47 +155,47 @@ Kachel / Liste::
 
 Bei Objektliste besteht, wie im folgenden Bild zu sehen, die Möglichkeit eine Kachelansicht zu wählen. +
 +
-image:anwender/einfuehrung_option_kachel.png[]
+image:anwender-handbuch/einfuehrung_option_kachel.png[]
 +
 In dieser Ansicht bestehen keine weiteren Anpassungsmöglichkeiten. In der Ansicht selber besteht noch über den Button _Alle einklappen/Alle ausklappen_ mit der in den Objektkacheln die Unterprojekte ein- bzw. ausgeblendet werden. +
 +
 In der Listenansicht werden die Objekte/Aufgaben in Listenform dargestellt In dieser Form ergeben sich, wie im folgenden zu sehen weitere Ansichtsmöglichkeiten. +
 +
-image:anwender/einfuehrung_option_liste.png[]
+image:anwender-handbuch/einfuehrung_option_liste.png[]
 
 Spaltenauswahl:: 
 
 Über die Spaltenauswahl besteht die Möglichkeit die in der Liste angezeigten Spalten festzulegen. In der Spaltenauswahl ist auf der linken Liste die _Verfügbaren Spalten_ und auf der rechten Liste die _Ausgewählten Spalten_ zu sehen. +
 +
-image:anwender/einfuehrung_option_spalten.png[]
+image:anwender-handbuch/einfuehrung_option_spalten.png[]
 +
-Durch markieren einer _Verfügbaren Spalte_ und Klicken auf den image:anwender/button_pfeil_rechts.png[] werden die markierten Spalten in den Bereich _Ausgewählte Spalten_ verschoben. Werden Spalten in der Liste _Ausgewählte Spalten_ markiert, werden diese mit dem Klick auf den Button image:anwender/button_pfeil_links.png[] in die Liste _Verfügbare Spalten_ verschoben. +
+Durch markieren einer _Verfügbaren Spalte_ und Klicken auf den image:anwender-handbuch/button_pfeil_rechts.png[] werden die markierten Spalten in den Bereich _Ausgewählte Spalten_ verschoben. Werden Spalten in der Liste _Ausgewählte Spalten_ markiert, werden diese mit dem Klick auf den Button image:anwender-handbuch/button_pfeil_links.png[] in die Liste _Verfügbare Spalten_ verschoben. +
 +
 Die Reihenfolge der _Ausgewählten Spalten_ wird durch die Tasten links von der Liste _Ausgewählte Spalten_ gesteuert. Die markierten Objekte werden mit dem Klick +
 +
-- image:anwender/button_pfeil_doppel_oben.png[] ganz noch oben verschoben
-- image:anwender/button_pfeil_oben.png[] um eine Position nach oben verschoben
-- image:anwender/button_pfeil_unten.png[] um eine Position nach unten verschoben
-- image:anwender/button_pfeil_doppel_unten.png[] ganz nach unten verschoben
+- image:anwender-handbuch/button_pfeil_doppel_oben.png[] ganz noch oben verschoben
+- image:anwender-handbuch/button_pfeil_oben.png[] um eine Position nach oben verschoben
+- image:anwender-handbuch/button_pfeil_unten.png[] um eine Position nach unten verschoben
+- image:anwender-handbuch/button_pfeil_doppel_unten.png[] ganz nach unten verschoben
 
 +
-Mit Klick auf den Button image:anwender/button_anwenden_grau.png[] werden die Änderungen übernommen.
+Mit Klick auf den Button image:anwender-handbuch/button_anwenden_grau.png[] werden die Änderungen übernommen.
 
 Gruppierung::
 
 Mit der Option _Gruppieren kann die Liste nach einem definierten Attribut gruppieren. Im Beispiel wird die Liste nach dem Attribut Kapitel gruppiert. +
 +
-image:anwender/einfuehrung_option_gruppieren.png[]
+image:anwender-handbuch/einfuehrung_option_gruppieren.png[]
 +
-Über das Auswahlfeld im Bereich _Gruppiere Ergebnisse nach_ werden die möglichen Gruppierungsattribute angezeigt. Mit Klick auf den Button image:anwender/button_anwenden_grau.png[] werden die Änderungen übernommen. +
+Über das Auswahlfeld im Bereich _Gruppiere Ergebnisse nach_ werden die möglichen Gruppierungsattribute angezeigt. Mit Klick auf den Button image:anwender-handbuch/button_anwenden_grau.png[] werden die Änderungen übernommen. +
 +
-In der Gruppierten Liste werden die Anzahl der Elemente pro Gruppe als rot hinterlegte Zahl dargestellt. Die Elemente der Gruppe können über Klicken auf den Pfeil image:anwender/button_einklappen.png[] eingeklappt bzw. über den Pfeil image:anwender/button_ausklappen.png[] ausgeklappt werden.
+In der Gruppierten Liste werden die Anzahl der Elemente pro Gruppe als rot hinterlegte Zahl dargestellt. Die Elemente der Gruppe können über Klicken auf den Pfeil image:anwender-handbuch/button_einklappen.png[] eingeklappt bzw. über den Pfeil image:anwender-handbuch/button_ausklappen.png[] ausgeklappt werden.
 
 Summe:: 
 
 Sind Zahlenwerte teil der Attribute, so kann man pro Gruppe auch den Summenwert darstellen. +
 +
-image:anwender/einfuehrung_option_summe.png[]
+image:anwender-handbuch/einfuehrung_option_summe.png[]
 +
 Der Summenwert wird in der Gruppenzeile dargestellt.
 
@@ -203,13 +203,13 @@ Anzeigen::
 
 Mit der Option _Anzeigen_ können ausgewählte Felder vom Typ Langtext in eine Zeile mit eingeblendet werden. +
 +
-image:anwender/einfuehrung_option_anzeigen.png[]
+image:anwender-handbuch/einfuehrung_option_anzeigen.png[]
 +
 In der Liste werden unterhalb der Spaltenwerte die ausgewählten Texte (Im Beispiel oben der Text der Bemerkung) angezeigt.
 
 Sortierungen::
 
-In welcher Form die Liste sortiert wird, wird über das Symbol image:anwender/einfuehrung_sortierung_up.png[] für aufsteigend bzw. image:anwender/einfuehrung_sortierung_down.png[] für absteigend sortiert links neben der Spaltenüberschrift der Spalte, nach der sortiert wurde, dargestellt. +
+In welcher Form die Liste sortiert wird, wird über das Symbol image:anwender-handbuch/einfuehrung_sortierung_up.png[] für aufsteigend bzw. image:anwender-handbuch/einfuehrung_sortierung_down.png[] für absteigend sortiert links neben der Spaltenüberschrift der Spalte, nach der sortiert wurde, dargestellt. +
 +
 Durch einen Klick auf die selbe Spaltenüberschrift wird die Sortierrichtung geändert. Durch Klick auf eine andere Spaltenüberschrift wird nach dieser Spalte sortiert. +
 +
@@ -224,7 +224,7 @@ Abfragen aufrufen::
 
 Die in der Liste zur Verfügung stehenden Abfragen werden in der linken Sidebar angezeigt. +
 +
-image:anwender/einfuehrung_abfrage_sidebar.png[]
+image:anwender-handbuch/einfuehrung_abfrage_sidebar.png[]
 +
 Ist eine aktuell eine Abfrage aus der Sidebar aktiv, wird sie weiß hinterlegt dargestellt. (Im Bild oben Sicherheitsanfordeungen (offen)). Durch einen Klick auf das _X_ neben der aktiven Abfrage wird diese geschlossen und die Liste auf den Standard (alle offenen Aufgaben aus Objekt und Unterobjekten) zurückgesetzt. +
 +
@@ -234,9 +234,9 @@ Abfrage erstellen::
 
 Eine Abfrage wird erstellt, in dem man sich eine Liste mit den gewünschten <<Filter>> und <<Gestalungsoptionen>> erstellt, anwendet und diese anschließend speichert. +
 +
-Nach dem eine Liste erstellt wird erscheint der Button image:anwender/button_speichern.png[]. Wird das Speichern geklickt erscheint die Abfrage-Einstellungsmaske. +
+Nach dem eine Liste erstellt wird erscheint der Button image:anwender-handbuch/button_speichern.png[]. Wird das Speichern geklickt erscheint die Abfrage-Einstellungsmaske. +
 +
-image:anwender/einfuehrung_abfrage_maske.png[]
+image:anwender-handbuch/einfuehrung_abfrage_maske.png[]
 +
 Minimal ist der Name der Anfrage festzulegen. Im Folgenden kann die Abfrage alle Nutzern oder auch nur bestimmten Rollen verfügbar gemacht werden. Wird der Haken _Für alle Objekte_ entfernt steht die Abfrage nur in dem erstellten Objekt zur Auswahl. +
 +
@@ -244,12 +244,12 @@ Anschließend folgen die Einstellungsmöglichkeiten der Liste. Beim Speichern de
 +
 Bei den Sortierung besteht in der Maske auch die Möglichkeit mehrstufig in bis zu drei Stufen zu sortieren. +
 +
-Mit Klick auf den Button image:anwender/button_speichern.png[] wird die Absprache gespeichert und es erscheint die Abfrageliste.
+Mit Klick auf den Button image:anwender-handbuch/button_speichern.png[] wird die Absprache gespeichert und es erscheint die Abfrageliste.
 
 Abfrage bearbeiten::
 
-Um eine Abfrage ist diese aufzurufen.Anschließend kommt man durch den Klick auf den Button image:anwender/button_bearbeiten.png[Bearbeiten] in die Eigenschaftsmaske der Abfrage, in der die Filter und Gestaltungsoptionen angepasst werden können. Mit dem speichern werden die Anpassungen übernommen und die geänderte Abfrage aufgerufen.
+Um eine Abfrage ist diese aufzurufen.Anschließend kommt man durch den Klick auf den Button image:anwender-handbuch/button_bearbeiten.png[Bearbeiten] in die Eigenschaftsmaske der Abfrage, in der die Filter und Gestaltungsoptionen angepasst werden können. Mit dem speichern werden die Anpassungen übernommen und die geänderte Abfrage aufgerufen.
 
 Abfrage löschen::
 
-Zum Löschen einer Anfrage ist die zu löschende Anfrage zu öffnen. Durch Klicken auf den Button image:anwender/button_loeschen.png[] wird nach Bestätigung in einer Sicherheitsabfrage die Anfrage gelöscht.
+Zum Löschen einer Anfrage ist die zu löschende Anfrage zu öffnen. Durch Klicken auf den Button image:anwender-handbuch/button_loeschen.png[] wird nach Bestätigung in einer Sicherheitsabfrage die Anfrage gelöscht.

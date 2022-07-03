@@ -8,7 +8,7 @@
 
 _Mein Konto_ enthält Einstellungen, die ein Nutzer zu seinem Benutzerkonto machen kann. Im folgenden ist die Einstellungsmaske zu sehen.
 
-image:anwender/individuell_konto_einstellungen.png[]
+image:anwender-handbuch/individuell_konto_einstellungen.png[]
 
 Es lassen sich
 
@@ -23,47 +23,47 @@ Der Mitgliedsname, über den die Anmeldung erfolgt und Urheberkennzeichnung in d
 
 E-Mails::
 
-Neben der Haupt-E-Mail-Adresse des Kontos können zum Konto noch weitere E-Mail-Adressen verwaltet werden. Klickt man auf der Seite _Mein Konto_ auf den Button image:anwender/button_e-mails.png[] so öffnet sich ein Pop-Up-Fenster, in dem weitere E-Mails verwaltet werden können. +
+Neben der Haupt-E-Mail-Adresse des Kontos können zum Konto noch weitere E-Mail-Adressen verwaltet werden. Klickt man auf der Seite _Mein Konto_ auf den Button image:anwender-handbuch/button_e-mails.png[] so öffnet sich ein Pop-Up-Fenster, in dem weitere E-Mails verwaltet werden können. +
 +
-image:anwender/individuell_konto_e-mails.png[]
+image:anwender-handbuch/individuell_konto_e-mails.png[]
 +
-Hier werden alle weiteren E-Mails des Kontos verwaltet. Der schwarze Briefumschlag image:anwender/button_e-mail_aktiv.png[] neben der E-Mail-Adresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwender/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann ein Konto aktiviert bzw. deaktiviert werden. +
+Hier werden alle weiteren E-Mails des Kontos verwaltet. Der schwarze Briefumschlag image:anwender-handbuch/button_e-mail_aktiv.png[] neben der E-Mail-Adresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwender-handbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann ein Konto aktiviert bzw. deaktiviert werden. +
 +
-Soll eine weitere E-Mail-Adresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwender/button_hinzufuegen_rot.png[] wird die E-Mail-Adresse in die Liste übernommen. +
+Soll eine weitere E-Mail-Adresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwender-handbuch/button_hinzufuegen_rot.png[] wird die E-Mail-Adresse in die Liste übernommen. +
 +
-Ein Löschen einer E-Mail-Adresse aus der Liste ist über den Button image:anwender/button_loeschen.png[] in der Zeile der zu löschenden E-Mail möglich. Nach dem Klick muss das Löschen nochmals in einem Pop-Up-Fenster bestätigt werden. Anschließend wird die E-Mail-Adresse aus der Konfiguration entfernt.
+Ein Löschen einer E-Mail-Adresse aus der Liste ist über den Button image:anwender-handbuch/button_loeschen.png[] in der Zeile der zu löschenden E-Mail möglich. Nach dem Klick muss das Löschen nochmals in einem Pop-Up-Fenster bestätigt werden. Anschließend wird die E-Mail-Adresse aus der Konfiguration entfernt.
 
 Passwort ändern::
 
-Mit dem Klick auf den Button image:anwender/button_passwort_aendern.png[Passwort ändern] wird ein Pop-Up-Fenster zum Ändern des Passworts geöffnet. +
+Mit dem Klick auf den Button image:anwender-handbuch/button_passwort_aendern.png[Passwort ändern] wird ein Pop-Up-Fenster zum Ändern des Passworts geöffnet. +
 +
-image:anwender/individuell_konto_passwort_aendern.png[]
+image:anwender-handbuch/individuell_konto_passwort_aendern.png[]
 +
-Hier sind das aktuell gültige Passwort und zwei mal das neue Passwort einzutragen. Mit dem Klick auf den Button image:anwender/button_anwenden.png[Anwenden] wird das Passwort geändert. Werden Feherl bei der Eingabe gemacht, wie z.B. die Vorgaben für ein gültiges Passwort nicht eingehalten, so wird der Änderungsprozess nicht durchgeführt und der Nutzer in einem roten Feld auf den Fehler hingewiesen.
+Hier sind das aktuell gültige Passwort und zwei mal das neue Passwort einzutragen. Mit dem Klick auf den Button image:anwender-handbuch/button_anwenden.png[Anwenden] wird das Passwort geändert. Werden Feherl bei der Eingabe gemacht, wie z.B. die Vorgaben für ein gültiges Passwort nicht eingehalten, so wird der Änderungsprozess nicht durchgeführt und der Nutzer in einem roten Feld auf den Fehler hingewiesen.
 
 2-Faktor-Authentifizierung::
 
 xmera Omnia bietet die Möglichkeit sich über eine 2-Faktor-Authentifizierung mit Hilfe eines One-Time-Passworts (OTP) anzumelden. Ist diese für ein Konto nicht eingerichtet, so kann der Nutzer durch Klick auf _Authentifizierungs-App aktivieren_ die Einrichtung des OTP beginnen. +
 +
-image:anwender/individuell_konto_ohne_2f.png[]
+image:anwender-handbuch/individuell_konto_ohne_2f.png[]
 +
 Es erscheint ein Fenster zum einrichten der 2-Faktor-Authentifizierung. +
 +
-image:anwender/individuell_konto_2f_einrichten.png[]
+image:anwender-handbuch/individuell_konto_2f_einrichten.png[]
 +
 Diese Maske zeigt den Schlüssel als QR-Code und darunter als Klar-Text-Schlüssel an. Dieser Schlüssel ist in die Authenfizierungs-App zu übertragen. +
 +
-Anschließend ist mit der Authentifizierungs-App ein OTP zu generieren und in das Feld Code zu übertragen. Wenn Anschließend der Button image:anwender/button_aktivieren.png[Aktivieren] betätigt wird, ist die 2-Faktor-Authentifizierung aktiviert. + 
+Anschließend ist mit der Authentifizierungs-App ein OTP zu generieren und in das Feld Code zu übertragen. Wenn Anschließend der Button image:anwender-handbuch/button_aktivieren.png[Aktivieren] betätigt wird, ist die 2-Faktor-Authentifizierung aktiviert. + 
 +
 Anschließend ergeben sich in der Konto-Information weitere Bedienmöglichkeiten. +
 +
-image:anwender/individuell_konto_mit_2f.png[]
+image:anwender-handbuch/individuell_konto_mit_2f.png[]
 +
 Zum Deaktivieren klickt man auf den Link _Deaktivieren_. Anschließend erscheint die Aufforderung das OTP aus der Authentifizierungs-App einzugeben. Ist dieses erfolgt, ist die 2-Faktor-Authentifizierung deaktiviert. +
 +
 Der Backup-Code hilft, wenn die Authentifizierungs-App nicht zurVerfügung steht. Für diesen Fall wird mit dieser Funktion eine Liste von Codes erstellt, mit denen ersatzweise gearbeitet werden kann. Um diese Liste zu generieren Klickt man auf den Link _Backup-Codes generieren_. Es erscheint ein Fenster, in dem man den aktuelle OTP-Code einträgt. Anschließend wird die Liste der Backup-Codes ausgegeben. +
 +
-image:anwender/individuell_konto_2f_backupcode.png[]
+image:anwender-handbuch/individuell_konto_2f_backupcode.png[]
 +
 Die Liste sollte ausgedruckt und an einem sicheren Ort verwahrt werden.
 
@@ -71,7 +71,7 @@ Die Liste sollte ausgedruckt und an einem sicheren Ort verwahrt werden.
 
 _Meine Seite_ dient dem Nutzer als Übersicht über all seine Arbeiten und Informationen die für ihn wichtig sind. _Meine Seite_ ist über das Hauptmenü zugänglich. 
 
-image:anwender/individuell_meine-seite.png[]
+image:anwender-handbuch/individuell_meine-seite.png[]
 
 Die Informationen werden auf der Seite in Blöcken zur Verfügung gestellt. Der Nutzer kann dabei die Blöcke nach seinem Wunsch zusammenstellen und positionieren.
 
@@ -79,16 +79,16 @@ Block hinzufügen:
 
 Über das Auswahlfeld _Hinzufügen:_ können Blöcke verschiedenen Typs der Seite hinzugefügt werden
 
-image:anwender/individuell_meine-seite_block_hinzufuegen.png[]
+image:anwender-handbuch/individuell_meine-seite_block_hinzufuegen.png[]
 
 Durch klicken auf den gewünschten Blocktyp wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
 
-Die Bearbeitung der Blöcke ist gleich der Bearbeitung der Blöcke des Dashboards. Die Beschreibung finden sie xref:anwender_dashboard.adoc#_dashboard_inhalte_bearbeiten[hier].
+Die Bearbeitung der Blöcke ist gleich der Bearbeitung der Blöcke des Dashboards. Die Beschreibung finden sie xref:dashboard.adoc#_dashboard_inhalte_bearbeiten[hier].
 
 == Private Kommentare
 
 Bei Kommentierungen in xmera Omnia z.B. bei Aufgaben gibt es die Möglichkeit, diese als Privat zu kennzeichnen. (siehe roter Kreis im folgenden Bild)
 
-image:anwender/individuell_kommentar_privat.png[]
+image:anwender-handbuch/individuell_kommentar_privat.png[]
 
-Diese Kommentare werden mit einem gelben Symbol image:anwender/individuell_kommentar_privat_symbol.png[] gekennzeichnet. Diese Kommentare können nur von einem selbst, dem Administrator und von Rollenmitgliedern mit entsprechender Berechtigung gelesen werden.
+Diese Kommentare werden mit einem gelben Symbol image:anwender-handbuch/individuell_kommentar_privat_symbol.png[] gekennzeichnet. Diese Kommentare können nur von einem selbst, dem Administrator und von Rollenmitgliedern mit entsprechender Berechtigung gelesen werden.

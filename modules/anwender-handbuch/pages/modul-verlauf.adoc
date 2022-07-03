@@ -8,7 +8,7 @@
 
 Das Modul Verlauf bildet die Aufgaben aus dem Objekt und den unterlagerten Objekten als Gantt-Diagramm dar.
 
-image::anwender/modul_verlauf_gantt.png[]
+image::anwender-handbuch/modul_verlauf_gantt.png[]
 
 
 
@@ -24,18 +24,18 @@ image::anwender/modul_verlauf_gantt.png[]
 [#filter]
 Filter:: 
 
-Das Gantt-Diagramm wird beim öffnen nach offenen Aufgaben gefiltert.  Der Filter lässt sich über die xref:anwender_aufbau.adoc#_filter_und_optionen[Filteroptionen] vielfältig anpassen.
+Das Gantt-Diagramm wird beim öffnen nach offenen Aufgaben gefiltert.  Der Filter lässt sich über die xref:aufbau.adoc#_filter_und_optionen[Filteroptionen] vielfältig anpassen.
 
 [#optionen]
 Optionen:: 
 
 In den Optionen können die Eigenschaften der Aufgabe in Spalten hinter dem Aufgabenbaum angepasst werden. Wird der Bereich Optionen aufgeklappt erscheint folgende Auswahl: +
 +
-image:anwender/modul_verlauf_optionen.png[]
+image:anwender-handbuch/modul_verlauf_optionen.png[]
 +
 Setzt man das Häkchen _Anzeige_ werden die _Ausgewählten Spalten im Gantt neben dem Aufgabenbaum angezeigt. +
 +
-image:anwender/modul_verlauf_spalten.png[] 
+image:anwender-handbuch/modul_verlauf_spalten.png[] 
 +
 Über die Auswahlfunktion in dem Optionen lassen sich verfügbare Attribute in die Anzeige übernehmen, die Reihenfolge verändern oder auch wieder löschen.+
 +
@@ -43,7 +43,7 @@ Unterhalb der Spaltenauswahl kann noch ausgewählt werden, ob die Aufgabenverkn�
 +
 Setzt man das Häkchen Anzeige bei der Fortschrittslinie so zeigt eine rote Linie, wie in dem folgenden Beispiel zu sehen, den Fortschritt in Bezug auf das Datum an: +
 +
-image:anwender/modul_verlauf_fortschrittslinie.png[]
+image:anwender-handbuch/modul_verlauf_fortschrittslinie.png[]
 +
 Auf diese Weise erhält man einen Überblick über den Puffer bzw. die Verzögerungen im Projekt.
 
@@ -58,7 +58,7 @@ Der Startmonat des Gantt-Diagramms kann über die Tasten einen Monat nach vorn b
 
 [#ansicht]
 Ansicht:: 
-Über die Button image:anwender/button_vergroessern.png[] bzw. image:anwender/button_verkleinern.png[] lässt sich die Granularität der Datumanzeige im Gantt-Diagramm anpassen. Es gibt 4 Stufen (von klein nach groß) +
+Über die Button image:anwender-handbuch/button_vergroessern.png[] bzw. image:anwender-handbuch/button_verkleinern.png[] lässt sich die Granularität der Datumanzeige im Gantt-Diagramm anpassen. Es gibt 4 Stufen (von klein nach groß) +
 - Nur der Monat
 - Monat und Kalenderwoche
 - Monat, Kalenderwoche, Wochentag
@@ -67,7 +67,7 @@ Ansicht::
 [#bereich-vor-zurueck]
 Anzeigebereich vor/zurück:: 
 
-Mit den Button image:anwender/button_zurueck_grau.png[] bzw. image:anwender/button_weiter_grau.png[] wird im Gantt-Diagramm der Anzeigeblock vor dem aktuellen Anzeigeblock bzw. der folgende Anzeigeblock angezeigt.
+Mit den Button image:anwender-handbuch/button_zurueck_grau.png[] bzw. image:anwender-handbuch/button_weiter_grau.png[] wird im Gantt-Diagramm der Anzeigeblock vor dem aktuellen Anzeigeblock bzw. der folgende Anzeigeblock angezeigt.
 
 [#aufgabenbaum]
 Aufgabenbaum:: 
@@ -84,6 +84,6 @@ Durch blaue und rote Pfeile werden die Verknüpfungen (blockiert / Vorgänger)zu
 +
 Bei Mouse-over wird ein Tooltip angezeigt, in dem, wie unten zu sehen, die wichtigsten Eigenschaften der Aufgabe angezeigt werden. + 
 +
-image:anwender/modul_verlauf_tooltip.png[] 
+image:anwender-handbuch/modul_verlauf_tooltip.png[] 
 +
 Durch klicken auf die Aufgabe im Tooltip gelangt man zur Übersichtsseite der Aufgabe, durch klicken auf den Objektnamen zur Übersichtsseite des Objekts.

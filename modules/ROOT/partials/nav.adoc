@@ -1,6 +1,6 @@
 ---
 
-include::anwender:partial$nav.adoc[]
-include::admin:partial$nav.adoc[]
+include::anwender-handbuch:partial$nav.adoc[]
+include::admin-handbuch:partial$nav.adoc[]
 
 * xref:1.0@xo-docs:ROOT:index.adoc[*Zurück zur Hauptseite*]
