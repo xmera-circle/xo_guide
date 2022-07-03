@@ -8,9 +8,9 @@
 
 Mitteilung erstellen::
 
-über den Button image:anwender/button_mitteilung_hinzufuegen.png[] wird der Bearbeitungsbereich der Mitteilung geöffnet. +
+über den Button image:anwender-handbuch/button_mitteilung_hinzufuegen.png[] wird der Bearbeitungsbereich der Mitteilung geöffnet. +
 +
-image:anwender/modul_mitteilungen_hinzufuegen.png[]
+image:anwender-handbuch/modul_mitteilungen_hinzufuegen.png[]
 +
 Pflichtfelder sind der Titel und die Beschreibung. Für die Bearbeitung steht die Wiki Toolbar zur Verfügung. +
 +
@@ -26,13 +26,13 @@ Möglich ist die Kommentierung, das Bearbeiten oder das Löschen der Mitteilung.
 +
 Die Kommentare befinden sich unterhalb der Mitteilung. Durch den Klick auf [.underline]#_Kommentar hinzufügen_# wird die Bearbeitungsmaske für Kommentare geöffnet. +
 +
-Um die Mitteilung selbst zu bearbeiten klickt man auf den Button image:anwender/button_bearbeiten.png[] oberhalb der Überschrift. Es erscheint die Bearbeitungsmaske, in der alle Informationen der Mitteilung geändert werden können. +
+Um die Mitteilung selbst zu bearbeiten klickt man auf den Button image:anwender-handbuch/button_bearbeiten.png[] oberhalb der Überschrift. Es erscheint die Bearbeitungsmaske, in der alle Informationen der Mitteilung geändert werden können. +
 +
-Gelöscht werden kann die Mitteilung über den Button image:anwender/button_loeschen_grau.png[].
+Gelöscht werden kann die Mitteilung über den Button image:anwender-handbuch/button_loeschen_grau.png[].
 
 Mitteilungen beobachten::
 
-Über die Funktion _Beobachten_ besteht die Möglichkeit per Mail über neue Mitteilungen oder Änderungen in Mitteilungen (z.B. Kommentare) informiert zu werden. Hierzu steht der Button image:anwender/button_beobachten_aus.png[] bzw. image:anwender/button_beobachten_ein.png[] zur Verfügung. Ist der Stern grau, so ist der Modus Beobachten ausgeschaltet und kann durch klicken auf den Button eingeschaltet werden. Ist der Button gelb, so ist der Modus eingeschaltet und kann durch klicken auf den Button eingeschaltet werden. +
+Über die Funktion _Beobachten_ besteht die Möglichkeit per Mail über neue Mitteilungen oder Änderungen in Mitteilungen (z.B. Kommentare) informiert zu werden. Hierzu steht der Button image:anwender-handbuch/button_beobachten_aus.png[] bzw. image:anwender-handbuch/button_beobachten_ein.png[] zur Verfügung. Ist der Stern grau, so ist der Modus Beobachten ausgeschaltet und kann durch klicken auf den Button eingeschaltet werden. Ist der Button gelb, so ist der Modus eingeschaltet und kann durch klicken auf den Button eingeschaltet werden. +
 +
 Der Button ist im oberen Bereich des Reiters aber auch auf jeder Seite einer Meldung zu sehen. Wird der Beobachtungsmodus auf der Ebene Reiter gesetzt, so wird man über alle Änderungen der Mitteilungen im Objekt informiert. Wird der Modus auf der Seite einer Mitteilung gesetzt, so wird nur über Änderungen in der konkreten Mitteilung gesetzt.
  

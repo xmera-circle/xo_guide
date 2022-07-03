@@ -1,7 +1,7 @@
-name: xo-guide
+name: xmera-omnia-guide
 title: xmera Omnia Handbücher
-version: '1.0'
-start_page: anwender:anwender_aufbau.adoc
+version: '3.6'
+start_page: anwender-handbuch:aufbau.adoc
 nav:
 
 - modules/ROOT/partials/nav.adoc
