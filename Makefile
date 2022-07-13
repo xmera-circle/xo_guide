@@ -1,36 +1,37 @@
-.PHONY: help 
-
-# Set default variables
-#
-#ifndef TAG
-#override TAG = 3.4.1
-#endif
-
-# Assign a referenced variable
-#
-#REDMINE=redmine_${REDMINE_VERSION}
-
-# Assign an output of a shell command
-#
-#REDMINE_MOUNT=-v $(shell pwd)/${REDMINE}:${HOME}/redmine
-#USER_NAME=$(shell whoami)
-#GROUP_NAME=$(shell id -g -n)
-
-#CASE_NAME=$(shell ruby staging_case ${CASE} ${REDMINE})
-#XMERA_ROOT=${SOLUTION}_${TAG}
-#PWD=$(shell pwd)
-#TIMESTAMP=$(shell date +"%Y-%m-%d_%H-%M-%S")
+PATH_TO_FILE=$(shell npm bin)
+ifneq ("$(wildcard $(PATH_TO_FILE))","")
+    LOCAL=1
+else
+    LOCAL=0
+endif
 
 default: help
 
+.PHONY: help 
 help: #: Show help topics
 	@grep "#:" Makefile* | grep -v "@grep" | sort | sed "s/\([A-Za-z_ -]*\):.*#\(.*\)/$$(tput setaf 3)\1$$(tput sgr0)\2/g"
 
-xo-doc_html: #: Generate antora html output
-	@antora xo-doc-playbook.yml; \
-	firefox build/site/index.html;
+.PHONY: html
+html: #: Generate Antora HTML output
+ifeq ($(LOCAL), 1)
+	${PATH_TO_FILE}/antora antora-playbook-local.yml;
+else
+	antora antora-playbook-local.yml;
+endif
 
-xo-doc_pdf: #: Generate asciidoctor pdf document
+.PHONY: html_browser 
+html_browser: #: Generate Antora HTML output AND open index.html in browser
+ifeq ($(LOCAL), 1)
+	${PATH_TO_FILE}/antora antora-playbook-local.yml; \
+	firefox build/site/index.html;
+else
+	antora antora-playbook-local.yml; \
+	firefox build/site/index.html;
+endif
+
+## Not working right now!!! ##
+.PHONY: pdf
+pdf: #: Generate Asciidoctor pdf document
 	@cd ./pdf; \
 	asciidoctor-pdf xo-doc.adoc; \
 	cd ..; \
