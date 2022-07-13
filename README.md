@@ -18,6 +18,15 @@ So you need to install:
 - [Antora Lunr Extension](https://docs.antora.org/antora/latest/extend/supported-components/#component-matrix)
 - [Asciidoctor PDF](https://asciidoctor.org/docs/asciidoctor-pdf/#install-the-published-gem)
 
+For doing so, make sure you run the latest Node.js LTS version:
+
+    node --version
+    v16.13.1
+
+Install all dependencies of this project by
+
+    npm install
+
 ## Create xmera Omnia Guide via Makefile
 
 Create the Antora HTML pages and start the guide with Firefox:
