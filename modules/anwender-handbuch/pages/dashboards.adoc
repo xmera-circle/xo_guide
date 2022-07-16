@@ -1,0 +1,107 @@
+= Dashboards
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+== Systemdashboard
+
+Über den Menüpunkt _Hauptseite_ gelangt man zu den Dashboards in xmera Omnia. Das Dashboard dient dazu wichtige Informationen übersichtlich darzustellen. 
+
+Dabei können durch die Nutzer eigene Dashboards angelegt und auch öffentliche Dashboards bereitgestellt werden. Beim Aufruf der Hauptseite wird das Systemdashboard (festgelegt durch die Administration) oder das vom Benutzer zuletzt besuchte Dashboard geöffnet.
+
+image::anwender-handbuch/modul_system_dashboard.png[]
+
+== Dashboards gestalten
+
+Das Systemdashboard kann nur vom Administrator gestaltet werden. Darüberhinaus lassen sich von authorisierten Benutzern beliebig viele Dashboards gestalten.
+
+Ein Dashboard wird dabei aus verschiedenen Informationsblöcken zusammengestellt. Dazu gehören aktuell: 
+
+- Kennzahlen aus Abfragen,
+- Aufgabenlisten,
+- Diagramme,
+- Dokumentenlisten,
+- RSS Feeds, 
+- Mitteilungen, 
+- Texte und 
+- Button.
+
+Das nachfolgende Bild zeigt beispielhaft ein Dashboard für die Informationssicherheitsbeauftragte:n.
+
+image::anwender-handbuch/modul_dashboard_isb.png[]
+
+=== Dashboard aufrufen
+
+Ein Benutzer kann über das 3-Punkte-Menü ein beliebiges öffentliches Dashboard aufrufen.
+
+image:anwender-handbuch/modul_dashboard_waehlen.png[]
+
+Im Beispiel oben stehen die Dashboards _Test-Dashboard_ und _Welcome dashboard_ zur Auswahl, die durch einen Klick auf das entsprechende Menüelement aufgerufen werden können.
+
+Alternativ besteht die Möglichkeit eine Seitenleiste anzuzeigen. Wird diese Option gewählt, erscheint auf der linken Seite des Dashboards eine Sidebar, über die andere Dashboards aufgerufen werden können. Zusätzlich werden Informationen zum aktuell aufgeblendeten Dashboard gezeigt.
+
+image:anwender-handbuch/modul_dashboard_sidebar.png[]
+
+Durch Klicken auf den Pfleil image:anwender-handbuch/button_sidebar_ausblenden.png[] oder image:anwender-handbuch/button_sidebar_einblenden.png[] lässt sich die Sidebar aus- oder einblenden.
+
+=== Dashboard anlegen
+
+Jeder Nutzer, der die entsprechende Berechtigung hat, kann eigene Dashboards anlegen. Durch Klicken auf _neues Dashboard_ im 3-Punkte-Menü wird die Maske zum Erstellen eines neuen Dashboards geöffnet.
+
+image:anwender-handbuch/modul_dashboard_neu.png[]
+
+Pflichtfeld ist der Name des Dashboards, der durch eine Beschreibung ergänzt werden kann. Unter der Beschreibung wird die Sichtbarkeit des Dashboards festgelegt. Standardmäßig ist das Dashboard privat und kann nicht von anderen Nutzern gesehen werden. Es kann aber auch für alle Nutzer oder für bestimmte Rollen freigegeben werden. Weiterhin kann für das Dashboard festgelegt werden, ob die Seitenleiste beim Aufrufen angezeigt werden soll. 
+
+Hat der Nutzer Administrationsrechte, kann er das Dashboard zum Systemdashboard machen, das automatisch allen Nutzern angezeigt wird. Wird der Haken gesetzt, dann wird das bisherige Systemdashboard durch dieses Dashboard ersetzt.
+
+Nach dem Speichern wird das neue Dashboard mit einem Standardblock geöffnet. Anschließend kann es angepasst werden.
+
+=== Dashboard bearbeiten
+
+==== Konfiguration anpassen
+
+Über den Button image:anwender-handbuch/button_dashboard_bearbeiten.png[Dashboard bearbeiten] wird die Bearbeitungsmaske mit den dem Namen, der Beschreibung, den Zugriffsrechten und weiteren Strukturelementen angezeigt. Anpassungen werden mit dem Button image:anwender-handbuch/button_speichern.png[Speichern] übernommen.
+
+==== Informationsblöcke hinzufügen
+
+Über das Auswahlfeld _Block hinzufügen:_ können verschiedene Informationsblöcke der Seite hinzugefügt werden.
+
+image:anwender-handbuch/modul_dashboard_block_hinzufuegen.png[]
+
+Durch Klicken auf den gewünschten Blocktyp wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
+
+==== Inhalte bearbeiten
+
+Wird die Maus über einen Block geführt, erscheint ein kleines Blockmenü image:anwender-handbuch/modul_dashboard_blockmenue.png[Blockmenü]. Über dieses Blockmenü lassen sich die Inhalte oder Einstellungen bearbeiten.
+
+Block löschen::
+
+Durch Klicken auf image:anwender-handbuch/modul_dashboard_blockmenue_loeschen.png[Block löschen] wird, nach einer Bestätigung, dass der Block gelöscht werden soll, der gewählte Block aus dem Dashboard entfernt.
+
+Block konfigurieren::
+
+Durch Klicken auf image:anwender-handbuch/modul_dashboard_blockmenue_konfig.png[Block konfigurieren] erscheint oberhalb der Blockinhalte die Konfigurationsmaske, in der die Konfiguration des Blocks angepasst werden kann.
+
+Block platzieren::
+
+Durch Halten der linken Maustaste beim Klick auf den Button image:anwender-handbuch/modul_dashboard_blockmenue_verschieben.png[Block verschieben] kann der Block an einer anderen Stelle im Dashboard verschoben werden.
+
+Solange die linke Maustaste gehalten wird, wird der Block auf dem Dashboard verschoben. Dabei wird die mögliche neue Position als grau hinterlegter Bereich auf dem Dashboard angezeigt.
+
+image:anwender-handbuch/modul_dashboard_block_verschieben.png[Block verschieben]
+
+Wird die linke Maustaste losgelassen, wird der Block an der neuen Position dargestellt.
+
+[NOTE]
+Zum verschieben von Blöcken müssen mindestens 3 Blöcke vorhanden sein.
+
+Das Dashboard hat dabei ein vordefiniertes Layout, in der die Blöcke eingefügt werden können.
+
+image:anwender-handbuch/modul_dashboard_seitenstruktur.png[Dashboard Layout]
+
+Das Dashboard gliedert sich in verschieden große Blockrahmen, die einen oder mehrere Blöcke aufnehmen können. Werden mehrere Blöcke einem Rahmen zugeordnet, werden die Blöcke nebeneinander angeordnet.
+
+Die Änderungen müssen nicht gespeichert werden, sondern werden mit dem Verschieben automatisch übernommen.

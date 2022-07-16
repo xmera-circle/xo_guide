@@ -16,7 +16,7 @@ Ist die Zwei-Faktor-Authentifizierung aktiviert, erscheint anschließend die Abf
 
 image:anwender-handbuch/einfuehrung_otp.png[]
 
-Anschließend wird die Hauptseite von xmera Omnia angezeigt. Diese beinhaltet das xref:dashboard.adoc[xmera Omnia Dashboard].
+Anschließend wird die Hauptseite von xmera Omnia angezeigt. Diese beinhaltet das xref:dashboards.adoc[System Dashboard].
 
 == Anwendungsmenüs
 
@@ -33,7 +33,7 @@ Topmenü::
 
 Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen von xmera Omnia: +
 +
-- *Hauptseite:* Zugang zu den xref:dashboard.adoc[Dashboards]
+- *Hauptseite:* Zugang zu den xref:dashboards.adoc[Dashboards]
 - *Meine Seite:* Zugang zur persönlichen Übersichtsseite
 - *Objekte:* Zugang zu den xref:objekte.adoc[Objekten] (z.B. Projekte, Prozesse, Assets)
 - *DMS:* Zugang zum xref:modul-dms.adoc[Dokumentenmanagementsystem (DMS)]

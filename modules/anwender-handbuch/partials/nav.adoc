@@ -1,7 +1,7 @@
 * Anwenderhandbuch
 ** xref:anwender-handbuch:bediengrundlagen.adoc[]
 ** xref:anwender-handbuch:benutzerbezogene-seiten.adoc[]
-** xref:anwender-handbuch:dashboard.adoc[]
+** xref:anwender-handbuch:dashboards.adoc[]
 ** xref:anwender-handbuch:objekte.adoc[]
 ** Objektmodule
 *** xref:anwender-handbuch:modul-aufgaben.adoc[]

@@ -96,4 +96,4 @@ image:anwender-handbuch/individuell_meine-seite_block_hinzufuegen.png[]
 
 Durch Klicken auf den gewünschten Informationsblöcke wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
 
-Die Bearbeitung der Blöcke ist gleich der xref:dashboard.adoc#_dashboard_inhalte_bearbeiten[Bearbeitung der Blöcke des Dashboards].
+Die Bearbeitung der Blöcke ist gleich der xref:dashboards.adoc#_dashboard_inhalte_bearbeiten[Bearbeitung der Blöcke des Dashboards].
