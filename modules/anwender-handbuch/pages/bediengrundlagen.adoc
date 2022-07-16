@@ -29,7 +29,6 @@ In xmera Omnia gibt es vier Menüs:
 
 image:anwender-handbuch/einfuehrung_menues.png[]
 
-
 Topmenü::
 
 Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen von xmera Omnia: +
@@ -67,6 +66,7 @@ Objektmenü::
 
 Das Objektmenü wird ausschließlich in xref:objekte.adoc[Objektseiten] angezeigt und bietet Zugriff auf die aktivierten Objektmodule.
 
+image:anwender-handbuch/einfuehrung_objektmenue.png[]
 
 == Bedienoptionen
 

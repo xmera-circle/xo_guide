@@ -24,7 +24,7 @@ image::anwender-handbuch/modul_verlauf_gantt.png[]
 [#filter]
 Filter:: 
 
-Das Gantt-Diagramm wird beim öffnen nach offenen Aufgaben gefiltert.  Der Filter lässt sich über die xref:aufbau.adoc#_filter_und_optionen[Filteroptionen] vielfältig anpassen.
+Das Gantt-Diagramm wird beim öffnen nach offenen Aufgaben gefiltert.  Der Filter lässt sich über die xref:bediengrundlagen.adoc#_filtereinstellungen[Filtereinstellungen] vielfältig anpassen.
 
 [#optionen]
 Optionen:: 
