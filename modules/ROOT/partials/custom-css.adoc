@@ -34,4 +34,7 @@ video,
 .doc .imageblock.text-left{
   align-items: flex-start;
 }
+.red { 
+  color: #9e1030;
+}
 </style>]
