@@ -148,7 +148,7 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 
 Importdatei hochladen::
 +
-Der Einstiegspunkt für den Import von Objekten ist über das Topmenü durch Klick auf den Menüpunkt __Objekte__ erreichbar. Wenn auf der Objektseite das Drei-Punkte-Menü aufgeklappt wird, erscheint der Menüpunkt __Importieren__.
+Der Einstiegspunkt für den Import von Objekten ist über das Topmenü durch Klick auf den Menüpunkt __Objekte__ erreichbar. Wenn auf der Objektseite das 3-Punkte-Menü aufgeklappt wird, erscheint der Menüpunkt __Importieren__.
 +
 image:anwender-handbuch/objekt_import.png[Dateiupload für den Objektimport]
 +
@@ -160,7 +160,7 @@ Dann auf __Weiter__ klicken, um zu den CSV-Optionen zu kommen.
 
 CSV Optionen definieren::
 +
-Die konkrete Wahl der CSV Optionen hängt davon ab, wie die CSV Datei erstellt wurde. Für die Kodierung ist im Normalfall __UTF-8__ die beste Wahl.
+Die konkrete Wahl der CSV Optionen hängt davon ab, wie die CSV-Datei erstellt wurde. Für die Kodierung ist im Normalfall __UTF-8__ die beste Wahl.
 +
 image:anwender-handbuch/objekt_import_optionen.png[CSV Optionen für den Objektimport]
 + 
@@ -186,7 +186,7 @@ Andernfalls erhält der Benutzer entsprechende Fehlermeldungen wie beispielhaft 
 image:anwender-handbuch/objekt_import_failure.png[Liste neuer Objekte und Fehlermeldungen nach fehlerhaften Import]
 
 [IMPORTANT]
-Der Importprozess wird nicht abgebrochen, wenn eine Zeile der CSV Datei nicht fehlerfrei in ein Objekt überführt werden kann. Die nicht importierten Zeilen werden in Form ihrer Positionsnummer in der Fehlermeldung angezeigt und müssen separat in einem zweiten Versuch importiert werden.
+Der Importprozess wird nicht abgebrochen, wenn eine Zeile der CSV-Datei nicht fehlerfrei in ein Objekt überführt werden kann. Die nicht importierten Zeilen werden in Form ihrer Positionsnummer in der Fehlermeldung angezeigt und müssen separat in einem zweiten Versuch importiert werden.
 
 == Objekte konfigurieren
 
