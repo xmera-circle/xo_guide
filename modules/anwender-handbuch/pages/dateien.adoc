@@ -1,0 +1,28 @@
+= Dateien
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+== Übersicht Dateien
+
+Das Modul __Dateien__ ist die einfachste Form Dateien zu integrieren. Das Modul ermöglicht es Dateien eines beliebigen Formats im Objekt zu speichern. Als Metadaten stehen dabei nur der Dateiname, die Zuordnung zu einem Paket und eine Beschreibung zur Verfügung. Klickt man auf den Reiter des Moduls Dateien erscheint folgende Maske.
+
+image:anwender-handbuch/modul_dateien_uebersicht.png[]
+
+Die dem Objekt zugeordneten Dateien sind gruppiert nach Paketen untereinander. Die Dateien werden beim Anzeigen nach dem Dateinamen aufsteigend sortiert. Die Sortierung lässt sich durch einen Klick auf den Spaltennamen des gewünschten Sortierkriteriums ändern. Durch nochmaliges Klicken ändert sich die Sortierreihenfolge. angezeigt wird dieses durch ein Symbol neben dem Spaltennamen. Als Sortierkriterien stehen der Dateiname, das Upload-Datum, die Dateigröße und die Anzahl der Downloads zur Verfügung.
+
+== Neue Datei hinzufügen
+
+Eine neue Datei wird über den Button image:anwender-handbuch/button_neue-datei.png[] hinzugefügt. Es erscheint folgender Eingabedialog
+
+image:anwender-handbuch/modul_dateien_neue_datei.png[]
+
+Die Datei kann einem Paket zugeordnet werden. Über den Button _Durchsuchen_ wird der Dateiexplorer geöffnet über den die Datei ausgewählt werden kann. Alternativ kann die Datei auch über Drag & Drop über dem Button _Durchsuchen_ fallen gelassen werden. Der Datei kann noch ein erläuternder Text hinzugefügt werden.
+
+Durch den image:anwender-handbuch/button_loeschen_symbol.png[] kann die Auswahl rückgängig gemacht werden.
+
+[TIP]
+Wenn die Dateien einem gleichen Paket oder keinem Paket zugeordnet werden sollen, kann auch durch eine Mehrfachauswahl im Dateiexplorer oder durch mehrfaches _Durchsuchen_ und auswählen mehrere Dateien in einem Zug hinzugefügt werden. Über die Drag & Drop Funktion ist eine Mehrfachzuordnung ebenfalls möglich.
+
+Mit Klicken des Buttons image:anwender-handbuch/button_hinzufuegen.png[] wird die Auswahl dem Objekt hinzugefügt und man gelangt wieder zur Datei-Übersichtsseite.
