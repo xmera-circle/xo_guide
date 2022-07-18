@@ -4,7 +4,7 @@
 ** xref:anwender-handbuch:dashboards.adoc[]
 ** xref:anwender-handbuch:objekte.adoc[]
 ** Objektmodule
-*** xref:anwender-handbuch:modul-aufgaben.adoc[]
+*** xref:anwender-handbuch:aufgaben.adoc[]
 *** xref:anwender-handbuch:modul-dateien.adoc[]
 *** xref:anwender-handbuch:modul-dms.adoc[]
 *** xref:anwender-handbuch:modul-dokumente.adoc[]

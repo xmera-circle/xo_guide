@@ -28,7 +28,7 @@ image::anwender-handbuch/objektuebersicht_undefined.png[Objekthierarchie]
 &#10122; Objektbezeichung (Hierarchiepfad und <<Objektname>>) +
 &#10123; <<Objektbeschreibung>> +
 &#10124; Spezifische <<Objektdaten>> (Eigene Felder) +
-&#10125; xref:modul-aufgaben.adoc[Aufgaben] +
+&#10125; xref:aufgaben.adoc[Aufgaben] +
 &#10126; <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
 &#10127; <<Objekthierarchie,Unterobjekte>> (Hierarchie) +
 &#10128; <<Objektverknüpfungen, Verknüpfte Objekte>> (logische Zusammenhänge)
