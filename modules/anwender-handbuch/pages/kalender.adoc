@@ -1,0 +1,36 @@
+= Kalender
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+== Funktionen Kalender
+
+Das Modul __Kalender__ zeigt alle terminierten Aufgaben an. Beim Aufruf der Kalenderseite werden alle offenen Aufgaben des aktuellen Monats dargestellt. 
+
+image:anwender-handbuch/modul_kalender_seite.png[]
+
+=== Kalendereinträge filtern
+
+Die Filterfunktion &#10122; ermöglicht, die Aufgaben, die angezeigt werden, nach eigenen Kriterien zu filtern. Dafür können Aufgabenattribute oder ein Monat &#10123; ausgewählt werden. Mit den Buttons &#10124; kann der Kalender monatsweise vor oder zurück geblättert werden.
+
+=== Anzeige von Kalendereinträgen
+
+Im Kalenderbereich werden die gefilterten Aufgaben jeweils an dem Tag, an dem die Aufgabe beginnt und an dem sie endet, angezeigt. Pakete werden an angezeigt, wenn der Kalendertag dem Enddatum enstpricht.
+
+Im folgenden Beispiel werden die Aufgaben am Donnerstag den 30.10. dargestellt.
+
+image:anwender-handbuch/modul_kalender_tagesdetails.png[]
+
+An diesem Tag enden zwei Aufgaben (#297 und #295) und ein Paket (Meldungen-Q3-2021).
+
+[NOTE]
+Die Rote Schrift zeigt an, dass die Aufgaben überfällig sind.
+
+Zu jeder Aufgabe wird zunächst das Objekt angezeigt, anschließend ein Icon gemäß Legende &#10125;, danach der Aufgabentyp mit Aufgabennummer (#...) und dann der Aufgabentitel. Beim Darübergleiten mit der Maus werden, wie im folgenden zu sehen, weitere Informationen eingeblendet.
+
+image:anwender-handbuch/modul_kalender_mouse-over.png[]
+
+Durch Klicken auf den Aufgabentitel gelangt man in die Aufgabenmaske.
