@@ -1,0 +1,81 @@
+= Tabellen
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Tabellen dienen im xmera Omnia der Erfassung von Listen, die zum einen der Dokumentation dienen können, wie z.B. Gerätelisten, oder der Abfrage von Werten, wie z.B. eine Schutzbedarfsanalyse, die wiederum durch Berechnungen und Verknüpfungen weitere Funktionen bieten kann.
+
+Der Tabellenaufbau, das heißt die einzelnen Tabellenspalten und ggf. die Berechnungen werden durch den Administrator festgelegt. Der Anwender legt dann Datenblätter an, die auf den administrierten Tabellen basieren.
+
+Ist das Modul __Tabellen__ in einem Objekt aktiviert, kommt der Anwender durch Klicken auf den Menüpunkt _Tabellen_ auf die Übersichtsseite der Tabellen.
+
+image::anwender-handbuch/modul_tabellen_uebersicht.png[]
+
+Auf der Übersichtsseite werden die bereits bestehenden Datenblätter als Kacheln und in der Sidebar (die durch den roten Pfeil ein- und ausgeklappt werden kann) dargestellt. 
+
+Eine Kachel enthält den Datenblattnamen und wenn vorhanden die Beschreibung des Datenblatts sowie das Berechnungsergebnis.
+
+In der Sidebar sind die Datenblätter nach der zu grunde liegenden Tabelle sortiert. Dem Datenblatt unterlagert wird das Berechnungsergebnis dargestellt. durch Klicken auf den Datenblattnamen erscheint die Bearbeitungsseite des Datenblatts. Durch Klicken auf den Button image:anwender-handbuch/button_neues-datenblatt.png[] öffnet sich die Erfassungsmaske für ein neues Datenblatt.
+
+== Datenblatt erstellen und bearbeiten
+
+=== Datenblatt erstellen
+
+Mit dem Button image:anwender-handbuch/button_neues-datenblatt.png[] kann der Anwender ein neues Datenblatt erstellen. Es öffnet sich folgende Seite:
+
+image:anwender-handbuch/modul_tabellen_neues_datenblatt.png[]
+
+Dem Datenblatt muss einen Namen erhalten. Die Beschreibung des Datenblatts ist optional. Zur Erstellung der Beschreibung steht die Wiki-Toolbar zur Verfügung.
+
+Die Tabelle, auf der das Datenblatt beruht, ist wiederum ein Pflichtfeld. Mit dem Button image:anwender-handbuch/button_anlegen.png[] wird das Datenblatt erstellt. Danach wird die Übersichtsseite des Datenblatts angezeigt.
+
+=== Datenblatt bearbeiten
+
+Die Übersichtsseite zeigt die erfassten Zeilen mit den erfassten Spaltenwerten. Eine Bearbeitung ist zeilenweise möglich.
+
+image:anwender-handbuch/modul_tabellen_datenblatt.png[]
+
+Durch Klicken auf den Button image:anwender-handbuch/button_neue-zeile.png[] oder durch Klicken auf den Button image:anwender-handbuch/button_bearbeiten.png[] im rechten Teil der Zeile wird die Bearbeitungsmakse für die neue bzw. die gewählte Zeile geöffnet.
+
+image:anwender-handbuch/modul_tabellen_zeile_bearbeiten.png[]
+
+Hier sind die Attribute gelistet und die Werte können entsprechend der Feldtypen bearbeitet werden.
+
+Mit Klicken des Buttons image:anwender-handbuch/button_anlegen.png[] werden die Werte übernommen.
+
+Weiter ist im linken Bereich jeder Zeile der Button image:anwender-handbuch/button_loeschen.png[], mit dem die Zeile gelöscht werden kann.
+
+== Berechnungsfunktionen
+
+Das Modul __Tabellen__ besitzt die Möglichkeit Tabellenberechnungen durchzuführen. Die Berechnungen sind durch die Administration zu definieren. Wenn solch eine Berechnung für die Tabelle angelegt ist, wird das Berechnungsergebnis oberhalb der Tabelle angezeigt.
+
+image::anwender-handbuch/modul_tabellen_berechnung.png[]
+
+Das Beispiel zeigt eine Schutzbedarfsfeststellung, bei der die Werte aller Zeilen der Tabelle nach dem Maximumprinzip zusammengefasst werden.
+
+== Assoziierte Tabellen
+
+xmera Omnia bietet über die Funktionalität der Aggregation von assoziierten Tabellen an, Vererbungen abzubilden. 
+
+Assoziierte Tabellen sind Datenblätter mit gleichem Tabellentyp, wodurch die Tabellen miteinander verknüpft werden können. Wird in der Berechnungskonfiguration die Option _aggregation von assoziierten Tabellen_ gewählt, dann wird dem aktuellen Datenblatt eine neue Tabelle zugeordnet.
+
+=== Beipiel Schutzbedarfsanalyse und -feststellung
+
+In diesem Beispiel werden die Ergebnisse der zugehörigen Datenblätter und das Berechnungsergebnis der Analyse im Objekt selbst, wie im folgenden Bild zu sehen, in der Rubrik _einzelne Berechnungsergebnisse_ angezeigt.
+
+image::anwender-handbuch/modul_tabellen_assosiiert.png[]
+
+Die Zusammenfassung der Ergebnisse aus allen assoziierten Datenblättern wird in der Zeile _Berechnete Ergebnisse_ dargestellt.
+
+Mit dem Button _Übernehmen_ im _Berechneten Ergebnis_ wird das Ergebnis in die Zeile _Berechnung_ übernommen.
+
+[IMPORTANT]
+Erst mit der Übernahme bzw. mit der manuellen Pflege der _Berechnung_ steht das Ergebnis den verknüpften Objekten zur Verfügung und wird vererbt.
+
+Das Ergebnis der Berechnung kann manuell verändert werden. Hierzu den Button image:anwender-handbuch/button_bearbeiten.png[] klicken. Bei einer manuellen Bearbeitung ist zwingend die Bemerkung zu füllen.
+
+[NOTE]
+Im xmera Omnia wird das Ergebnis der Schutzbedarfsfeststellung auf der Übersichtsseite des Objekt dargestellt.
