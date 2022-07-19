@@ -84,7 +84,7 @@ Das 3-Punkte-Menü beinhaltet die Möglichkeiten:
 - eine Zusammenfassung (Statistik und graphische Auswertungen) aufzurufen,
 - Aufgaben zu importieren,
 - in die Aufgabenkonfiguration zu springen und
-- eine xref:modul-sync.adoc[Synchronisation] anzustoßen.
+- eine xref:aufgaben-synchronisation.adoc[Synchronisation] anzustoßen.
 
 image:anwender-handbuch/modul_aufgaben_3-punkte-menue.png[]
 
@@ -103,7 +103,7 @@ Konfiguration::
 Mit dem Menüpunkt _Konfiguration_ springt der Anwender direkt in die Aufgabenkonfiguration des Objekts.
 
 Synchronisation::
-Mit dem Menüpunkt xref:modul-sync.adoc[Synchronisation] wird der Synchronisationsdialog für das Synchronisieren von Aufgabenlisten geöffnet. 
+Mit dem Menüpunkt xref:aufgaben-synchronisation.adoc[Synchronisation] wird der Synchronisationsdialog für das Synchronisieren von Aufgabenlisten geöffnet. 
 
 === Aufgabenexport
 

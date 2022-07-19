@@ -10,7 +10,7 @@
 *** xref:anwender-handbuch:dokumente.adoc[]
 *** xref:anwender-handbuch:foren.adoc[]
 *** xref:anwender-handbuch:kalender.adoc[]
-*** xref:anwender-handbuch:modul-sync.adoc[]
+*** xref:anwender-handbuch:aufgaben-synchronisation.adoc[]
 *** xref:anwender-handbuch:modul-tabellen.adoc[]
 *** xref:anwender-handbuch:modul-verlauf.adoc[]
 *** xref:anwender-handbuch:modul-wiki.adoc[]
