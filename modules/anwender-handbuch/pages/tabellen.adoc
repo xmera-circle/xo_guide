@@ -6,6 +6,8 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
+== Funktionen Tabellen
+
 Tabellen dienen im xmera Omnia der Erfassung von Listen, die zum einen der Dokumentation dienen können, wie z.B. Gerätelisten, oder der Abfrage von Werten, wie z.B. eine Schutzbedarfsanalyse, die wiederum durch Berechnungen und Verknüpfungen weitere Funktionen bieten kann.
 
 Der Tabellenaufbau, das heißt die einzelnen Tabellenspalten und ggf. die Berechnungen werden durch den Administrator festgelegt. Der Anwender legt dann Datenblätter an, die auf den administrierten Tabellen basieren.

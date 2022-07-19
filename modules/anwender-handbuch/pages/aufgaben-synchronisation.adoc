@@ -6,6 +6,8 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
+== Funktionen Aufgaben-Synchronisation
+
 Das Modul Aufgaben-Synchronisation ist entwickelt worden, um die Modellierung von Sicherheitsanforderungen, Zuordnung von Gefährdungen oder eigenen Anforderungen/Aufgaben im ISMS-Umfeld automatisiert durchführen zu können. 
 
 == Voraussetungen zur Synchronisation

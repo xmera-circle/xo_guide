@@ -12,7 +12,7 @@
 *** xref:anwender-handbuch:kalender.adoc[]
 *** xref:anwender-handbuch:aufgaben-synchronisation.adoc[]
 *** xref:anwender-handbuch:tabellen.adoc[]
-*** xref:anwender-handbuch:modul-verlauf.adoc[]
+*** xref:anwender-handbuch:verlauf.adoc[]
 *** xref:anwender-handbuch:modul-wiki.adoc[]
 *** xref:anwender-handbuch:modul-mitteilungen.adoc[]
 *** xref:anwender-handbuch:modul-archiv.adoc[]
