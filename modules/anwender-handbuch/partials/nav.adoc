@@ -8,7 +8,7 @@
 *** xref:anwender-handbuch:dateien.adoc[]
 *** xref:anwender-handbuch:dokumentenmanagement.adoc[]
 *** xref:anwender-handbuch:dokumente.adoc[]
-*** xref:anwender-handbuch:modul-foren.adoc[]
+*** xref:anwender-handbuch:foren.adoc[]
 *** xref:anwender-handbuch:modul-kalender.adoc[]
 *** xref:anwender-handbuch:modul-sync.adoc[]
 *** xref:anwender-handbuch:modul-tabellen.adoc[]
