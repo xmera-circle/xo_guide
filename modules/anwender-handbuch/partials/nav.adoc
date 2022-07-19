@@ -6,7 +6,7 @@
 ** Objektmodule
 *** xref:anwender-handbuch:aufgaben.adoc[]
 *** xref:anwender-handbuch:dateien.adoc[]
-*** xref:anwender-handbuch:modul-dms.adoc[]
+*** xref:anwender-handbuch:dokumentenmanagement.adoc[]
 *** xref:anwender-handbuch:modul-dokumente.adoc[]
 *** xref:anwender-handbuch:modul-foren.adoc[]
 *** xref:anwender-handbuch:modul-kalender.adoc[]

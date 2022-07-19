@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 == Übersicht Dateien
 
 Das Modul __Dateien__ ist die einfachste Form Dateien zu integrieren. Das Modul ermöglicht es Dateien eines beliebigen Formats im Objekt zu speichern. Als Metadaten stehen dabei nur der Dateiname, die Zuordnung zu einem Paket und eine Beschreibung zur Verfügung. Klickt man auf den Reiter des Moduls Dateien erscheint folgende Maske.

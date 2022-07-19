@@ -36,7 +36,7 @@ Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen vo
 - *Hauptseite:* Zugang zu den xref:dashboards.adoc[Dashboards]
 - *Meine Seite:* Zugang zur persönlichen Übersichtsseite
 - *Objekte:* Zugang zu den xref:objekte.adoc[Objekten] (z.B. Projekte, Prozesse, Assets)
-- *DMS:* Zugang zum xref:modul-dms.adoc[Dokumentenmanagementsystem (DMS)]
+- *DMS:* Zugang zum xref:dokumentenmanagement.adoc[Dokumentenmanagement (DMS)]
 
 Nutzermenü::
 
