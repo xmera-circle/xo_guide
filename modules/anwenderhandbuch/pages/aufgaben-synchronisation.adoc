@@ -25,7 +25,7 @@ Die zu synchronisierenden Aufgaben müssen dieses _Eigenes Feld_ besitzen und de
 
 In dem zu synchronisierenden Objekt muss das Modul _Aufgaben-Synchronisation_ aktiviert sein und es muss in der Modulkonfiguration mindestens ein _möglicher Wert_ als Zuordnungselement ausgewählt sein.
 
-image:anwender-handbuch/modul_sync_konfig_objekt.png[]
+image:anwenderhandbuch/modul_sync_konfig_objekt.png[]
 
 [IMPORTANT]
 Bei der Synchronisation werden die Standard-Kopiermechanismen des Systems genutzt, so dass hier die in der Administration gewählte Option, wie mit der Verlinkung beim Kopieren umgegangen wird, auch für den Synchronisationsprozess gilt.
@@ -34,11 +34,11 @@ Bei der Synchronisation werden die Standard-Kopiermechanismen des Systems genutz
 
 Gestartet wird die Aufgaben-Synchronisation aus dem Reiter Aufgaben. Hier wird bei Aktivierung des Moduls __Aufgaben-Synchronisation__ im 3-Punkte-Menü die Auswahl __Synchronisieren__ angeboten.
 
-image:anwender-handbuch/modul_sync_3-punkte-menue.png[]
+image:anwenderhandbuch/modul_sync_3-punkte-menue.png[]
 
 Mit dem Klick auf __Synchronisieren__ wird der Synchoronisationsdialog geöffnet.
 
-image:anwender-handbuch/modul_sync_maske_start.png[]
+image:anwenderhandbuch/modul_sync_maske_start.png[]
 
 In dieser Maske werden zunächst Quell- und Zielobjekt dargestellt. Wenn bei der Aufgabensynchronisation mehrere Aufgabentypen für die Synchronisation konfiguriert wurden, besteht die Möglichkeit, die Synchronisation auf einen (Dropdown) oder mehrere ( + ) Aufgabentypen  einzugrenzen.
 
@@ -46,9 +46,9 @@ Nach einer Änderung in der Auswahl eines Aufgabentyps muss durch einen Klick au
 
 Unterhalb der Auswahl der Aufgabentypen werden die Zielobjektklassen aufgelistet. Im Beispiel sind es die Klassen: Büroraum, Home-Office/Mobiler Arbeitsplatz, Serverraum, Technikraum.
 
-Es wird die Anzahl an Aufgaben dargestellt (im Beispiel 4 Aufgaben), die synchronisiert werden können. Klappt man den Bereich image:anwender-handbuch/modul_sync_maske_details.png[] auf, werden die Aufgaben konkret aufgelistet.
+Es wird die Anzahl an Aufgaben dargestellt (im Beispiel 4 Aufgaben), die synchronisiert werden können. Klappt man den Bereich image:anwenderhandbuch/modul_sync_maske_details.png[] auf, werden die Aufgaben konkret aufgelistet.
 
-Mit dem Klick auf den Button image:anwender-handbuch/button_synchronisieren.png[]
+Mit dem Klick auf den Button image:anwenderhandbuch/button_synchronisieren.png[]
 wird der Synchronisationsprozess gestartet.
 
 == Funktionsweise Systemobjekt
@@ -57,10 +57,10 @@ Um das Bündeln von Aufgaben an einem überlagerten Objekt zu ermöglichen, steh
 
 [NOTE]
 Wird die Synchronisation an einem Objekt durchgeführt, das ein überlagertes Systemobjekt besitzt, wird die Synchronisation mit der Fehlermeldung _(Objektname) wird über sein übergeordnetes Objekt synchronisiert._ abgebrochen. Beispiel:
-image:anwender-handbuch/modul_sync_fehler_systemobjekt.png[]
+image:anwenderhandbuch/modul_sync_fehler_systemobjekt.png[]
 
 Das Systemobjekt wird in der Modulkonfiguration des Objektes festgelegt.
 
-image:anwender-handbuch/modul_sync_konfig_systemobjekt.png[]
+image:anwenderhandbuch/modul_sync_konfig_systemobjekt.png[]
 
 Werden in einem Hierarchiebaum mehrere Systemobjekte gesetzt, so kann die Synchronisation nur am obersten Objekt ausgeführt werden, da alle unterlagerten Objekte ein überlagertes Systemobjekt besitzen und damit (siehe Notiz oben) der Synchronisationsprozess abgebrochen wird.
