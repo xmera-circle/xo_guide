@@ -1,1 +1,0 @@
-* xref:xos-hb_objektverantwortlicher.adoc[Objektverantwortlicher]

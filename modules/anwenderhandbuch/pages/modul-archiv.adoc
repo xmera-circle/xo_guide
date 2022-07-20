@@ -1,0 +1,7 @@
+= Modul Archiv
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+Das Modul Archiv dient der Anbindung von Repositories. Es ist für den ISMS-Betrieb nicht notwendig. Die Beschreibung wird zu einem späteren Zeitpunkt erfolgen.

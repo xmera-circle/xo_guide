@@ -1,0 +1,99 @@
+= Benutzerbezogene Seiten
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+== Mein Konto
+
+_Mein Konto_ enthält Einstellungen, die ein Nutzer zu seinem Benutzerkonto machen kann. Im folgenden ist die Einstellungsmaske zu sehen.
+
+image:anwenderhandbuch/individuell_konto_einstellungen.png[]
+
+Es lassen sich
+
+- der Name
+- die E-Mail Adresse bzw. Adressen
+- die Sprache
+- das Passwort und ggf. die 2-Faktor-Authentifizierung
+- allgemeine Einstellungen zur E-Mail Benachrichtigung und 
+- allgemeine Präferenzen
+
+Der Mitgliedsname, über den die Anmeldung und Autorenkennzeichnung in der Anwendung erfolgt, kann nur durch den Administrator geändert werden. Pflichteingaben sind der Vorname, der Name und die E-Mailadresse. Die Sprache wird im _Automodus_ automatisch ermittelt, kann aber auch manuell angepasst werden. Alle Übersetzungen liegen in der Standardkonfiguration bislang nur für die Sprache Deutsch vor.
+
+[NOTE]
+Für unsere Kunden stellen wir auf Wunsch weitere Sprachen bereit!
+
+E-Mails::
+
+Neben der Haupt-E-Mailadresse des Kontos können zum Konto noch weitere E-Mailadressen verwaltet werden. Durch Klick auf den Button image:anwenderhandbuch/button_e-mails.png[] öffnet sich ein weiteres Fenster, in dem zusätzliche E-Mailadressen verwaltet werden können. +
++
+image:anwenderhandbuch/individuell_konto_e-mails.png[]
++
+Der schwarze Briefumschlag image:anwenderhandbuch/button_e-mail_aktiv.png[] neben der E-Mailadresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwenderhandbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann eine Adresse aktiviert oder deaktiviert werden. +
++
+Soll eine weitere E-Mailadresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwenderhandbuch/button_hinzufuegen_rot.png[] wird die E-Mailadresse in die Liste übernommen. +
++
+Über den Button image:anwenderhandbuch/button_loeschen.png[] ist das Löschen einer E-Mailadresse möglich. Nach dem Klick muss das Löschen nochmals in einem neuen Fenster bestätigt werden. Anschließend wird die E-Mailadresse aus der Konfiguration entfernt.
+
+Passwort ändern::
+
+Mit dem Klick auf den Button image:anwenderhandbuch/button_passwort_aendern.png[Passwort ändern] wird ein neues Fenster zum Ändern des Passworts geöffnet. +
++
+image:anwenderhandbuch/individuell_konto_passwort_aendern.png[]
++
+Hier sind das aktuell gültige Passwort und zwei mal das neue Passwort einzutragen. Mit dem Klick auf den Button image:anwenderhandbuch/button_anwenden.png[Anwenden] wird das Passwort geändert. Werden Fehler bei der Eingabe gemacht, wie z.B. die Vorgaben für ein gültiges Passwort nicht eingehalten, so wird der Änderungsprozess nicht durchgeführt und der Nutzer in einem roten Feld auf den Fehler hingewiesen.
+
+2-Faktor-Authentifizierung::
+
+xmera Omnia bietet die Möglichkeit sich über eine 2-Faktor-Authentifizierung mit Hilfe eines One-Time-Passworts (OTP) anzumelden. Ist diese für ein Konto nicht eingerichtet, so kann der Nutzer durch Klick auf _Authentifizierungs-App aktivieren_ die Einrichtung der 2-Faktor-Authentifizierung beginnen. +
++
+image:anwenderhandbuch/individuell_konto_ohne_2f.png[]
++
+Es erscheint ein Fenster zum Einrichten der 2-Faktor-Authentifizierung. +
++
+image:anwenderhandbuch/individuell_konto_2f_einrichten.png[]
++
+Diese Maske zeigt den Schlüssel als QR-Code und als Klar-Text-Schlüssel an. Dieser Schlüssel ist in die Authenfizierungs-App zu übertragen. +
++
+Anschließend ist mit der Authentifizierungs-App ein OTP zu generieren und in das Feld _Code_ zu übertragen. Wenn Anschließend der Button image:anwenderhandbuch/button_aktivieren.png[Aktivieren] betätigt wird, ist die 2-Faktor-Authentifizierung aktiviert. + 
++
+Danach ergeben sich in der Konto-Information weitere Bedienmöglichkeiten. +
++
+image:anwenderhandbuch/individuell_konto_mit_2f.png[]
++
+Zum Deaktivieren klickt man auf den Link _Deaktivieren_. Damit erscheint die Aufforderung das OTP aus der Authentifizierungs-App einzugeben. Ist dieses erfolgt, ist die 2-Faktor-Authentifizierung deaktiviert. +
++
+Der Backup-Code hilft, wenn die Authentifizierungs-App nicht zur Verfügung steht. Für diesen Fall wird mit dieser Funktion eine Liste von Codes erstellt, mit denen ersatzweise gearbeitet werden kann. Um diese Liste zu generieren, klickt man auf den Link _Backup-Codes generieren_. Es erscheint ein Fenster, in dem man den aktuellen OTP-Code einträgt. Anschließend wird die Liste der Backup-Codes ausgegeben. +
++
+image:anwenderhandbuch/individuell_konto_2f_backupcode.png[]
++
+Die Liste sollte ausgedruckt und an einem sicheren Ort verwahrt werden.
+
+== Mein Profil
+
+Das Benutzerprofil enthält verschiedene nutzerbezogene Daten, die je nach Konfiguration von anderen Nutzern des Systems eingesehen werden können. Das Profil ist im Nutzermenü durch Klick auf den Benutzernamen erreichbar. 
+
+image:anwenderhandbuch/individuell_nutzer_profile.png[]
+
+Die Sichbarkeit von Benutzerprofilen wird im Administrationsbereich über die Rollendefinition gesteuert.
+
+== Meine Seite
+
+_Meine Seite_ dient dem Nutzer als Übersicht über all seine Arbeiten und Informatione, die für ihn wichtig sind. _Meine Seite_ ist über das Hauptmenü zugänglich. 
+
+image:anwenderhandbuch/individuell_meine-seite.png[]
+
+Die Informationen werden auf der Seite in Blöcken zur Verfügung gestellt. Der Nutzer kann dabei die Blöcke nach seinem Wunsch zusammenstellen und positionieren.
+
+Block hinzufügen:
+
+Über das Auswahlfeld _Hinzufügen:_ können verschiedene Informationsblöcke der Seite hinzugefügt werden.
+
+image:anwenderhandbuch/individuell_meine-seite_block_hinzufuegen.png[]
+
+Durch Klicken auf den gewünschten Informationsblöcke wird dieser an oberster Position eingefügt. Wenn eine Parametrierung des Blocks notwendig ist, wird die Konfiguration beim Platzieren des Blocks direkt geöffnet. 
+
+Die Bearbeitung der Blöcke ist gleich der xref:dashboards.adoc#_dashboard_inhalte_bearbeiten[Bearbeitung der Blöcke des Dashboards].
