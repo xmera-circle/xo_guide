@@ -1,5 +1,0 @@
-= Maßnahmenmanagement
-:doctype: article
-:icons: font
-:imagesdir: ../images/
-:web-xmera: https://xmera.de

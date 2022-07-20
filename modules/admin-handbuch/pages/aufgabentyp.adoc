@@ -1,7 +1,0 @@
-= Aufgabentyp
-:doctype: article
-:icons: font
-:imagesdir: ../images/
-:web-xmera: https://xmera.de
-
-Die Aufgabentypen repräsentieren die verschiedenen Tätigkeiten, die im Rahmen des Betriebs durchzuführen und zu dokumentieren sind . Jedem Aufgabentyp können zum einen eigene Felder zugeordnet werden und je Aufgabentyp können in zusammenspiel mit den Rollen spezifische Workflows und Feldberechtigungen definiert werden.
