@@ -2,15 +2,15 @@
 
 Developer project of xmera Omnia Guide
 
-![xmera Omnia Guide Version](https://img.shields.io/badge/xmera_Omnia_Guide-unreleased-red) ![xmera Omnia Version](https://img.shields.io/badge/xmera_Omnia-v3.x.x-blue) ![Language Support](https://img.shields.io/badge/Languages-de-green) ![Version Stage](https://img.shields.io/badge/Stage-development-important)
+![xmera Omnia Guide Version](https://img.shields.io/badge/xmera_Omnia_Guide-0.1.0-red) ![xmera Omnia Version](https://img.shields.io/badge/xmera_Omnia-v3.6.x-blue) ![Language Support](https://img.shields.io/badge/Languages-de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
-The xmera Omnia Guide is written in AsciiDoc and convertible into html by Antora or converitble into a pdf file.
+The xmera Omnia Guide is written in AsciiDoc and convertible into HTML by Antora or converitble into a pdf file.
 
 ---
 
 ## Installation
 
-The documentation is based on AsciiDoc. The adoc-files are converted to a html-documentation by Antora and to a pdf-document by Asciidoctor PDF.
+The documentation is based on AsciiDoc. The adoc-files are converted to a HTML documentation by Antora and to a PDF document by Asciidoctor PDF.
 
 So you need to install:
 
@@ -42,3 +42,11 @@ Create the pdf document and start the document in the document reader:
     make pdf
 
 **NOTE** The PDF Creator is not working right now!
+
+## Changelog
+
+All notable changes to this project will be reported in the [changelog](https://circle.xmera.de/projects/xmera-omnia-guide/repository/xo_guide/revisions/develop/entry//CHANGELOG.md).
+
+## License
+
+xmera Omnia Guide © 2022 by [xmera Solutions GmbH](https://xmera.de) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
