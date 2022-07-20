@@ -1,0 +1,66 @@
+= Aufgaben-Synchronisation
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+== Funktionen Aufgaben-Synchronisation
+
+Das Modul Aufgaben-Synchronisation ist entwickelt worden, um die Modellierung von Sicherheitsanforderungen, Zuordnung von Gefährdungen oder eigenen Anforderungen/Aufgaben im ISMS-Umfeld automatisiert durchführen zu können. 
+
+== Voraussetungen zur Synchronisation
+
+Die Synchronisation dient der automatisierten Zuordnung von Aufgaben zu Objekten. Zur Durchführung einer Synchronisation müssen einige Voraussetzungen erfüllt sein:
+
+- Es existiert ein Katalog-Objekt, das die zu synchronisierenden Elemente enthält.
+- Das Katalog-Objekt wurde innerhalb der globalen Konfiguration angegeben. 
+- Ein _Eigenes Feld_ wurde innerhalb der globalen Konfiguration als Zuordnungselement gewählt.
+- Das Modul _Aufgaben-Synchronisation_ ist in dem zu synchronisierenden Objekt aktiviert und konfiguriert.
+
+In der Administration wird festgelegt, in welchem Objekt die Aufgaben liegen, die synchronisiert werden sollen (Katalog-Objekt). Weiter wird festgelegt, welche Aufgabentypen zur Synchronisation genutzt werden können und in welchem eigenen Feld die Zuordnungselemente abgebildet werden.
+
+Die zu synchronisierenden Aufgaben müssen dieses _Eigenes Feld_ besitzen und dem gewählten Aufgabentyp entsprechen.
+
+In dem zu synchronisierenden Objekt muss das Modul _Aufgaben-Synchronisation_ aktiviert sein und es muss in der Modulkonfiguration mindestens ein _möglicher Wert_ als Zuordnungselement ausgewählt sein.
+
+image:anwenderhandbuch/modul_sync_konfig_objekt.png[]
+
+[IMPORTANT]
+Bei der Synchronisation werden die Standard-Kopiermechanismen des Systems genutzt, so dass hier die in der Administration gewählte Option, wie mit der Verlinkung beim Kopieren umgegangen wird, auch für den Synchronisationsprozess gilt.
+
+== Starten und Durchführen der Synchronisation
+
+Gestartet wird die Aufgaben-Synchronisation aus dem Reiter Aufgaben. Hier wird bei Aktivierung des Moduls __Aufgaben-Synchronisation__ im 3-Punkte-Menü die Auswahl __Synchronisieren__ angeboten.
+
+image:anwenderhandbuch/modul_sync_3-punkte-menue.png[]
+
+Mit dem Klick auf __Synchronisieren__ wird der Synchoronisationsdialog geöffnet.
+
+image:anwenderhandbuch/modul_sync_maske_start.png[]
+
+In dieser Maske werden zunächst Quell- und Zielobjekt dargestellt. Wenn bei der Aufgabensynchronisation mehrere Aufgabentypen für die Synchronisation konfiguriert wurden, besteht die Möglichkeit, die Synchronisation auf einen (Dropdown) oder mehrere ( + ) Aufgabentypen  einzugrenzen.
+
+Nach einer Änderung in der Auswahl eines Aufgabentyps muss durch einen Klick auf _Aktualisieren_ die Neuberechnung der zu synchronisierenden Aufgaben angestoßen werden.
+
+Unterhalb der Auswahl der Aufgabentypen werden die Zielobjektklassen aufgelistet. Im Beispiel sind es die Klassen: Büroraum, Home-Office/Mobiler Arbeitsplatz, Serverraum, Technikraum.
+
+Es wird die Anzahl an Aufgaben dargestellt (im Beispiel 4 Aufgaben), die synchronisiert werden können. Klappt man den Bereich image:anwenderhandbuch/modul_sync_maske_details.png[] auf, werden die Aufgaben konkret aufgelistet.
+
+Mit dem Klick auf den Button image:anwenderhandbuch/button_synchronisieren.png[]
+wird der Synchronisationsprozess gestartet.
+
+== Funktionsweise Systemobjekt
+
+Um das Bündeln von Aufgaben an einem überlagerten Objekt zu ermöglichen, steht die Funktionalität des Systemobjekts zur Verfügung. Ist ein Objekt ein Systemobjekt, so werden beim Synchronisieren nicht nur die Kriterien des Systemobjekts, sondern auch die aus den hierarchisch unterlagerten Objekten berücksichtigt.
+
+[NOTE]
+Wird die Synchronisation an einem Objekt durchgeführt, das ein überlagertes Systemobjekt besitzt, wird die Synchronisation mit der Fehlermeldung _(Objektname) wird über sein übergeordnetes Objekt synchronisiert._ abgebrochen. Beispiel:
+image:anwenderhandbuch/modul_sync_fehler_systemobjekt.png[]
+
+Das Systemobjekt wird in der Modulkonfiguration des Objektes festgelegt.
+
+image:anwenderhandbuch/modul_sync_konfig_systemobjekt.png[]
+
+Werden in einem Hierarchiebaum mehrere Systemobjekte gesetzt, so kann die Synchronisation nur am obersten Objekt ausgeführt werden, da alle unterlagerten Objekte ein überlagertes Systemobjekt besitzen und damit (siehe Notiz oben) der Synchronisationsprozess abgebrochen wird.

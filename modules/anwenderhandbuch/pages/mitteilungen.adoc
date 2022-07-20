@@ -1,0 +1,45 @@
+= Mitteilungen
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+== Funktion Mitteilungen
+
+Über das Modul __Mitteilungen__ können Informationen an die Mitglieder der Gruppe verteilt werden. Die Mitglieder können zudem Mitteilungen kommentieren.
+
+Wird der Menüpunkt __Mitteilung__ geöffnet, so erscheinen dort die Mitteilungen in chronologischer Reihenfolge. Die letzten Mitteilungen werden auch in der Übersicht des Objekts angezeigt, können aber auch auf xref:benutzerbezogene-seiten.adoc[Meine Seite] oder einem xref:dashboards.adoc[Dashboard] eingeblendet werden.
+
+== Mitteilung erstellen
+
+Über den Button image:anwenderhandbuch/button_mitteilung_hinzufuegen.png[] wird der Bearbeitungsbereich der Mitteilung geöffnet.
+
+image:anwenderhandbuch/modul_mitteilungen_hinzufuegen.png[]
+
+Pflichtfelder sind der Titel und die Beschreibung. Für die Bearbeitung steht die xref:wiki.adoc#_wiki_toolbar[Wiki-Toolbar] zur Verfügung.
+
+Die Zusammenfassung ist optional und wird beim Öffnen der Mitteilung oberhalb des Textes dargestellt.
+
+Der Mitteilung können noch Dateien angehängt werden, die dann in den Text integriert werden können.
+
+== Mitteilung bearbeiten
+
+Soll eine Mitteilung bearbeitet werden, so muss die Mitteilung durch einen Klick auf den Mitteilungstitel geöffnet werden.
+
+Möglich ist die Kommentierung, das Bearbeiten oder das Löschen der Mitteilung.
+
+Die Kommentare befinden sich unterhalb der Mitteilung. Durch den Klick auf [.underline]#_Kommentar hinzufügen_# wird die Bearbeitungsmaske für Kommentare geöffnet.
+
+Um die Mitteilung selbst bearbeiten zu können, ist ein Klick auf den Button image:anwenderhandbuch/button_bearbeiten.png[] oberhalb der Überschrift notwendig. Es erscheint die Bearbeitungsmaske, in der alle Informationen der Mitteilung nach Wunsch angepasst werden können.
+
+Gelöscht werden kann die Mitteilung über den Button image:anwenderhandbuch/button_loeschen_grau.png[].
+
+== Mitteilungen beobachten
+
+Über die Funktion _Beobachten_ besteht die Möglichkeit per E-Mail über neue Mitteilungen oder Änderungen in Mitteilungen (z.B. Kommentare) informiert zu werden. Hierzu steht der Button image:anwenderhandbuch/button_beobachten_aus.png[] bzw. image:anwenderhandbuch/button_beobachten_ein.png[] zur Verfügung. 
+
+Ist der Stern grau, so ist der Modus __Beobachten__ ausgeschaltet und kann durch Klicken auf den Button eingeschaltet werden. Ist der Button gelb, so ist der Modus eingeschaltet und kann durch Klicken auf den Button eingeschaltet werden.
+
+Der Button ist im oberen Bereich der Übersichtsseite und auf jeder Seite einer Meldung zu sehen. Wird der Beobachtungsmodus auf der Übersichtsseite gesetzt, so wird man über alle Änderungen der Mitteilungen im Objekt informiert. Wird der Modus auf der Seite einer Mitteilung gesetzt, so wird nur über Änderungen in der konkreten Mitteilung informiert.
