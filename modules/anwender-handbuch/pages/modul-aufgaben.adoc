@@ -10,7 +10,7 @@ Aufgaben sind das wichtigste Modul in der Anwendung. Aufgaben können dabei
 - allgemeine Ziele, wie z.B. Sicherheitsziele.
 - die Dokumentation eines Status, wie z.B. ein Verarbeitungsverzeichnis oder eine Risikobeurteilung,
 
-sein. Erreicht wird dieses durch die xref:admin-handbuch:aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung der Aufgabenmaske. Hier besteht die Möglichkeit durch ein- bzw. ausblenden der Standardeinträge (bis auf die Pflichtfelder) oder das Hinzufügen von xref:admin-handbuch:eigene-felder.adoc[benutzerdefinierten Feldern] die Aufgabenmaske individuell zu gestalten.
+sein. Erreicht wird dieses durch die xref:adminhandbuch:aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung der Aufgabenmaske. Hier besteht die Möglichkeit durch ein- bzw. ausblenden der Standardeinträge (bis auf die Pflichtfelder) oder das Hinzufügen von xref:adminhandbuch:eigene-felder.adoc[benutzerdefinierten Feldern] die Aufgabenmaske individuell zu gestalten.
 
 Das Modul Aufgaben muss im Objekt aktiviert werden. Ist das Modul aktiviert, wird in dem Objektreiter Aufgaben angezeigt.
 
