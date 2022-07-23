@@ -34,15 +34,15 @@ Somit sind die Objektklassen insbesondere für die funktionale Verknüpfung der 
 
 == Neue Objektklasse anlegen
 
-Objektklassen werden in der Administration in der Auswahl image:admin-handbuch/button_objektklassen_liste.png[Objektklassen] verwaltet. Man gelangt zur Liste der Objektklassen-
+Objektklassen werden in der Administration in der Auswahl image:adminhandbuch/button_objektklassen_liste.png[Objektklassen] verwaltet. Man gelangt zur Liste der Objektklassen-
 
-image:admin-handbuch/objektklassen_liste.png[]
+image:adminhandbuch/objektklassen_liste.png[]
 
 Hier lassen sich die Objektklassen entsprechend der Bedienung von xref:anwenderhandbuch:objekte.adoc#_grundkonfiguration[Objektegrundkonfiguration] bearbeiten.
 
-Neue Objektklassen lassen sich über den Button image:admin-handbuch/button_objektklassen_neu.png[]. Die Konfigurationsmaske unterscheidet sich, wie im folgenden Bild zu sehen, nur im obersten Bereich. 
+Neue Objektklassen lassen sich über den Button image:adminhandbuch/button_objektklassen_neu.png[]. Die Konfigurationsmaske unterscheidet sich, wie im folgenden Bild zu sehen, nur im obersten Bereich. 
 
-image:admin-handbuch/objektklassen_neues_objekt.png[]
+image:adminhandbuch/objektklassen_neues_objekt.png[]
 
 Zum einen fehlt die Möglichkeit eine Objektklasse zu wählen und zum anderen ist die Auswahl Objektklassenmaster gesetzt.
 
@@ -59,10 +59,10 @@ Um Inhalte einer Objektklasse zu pflegen klickt man auf den zu pflegenden Namen 
 
 In der Objektklassenliste können die einzelnen Objektklassen archiviert, kopiert oder gelöscht werden. Dazu stehen entsprechende Button links in der Objektklassenzeile zur Verfügung.
 
-- image:admin-handbuch/button_archivieren.png[]: Die archivierte Objektklasse steht in der Auswahl der Objekte nicht mehr zur Verfügung. Für Objekte, die diese Objektklasse vor der Archivierung zugewiesen bekommen haben, bleibt die Objektklasse erhalten. Die Archivierung kann bei Objektklassen durch den Button image:admin-handbuch/button_entarchivieren.png[] wieder zurückgenommen werden.
-- image:admin-handbuch/button_kopieren.png[]: Kopiert die Daten der gewählten Objektklasse als Vorlage in eine neue Objektklasse.
-- image:admin-handbuch/button_loeschen.png[]: Löscht die Objektklasse und damit auch die Einträge in den Objekten der Objektklasse. Um eine versehentliche Löschung zu vermeiden, muss die Löschung gesondert bestätigt werden. +
-image:admin-handbuch/objektklassen_loeschbestaetigung.png[]
+- image:adminhandbuch/button_archivieren.png[]: Die archivierte Objektklasse steht in der Auswahl der Objekte nicht mehr zur Verfügung. Für Objekte, die diese Objektklasse vor der Archivierung zugewiesen bekommen haben, bleibt die Objektklasse erhalten. Die Archivierung kann bei Objektklassen durch den Button image:adminhandbuch/button_entarchivieren.png[] wieder zurückgenommen werden.
+- image:adminhandbuch/button_kopieren.png[]: Kopiert die Daten der gewählten Objektklasse als Vorlage in eine neue Objektklasse.
+- image:adminhandbuch/button_loeschen.png[]: Löscht die Objektklasse und damit auch die Einträge in den Objekten der Objektklasse. Um eine versehentliche Löschung zu vermeiden, muss die Löschung gesondert bestätigt werden. +
+image:adminhandbuch/objektklassen_loeschbestaetigung.png[]
 In dieser Bestätigung werden die verbundenen Objekte gelistet und es muss ein Bestätigungscode eingegeben werden.
 
 == Basis-Objektklassen

@@ -22,16 +22,24 @@ Objekte können folgende Status annehmen:
 
 Ein Objekt ist mit der Erstellung aktiv. Es kann in der Übersichtsseite im 3-Punkte-Menü geschlossen
 
-image:admin-handbuch/objekt_schliessen_3_punkte_menue.png[]
+image:adminhandbuch/objekte_schliessen_3_punkte_menue.png[]
 
 aber auch anschließend über den gleichen Weg wieder geöffnet werden.
 
-Das Archivieren von Objekten ist nur über die Administration möglich. Über den Button image:admin-handbuch/button_archivieren.png[] in der Zeile des zu archivierenden Objekts wird dieses in den neuen Status versetzt. +
-Über den dan zur Verfügung stehenden Button image:admin-handbuch/button_entarchivieren.png[] lässt sich das Objekt wieder zur Verfügung stellen.
+Das Archivieren von Objekten ist nur über die Administration möglich. Über den Button image:adminhandbuch/button_archivieren.png[] in der Zeile des zu archivierenden Objekts wird dieses in den neuen Status versetzt. +
+Über den dan zur Verfügung stehenden Button image:adminhandbuch/button_entarchivieren.png[] lässt sich das Objekt wieder zur Verfügung stellen.
 
 == Objektliste
 
+Die Objektliste wird beim Aufrufen der Objekte in der Administration aufgeschaltet. Die Liste zeigt alle in der Instanz aktiven Objekte.
 
+image:adminhandbuch/objekte_liste_aktive.png[]
+
+Über den Filter lässt sich der angezeigte Objektstatus ändern oder es kann nach Objekten gesucht werden.
+
+image:adminhandbuch/objekte_liste_filter.png[]
+
+Der Filter wird mit dem Button image:adminhandbuch/button_anwenden.png[] aktivieren und mit dem Button image:adminhandbuch/button_zuruecksetzen.png[] wieder auf die Grundeinstellung zurücksetzen.
 
 == Basisobjekte
 
