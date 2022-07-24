@@ -1,5 +1,5 @@
 ---
-
 include::anwenderhandbuch:partial$nav.adoc[]
+include::adminhandbuch:partial$nav.adoc[]
 
 * xref:xmera-omnia-dokumentation:ROOT:index.adoc[*Zurück zur Hauptseite*]

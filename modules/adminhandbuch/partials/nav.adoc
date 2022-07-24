@@ -1,0 +1,3 @@
+* Administratorhandbuch
+** xref:adminhandbuch:objektklassen.adoc[]
+** xref:adminhandbuch:objekte.adoc[]

@@ -23,7 +23,7 @@ Aufgaben sind das wichtigste Modul in der Anwendung. Mit Hilfe des Aufgabenmodul
 
 geplant, koordiniert, gesteuert und kontrolliert.
 
-Erreicht wird dieses durch xref:admin-handbuch:aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung des Aufgabenformulars. Hier besteht die Möglichkeit durch Deaktivieren von Standardfeldern (bis auf die Pflichtfelder) oder das Hinzufügen von xref:admin-handbuch:eigene-felder.adoc[eigenen Feldern] das Aufgabenformular individuell zu gestalten.
+Erreicht wird dieses durch xref:adminhandbuch:aufgabentyp.adoc[frei konfigurierbaren Aufgabentypen] und die an den Typ angepasste Ausgestaltung des Aufgabenformulars. Hier besteht die Möglichkeit durch Deaktivieren von Standardfeldern (bis auf die Pflichtfelder) oder das Hinzufügen von xref:adminhandbuch:eigene-felder.adoc[eigenen Feldern] das Aufgabenformular individuell zu gestalten.
 
 Das Modul Aufgaben muss im Objekt aktiviert werden. Ist das Modul aktiviert, wird im Objektmenü __Aufgaben__ angezeigt.
 
