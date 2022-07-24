@@ -1,1 +1,0 @@
-* xref:installation_vorraussetzungen.adoc[Installation]
