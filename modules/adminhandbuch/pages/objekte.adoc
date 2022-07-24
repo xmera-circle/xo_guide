@@ -4,34 +4,26 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
+== Funktion von Objekten
+
 Objekte sind die kleinste Systemeinheit. Ein Objekt ist ein in sich abgeschlossener Bereich, in dem verschiedene Module aktiviert werden können. Beispiele für Module sind: Aufgaben, Wiki, Dokumente, Meldungen, u.a.
 
 Für jedes Objekt können Unterobjekte erstellt werden. So lässt sich mit Objekten eine hierarchische Struktur aufbauen.
 
-Über die Objektmaske in der Administration lassen sich Objekte nicht mehr benötigte Projekte archvieren oder auch löschen.
+Objekte können als
 
-== Objektstatus
+- Arbeitsbereiche für eine Benutzergruppe aufgebaut werden,
+- Assets angelegt werden,
+- Strukturelemente unterlagerte Objekte gliedern,
+- Systemobjekte unterlagerte Objekte als Einheit (Cluster) zusammenfassen.
 
-Objekte können folgende Status annehmen:
-
-- *aktiv:* Das Objekt steht zur Bearbeitung bereit.
-- *gesschlossen:* Das Objekt steht mit seinen Informationen den Anwendern zur Verfügung, es kann aber nicht weiter bearbeitet werden.
-- *archviert:* Das Objekt steht mit allen Unterobjekten den Benutzern  nicht mehr zur Verfügung. Es wurde im Vergleich zum Löschen nicht aus der Datenbank gelöscht und kann damit auch reaktiviert werden.
-
-*Gelöscht* ist kein Status eines Objekts, da mit dem Löschen eines Objekts, dass Objekt mit all seinen Unterobjekten und zugeordneten Aufgaben und Informationen nicht mehr zur Verfügung stehen. Eine Reaktivierung der Daten ist nicht möglich.
-
-Ein Objekt ist mit der Erstellung aktiv. Es kann in der Übersichtsseite im 3-Punkte-Menü geschlossen
-
-image:adminhandbuch/objekte_schliessen_3_punkte_menue.png[]
-
-aber auch anschließend über den gleichen Weg wieder geöffnet werden.
-
-Das Archivieren von Objekten ist nur über die Administration möglich. Über den Button image:adminhandbuch/button_archivieren.png[] in der Zeile des zu archivierenden Objekts wird dieses in den neuen Status versetzt. +
-Über den dan zur Verfügung stehenden Button image:adminhandbuch/button_entarchivieren.png[] lässt sich das Objekt wieder zur Verfügung stellen.
+Über die Objektseite in der Administration lassen sich nicht mehr benötigte Objekte schließen, archivieren und löschen.
 
 == Objektliste
 
-Die Objektliste wird beim Aufrufen der Objekte in der Administration aufgeschaltet. Die Liste zeigt alle in der Instanz aktiven Objekte.
+Die Objektliste wird beim Aufrufen der Objekte in der Administration angezeigt. Die Liste zeigt im Standard alle aktiven Objekte.
 
 image:adminhandbuch/objekte_liste_aktive.png[]
 
@@ -41,58 +33,28 @@ image:adminhandbuch/objekte_liste_filter.png[]
 
 Der Filter wird mit dem Button image:adminhandbuch/button_anwenden.png[] aktivieren und mit dem Button image:adminhandbuch/button_zuruecksetzen.png[] wieder auf die Grundeinstellung zurücksetzen.
 
-== Basisobjekte
+== Objektstatus
 
-Die Objekte der obersten Hierarchieebene heißen Basisobjekte. Sie übernehmen die Funktion von Arbeitsbereichen, die individuell ausgebaut werden können. 
+Objekte können folgende Status annehmen:
 
-=== A Management
-Im Arbeitsbereich "Management" werden die Datenschutz- und der Informationssicherheitssicherheitsmanagementprozesse geplant, koordiniert, durchgeführt und überwacht. 
+aktiv::
+Das Objekt steht zur Bearbeitung bereit.
 
-In dieser Objektebene können Richtlinien und andere Dokumente zentral und managementsystemübergreifend verwaltet und gelenkt werden. 
+geschlossen::
+Das Objekt steht mit seinen Informationen den Anwendern zur Verfügung, es kann aber nicht weiter bearbeitet werden.
 
-==== DSGVO
-Eine gesetzeskonforme Umsetzung des Datenschutzes erfordert eine gute Organisation und Koordination. In diesem Arbeitsbereich kann der Datenschutzbeauftragte seine Aufgaben planen.
+archiviert::
+Das Objekt steht mit allen Unterobjekten den Benutzern nicht mehr zur Verfügung. Es wurde im Vergleich zum Löschen nicht aus der Datenbank gelöscht und kann damit auch reaktiviert werden.
 
-==== ISMS
+[WARNING]
+*Gelöscht* ist kein Status eines Objekts, da mit dem Löschen eines Objekts, dass Objekt mit all seinen Unterobjekten und zugeordneten Aufgaben und Informationen nicht mehr zur Verfügung stehen. Eine Reaktivierung der Daten ist nicht möglich.
 
-Die Einführung und der Betrieb des ISMS wird in diesem Arbeitsbereich geplannt. 
+Ein Objekt ist mit der Erstellung sofort aktiv. Es kann auf seiner Übersichtsseite über das 3-Punkte-Menü geschlossen werden.
 
-=== B Prozesse & Informationen
+image:adminhandbuch/objekte_schliessen_3_punkte_menue.png[]
 
-Prozesse und Informationen bilden die primären Werte einer Organisation. Ihr Schutzbedarf ist Ausgangspunkt für alle weiteren zu treffenden Sicherheitsmaßnahmen.
+Über den gleichen Weg lässt es sich wieder öffnen.
 
-Geschäftsprozesse erzeugen, verarbeiten oder speichern Informationen. Die Schutzziele Vertraulichkeit und Integrität werden typischerweise auf Informationen abgebildet. Die Verfügbarkeit dagegen, ist ein typisches Schutzziel für einen Prozess.
+Das Archivieren von Objekten ist nur über die Administration möglich. Über den Button image:adminhandbuch/button_archivieren.png[], in der Zeile des zu archivierenden Objekts, wird es in den neuen Status versetzt.
 
-In diesem Bereich wird der Schutzbedarf von Geschäftsprozessen und Informationsobjekten der Organisation bewertet.
-
-=== C Personal
-
-Mitarbeiter müssen in den Informationssicherheitsprozess integriert werden und Sicherheit aktiv mitgestalten. Dazu bedarf es organistorischer Regeln, die sich über den gesamten Beschäftiungszyklus erstrecken.
-
-Richtlinien, Regelungen und Maßnahmen, die direkten Personalbezug haben, können in diesem Bereich geplant werden.
-
-
-=== D IT-Betrieb
-
-Der gesamte IT-Verbund hat unterstützende Funktion. Hierzu gehören beispielsweise Anwendungen, Endgeräte, Server und Netzwerk. Der Schutzbedarf der Prozesse und Informationen vererbt sich auf diese sekundären Werte. Schutzbedarf, Risikomanagement und die Maßnahmensteuerung sind wesentliche Aufgaben, die im Bereich 'IT-Betrieb' umgesetzt werden.
-
-
-=== E Infrastruktur
-
-Zur Infrastruktur gehören Versorgungs-, Arbeitsbereiche und das mobile Arbeiten. Sie werden in diesem Bereich abgebildet.
-
-=== F Changeprojekte
-
-Für komplexe Maßnahmen zur Steigerung der Informationssicherheit können im Bereich "Changeprojekte" Unterobjekte erstellt werden.
-
-=== G Audit
-
-Die Auditplanung findet in diesem Bereich statt.
-
-=== H Meldungen
-
-Störungen und Vorfälle sind Meldungen, die im Bereich "Meldungen" eingehen.
-
-=== I Handbücher
-
-Unternehmensweite Handbücher, auf die alle Mitarbeiter Zugriff haben.
+Über den dann zur Verfügung stehenden Button image:adminhandbuch/button_entarchivieren.png[], lässt sich das Objekt wieder herstellen.
