@@ -4,16 +4,123 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-xmera Omnia erlaubt dem Administrator individuelle Gruppen zu definieren und die Basisgruppen _Anonyme Benutzer_ und _Nichtmitglieder_ zu konfigurieren.
 
-== Individuelle Gruppen
-Es können beliebige Gruppen erstellt werden. Benutzer, die Mitglied in einer Gruppe sind, haben automatisch Zugang zu den Objekten, die der Gruppe zugeordnet wurden.
+Ein Gruppe in xmera-Omnia fasst einen oder mehrere Benutzer zusammen. Die Gruppen können genutzt werden, um
+
+- Gruppen von Benutzern zu Mitgliedern in einem Objekt zuzuordnen und
+- Aufgaben einer Gruppe von Mitarbeitern zuzuordnen
+
+[NOTE]
+Die Möglichkeit Aufgaben einer Gruppe zuzuordnen muss in der Systemkonfiguration freigeschaltet sein. 
+
+Benutzer, die Mitglied in einer Gruppe sind, haben automatisch Zugang zu den Objekten, die der Gruppe zugeordnet wurden.
 
 Bei der Zuordnung von Objekten zu einer Gruppe, wird gleichzeitig eine Rolle vergeben, die allen Mitgliedern der Gruppe die entsprechenden Rechte überträgt.
+
+In xmera Omnia durch den Administrator individuelle Gruppen definieren werden. 
+
+Neben den individuellen Gruppen gibt es in xmera Omnia 2 fest integrierte Basisgruppen: 
+
+- _Anonyme Benutzer_: Benutzer, die (noch) nicht am System angemeldet heben
+- _Nichtmitflieder_: Angemeldete Benutzer, die nicht Mitglied im relevante Objekt sind.
+
+Besonderheit der Basisgruppen sind, dass die Benutzer nicht manuell sondern entsprechend dem Status automatisch den Basisgruppe zugeordnet werden.
 
 [NOTE]
 Die Übersichtsseite eines Objektes zeigt in der Mitglieder-Box jedes einzelne Mitglieder der Gruppe mit seinem Namen und den Titel der Gruppe selbst an.
 
-== Gruppe Nichtmitglieder
+Über den Menüpunkt Gruppen im Administrationsmenü gelangt man zur Gruppen-Liste.
 
-== Gruppe Anonyme Benutzer
+image:adminhandbuch/gruppen_liste.png[Gruppenliste]
+
+In dieser Liste werden alle vorhandenen Gruppen gelistet. Die Basisgruppen werden am Ende der Liste gelistet und sind kursiv dargestellt.
+
+== Neue Gruppe anlegen
+
+Durch Klick auf den Button image:adminhandbuch/button_neue_gruppe.png[] wird die Maske zum erstellen einer Maske geöffnet. 
+
+image:adminhandbuch/gruppen_neue_gruppe.png[]
+
+In dieser Maske muss nur der Gruppenname festgelegt werden. Durch einen Klick auf _anlegen_ wird die Gruppe angelegt und man gelangt wieder in die Gruppenliste. Durch einen Klick auf _Anlegen und weiter_ wird nach dem Klicken wiederum die Maske zum Erfassen einer neuen Gruppe geöffnet.
+
+== Gruppe bearbeiten
+
+Um die Daten einer Gruppe zu bearbeiten klickt man in der Gruppenliste auf den zu bearbeitenden Gruppennamen. Es öffnet sich die Maske zum Bearbeiten der Maske mit drei Reitern:
+
+- Allgemein: Bearbeitung des Gruppennamens
+- Benutzer: Bearbeitung der zugeordneten Benutzer
+- Objekte: Bearbeitung der Objekte mit Gruppenzugang
+
+Die Bearbeitung wird im Folgenden beschrieben.
+
+=== Allgemein 
+
+Im Reiter allgemein lässt sich der Name der Gruppe ändern.
+
+image:adminhandbuch/gruppen_bearbeiten_allgemein.png[Gruppen Allgemein]
+
+Mit dem _Speichern_ wird die Änderung übernommen. Die Zuordnungen der Gruppe bleiben dabei erhalten.
+
+=== Benutzer
+
+Im Reiter Benutzer werden die der Gruppe zugeordneten Benutzer gelistet.
+
+image:adminhandbuch/gruppen_bearbeiten_benutzer.png[Gruppen Benutzer]
+
+Mit dem Button image:adminhandbuch/button_loeschen.png[Löschen] in der Benutzerzeile kann der jeweilige Benutzer aus der Liste gelöscht werden.
+
+Mit dem Button image:adminhandbuch/button_neuer_benutzer.png[] können Benutzer zur Gruppe hinzugefügt werden. Es wird eine Liste der noch nicht zugeordneten Benutzer angezeigt. Durch setzten eines Häkchens vor den zuzuordnenden Benutzern und anschließendem Klick auf _Hinzufügen_ werden die gewählten Benutzer der Gruppe hinzugefügt.
+
+=== Objekte
+
+In dem Reiter _Objekte_ werden alle Objekte gelistet, in denen die Gruppe Mitglied ist.
+
+image:adminhandbuch/gruppen_bearbeiten_objekte.png[Gruppen Allgemein]
+
+In dieser Liste besteht die Möglichkeit
+
+- zur Objektübersichtseite zu springen,
+- Gruppenrollen in Objekten zu verändern,
+- Gruppenzuordnungen hinzuzufügen und
+- Gruppenzuordnungen zu löschen.
+
+Die Bedienschritte werden im Folgenden beschrieben.
+
+Zur Objektseite springen:: 
+
+Durch Klick auf einen Objektnamen wird die Übersichtseite des gewählten Objekts aufgerufen.
+
+Gruppenrollen verändern:: 
+
+Durch Klick auf den Button image:adminhandbuch/button_bearbeiten.png[Bearbeiten] werden in der Objektliste die für die Gruppe in dem Objekt vergebenen Objektrollen angezeigt. Durch Wahl bzw Abwahl der Haken vor den Rollen, werden Rollen in dem Objekt hinzugefügt. +
++
+[NOTE]
+Werden die Rollen aus Vererbung aus dem überlagerten Objekt übernommen, können diese Rollen nicht gelöscht werden.
++
+[IMPORTANT]
+Werden alle Rechte der Gruppe in dem Objekt abgewählt, so wird die Gruppe in dem Objekt aus der Mitgliederliste gelöscht.
+
+Gruppenzuordnung hinzufügen::
+
+Über den Klick auf den Button image:adminhandbuch/button_objekt_hinzufuegen.png[Objekt hinzufügen] kann die Gruppe einem oder mehreren Objekten zugeordnet werden. Es wird eine Maske mit der Objektstruktur und den Rollen aufgeblendet. +
++
+image:adminhandbuch/benutzer_bearbeiten_objekte_hinzufuegen.png[Objektrollen hinzufügen]
++
+In dieser Maske ist die Kombination aus Objekt(en) und Rolle(n) auszuwählen, die der Gruppe zugeordnet werden sollen. Mit Klick auf den Button image:adminhandbuch/button_hinzufuegen.png[Hinzufügen] werden die Anpassungen übernommen.
+
+Gruppenzuordnung löschen::
+
+Durch Klick auf den button image:adminhandbuch/button_loeschen.png[Löschen] in der Objektzeile wird die Gruppe aus der Mitgliedsliste des entsprechenden Objekts gelöscht.
++
+[NOTE]
+Wird die Mitgliedschaft aus Vererbung aus dem überlagerten Objekt übernommen, können diese Rollen nicht gelöscht werden. In diesen Fällen steht der _Löschbutton nicht zur Verfügung.
+
+== Gruppe löschen
+
+Ein Gruppe kann durch Klicken auf den Button image:adminhandbuch/button_loeschen.png[Löschen] gelöscht werden. Der Löschvorgang muss in einem Pop-Up-Fenster nochmals bestätigt werden.
+
+[IMPORTANT]
+Alle Zuordnungen und Rechtezuordnungen werden mit gelöscht und können nicht rückgängig gemacht werden.
+
+[NOTE]
+Wird die Gruppenzuordnung aus Vererbung aus dem überlagerten Objekt übernommen, kann die Gruppe nicht als Objektmitglied entfernt werden.
