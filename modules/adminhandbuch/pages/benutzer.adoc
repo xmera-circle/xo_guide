@@ -50,7 +50,7 @@ Im Vergleich zur Bearbeitung des Benutzerkontos:
 * ein Ändern des Passworts bei der nächsten Benutzeranmeldung zu erzwingen
 - können dem Benutzer per E-Mail seine Kontodaten gesendet werden.
 
-Die Parametrierung der 2-Faktor-Authentifizierung (2FA) steht in Administratoransicht des Benutzerkontos nicht zur Verfügung. Im xref:adminhandbuch:konfiguration.adoc[Konfigurationsbereich] der Anwendung kann jedoch eine generelle Einstellung dazu vorgenommen werden, ob die 2FA verfplichtend oder optional sein soll.
+Die Parametrierung der 2-Faktor-Authentifizierung (2FA) steht in der Administratoransicht des Benutzerkontos nicht zur Verfügung. Im xref:adminhandbuch:konfiguration.adoc[Konfigurationsbereich] der Anwendung kann jedoch eine generelle Einstellung dazu vorgenommen werden, ob die 2FA verfplichtend oder optional sein soll.
 
 === Importieren
 
@@ -68,12 +68,17 @@ Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinh
 
 |*Mitgliedsname*
 |String
-|Anmeldename und Benutzer ID im xmera Omnia. Nur Kleinbuchstaben, Ziffern und die Sonderzeichen _ - . ohne Leerzeichen erlaubt (Pflichtfeld)
+|Anmeldename für den Benutzer. Nur Kleinbuchstaben, Ziffern und die Sonderzeichen _ - . ohne Leerzeichen erlaubt (Pflichtfeld)
 |max.mustermann
 
 |*Vorname*
 |String
 |Vorname des Benutzers. (Pflichtfeld)
+|Max
+
+|*Nachname*
+|String
+|Nachname des Benutzers. (Pflichtfeld)
 |Max
 
 |*E-Mail*
@@ -82,17 +87,17 @@ Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinh
 |test.user@testprovider.org
 
 |*Sprache*
-|Liste
-|Auswahl der Sprache in der Anwendung. Bei (auto) wird die Sprache des Rechners genutzt. Voll unterstützt wird aktuell nur German(Deutsch). Unseren Kunden stellen wir gerne weitere Sprachen bereit. (Standard: (auto))
+|String
+|Auswahl der Sprache in der Anwendung. Bei _(auto)_ wird die Sprache des Rechners genutzt. Voll unterstützt wird aktuell nur German(Deutsch). Unseren Kunden stellen wir gerne weitere Sprachen bereit. (Standard: _(auto)_)
 |false
 
 |*Administrator*
 |Boolean
-|Ist auf Ja zu setzen, wenn Benutzer Adminrechte haben soll. (Standard: Nein)
+|Ist auf _Ja_ zu setzen, wenn Benutzer Adminrechte haben soll. (Standard: _Nein_)
 |Nein
 
 |*Authentifizierungs-Modus*
-|String
+|Integer
 |ID des LDAP-Servers bei Benutzern mit LDAP-Authentifizierung. (Notwendig bei Benutzer mit LDAP-Authentifizierung)
 |1
 
@@ -103,12 +108,12 @@ Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinh
 
 |*Passwort bei der nächsten Anmeldung ändern*
 |Boolean
-|Wird "Ja" importiert, so muss der Anwender bei der ersten Anmeldung ein neues Passwort einstellen. (Standard: Nein)
+|Wird _Ja_ importiert, so muss der Anwender bei der ersten Anmeldung ein neues Passwort einstellen. (Standard: _Nein_)
 |Ja
 
 |*Status*
-|Liste
-|Mögliche Werte: aktiv; nicht aktivierte, gesperrt (Standard: aktiv)
+|String
+|Mögliche Werte: _aktiv_; _nicht aktivierte_, _gesperrt_ (Standard: _aktiv_)
 |aktiv
 |===
 
@@ -178,7 +183,7 @@ Durch Klick auf den Button image:adminhandbuch/button_e-mails.png[E-Mail] könne
 
 Sperren / Entsperren:: 
 
-Weiter kann das Konto durch Klick auf den Button image:adminhandbuch/button_sperren.png[Sperren] gesperrt bzw. mage:adminhandbuch/button_entsperren.png[Entsperren] entsperrt werden.
+Weiter kann das Konto durch Klick auf den Button image:adminhandbuch/button_sperren.png[Sperren] gesperrt bzw. image:adminhandbuch/button_entsperren.png[Entsperren] entsperrt werden.
 
 Löschen:: 
 
@@ -197,7 +202,7 @@ Im Tap _Allgemein_ können die Kontodaten des Benutzers angepasst werden. Das Fo
 
 image:adminhandbuch/benutzer_bearbeiten_allgemein.png[Benutzerdaten allgemein]
 
-Die Beschreibungen zu den einzelen Feldern / Attributen finden sich im Adminhandbuch im Kapitel xref:_manuell[manuellen Anlegen] und im Anwenderhandbuch im Kapitel xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_mein_konto[Mein Konto].
+Die Beschreibungen zu den einzelen Feldern / Attributen finden sich im Adminhandbuch im Kapitel xref:_manuell[manuell Anlegen] und im Anwenderhandbuch im Kapitel xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_mein_konto[Mein Konto].
 
 === Gruppen
 
@@ -209,17 +214,17 @@ In dem Beispiel oben sind es das DSMS-Team und das ISMS-Team. Durch Setzen oder 
 
 === Objekte
 
-Der Tap _Objekte_ zeigt die Objekte an, in denen der Benutzer Rechte mittels einer oder mehrerer Rechte besitzt. 
+Der Tap _Objekte_ zeigt die Objekte an, in denen der Benutzer Rechte mittels einer oder mehrerer Rollen besitzt. 
 
 image:adminhandbuch/benutzer_bearbeiten_objekte.png[Objektrollenzuordnung]
 
-In dem Beispiel unten hat der Benutzer in einem der gelisteten Objekten gleich zwei Rollen. In diesem Fall kummulieren sich die Rechte.
+Im Beispiel unten hat der Benutzer in einem der gelisteten Objekte gleich zwei Rollen. In diesem Fall kummulieren sich die Rechte.
 
 Objektzuordnung ändern::
 
-Die Rollenzuordnung zu jedem einzelnen Objekt kann in der Objektkonfiguration xref:anwenderhandbuch:objekte.adoc#_mitglieder_verwalten[im Reiter Mitglieder] festgelegt werden. +
+Die Rollenzuordnung zu jedem einzelnen Objekt kann in der Objektkonfiguration xref:anwenderhandbuch:objekte.adoc#_mitglieder_verwalten[im Tab Mitglieder] festgelegt werden. +
 +
-Der Administrator hat aber auch hier die Möglichkeit die Zuordnung zu bearbeiten. Die Rollen, die ein Benutzer in einem der aufgeführten Objekte hat, kann über den Button image:adminhandbuch/button_bearbeiten.png[Bearbeiten] erfolgen. Es werden die Rollen gelistet und durch Setzen oder Entfernen der Häkchen werden die Rollen aktiviert oder deaktiviert. +
+Der Administrator hat aber auch hier die Möglichkeit die Zuordnung zu bearbeiten. Die Rollen, die ein Benutzer in einem der aufgeführten Objekte hat, kann über den Button image:adminhandbuch/button_bearbeiten.png[Bearbeiten] erfolgen. Es werden verfügbare Rollen gelistet und durch Setzen oder Entfernen der Häkchen werden die Rollen aktiviert oder deaktiviert. +
 +
 image:adminhandbuch/benutzer_bearbeiten_objekte_bearbeiten.png[Objektrollen hinzufügen]
 +
