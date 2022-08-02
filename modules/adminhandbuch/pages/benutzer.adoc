@@ -1,0 +1,241 @@
+= Benutzer
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Die Benutzerverwaltung im Administrationsbereich von xmera Omnia zeigt in der Standardübersicht eine Liste aller Benutzer der Instanz.
+
+image:adminhandbuch/benutzer_liste.png[]
+
+In dieser Liste werden alle aktiven Benutzer mit ihrem Mitgliedsnamen, dem Vor- und Nachnamen, der E-Mailadresse, der Kennung, dem Status als Administrator, wann das Konto angelegt wurde und wann die letzte Anmeldung durchgeführt wurde.
+
+Aus dieser Liste können die einzelnen Benutzerkonten durch die Button in der entsprechenden Benutzerzeile _aktiviert_, _gesperrt_ oder auch _gelöscht_ werden.
+
+[IMPORTANT]
+Das Löschen kann nicht rückgängig gemacht werden. Mit dem Löschen gehen alle Bezüge zu dem Benutzer verloren. Häufig ist es sinnvoller den Benutzer nur zu sperren.
+
+[NOTE]
+Der Button _Aktivierung_ steht zur Verfügung, wenn sich ein Benutzer registriert hat und die Registrierung noch nicht bestätigt wurde.
+
+== Benutzer anlegen
+
+Der Benutzer _admin_ wird bei der Installation angelegt. Über den Administrator können die ersten Einstellungen erfolgen und weitere Benutzer angelegt werden.
+
+Das Anlegen eines Benutzers kann auf verschieden Arten erfolgen:
+
+- durch eine manuelle Erfassung im Administrationsbereich,
+- durch einen CSV-Import im Administrationsbereich,
+- durch eine Selbstregistrierung des Nutzers,
+- durch eine LDAP-Kopplung.
+
+Die verschiedenen Arten werden im Folgenden beschrieben.
+
+=== Manuell
+
+Ein neuer Benutzer kann über den Button image:adminhandbuch/button_neuer_benutzer.png[Neuer Benutzer] angelegt werden. Mit dem Klick wird folgendes Formular eingeblendet: 
+
+image:adminhandbuch/benutzer_neuer_benutzer.png[neuer Benutzer]
+
+Das Formular ähnelt sehr dem des Benutzerkontos wie es im Anwenderhandbuch im Kapitel xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_mein_konto[Mein Konto] beschrieben ist. 
+
+Im Vergleich zur Bearbeitung des Benutzerkontos:
+
+- wird der Mitgliedsname (Benutzer-ID) gefordert, 
+- besteht die Möglichkeit den Nutzer Administrationsrechte zu geben,
+- besteht im Bereich der Authentifizierung die Möglichkeit 
+* automatisch ein Passwort zu generieren,
+* ein Ändern des Passworts bei der nächsten Benutzeranmeldung zu erzwingen
+- können dem Benutzer per E-Mail seine Kontodaten gesendet werden.
+
+Die Parametrierung der 2-Faktor-Authentifizierung (2FA) steht in Administratoransicht des Benutzerkontos nicht zur Verfügung. Im xref:adminhandbuch:konfiguration.adoc[Konfigurationsbereich] der Anwendung kann jedoch eine generelle Einstellung dazu vorgenommen werden, ob die 2FA verfplichtend oder optional sein soll.
+
+=== Importieren
+
+Über eine CSV-Schnittstelle können Benutzer in xmera Omnia importiert werden. Für den Import muss die Importdatei mindestens die Pflichtfelder enthalten.
+
+Der Bemutzerimport erfolgt in 5 Schritten:
+
+Importdatei vorbereiten::
+
+Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinhalten:
++
+[cols="1,1,1,1"]
+|===
+|Spaltenbezeichnung |Datentyp | Beschreibung | Beispiel
+
+|*Mitgliedsname*
+|String
+|Anmeldename und Benutzer ID im xmera Omnia. Nur Kleinbuchstaben, Ziffern und die Sonderzeichen _ - . ohne Leerzeichen erlaubt (Pflichtfeld)
+|max.mustermann
+
+|*Vorname*
+|String
+|Vorname des Benutzers. (Pflichtfeld)
+|Max
+
+|*E-Mail*
+|String
+|E-Mail Adresse des Benutzers. Muss eine gültige Form besitzen. (Pflichtfeld)
+|test.user@testprovider.org
+
+|*Sprache*
+|Liste
+|Auswahl der Sprache in der Anwendung. Bei (auto) wird die Sprache des Rechners genutzt. Voll unterstützt wird aktuell nur German(Deutsch). Unseren Kunden stellen wir gerne weitere Sprachen bereit. (Standard: (auto))
+|false
+
+|*Administrator*
+|Boolean
+|Ist auf Ja zu setzen, wenn Benutzer Adminrechte haben soll. (Standard: Nein)
+|Nein
+
+|*Authentifizierungs-Modus*
+|String
+|ID des LDAP-Servers bei Benutzern mit LDAP-Authentifizierung. (Notwendig bei Benutzer mit LDAP-Authentifizierung)
+|1
+
+|*Passwort*
+|String
+|Muss mindestens 12 Zeichen lang sein. Muss enthalten Großbuchstaben, Kleinbuchstaben, Ziffern, Sonderzeichen (Pflichtfeld)
+|Ghx27!wsdX.dd
+
+|*Passwort bei der nächsten Anmeldung ändern*
+|Boolean
+|Wird "Ja" importiert, so muss der Anwender bei der ersten Anmeldung ein neues Passwort einstellen. (Standard: Nein)
+|Ja
+
+|*Status*
+|Liste
+|Mögliche Werte: aktiv; nicht aktivierte, gesperrt (Standard: aktiv)
+|aktiv
+|===
+
+Importdatei hochladen::
++
+Der Benutzerimport ist über das 3-Punkte-Menü oberhalb der Benutzerliste durch Klick auf den Menüpunkt __Importieren__ erreichbar.
++
+image:adminhandbuch/benutzer_importieren_aufrufen.png[Dateiupload für den Benutzerimport]
++
+Das Hochladen kann per Auswahl über den Dateimanager oder per Drag & Drop erfolgen.
++
+image:adminhandbuch/benutzer_importieren_dateiauswahl.png[Dateiupload für den Objektimport]
++
+Dann auf __Weiter__ klicken, um zu den CSV-Optionen zu kommen.
+
+CSV Optionen definieren::
++
+Die konkrete Wahl der CSV-Optionen hängt davon ab, wie die CSV-Datei erstellt wurde. Für die Kodierung ist im Normalfall __UTF-8__ die beste Wahl.
++
+image:adminhandbuch/benutzer_importieren_optionen.png[CSV Optionen für den Objektimport]
++ 
+Dann auf __Weiter__ klicken, um die Datenfelder zuordnen zu können.
+
+Datenfelder zuordnen::
++
+Wenn die Importdatei gut vorbereitet wurde, können alle Datenfelder automatisch zugeordnet werden. Andernfalls, muss eine manuelle Zuordnung durchgeführt werden.
++
+image:adminhandbuch/benutzer_importieren_feldzuordnung.png[Feldzuordnung für den Objektimport]
++
+Dann auf __Importieren__ klicken, um den Import zu starten
+
+Import durchführen::
++
+Während des Imports kann anhand des Zählers der Importfortschritt beobachtet werden. Wenn der Import erfolgreich verlief, wird eine Liste der neuen Objekte angezeigt.
++
+image:adminhandbuch/benutzer_importieren_erfolgreich.png[Liste neuer Benutzer nach erfolgreichem Import]
++
+Andernfalls erhält der Benutzer entsprechende Fehlermeldungen wie beispielhaft unten im Bild zu sehen ist.
++
+image:adminhandbuch/benutzer_importieren_fehler.png[Liste mit Fehlermeldungen nach fehlerhaften Import]
+
+[IMPORTANT]
+Der Importprozess wird nicht abgebrochen, wenn eine oder mehrere Zeilen nicht verarbeitet werden können. Die nicht importierten Zeilen werden in Form ihrer Positionsnummer in der Fehlermeldung angezeigt und müssen separat in einem zweiten Versuch importiert werden.
+
+=== Selbstregistrierung
+
+Über die Konfiguration kann bei der Authentifizierung die Selbstregistrierung gewählt werden. Bei dieser Art, kann sich ein neuer Benutzer mit seinen Daten (Mitgliedsnamen, Vor- und Nachnamen, E-Mailadresse und Passwort) registrieren. Je nach Anmeldeoption kann der registrierte Benutzer automatisch, nach einer E-Mailbestätigung oder durch einen Administrator aktiviert werden.
+
+=== LDAP-Benutzer
+
+Benutzer können über eine LDAP-Kopplung mit einem LDAP-Server verwaltet werden. Die Anbindung und die Funktionen werden im Kapitel xref:ldap-authentifizierung.adoc[LDAP-Authentifizierung] beschrieben.
+
+== Benutzer bearbeiten
+
+Durch Klick auf den Mitgliedsnamen in der Benutzerliste gelangt man in die Bearbeitungsmaske des Benutzers. Im oberen Bereich finden sich mehrere Taps und Funktionsbutton.
+
+image:adminhandbuch/benutzer_bearbeiten_funktionen.png[Funktionen Benutzer bearbeiten]
+
+
+Benutzerprofil:: 
+
+Ein Klick auf den Button image:adminhandbuch/button_benutzerprofil.png[Benutzerprofil] führt auf das Profil des Benutzers, in dem die zugewiesenen Aufgaben und sonstige Aktivitäten aufgezeigt werden.
+
+E-Mails:: 
+
+Durch Klick auf den Button image:adminhandbuch/button_e-mails.png[E-Mail] können dem Anwender weitere E-Mailadressen zugewiesen werden. Die Bedienung ist im Anwenderhandbuch im Kapitel xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_mein_konto[Mein Konto] beschrieben.
+
+Sperren / Entsperren:: 
+
+Weiter kann das Konto durch Klick auf den Button image:adminhandbuch/button_sperren.png[Sperren] gesperrt bzw. mage:adminhandbuch/button_entsperren.png[Entsperren] entsperrt werden.
+
+Löschen:: 
+
+Durch Klick auf den Button image:adminhandbuch/button_loeschen_grau.png[Löschen] kann das Benutzerkonto gelöscht werden. Es muss dann nochmals bestätigt werden, dass der Benutzer gelöscht werden soll.
+
+[IMPORTANT]
+Das Löschen kann nicht rückgängig gemacht werden. Mit dem Löschen gehen alle Referenzen zu dem Benutzer verloren. Häufig ist es sinnvoller den Benutzer nur zu sperren.
+
+Bearbeitungsmasken::
+
+Über die drei Taps werden die Bearbeitungsmasken für die allgemeinen Daten, die Gruppenzuordnung und die Objektrollen dargestellt. Diese werden im Folgenden beschrieben.
+
+=== Allgemein
+
+Im Tap _Allgemein_ können die Kontodaten des Benutzers angepasst werden. Das Formular entspricht dem beim xref:_manuell[manuellen Anlegen] eines Benutzers.
+
+image:adminhandbuch/benutzer_bearbeiten_allgemein.png[Benutzerdaten allgemein]
+
+Die Beschreibungen zu den einzelen Feldern / Attributen finden sich im Adminhandbuch im Kapitel xref:_manuell[manuellen Anlegen] und im Anwenderhandbuch im Kapitel xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_mein_konto[Mein Konto].
+
+=== Gruppen
+
+Im Tap _Gruppen_ sind die xref:gruppen.adoc[Gruppen] aktiviert, denen der Benutzer zugeordnet ist.
+
+image:adminhandbuch/benutzer_bearbeiten_gruppen.png[Gruppenzuordnung]
+
+In dem Beispiel oben sind es das DSMS-Team und das ISMS-Team. Durch Setzen oder Entfernen der Haken vor den Gruppen und dem anschließenden _Speichern_ kann die Gruppenzuordnung geändert werden.
+
+=== Objekte
+
+Der Tap _Objekte_ zeigt die Objekte an, in denen der Benutzer Rechte mittels einer oder mehrerer Rechte besitzt. 
+
+image:adminhandbuch/benutzer_bearbeiten_objekte.png[Objektrollenzuordnung]
+
+In dem Beispiel unten hat der Benutzer in einem der gelisteten Objekten gleich zwei Rollen. In diesem Fall kummulieren sich die Rechte.
+
+Objektzuordnung ändern::
+
+Die Rollenzuordnung zu jedem einzelnen Objekt kann in der Objektkonfiguration xref:anwenderhandbuch:objekte.adoc#_mitglieder_verwalten[im Reiter Mitglieder] festgelegt werden. +
++
+Der Administrator hat aber auch hier die Möglichkeit die Zuordnung zu bearbeiten. Die Rollen, die ein Benutzer in einem der aufgeführten Objekte hat, kann über den Button image:adminhandbuch/button_bearbeiten.png[Bearbeiten] erfolgen. Es werden die Rollen gelistet und durch Setzen oder Entfernen der Häkchen werden die Rollen aktiviert oder deaktiviert. +
++
+image:adminhandbuch/benutzer_bearbeiten_objekte_bearbeiten.png[Objektrollen hinzufügen]
++
+Durch _Speichern_ werden die Änderungen übernommen. +
++
+[NOTE]
+Rechte, die der Benutzer durch die Gruppenzugehörigkeit erhalten hat, können an dieser Stelle nicht verändert werden. Ebenso lassen sich diese Objektzuordnungen nicht löschen.
+
+Objektzuordnung löschen:: 
+
+Durch den Button image:adminhandbuch/button_loeschen.png[Löschen] kann die Rolle in einem Objekt komplett gelöscht werden. 
+
+Objektzuordnung hinzufügen:: 
+
+Soll ein Benutzer Rollen in Objekten erhalten, die noch nicht in der Liste enthalten sind, so erfolgt dieses über den Button image:adminhandbuch/button_objekt_hinzufuegen.png[Objekt hinzufügen]. Es wird eine Maske mit der Objektstruktur und den Rollen angezeigt.
+
+image:adminhandbuch/benutzer_bearbeiten_objekte_hinzufuegen.png[Objektrollen hinzufügen]
+
+In dieser Maske ist die Kombination aus Objekt(en) und Rolle(n) auszuwählen, die dem Benutzer zugeordnet werden sollen. Mit Klick auf den Button image:adminhandbuch/button_hinzufuegen.png[Hinzufügen] werden die Anpassungen übernommen.
