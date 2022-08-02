@@ -1,3 +1,5 @@
 * Administratorhandbuch
 ** xref:adminhandbuch:objektklassen.adoc[]
 ** xref:adminhandbuch:objekte.adoc[]
+** xref:adminhandbuch:benutzer.adoc[]
+** xref:adminhandbuch:gruppen.adoc[]
