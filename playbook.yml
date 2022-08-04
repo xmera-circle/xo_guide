@@ -12,7 +12,7 @@ content:
 
 ui: 
   bundle: 
-    url: https://github.com/xmera-circle/antora-ui-omnia/releases/download/0.2.3/ui-bundle.zip
+    url: https://github.com/xmera-circle/antora-ui-omnia/releases/download/0.2.4/ui-bundle.zip
     snapshot: true
 
 antora:
