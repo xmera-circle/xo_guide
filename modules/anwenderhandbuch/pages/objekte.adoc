@@ -297,7 +297,7 @@ Wird ein Modul deaktiviert, in dem bereits Daten erfasst wurden, so werden die b
 
 image:anwenderhandbuch/objekt_konfig_mitglieder_liste.png[Konfiguration Mitglieder]
 
-In der Liste sind, siehe Punkt &#10122;, sind alle Mitglieder und Gruppen mit ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder entfernen. +
+In der Liste sind, siehe Punkt &#10122;, alle Mitglieder und Gruppen mit ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder entfernen. +
 Nutzern mit Administrationsrechten wird der Button Administration &#10125; angeboten. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung.
 
 [NOTE]
