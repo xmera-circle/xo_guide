@@ -21,6 +21,17 @@ image:adminhandbuch/rollen-rechte_liste.png[]
 
 Die Liste zeigt die vorhandenen Rollen im System. Aus der Maske können neue Rollen angelegt und die bestehenden Rollen verwaltet und bearbeitet werden.
 
+Vom Administrator können beliebige Rollen hinzugefügt werden.
+
+
+
+Neben den individuellen Rollen gibt es in xmera Omnia 2 fest integrierte Basisrollen:
+
+- Anonym: Rechte der Benutzer, die (noch) nicht am System angemeldet heben
+- Nichtmitglied: Rechte angemeldeter Benutzer, die nicht Mitglied im relevante Objekt sind.
+
+Diese Rollen lassen sich nicht löschen. Die Rechte die diese Rollen besitzen, können durch den Administrator angepasst werden.
+
 === Rolle bearbeiten
 
 Die Bearbeitungsmaske der Rechte einer Rolle wird über einen Klick auf den Rollennamen aufgerufen. In der Rechteverwaltung können drei Bereiche gepflegt werden:
