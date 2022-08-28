@@ -132,7 +132,7 @@ Im Default sind alle Bearbeitungsarten für alle Aufgabentypen erlaubt. Soll der
 
 === Rolle kopieren
 
-Soll eine Rolle als Vorlage für eine neu Rolle dienen, kann aus der Rollenliste mit dem Button image:adminhandbuch/button_neue_rolle.png[neue Rolle] in der Rollenzeile die Parametrierung in eine _neue Rolle_ übernommen werden. In der sich öffnenden Rollenmaske sind sind Einstellungen aus der Vorlage übernommen.
+Soll eine Rolle als Vorlage für eine neu Rolle dienen, kann aus der Rollenliste mit dem Button image:adminhandbuch/button_kopieren.png[Rolle kopieren] in der Rollenzeile die Parametrierung in eine _neue Rolle_ übernommen werden. In der sich öffnenden Rollenmaske sind sind Einstellungen aus der Vorlage übernommen.
 
 image:adminhandbuch/rollen-rechte_rolle_kopieren.png[Rolle kopieren]
 

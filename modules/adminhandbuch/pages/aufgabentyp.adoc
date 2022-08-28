@@ -4,4 +4,114 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Die Aufgabentypen repräsentieren die verschiedenen Tätigkeiten, die im Rahmen des Betriebs durchzuführen und zu dokumentieren sind . Jedem Aufgabentyp können zum einen eigene Felder zugeordnet werden und je Aufgabentyp können in zusammenspiel mit den Rollen spezifische Workflows und Feldberechtigungen definiert werden.
+Die Aufgabentypen repräsentieren die verschiedenen Tätigkeiten, die im Rahmen des Betriebs durchzuführen und zu dokumentieren sind. Beispiele sind z.B. im ISMS Maßnahmen, Risikobewertungen oder Vorfälle.
+
+Ein Aufgabetyp ermöglicht es
+
+- nach bestimmten Aufgaben zu suchen, filtern oder gruppiern
+- die Attribute zu bestimmen (Standardfelder oder eigene Felder) die bearbeitet werden.
+- die Nutzbarkeit auf ausgewählte Objektklassen zu begrenzen
+- einen spezifischen Workflow abzubilden 
+
+Aufgabentypen können von einem Administrator ergänzt, bearbeitet und gelöscht werden. 
+
+== Aufgabentypliste
+
+Über die Administration und Klick auf _Aufgabentyp_ gelangt man zu Aufgabentypliste. In dieser Liste werden alle Aufgabetypen gelistet.
+
+image:adminhandbuch/aufgabentyp_liste.png[Liste Aufgabentypen]
+
+In dieser Liste werden die Aufgabentypen mit Ihrem Standardstatus und der Beschreibung gelistet.
+
+In der oberen rechten Ecke befinden sich Schaltflächen um einen <<_neuer_aufgabentyp,neuen Aufgabentyp>> zu erstellen oder die <<Zusammenfassung>> einzublenden. 
+
+=== Aufgabentyp bearbeiten
+
+Um einen Aufgabentyp zu bearbeiten klickt man in der Liste auf den Namen des zu bearbeitenden Aufgabentyps. Es öffnet sich die Maske zum Bearbeiten des Aufgabentyps.
+
+image:adminhandbuch/aufgabentyp_bearbeiten.png[Aufgabentypen bearbeiten]
+
+In dieser Maske werden
+
+- allgemeine Daten
+- eingeblendete Felder
+- die Objektklassenauswahl
+
+festgelegt.
+
+Allgemeine Daten:: 
+
+Allgemeine Daten werden im oberen linken Bereich definiert. +
++
+image:adminhandbuch/aufgabentyp_bearbeiten_allgemein.png[Aufgabentypen » allgemeine Daten]
++
+In diesem Bereich werden + 
+
+- der *Name*:
+- der *Standardstatus*: Status, der beim erstellen einer Aufgabe von diesem Typ gesetzt wird.
+- *im Stapel anzeigen*: Option ob dieser Aufgabentyp im Standard im xref:anwenderhandbuch:aufgaben.adoc#_aufgabenpakte[Paketstapel] automatisch angezeigt wird.
+- die *Beschreibung*: Beschreibung des Aufgabentyps zur leichteren Zuordnung im Betrieb.
+
++
+Der Name und der Standardstatus sind dabei Pflichtfelder. Bei der Änderung des Namens bleiben die Verknüpfungen zu den Aufgaben erhalten. +
+ +
+Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
+
+Eingeblendete Felder:: 
+
+Unterhalb der allgemeine Daten können die Attribute / Felder ausgewählt werden, die für diesen Aufgabentyp benötigt werden. +
++
+image:adminhandbuch/aufgabentyp_bearbeiten_felder.png[Aufgabentypen » eingeblendete Felder]
++
+Zum einen können Standardwerte (optionale Felder einer Aufgabe) ein bzw. ausgeblendet werden und zum anderen erstellte xref:eigene-felder.adoc[eigene Felder] des Objekttyps Aufgaben diesem Aufgabentyp zugeordnet werden. +
+ +
+Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
+
+Objektklassenauswahl::
+
+Die Objektklassenauswahl ermöglicht es, den Aufgabentyp nur bei bestimmten Objektklassen zur Auswahl zu bekommen. +
++
+image:adminhandbuch/aufgabentyp_bearbeiten_objektklassen.png[Aufgabentypen » Objektklassen]
++
+Durch Klick auf dem grünen Haken neben der Blocküberschrift lassen sich alle Objektklassen aus- bzw. abwählen. Durch Klick auf die Auswahlfelder neben den Objektklassen lässt sich die Auswahl anpassen. Sind einer Objektklasse Objekte zugeordnet _Zugehörige Objekte_ besteht die Möglichkeit die Auswahl auf einzelne Objekte einzuschränken. +
+ +
+Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
+
+=== Reihenfolge bearbeiten
+
+Die Reihenfolge in der die Aufgabentypen in der Liste und allen Auswahlfeldern für Aufgabentypen dargestellt werden kann durch den Administrator angepasst werden.
+
+image:adminhandbuch/aufgabentyp_liste_reihenfolge.png[Aufgabentypen » Reihenfolge]
+
+Durch Klick und Halten der linken Maustaste auf den Button Verschieben image:adminhandbuch/button_verschieben.png[Verschieben] kann die Zeile mit dem Aufgabentyp in der Liste verschoben werden. An der Position, an der die Linke Maustaste gelöst wird, wird der Aufgabentyp platziert.
+
+=== Aufgabentyp kopieren
+
+Soll ein Aufgabentyp als Vorlage für einen neue Aufgabentyp dienen, kann aus der Aufgabentypliste  mit dem Button image:adminhandbuch/button_kopieren.png[Aufgabentyp kopieren] in der Aufgabentypzeile die Parametrierung in einen _neuen Aufgabentyp_ übernommen werden. In der sich öffnenden Bearbeitungsmaske sind sind Einstellungen aus der Vorlage übernommen.
+
+In der Maske muss der Name des neuen Aufgabentyps eingetragen werden. Alle Einträge können bearbeitet werden. Mit dem Klick auf den Button image:adminhandbuch/button_anlegen.png[Aufgabentyp anlegen] wird der neue Aufgabentyp erstellt.
+
+=== Aufgabentyp löschen
+
+Wird ein Aufgabentyp nicht genutzt, kann dieser über den Button image:adminhandbuch/button_loeschen.png[Aufgabentyp löschen] in der Zeile des zu löschenden Aufgabentyps gelöscht werden. Das Löschen muss noch einmal in einem Popup-Fenster bestätigt werden. 
+
+Falls der Aufgabentyp in Verwendung ist, wird der Löschvorgang mit folgender Meldung abgebrochen:
+
+image:adminhandbuch/aufgabentyp_loeschen_fehlermeldung.png[Fehlermeldung Löschen Aufgabentyp]
+
+[Note]
+Über die Aufgabenliste kann über die Filterfunktion nach Aufgaben eines bestimmten Aufgabentyp gesucht werden. Über die Mehrfachauswahl können diese Aufgaben gelöscht oder einem anderen Aufgabentyp zugeordnet werden.
+
+== Neuer Aufgabentyp
+
+Über den Button image:adminhandbuch/button_neuer_aufgabentyp.png[Neuer Aufgabentyp] link oberhalb der Aufgabentypliste wird die Maske zur Erstellung eines neuen Aufgabentyps erstellt.
+
+Die Inhalte entsprechen den Punkten in <<Aufgabentyp bearbeiten>>. Pflichtfelder sind der Name und der Standardstatus. Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Aufgabentyp anlegen] wird der neue Aufgabentyp erstellt.
+
+== Zusammenfassung
+
+Die Zusammenfassung zeigt in einer Kreuztabelle, welche _Standardwerte_ und _Eigene Felder_ bei welchem Aufgabtyp dargestellt werden. Aufgerufen wird die Zusammenfassung über den Button image:adminhandbuch/button_aufgabentyp_zusammenfassung.png[Aufgabentyp Zusammenfassung] aufgerufen.
+
+image:adminhandbuch/aufgabentyp_zusammenfassung.png[Aufgabentyp Zusammenfassung]
+
+Die Zuordnung kann auch in der Tabelle angepasst werden. Die Anpassungen werden mit dem Klick auf den Button image:adminhandbuch/button_speichern.png[Änderungen in Zusammenfassung Speichern] übernommen.
