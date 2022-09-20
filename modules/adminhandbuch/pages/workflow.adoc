@@ -2,5 +2,103 @@
 :doctype: article
 :icons: font
 :imagesdir: ../images/
-:web-xmera: https://xmera.de
+:web-xmera: https://docs.xmera.de
 
+Die Workflows ermöglichen Statusänderungen einer Aufgabe nur von Mitgliedern durchführen zu lassen, die dieses entsprechend ihrer Rolle durchführen dürfen. So kann z.B. nur Mitgliedern, die die Rolle _Aufgabenverantwortlich_ haben, das Recht gegeben werden, eine Aufgabe auf den Status _storniert_ zu setzen. Auf diese Weise kann ein Workflow durch die Status von Aufgabe / Aufgabentypen erstellt werden.
+
+Weiter bieten die Workflows die Möglichkeit, die Sichtbarkeit und Bearbeitbarkeit jedes einzelnen Attributs für jede Rolle festzulegen. Somit kann auch hier eine rollenbasierte Bearbeitung der Aufgaben abgebildet werden.
+
+Ein Workflow beschreibt damit die Rechte einer Rolle zu einem Aufgabentyp  in Bezug auf erlaubte Statusänderungen und die Bearbeitung von Attributen. Mit den Workflows aller Rollen an der Bearbeitung eines Aufgabentyps beteiligt sind, wird der Workflow einer Aufgabe dieses Aufgabentyps beschrieben.
+
+Ist für einen Aufgabentyp kein Workflow definiert, so kann der Aufgabentyp einem Objekt zugeordnet werden und auch eine Aufgabe mit diesem Typ zugeordnet werden. Der Status kann aber von keiner Rolle (auch Admin) nicht verändert werden.
+
+Bearbeitet werden die Workflows im Administrationsbereich über den Menüpunkt Workflows. Es erscheint folgende Ansicht:
+
+image:adminhandbuch/workflow_maske.png[Workflows]
+
+Auf der Seite werden zwei Reiter für die Statusänderungen und die Feldberechtigungen angeboten. In beiden Reitern ist für die Bearbeitung die Kombination aus Rolle und Aufgabetyp festzulegen. Mit dem Button image:adminhandbuch/button_bearbeiten_rot.png[Workflow bearbeiten] wird für die gewählte Kombination der Bearbeitungsbereich eingeblendet.
+
+Workflows müssen nicht angelegt werden, da mit dem Anlegen einer Rolle oder eines Aufgabentyps automatische ein Workflow mit keinem Recht zur Statusänderung und den vollen Rechten zur Feldberechtigung angelegt ist.
+
+== Statusänderungen bearbeiten
+
+Die Darstellung und Bearbeitung der Berechtigungen einer Rolle in einem Aufgabentyp erfolgt, in dem auf der Workflowseite die Rolle und der Aufgabentyp gewählt werden und diese Auswahl mit dem Button image:adminhandbuch/button_bearbeiten_rot.png[Workflow bearbeiten] aufgerufen wird. Es wird, wie im folgenden Bild zu sehen, eine Statusmatrix aufgeblendet.
+
+image:adminhandbuch/workflow_status_bearbeiten_verwendet.png[Workflowmatrix]
+
+Die Zeilen beschreiben den Status, aus dem eine Änderung erfolgen soll. Die Spalten beschreiben die Ziel-Status, in den der Status verändert werden kann.
+
+Die Statusmatrix in dem Bild oben zeigt eine Rolle, die keine Rechte hat. So kann in dem Beispiel die Rolle _Meldungsberechtigter_ keine Aufgabe von dem Typ _Prüfung_ anlegen, da in der Zeile _Neue Aufgabe_ kein Ziel-Status gesetzt ist (kein Zielstatus ist angekreuzt). Bei den anderen Zeilen ist (automatisch) jeweils nur der Haken beim Zielstatus gleich Ausgangsstatus gesetzt, womit keine Statusänderung für die Rolle möglich ist.
+
+Soll die Rolle das Recht bekommen eine Aufgabe anzulegen, so muss mindestens ein Zielstatus angekreuzt werden.
+
+image:adminhandbuch/workflow_status_bearbeiten_bsp_neue_aufgabe.png[Workflow Bsp. Neue Aufgabe]
+
+Um Statusänderungen durchführen zu können, müssen zu dem gegenwärtigen Status die Zielstatus definiert werden, damit die gewählte Rolle diese Rolle setzen können.
+
+image:adminhandbuch/workflow_status_bearbeiten_bsp_status.png[Workfow Bsp. Statusberechtigungen]
+
+In dem Beispiel oben darf die Rolle aus dem Status _In Bearbeitung_ in den Status _Umgesetzt_ oder _Feedback_ gesetzt werden. Aus dem Status _Feedback_ kann wiederum der Status _In Bearbeitung_ gesetzt werden.
+
+In der Defaulteinstellung ist die Auswahl _Zeige nur die Status an, die von diesem Aufgabentyp verwendet werden. Wird die Auswahl zurückgenommen (siehe roter Kringel im folgenden Bild) werden alle Status angezeigt.
+
+image:adminhandbuch/workflow_status_bearbeiten_alle.png[Workflowmatrix]
+
+Somit lassen sich für den Aufgabentyp alle Status in den Workflow einbinden. 
+
+Übernommen werden die Änderungen mit dem Klick auf den Button image:adminhandbuch/button_speichern.png[Workflow speichern] gespeichert.
+
+Unterhalb der Statusmatrix können erweiterte Statusberechtigungen für den Autor oder das zugewiesenen Mitglied. Die Statusmatrix für diese "Sonderrollen" kann durch Klick auf den Pfeil (rote Kreise im Bild unten) neben der Überschrift ein- bzw. ausgeblendet werden. 
+
+image:adminhandbuch/workflow_status_bearbeiten_sonderrollen.png[Workflow Sonderrollen]
+
+Werden in diesen Matrizen weitere Berechtigungen festgelegt, kann ein Autor bzw. das zugewiesene Mitglied mit der Rolle des Workflows diese erweiterten Rechte nutzen. 
+
+== Feldberechtigungen bearbeiten
+
+Im Reiter Feldberechtigung besteht sie Möglichkeit jedes Feld / Attribut für die gewählte Rolle in Abhängigkeit von dem Status der Aufgabe
+
+- die Bearbeitung zu sperren (Nur-Lese-Zugriff) oder 
+- zum Pflichtfeld zu machen (Erforderlich).
+
+Dieses wird, wie im folgenden Bild zu sehen, in einer Feld/Status-Matrix umgesetzt.
+
+image:adminhandbuch/workflow_feld_maske.png[Workflow Feldberechtigungen]
+
+Für jede Feld-Status-Kombination kann die Berechtigung verändert werden. Dazu kann über das Dropdown-Menü die Einträge verändert werden.
+
+image:adminhandbuch/workflow_feld_berechtigung_aendern.png[Workflow Feldberechtigung anpassen]
+
+[NOTE]
+Bei Pflichtfeldern steht die Auswahl _Erforderlich_ nicht zur Verfügung, da dieses Feld bereits diesen Status besitzt.
+
+Mit dem Klick auf den Button image:adminhandbuch/workflow_feld_berechtigung_kopieren.png[Workflow Berechtigung in folgende Status kopieren], der unterhalb oder rechts vom Auswahlfeld ist, kann die Feldberechtigung in die folgenden Status kopiert werden.
+
+Ein Beispiel für eine solche Folge ist im folgenden Bild zu sehen.
+
+image:adminhandbuch/workflow_feld_berechtigung_beispiel.png[Workflow Feldberechtigung Beispiel]
+
+Das Feld _Zugewiesen an_ ist im Status _Neu_ optional. Wird der Status in Bearbeitung gesetzt, ist es ein Pflichtfeld. In den weiteren Status kann es nicht verändert werden.
+
+== Kopieren
+
+Da der Aufwand, eine neue Rolle oder einen Aufgabentyp in die Workflows zu integrieren, ist das Kopieren und anschließende Anpassen der kopierten Workflows häufig der sinnvolle Weg. Aus diesem Grund wird bei der xref:rollen-rechte.adoc#_neue_rolle[Erstellung einer Rolle] oder xref:aufgabentyp.adoc#_neuer_aufgabentyp[Erstellung eines Auftragstyps] direkt das Kopieren der Workflows von einer bestehenden Rolle bzw. eines bestehenden Auftragstyps angeboten.
+
+Dieses kann aber auch im Nachgang über die Kopierfunktion im Workflowbereich umgesetzt werden. Im oberen rechten Bereich kann die Kopierfunktion über den Button image:adminhandbuch/button_kopieren.png[Workflow kopieren] aufgerufen werden. Er erscheint folgende Makse:
+
+image:adminhandbuch/workflow_kopieren.png[Workflow kopieren]
+
+In dieser Maske kann im Bereich Quelle eine Kombination aus Aufgabentyp und Rolle gewählt werden. Dieser Workflow wird dann in eine oder mehrere Workflows (im Bereich Ziel ist eine Mehrfachauswahl möglich) kopiert.
+
+Um nicht jeden Workflow einzeln kopieren zu können, kann als Quelle _So wie das Ziel_ definiert werden. Somit ist es auf diese Weise zum Beispiel möglich, einer Zielrolle alle Rechte einer Quellrolle zuzuordnen, in dem als Quellaufgabentyp die Auswahl _So wie das Ziel_ gewählt wird und über die Mehrfachauswahl im Zielaufgabentyp alle Aufgabentypen ausgewählt werden.
+
+== Zusammenfassen
+
+Im oberen rechten Bereich der Workflow-Seite kann durch Klick auf den Button image:adminhandbuch/button_zusammenfassung.png[Workflow Zusammenfassung] die Zusammenfassung der Workflows aufgerufen werden.
+
+image:adminhandbuch/workflow_zusammenfassung.png[Workflow Zusammenfassung]
+
+Die Zusammenfassung ist eine Kreuztabelle. In den Zeilen werden die Aufgabentypen und in den Spalten sind die Rollen dargestellt. Jede Kombination aus Aufgabentyp und Rolle bildet einen Workflow ab. In dem Kreuzungspunkt wird die Anzahl der Rechte zum Statuswechsel angezeigt. Ist die Anzahl Null, so wird ein *X* dargestellt. Durch Klick auf die Zahl bzw. das *X* wird der zugehörige Workflow eingeblendet.
+
+[NOTE]
+Reicht die Monitorbreite nicht aus, so wird im unteren Bereich der Kreuztabelle ein Scrollbalken eingeblendet.
