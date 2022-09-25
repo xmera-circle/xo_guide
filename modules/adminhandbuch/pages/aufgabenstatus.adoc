@@ -4,3 +4,54 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
+Der Aufgabenstatus beschreibt den Prozessschritt im Aufgabenablauf bzw. Workflow, in dem sich eine Aufgabe befindet. Die Aufgabenstatus können im Administrationsbereich über den Menüpunkt Aufgabenstatus bearbeitet werden. Es öffnet sich eine Liste der im System gepflegten Aufgabenstatus.
+
+image:adminhandbuch/aufgabenstatus_liste.png[Liste der Aufgabenstatus]
+
+In der Liste sind der _Statusname_ sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
+
+[IMPORTANT]
+Der Aufgabenstatus wird erst funktional wirksam, wenn dieser über den xref:workflow.adoc[Workflow] mit den Aufgabentypen und den Rollen verknüpft wird.
+
+== Aufgabenstatus bearbeiten
+
+Durch einen Klick auf den Statusnamen in der Liste gelangt man in die Bearbeitungsmaske des gewählten Aufgabenstatus.
+
+image:adminhandbuch/aufgabenstatus_bearbeiten.png[Aufgabenstatus bearbeiten]
+
+Der Aufgabenstatus hat nur 2 Attribute. Den Namen des Aufgabenstatus (Pflichtfeld) und die Auswahl _Aufgabe geschlossen_. Wird die Auswahl gesetzt, wird eine Aufgabe mit diesem Status im Filter _Status offen_ *nicht* angezeigt.
+
+Mit dem Klick auf den Button image:adminhandbuch/button_speichern.png[Änderungen speichern] werden die Änderungen übernommen.
+
+== Neuer Aufgabenstatus
+
+Soll ein neuer Aufgabenstatus hinzugefügt werden, geschieht dieses über den Button image:adminhandbuch/button_neuer_status.png[Neuer Aufgabenstatus] im linken oberen Bereich der Aufgabenstatusliste. Klickt man auf den Button so erscheint die aus der Bearbeitung bekannte Maske.
+
+image:adminhandbuch/aufgabenstatus_neu.png[Neuer Aufgabenstatus]
+
+Pflichtfleder ist der Statusname. Falls der Status nicht zu den offenen Status zählt, ist der Haken hinter _Aufgabe geschlossen_ zu setzen.
+
+Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Aufgabenstatus anlegen] wird der neue Status angelegt.
+
+Da der Status noch keinem Workflow zugeordnet ist, erscheint in der Aufgabenstatusliste folgende Meldung.
+
+image:adminhandbuch/aufgabenstatus_neu_warnmeldung.png[Warnmeldung kein Aufgabentyp zugeordnet]
+
+Über den Klick auf das unterstrichene _(Bearbeiten)_ gelangt man zur xref:workflow.adoc[Workflowbearbeitung].
+
+== Aufgabenstatus verschieben
+
+Die Reihenfolge, in der die Status in der Anwendung gelistet werden, ist die in der Aufgabenstatusliste. Durch Klick und Halten der linken Maustaste auf den Button Verschieben Verschieben kann die Zeile mit dem Aufgabenstatus in der Liste verschoben werden. 
+
+image:adminhandbuch/aufgabenstatus_verschieben.png[Aufgabenstatus Reihenfolge bearbeiten]
+
+An der Position, an der die Linke Maustaste gelöst wird, wird der Aufgabenstatus platziert.
+
+== Aufgabenstatus löschen
+
+Über den Button image:adminhandbuch/button_loeschen.png[Aufgbabenstatus löschen] in der Statuszeile kann der Status gelöscht werden. Das Löschen muss in einem Popup-Fenster bestätigt werden.
+
+[WARNING]
+Mit dem Löschen wird der Status aus den Workflows entfernt. Das Löschen kann nicht rückgängig gemacht werden!
+
+

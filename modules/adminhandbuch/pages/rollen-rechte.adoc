@@ -4,142 +4,177 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Die Rechte zur Bedienung von xmera Omnia werden über Rollen gesteuert. 
+Die Rechte zur Bedienung von xmera Omnia Modulen werden über Rollen gesteuert. 
 
 Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. 
 
 Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden. Erhält ein Benutzer in einem Objekt mehrere Rollen, wirken diese kumulativ.
 
-Die Definition von Rollen wird hauptsächlich im Administrationsbereich unter _Rollen und Rechte_ vorgenommen. Weitere Einstellungsmöglichkeiten zur Sichtbarkeit sind in den Bereichen _Workflows_ und _Eigene Felder_ möglich. 
+[NOTE]
+Die Sichtbarkeit und Bearbeitbarkeit von Feldern / Attributen in Aufgaben werden im Bereichen _Workflows_ und _Eigene Felder_ abgebildet. 
 
-== Definition von Rollen
+== Rollenliste
 
-Die Definition von Rollen beinhaltet Einstellungen zur Aufgabendelegation, Sichtbarkeit von Aufgaben, Zeiten und Benutzern sowie Berechtigungen zur Nutzung der einzelnen Objektmodule.
+Über den Menüpunkt _Rollen und Rechte_ gelangt man zur Rollenliste in der alle Rollen gelistet werden.
 
-Die grundsätzliche Sichtbarkeit von Aufgaben, Zeiten und Benutzern bildet die erste Berechtigungsebene. 
+image:adminhandbuch/rollen-rechte_liste.png[]
 
-Eine zweite Berechtigungsebene bilden die Module, aus denen eine Rolle wahlweise ausgeschlossen werden kann.
+Die Liste zeigt die vorhandenen Rollen im System. Aus der Maske können neue Rollen angelegt und die bestehenden Rollen verwaltet und bearbeitet werden.
 
-Die dritte Ebene umfassst die Berechtigungen innerhalb eines Moduls.
+Vom Administrator können beliebige Rollen hinzugefügt werden.
 
-=== Aufgabendelegation
 
-Es besteht die Möglichkeit eine Rolle aus der Aufgabendelegation auszuschließen. Dieser Rolle können dann keine Aufgaben zugeordnet werden.
 
-=== Sichtbarkeit von Aufgaben
+Neben den individuellen Rollen gibt es in xmera Omnia 2 fest integrierte Basisrollen:
 
-Jede der nachfolgenden Optionen bestimmt die generelle Sichtbarkeit von Aufgaben für eine Rolle in einem Objekt.
+- Anonym: Rechte der Benutzer, die (noch) nicht am System angemeldet heben
+- Nichtmitglied: Rechte angemeldeter Benutzer, die nicht Mitglied im relevante Objekt sind.
 
-Alle Aufgaben::
+Diese Rollen lassen sich nicht löschen. Die Rechte die diese Rollen besitzen, können durch den Administrator angepasst werden.
 
-Mit dieser Rolle sieht ein Benutzer alle öffentlichen und alle privaten Aufgaben in einem Objekt.
+=== Rolle bearbeiten
 
-Alle öffentlichen Aufgaben::
+Die Bearbeitungsmaske der Rechte einer Rolle wird über einen Klick auf den Rollennamen aufgerufen. In der Rechteverwaltung können drei Bereiche gepflegt werden:
 
-Bei der Auswahl dieser Option kann der Rolleninhaber keine privaten Aufgaben sehen.
+1. *Allgemeine Daten:* Grundlegende Festlegungen zur Sichtbarkeit / Nutzbarkeit von Informationen andere Nutzer
+2. *Berechtigungen:* Festlegung von Rechten in der Sichtbarkeit und Bedienung von Objekt und Modulen
+3. *Aufgaben:* Festlegung der Sichtbarkeit / Bedienbarkeit von Aufgabentypen durch die Rolle
 
-Aufgaben, die der Benutzer erstellt hat oder ihm zugewiesen sind::
+Im Folgenden werden die Bereiche erläutert.
 
-Die dritte Option schränkt die Sichtbarkeit der Aufgaben auf genau die diejenigen ein, an denen er beteiligt ist. 
+Allgemeine Daten:: 
+
+In dieser Maske sind werden oberen Bereich allgemeine Parameter festgelegt. +
++
+image:adminhandbuch/rollen-rechte_bearbeiten_allgemein.png[Rollen und Rechte » Allgemein]
++
+In diesem Bereich werden folgende Attribute festgelegt: +
++
+[Allgemeine Rollenparameter]
+|===
+| Attribut | Beschreibung | Bemerkung
+
+| Name
+| Name der Rolle
+|
+
+| Aufgabe können dieser Rolle zugewiesen werden
+| Die Auswahl erlaubt nur Mitgliedern Aufgaben zuzuordnen, deren Rolle hier einen Haken hat.
+|
+
+| Aufgaben-Sichtbarkeit
+| Einschränkung der für die Rolle angezeigten Aufgaben auf öffentliche (nicht als privat gekennzeichnete Aufgaben) oder die selbst erstellten bzw. einem zugeordneten Aufgaben.
+| Wird nur angezeigt, wenn das Recht besteht Aufgaben zu sehen. +
+Defaultwert ist _öffentliche Aufgaben_
+
+| Zeiten-Sichtbarkeit
+| Einschränkung der Sichtbarkeit von des erfassten Zeitaufwands auf den eigenen Zeitaufwand
+| Wird nur eingeblendet, wenn ein Recht in der Zeiterfassung besteht.
+
+| Benutzer-Sichtbarkeit
+| In Auswahlfeldern in denen Benutzer gewählt werden können, können die möglichen Benutzer auf die aktiven Benutzer reduziert werden, die für den angemeldeten Benutzer in für Ihn sichtbaren Objekten Mitglieder sind. 
+| Defaultwert sind _Alle aktive Benutzer_
+
+| Mitglieder verwalten
+| Festlegung, welche Rollen bei der Mitgliederverwaltung zur Verfügung stehen. 
+| Wird nur angezeigt, wenn im Modul Objekte das Recht besteht, Mitglieder zu verwalten.
+Defaultwert sind _Alle Rollen_
+
+|===
+
+Berechtigungen:: 
+
+In dem Bereich Berechtigungen können die Rechte bei der Sichtbarkeit und der Bedienbarkeit von Objekten und Modulen festgelegt werden. In dem folgenden Bild sind die Berechtigungseinstellungen der Objekte und der Foren zu sehen. +
++
+image:adminhandbuch/rollen-rechte_bearbeiten_berechtigungen.png[Rollen und Rechte » Berechtigungen]
++
+Durch setzen bzw. abwählen der Häkchen können die Rechte der Rolle angepasst werden.
++
+[NOTE]
+Mit dem Klick auf das Häkchen neben der Modulüberschrift werden alle Häkchen des Moduls gesetzt und bei nochmaligen Klicken abgewählt. +
++
+Im Feld Berechtigung sind die Rechte für folgende Elemente festzulegen:
+
+- Objekt
+- Foren
+- Kalender
+- DMS
+- Dokumente
+- Dateien
+- Verlauf
+- Aufgaben-Synchronisierung
+- Aufgaben
+- Mitteilungen
+- Wiederholende Aufgaben
+- Archiv
+- Tabellen
+- Zeiterfassung
+- Wiki
+
++
+Durch Klick auf _Alles auswählen_ bzw. _Alles abwählen_ können schnell alle Rechte zu bzw. abgewählt werden.
+
+Aufgaben:: 
+
+Im Bereich der Aufgaben können die für die Rolle zur Verfügung stehenden Aufgabentypen eingeschränkt werden.
++
+image:adminhandbuch/rollen-rechte_bearbeiten_aufgaben.png[Rollen und Rechte » Aufgaben]
++
+Dabei werden folgende Bearbeitungsarten unterschieden:
+
+- Aufgabe anzeigen: Aufgaben von dem Typ werden der Rolle angezeigt
+- Aufgaben hinzufügen: Aufgaben von dem Typ können von der Rolle angelegt werden.
+- Aufgaben bearbeiten: Aufgaben von dem Typ können von der Rolle bearbeitet und gelöscht werden.
+- Kommentare hinzufügen: Aufgaben können von der Rolle kommentiert werden.
+
++
+Im Default sind alle Bearbeitungsarten für alle Aufgabentypen erlaubt. Soll der Default geändert werden, muss zunächst die Auswahl _Alle Aufgabentypen_ bei der zu ändernden Bearbeitungsart abgewählt werden. Anschließend kann die Bearbeitungsart bei den gewünschten Bearbeitungsarten gewählt werden.
+
+=== Rolle kopieren
+
+Soll eine Rolle als Vorlage für eine neu Rolle dienen, kann aus der Rollenliste mit dem Button image:adminhandbuch/button_kopieren.png[Rolle kopieren] in der Rollenzeile die Parametrierung in eine _neue Rolle_ übernommen werden. In der sich öffnenden Rollenmaske sind sind Einstellungen aus der Vorlage übernommen.
+
+image:adminhandbuch/rollen-rechte_rolle_kopieren.png[Rolle kopieren]
+
+In der Maske muss der Name der neue Rolle eingetragen werden. Alle Einträge können bearbeitet werden. Mit dem Klick auf den Button image:adminhandbuch/button_anlegen.png[Rolle anlegen] wird die neue Rolle erstellt.
+
+=== Rolle lösche
+
+Aus der Rollenliste kann eine Rolle über den Button image:adminhandbuch/button_loeschen.png[Rolle löschen] gelöscht werden. Das Löschen muss bestätigt werden.
+
+Falls die Rolle in Verwendung ist wird der Löschvorgang mit folgender Meldung abgebrochen.
+
+image:adminhandbuch/rollen-rechte_rolle_loeschen_fehlermeldung.png[Diese Rolle wird verwendet und kann nicht gelöscht werden.]
+
+== Neue Rolle
+
+Zum Anlegen einer neuen Rolle klickt man auf den Button image:adminhandbuch/button_neue_rolle.png[Neue Rolle]. Es wird eine leere Bearbeitungsmaske für die Rollen und Rechte geöffnet.
+
+image:adminhandbuch/rollen-rechte_neue_rolle.png[Rollen und Rechte » neue Rolle]
+
+Besonderheit ist, dass bei der Erstellung einer neue Rolle die Möglichkeit besteht, einen bestehenden xref:workflow.adoc[Workflow] von einer einer bestehenden Rolle zu kopieren. 
 
 [NOTE]
-Die Sichtbarkeit von Aufgaben lässt sich über den _Aufgabentyp_ weiter einschränken. 
+Wenn eine bestehende Rolle einen gleichen oder auch nur ähnlichen Ablauf hat, macht Sinn das Kopieren Sinn, da die komplette Erstellen eines Workflows aufwendig ist. Ein späteres Kopieren eines Workflows ist über die Kopierfunktion im Workflow möglich.
 
-=== Sichtbarkeit von Zeiten
+== Berechtigungsübersicht
 
-=== Sichtbarkeit von Benutzern
+Die Berechtigungsübersicht zeigt in einer Kreuztabelle die Berechtigungen der Rollen in den Modulen an.
 
-=== Berechtigungen für Module
+image:adminhandbuch/rollen-rechte_berechtigungsuebersicht.png[Berechtigungsübersicht]
 
-==== Objekt
+In den Zeilen sind die einzelnen Modulrechte und in den Spalten sind die Rollen. In der Übersicht können die Rechte angepasst werden. Mit dem Klick auf image:adminhandbuch/button_speichern.png[Rollenrechte speichern] werden die Änderungen übernommen.
 
-==== Foren
+[NOTE]
+Der horizontale Scrollenbalken ist unterhalb der (langen) Tabelle. Um das auf- und ab-scrollen zu vermeiden kann auch über drücken der Shift-Taste und dem Scroll-Rad der Maus horizontal gescrollt werden.
 
+Um die Übersichtlichkeit zu erhöhen die Rollen, wie im folgenden Bild zu sehen, gefiltert werden.
 
-==== Kalender
+image:adminhandbuch/rollen-rechte_berechtigungsuebersicht_filter.png[Berechtigungsübersicht]
 
-==== DMS
+Weiter können die rechte der einzelnen Module durch Klicken auf den grauen Pfeile ein- bzw. ausgeklappt werden.
 
+image:adminhandbuch/rollen-rechte_berechtigungsuebersicht_modul_einklappen.png[Berechtigungsübersicht]
 
-==== Dokumente
+auf diese Weise lassen sich die Berechtigungen der einzelnen Rollen auf übersichtliche Art vergleichen und ggf. anpassen.
 
-==== Dateien
-
-==== Verlauf
-
-==== Aufgaben-Synchronisation
-
-==== Aufgaben
-
-Aufgaben anzeigen:: 
-  Der Benutzer darf Aufgaben lesen.
-
-Aufgaben hinzufügen::
-  Der Benutzer darf Aufgaben erstellen.
-
-Aufgaben bearbeiten::
-  Der Benutzer darf in allen Aufgaben Felder wie bspw. Thema, Priorität, Status usw. bearbeiten.
-
-Eigene Aufgaben bearbeiten:: 
-  Der Benutzer darf lediglich Aufgaben, die er selbst erstellt hat, bearbeiten. Aufgaben, die ihm zugeordnet wurden, kann er mit diesem Recht nicht bearbeiten.
-
-Aufgaben kopieren:: 
-  Der Benutzer darf Aufgaben innerhalb des Objektes und je nach Systemkonfiguration auch zu anderen Objekten durch kopieren hinzufügen.
-
-Aufgaben-Beziehungen verwalten::
-  Der Benutzer darf Beziehungen zu anderen Aufgaben herstellen und wieder entfernen.
-
-Untergeordnete Aufgaben verwalten:: 
-  Der Benutzer darf Aufgaben anderen Aufgaben unterordnen und die Unterordnung wieder aufheben.
-
-Aufgaben als privat oder öffentlich markieren:: 
-  Der Benutzer darf eine beliebige Aufgabe als privat markieren und wieder aufheben. Eine private Aufgabe ist nur für die Benutzer sichtbar, die alle Aufgaben sehen dürfen, siehe <<_sichtbarkeit_von_aufgaben>>. 
-
-Eigene Aufgaben privat oder öffentlich markieren:: 
-  Der Benutzer darf lediglich Aufgaben, die er selbst erstellt hat, als privat markieren und wieder aufheben.
-
-Kommentare hinzufügen:: 
-  Der Benutzer darf einen Kommentar zu einer Aufgabe hinzufügen.
-
-Kommentare bearbeiten:: 
-  Der Benutzer darf Kommentare an Aufgaben bearbeiten.
-
-Eigene Kommentare bearbeiten:: 
-  Der Benutzer darf Kommentare, die er selbst erstellt hat, bearbeiten.
-
-Private Kommentare sehen:: 
-  Der Benutzer darf private Kommentare von anderen Benutzern sehen.
-
-Kommentar als privat markieren:: 
-  Der Benutzer seine Kommentare als privat markieren.
-
-Aufgabe löschen:: 
-  Der Benutzer darf eine Aufgabe löschen.
-
-Liste der Beobachter ansehen:: 
-  Der Benutzer darf sehen, welche Mitglieder eine Aufgabe beobachten.
-
-Beobachter hinzufügen::
-  Der Benutzer darf Mitglieder als Beobachter für eine Aufgabe definieren.
-
-Beobachter löschen:: 
-  Der Benutzer darf Beobachter einer Aufgabe wieder entfernen.
-
-Aufgaben importieren:: 
-  Der Benutzer darf Aufgaben mittels CSV-Datei importieren.
-
-Aufgaben-Kategorien verwalten:: 
-  Der Benutzer darf Aufgaben-Kategorien erstellen an Mitglieder zuordnen, bearbeiten und löschen.
-
-==== Mitteilung
-
-==== Archiv
-
-==== Zeiterfassung
-
-==== Wiki
-
-
-=======
-Ein Benutzer würde demnach beispielsweise alle Aufgaben vom Aufgabentyp Störung sehen oder aber lediglich die Störungen, die er erstellt oder ihm zugewiesen wurden.
-=======
