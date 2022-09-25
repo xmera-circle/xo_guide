@@ -1,5 +1,5 @@
 .history
-/build/
+build/
 /node_modules/
 pdf/xo-doc.pdf
 .vscode/
