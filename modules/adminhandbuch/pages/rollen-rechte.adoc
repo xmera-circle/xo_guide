@@ -4,51 +4,49 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Die Rechte zur Bedienung von xmera Omnia Modulen werden über Rollen gesteuert. 
+include::ROOT:partial$custom-css.adoc[]
+
+Die Rechte zur Bedienung von xmera Omnia werden über Rollen gesteuert. 
 
 Die Zuordnung der Rollen zu den Benutzern erfolgt (bis auf die Rolle Administrator) in den Objekten. 
 
-Somit können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden. Erhält ein Benutzer in einem Objekt mehrere Rollen, wirken diese kumulativ.
+Dabei können einem Benutzer in verschiedenen Objekten unterschiedliche Rollen zugewiesen werden. Erhält ein Benutzer in einem Objekt mehrere Rollen, wirken diese kumulativ.
 
 [NOTE]
-Die Sichtbarkeit und Bearbeitbarkeit von Feldern / Attributen in Aufgaben werden im Bereichen _Workflows_ und _Eigene Felder_ abgebildet. 
+Für Felder/Attribute in Aufgaben können weitere Berechtigungen (Lesen, Schreiben) vergeben werden. Diese können in den Administrationsbereichen _Workflow_ und _Eigene Felder_ konfiguriert werden.
 
 == Rollenliste
 
-Über den Menüpunkt _Rollen und Rechte_ gelangt man zur Rollenliste in der alle Rollen gelistet werden.
+Über den Menüpunkt _Rollen und Rechte_ gelangt man zur Rollenliste in der alle bereits bestehenden Rollen aufgeführt werden.
 
 image:adminhandbuch/rollen-rechte_liste.png[]
 
-Die Liste zeigt die vorhandenen Rollen im System. Aus der Maske können neue Rollen angelegt und die bestehenden Rollen verwaltet und bearbeitet werden.
+In dieser Ansicht können neue Rollen angelegt oder die bestehenden Rollen verwaltet und bearbeitet werden.
 
-Vom Administrator können beliebige Rollen hinzugefügt werden.
+Neben den individuellen Rollen gibt es in xmera Omnia zwei fest integrierte Basisrollen:
 
+- *Anonym:* Rechte der Benutzer, die (noch) nicht am System angemeldet sind.
+- *Nichtmitglied:* Rechte angemeldeter Benutzer, die nicht Mitglied im betrachteten Objekt sind.
 
+Diese Rollen lassen sich nicht löschen. Die Rechte, die diese Rollen besitzen, können jedoch durch den Administrator angepasst werden.
 
-Neben den individuellen Rollen gibt es in xmera Omnia 2 fest integrierte Basisrollen:
-
-- Anonym: Rechte der Benutzer, die (noch) nicht am System angemeldet heben
-- Nichtmitglied: Rechte angemeldeter Benutzer, die nicht Mitglied im relevante Objekt sind.
-
-Diese Rollen lassen sich nicht löschen. Die Rechte die diese Rollen besitzen, können durch den Administrator angepasst werden.
-
-=== Rolle bearbeiten
+=== Rollen bearbeiten
 
 Die Bearbeitungsmaske der Rechte einer Rolle wird über einen Klick auf den Rollennamen aufgerufen. In der Rechteverwaltung können drei Bereiche gepflegt werden:
 
-1. *Allgemeine Daten:* Grundlegende Festlegungen zur Sichtbarkeit / Nutzbarkeit von Informationen andere Nutzer
-2. *Berechtigungen:* Festlegung von Rechten in der Sichtbarkeit und Bedienung von Objekt und Modulen
-3. *Aufgaben:* Festlegung der Sichtbarkeit / Bedienbarkeit von Aufgabentypen durch die Rolle
+1. *Modulübergreifende Rechte:* Grundlegende Festlegungen zur Sichtbarkeit/Nutzbarkeit von Informationen anderer Nutzer.
+2. *Modul-Berechtigungen:* Festlegung von Rechten in der Sichtbarkeit und Bedienung von Objekten und Modulen.
+3. *Detailierte Aufgabenrechte:* Festlegung der Sichtbarkeit/Bedienbarkeit von Aufgabentypen durch die Rolle.
 
 Im Folgenden werden die Bereiche erläutert.
 
-Allgemeine Daten:: 
+Modulübergreifende Rechte:: 
 
-In dieser Maske sind werden oberen Bereich allgemeine Parameter festgelegt. +
+In diesem Abschnitt werden allgemeine Rechte bestimmt. +
 +
 image:adminhandbuch/rollen-rechte_bearbeiten_allgemein.png[Rollen und Rechte » Allgemein]
 +
-In diesem Bereich werden folgende Attribute festgelegt: +
+Diese Attribute können festgelegt werden: +
 +
 [Allgemeine Rollenparameter]
 |===
@@ -58,104 +56,85 @@ In diesem Bereich werden folgende Attribute festgelegt: +
 | Name der Rolle
 |
 
-| Aufgabe können dieser Rolle zugewiesen werden
-| Die Auswahl erlaubt nur Mitgliedern Aufgaben zuzuordnen, deren Rolle hier einen Haken hat.
+| Aufgaben können dieser Rolle zugewiesen werden
+| Aufgaben können nur den Benutzern zugeordnet werden, deren Rolle hier einen Haken hat.
 |
 
 | Aufgaben-Sichtbarkeit
-| Einschränkung der für die Rolle angezeigten Aufgaben auf öffentliche (nicht als privat gekennzeichnete Aufgaben) oder die selbst erstellten bzw. einem zugeordneten Aufgaben.
+| Die der Rolle angezeigten Aufgaben können auf öffentliche (nicht als privat gekennzeichnete Aufgaben) oder selbst erstellte bzw. dem Benutzer zugeordneten Aufgaben eingeschränkt werden.
 | Wird nur angezeigt, wenn das Recht besteht Aufgaben zu sehen. +
-Defaultwert ist _öffentliche Aufgaben_
+Standardwert ist _öffentliche Aufgaben_
 
 | Zeiten-Sichtbarkeit
-| Einschränkung der Sichtbarkeit von des erfassten Zeitaufwands auf den eigenen Zeitaufwand
+| Einschränkung auf den eigenen Zeitaufwand
 | Wird nur eingeblendet, wenn ein Recht in der Zeiterfassung besteht.
 
 | Benutzer-Sichtbarkeit
-| In Auswahlfeldern in denen Benutzer gewählt werden können, können die möglichen Benutzer auf die aktiven Benutzer reduziert werden, die für den angemeldeten Benutzer in für Ihn sichtbaren Objekten Mitglieder sind. 
-| Defaultwert sind _Alle aktive Benutzer_
+| Der Rolleninhaber kann entweder alle aktiven Benutzer sehen oder nur jene aus Objekten, die für ihn sichtbar sind.  
+| Standardwert ist _Alle aktiven Benutzer_
 
 | Mitglieder verwalten
-| Festlegung, welche Rollen bei der Mitgliederverwaltung zur Verfügung stehen. 
-| Wird nur angezeigt, wenn im Modul Objekte das Recht besteht, Mitglieder zu verwalten.
-Defaultwert sind _Alle Rollen_
+| Festlegung, welche Rollen bei der Mitgliederverwaltung in einem Objekt zur Verfügung stehen. 
+| Wird nur angezeigt, wenn im Modul _Objekte_ das Recht besteht, Mitglieder zu verwalten.
+Standardwert ist _Alle Rollen_
 
 |===
 
-Berechtigungen:: 
+Modul-Berechtigungen:: 
 
-In dem Bereich Berechtigungen können die Rechte bei der Sichtbarkeit und der Bedienbarkeit von Objekten und Modulen festgelegt werden. In dem folgenden Bild sind die Berechtigungseinstellungen der Objekte und der Foren zu sehen. +
+Im Bereich _Berechtigungen_ können Rechte zur Sichtbarkeit und Bedienbarkeit von Objekten und Modulen festgelegt werden. In dem folgenden Bild sind die Berechtigungseinstellungen der Objekte und der Foren zu sehen. +
 +
 image:adminhandbuch/rollen-rechte_bearbeiten_berechtigungen.png[Rollen und Rechte » Berechtigungen]
 +
-Durch setzen bzw. abwählen der Häkchen können die Rechte der Rolle angepasst werden.
+Durch Setzen und Abwählen der Häkchen können die Rechte einer Rolle angepasst werden.
 +
 [NOTE]
-Mit dem Klick auf das Häkchen neben der Modulüberschrift werden alle Häkchen des Moduls gesetzt und bei nochmaligen Klicken abgewählt. +
+Mit dem Klick auf das grüne Häkchen neben der Modulüberschrift werden alle Rechte eines Moduls aktiviert und bei nochmaligen Klicken wieder deaktiviert. +
 +
-Im Feld Berechtigung sind die Rechte für folgende Elemente festzulegen:
+Durch Klick auf _Alles auswählen_ bzw. _Alles abwählen_ können schnell alle Rechte aktiviert und deaktiviert werden.
 
-- Objekt
-- Foren
-- Kalender
-- DMS
-- Dokumente
-- Dateien
-- Verlauf
-- Aufgaben-Synchronisierung
-- Aufgaben
-- Mitteilungen
-- Wiederholende Aufgaben
-- Archiv
-- Tabellen
-- Zeiterfassung
-- Wiki
-
-+
-Durch Klick auf _Alles auswählen_ bzw. _Alles abwählen_ können schnell alle Rechte zu bzw. abgewählt werden.
-
-Aufgaben:: 
+Detailierte Aufgabenrechte::
 
 Im Bereich der Aufgaben können die für die Rolle zur Verfügung stehenden Aufgabentypen eingeschränkt werden.
 +
 image:adminhandbuch/rollen-rechte_bearbeiten_aufgaben.png[Rollen und Rechte » Aufgaben]
 +
-Dabei werden folgende Bearbeitungsarten unterschieden:
+Dabei werden folgende Rechte unterschieden:
 
-- Aufgabe anzeigen: Aufgaben von dem Typ werden der Rolle angezeigt
-- Aufgaben hinzufügen: Aufgaben von dem Typ können von der Rolle angelegt werden.
-- Aufgaben bearbeiten: Aufgaben von dem Typ können von der Rolle bearbeitet und gelöscht werden.
-- Kommentare hinzufügen: Aufgaben können von der Rolle kommentiert werden.
+- *Aufgabe anzeigen:* Aufgaben von dem Typ werden der Rolle angezeigt.
+- *Aufgaben hinzufügen:* Aufgaben von dem Typ können von der Rolle angelegt werden.
+- *Aufgaben bearbeiten:* Aufgaben von dem Typ können von der Rolle bearbeitet und gelöscht werden.
+- *Kommentare hinzufügen:* Aufgaben können von der Rolle kommentiert werden.
 
 +
-Im Default sind alle Bearbeitungsarten für alle Aufgabentypen erlaubt. Soll der Default geändert werden, muss zunächst die Auswahl _Alle Aufgabentypen_ bei der zu ändernden Bearbeitungsart abgewählt werden. Anschließend kann die Bearbeitungsart bei den gewünschten Bearbeitungsarten gewählt werden.
+Im Standard sind alle Rechte für alle Aufgabentypen aktiv. Soll der Standard geändert werden, muss zunächst die Auswahl _Alle Aufgabentypen_ bei dem zu ändernden Recht abgewählt werden. Anschließend können die Rechte gezielt für jeden einzelnen Aufgabentypen vergeben werden.
 
-=== Rolle kopieren
+=== Rollen kopieren
 
-Soll eine Rolle als Vorlage für eine neu Rolle dienen, kann aus der Rollenliste mit dem Button image:adminhandbuch/button_kopieren.png[Rolle kopieren] in der Rollenzeile die Parametrierung in eine _neue Rolle_ übernommen werden. In der sich öffnenden Rollenmaske sind sind Einstellungen aus der Vorlage übernommen.
+Soll eine Rolle als Vorlage für eine neu Rolle dienen, kann aus der Rollenliste mit dem Button image:adminhandbuch/button_kopieren.png[Rolle kopieren] in der Rollenzeile die Parametrierung in eine _neue Rolle_ übernommen werden. In der sich öffnenden Rollenmaske sind alle Einstellungen aus der Vorlage übernommen.
 
 image:adminhandbuch/rollen-rechte_rolle_kopieren.png[Rolle kopieren]
 
-In der Maske muss der Name der neue Rolle eingetragen werden. Alle Einträge können bearbeitet werden. Mit dem Klick auf den Button image:adminhandbuch/button_anlegen.png[Rolle anlegen] wird die neue Rolle erstellt.
+In der Maske muss der Name der neuen Rolle eingetragen werden. Alle Einträge können bearbeitet werden. Mit dem Klick auf den Button image:adminhandbuch/button_anlegen.png[Rolle anlegen] wird die neue Rolle erstellt.
 
-=== Rolle lösche
+=== Rollen löschen
 
 Aus der Rollenliste kann eine Rolle über den Button image:adminhandbuch/button_loeschen.png[Rolle löschen] gelöscht werden. Das Löschen muss bestätigt werden.
 
-Falls die Rolle in Verwendung ist wird der Löschvorgang mit folgender Meldung abgebrochen.
+Falls die Rolle in Verwendung ist, wird der Löschvorgang mit folgender Meldung abgebrochen.
 
 image:adminhandbuch/rollen-rechte_rolle_loeschen_fehlermeldung.png[Diese Rolle wird verwendet und kann nicht gelöscht werden.]
 
-== Neue Rolle
+== Neue Rolle anlegen
 
-Zum Anlegen einer neuen Rolle klickt man auf den Button image:adminhandbuch/button_neue_rolle.png[Neue Rolle]. Es wird eine leere Bearbeitungsmaske für die Rollen und Rechte geöffnet.
+Zum Anlegen einer neuen Rolle ist ein Klick auf den Button image:adminhandbuch/button_neue_rolle.png[Neue Rolle] notwendig. Es wird eine Bearbeitungsmaske geöffnet.
 
 image:adminhandbuch/rollen-rechte_neue_rolle.png[Rollen und Rechte » neue Rolle]
 
-Besonderheit ist, dass bei der Erstellung einer neue Rolle die Möglichkeit besteht, einen bestehenden xref:workflow.adoc[Workflow] von einer einer bestehenden Rolle zu kopieren. 
+Eine Besonderheit ist, dass bei der Erstellung einer neuen Rolle die Möglichkeit besteht, einen bestehenden xref:workflow.adoc[Workflow] von einer bestehenden Rolle zu kopieren. 
 
 [NOTE]
-Wenn eine bestehende Rolle einen gleichen oder auch nur ähnlichen Ablauf hat, macht Sinn das Kopieren Sinn, da die komplette Erstellen eines Workflows aufwendig ist. Ein späteres Kopieren eines Workflows ist über die Kopierfunktion im Workflow möglich.
+Wenn eine bestehende Rolle einen gleichen oder auch nur ähnlichen Ablauf hat, macht das Kopieren Sinn, da die komplette Erstellung eines Workflows aufwendig sein kann. Ein späteres Kopieren eines Workflows ist auch noch über die Kopierfunktion im Workflow selbst möglich.
 
 == Berechtigungsübersicht
 
@@ -163,18 +142,17 @@ Die Berechtigungsübersicht zeigt in einer Kreuztabelle die Berechtigungen der R
 
 image:adminhandbuch/rollen-rechte_berechtigungsuebersicht.png[Berechtigungsübersicht]
 
-In den Zeilen sind die einzelnen Modulrechte und in den Spalten sind die Rollen. In der Übersicht können die Rechte angepasst werden. Mit dem Klick auf image:adminhandbuch/button_speichern.png[Rollenrechte speichern] werden die Änderungen übernommen.
+Die Modulrechte sind den Zeilen der Tabelle zu entnehmen. Die Rollen können aus den Spalten abgelesen werden. In der Übersicht können die Rechte angepasst werden. Mit dem Klick auf image:adminhandbuch/button_speichern.png[Rollenrechte speichern] werden die Änderungen übernommen.
 
 [NOTE]
-Der horizontale Scrollenbalken ist unterhalb der (langen) Tabelle. Um das auf- und ab-scrollen zu vermeiden kann auch über drücken der Shift-Taste und dem Scroll-Rad der Maus horizontal gescrollt werden.
+Der horizontale Scrollbalken ist unterhalb der (langen) Tabelle. Um das auf- und ab-scrollen zu vermeiden, kann auch über Drücken der Shift-Taste und dem Scroll-Rad der Maus horizontal gescrollt werden.
 
-Um die Übersichtlichkeit zu erhöhen die Rollen, wie im folgenden Bild zu sehen, gefiltert werden.
+Um die Übersichtlichkeit zu erhöhen, können die Rollen, wie im folgenden Bild zu sehen, gefiltert werden.
 
 image:adminhandbuch/rollen-rechte_berechtigungsuebersicht_filter.png[Berechtigungsübersicht]
 
-Weiter können die rechte der einzelnen Module durch Klicken auf den grauen Pfeile ein- bzw. ausgeklappt werden.
+Weiter können die Rechte der einzelnen Module durch Klicken auf den grauen Pfeil ein- und ausgeklappt werden.
 
 image:adminhandbuch/rollen-rechte_berechtigungsuebersicht_modul_einklappen.png[Berechtigungsübersicht]
 
-auf diese Weise lassen sich die Berechtigungen der einzelnen Rollen auf übersichtliche Art vergleichen und ggf. anpassen.
-
+Auf diese Weise lassen sich die Berechtigungen der einzelnen Rollen auf übersichtliche Art vergleichen und ggf. anpassen.
