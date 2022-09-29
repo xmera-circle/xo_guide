@@ -14,17 +14,21 @@ help: #: Show help topics
 .PHONY: html
 html: #: Generate Antora HTML output
 ifeq ($(LOCAL), 1)
+	echo '--> npm is installed locally'; \
 	${PATH_TO_FILE}/antora playbook.yml;
 else
+	echo '--> npm is installed globally'; \
 	antora playbook.yml;
 endif
 
 .PHONY: html_browser 
 html_browser: #: Generate Antora HTML output AND open index.html in browser
 ifeq ($(LOCAL), 1)
+	echo '--> npm is installed locally'; \
 	${PATH_TO_FILE}/antora playbook.yml; \
 	firefox build/site/index.html;
 else
+	echo '--> npm is installed globally'; \
 	antora playbook.yml; \
 	firefox build/site/index.html;
 endif
