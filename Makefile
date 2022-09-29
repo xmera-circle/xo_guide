@@ -14,8 +14,10 @@ help: #: Show help topics
 .PHONY: html
 html: #: Generate Antora HTML output
 ifeq ($(LOCAL), 1)
+	echo '--> npm is installed locally'; \
 	${PATH_TO_FILE}/antora playbook.yml;
 else
+	echo '--> npm is installed globally'; \
 	antora playbook.yml;
 endif
 
