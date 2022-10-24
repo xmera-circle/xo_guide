@@ -2,6 +2,25 @@
 :doctype: article
 :icons: font
 :imagesdir: ../images/
-:web-xmera: https://xmera.de
+:web-xmera: https://docs.xmera.de
 
-Mit eigenen Feldern lassen sich einzelne Module auf indiviuelle Anforderungen anpassen.
+Eigene Felder bieten die Möglichkeit für den Großteil der Module / Masken individuelle Felder / Attribute hinzuzufügen und damit Informationen zu dokumentieren, die im xmera Standard nicht implementiert sind.
+
+Dabei stehen eine Vielzahl an Feldformate zur Verfügung:
+
+- Benutzer
+- Boolean
+- Datei
+- Datum
+- Eigenschaft/Wert-Paar
+- Fließkommazahl
+- Kombinationsmatrix
+- Langer Text
+- Link
+- Liste
+- Paket
+- Text
+- Zahl
+
+Die so erfassten Daten lassen sich nutzen um wichtige Informationen zu dokumentieren und Objekte, Aufgaben, Dokumente und vieles mehr individuell zu filtern / strukturieren.
+
