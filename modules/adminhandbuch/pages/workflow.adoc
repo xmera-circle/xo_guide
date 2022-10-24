@@ -6,7 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Der Bearbeitungsstand einer Auftgabe kann mit verschiedenen xref:aufgabenstatus.adoc[Auftgabenstatus] gekennzeichnet werden. Dabei kann es von Bedeutung sein, welcher Mitarbeiter oder welche Rolle eine Statusänderung vornehmen darf. Die Abfolge der Status und die Berechtigungen zur Statusänderung können mit Hilfe der Workflows gesteuert werden.
+Der Bearbeitungsstand einer Aufgabe kann mit verschiedenen xref:aufgabenstatus.adoc[Aufgabenstatus] gekennzeichnet werden. Dabei kann es von Bedeutung sein, welcher Mitarbeiter oder welche Rolle eine Statusänderung vornehmen darf. Die Abfolge der Status und die Berechtigungen zur Statusänderung können mit Hilfe der Workflows gesteuert werden.
 
 So kann z.B. nur Mitgliedern, die die Rolle _Aufgabenverantwortlich_ haben, das Recht gegeben werden, eine Aufgabe auf den Status _storniert_ zu setzen. 
 Weiter bieten Workflows die Möglichkeit, die Sichtbarkeit und Bearbeitbarkeit jedes einzelnen Aufgabendatenfeldes für jede Rolle festzulegen. Somit kann auch hier eine rollenbasierte Bearbeitung der Aufgaben abgebildet werden.
