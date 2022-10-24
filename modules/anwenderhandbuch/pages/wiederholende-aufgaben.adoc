@@ -1,0 +1,58 @@
+= Wiederholende Aufgaben
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://docs.xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Mit dem Modul _Wiederholende Aufgaben_ lassen sich zyklische Aufgaben planen. Das Modul erzeugt automatisch zum "Nächsten Lauf" mit den Attributen der _wiederholende Aufgabe_ eine neue Aufgabe und erhöht das Datum für den "Nächsten Lauf" um das _Intervall_ der _Wiederholenden Aufgabe_. Somit wird die Aufgabe zyklisch im Projekt erzeugt.
+
+[IMPORTANT]
+Damit das Modul funktioniert,muss ein Crone-Job auf dem Server eingerichtet sein, der die Erstellungsroutine zyklisch startet. Der Zyklus des Crone-Jobs gibt vor, wann ein Lauf zur Erstellung von Aufgaben durchgeführt wird.
+
+Ist das Modul _Wiederholende Aufgaben_ für ein Objekt aktiviert, erscheint der entsprechende Reiter in der Objektansicht. Klickt man auf den Reiter wird, wie im Folgenden zu sehen, die Liste der _Wiederholenden Aufgaben_ gezeigt.
+
+image:anwenderhandbuch/modul_wiederholende_aufgaben_liste.png[Wiederholende Aufgaben]
+
+Aus der Liste heraus lassen sich einzelne Aufgaben durch Klick auf den Button image:anwenderhandbuch/button_loeschen.png[löschen] löschen oder die _Wiederholende Aufgabe_ bearbeiten image:anwenderhandbuch/button_bearbeiten_2.png[bearbeiten]. 
+
+== Wiederholende Aufgaben bearbeiten
+
+Aus der Liste der _Wiederholende Aufgaben_ gelangt man durch Klick auf den Button image:anwenderhandbuch/button_bearbeiten_2.png[bearbeiten] zur Bearbeitungsseite der gewählten Aufgabe. Ein Beispiel im folgenden Bild zu sehen.
+
+image:anwenderhandbuch/modul_wiederholende_aufgaben_bearbeiten.png[Wiederholende Aufgaben bearbeiten]
+
+
+
+Pflichtfeld ist bei den wiederholenden Aufgaben nur das Thema. Da bei der Erstellung der Aufgaben neben dem Thema auch der Aufgabentyp verpflichtend ist, muss dieser ebenfalls gesetzt sein.
+
+[NOTE]
+Bei den Aufgaben Pflichtfeldern _Status_ und _Priorität_ werden bei der Erstellung die Standardwerte gesetzt.
+
+Damit die periodischen Aufgaben erstellt werden, müssen 
+
+- der nächste Lauf (Trigger für die erste Erstellung einer Aufgabe) und
+- das Intervall (zur Festlegung des folgenden Triggers)
+
+gepflegt sein.
+
+Wird der Haken bei _Beginn setzen_ gesetzt, wird das Erstelldatum als Beginn gesetzt. Andernfalls bleibt das Feld _Beginn_ leer. +
+Über das _Setze Abgabedatum_ wird das Abgabedatum der Aufgabe mit der gesetzten Zeitspanne nach dem Erstelldatum gesetzt. Wird keine Zeitspanne vorgegeben, wird kein Abgabedatum eingestellt.
+
+Die Inhalte der weiteren Felder
+
+- Aufgaben-Kategorie
+- Zugewiesen an
+- Autor
+- Beschreibung
+
+werden beim Erstellen einer Aufgabe in die korrespondierenden Felder übernommen.
+
+Mit dem Klicke auf den Button image:anwenderhandbuch/button_speichern.png[speichern] unterhalb der Erfassungsfelder werden die Änderungen übernommen.
+
+== Wiederholende Aufgaben erstellen
+
+In der Listenansicht des Moduls _Wiederholende Aufgaben_ kann durch Klick auf den Button image:anwenderhandbuch/button_wiederholende_aufgaben_erstellen.png[Wiederholende Aufgabe erstellen] wird eine leere Bearbeitungsseite für die _Wiederholenden Aufgaben_ aufgerufen. 
+
+Die Informationen zur Bearbeitung sind dem Kapitel <<Wiederholende Aufgaben bearbeiten>> zu entnehmen.
