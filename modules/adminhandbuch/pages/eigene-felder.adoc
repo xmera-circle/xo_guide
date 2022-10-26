@@ -4,23 +4,164 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
-Eigene Felder bieten die Möglichkeit für den Großteil der Module / Masken individuelle Felder / Attribute hinzuzufügen und damit Informationen zu dokumentieren, die im xmera Standard nicht implementiert sind.
+include::ROOT:partial$custom-css.adoc[]
 
-Dabei stehen eine Vielzahl an Feldformate zur Verfügung:
 
-- Benutzer
-- Boolean
-- Datei
-- Datum
-- Eigenschaft/Wert-Paar
-- Fließkommazahl
-- Kombinationsmatrix
-- Langer Text
-- Link
-- Liste
-- Paket
-- Text
-- Zahl
+Eigene Felder bieten die Möglichkeit für den Großteil der Objekttypen (Objekte / Module / Masken) individuelle Felder / Attribute hinzuzufügen und damit Informationen zu dokumentieren, die im xmera Standard nicht implementiert sind.
 
-Die so erfassten Daten lassen sich nutzen um wichtige Informationen zu dokumentieren und Objekte, Aufgaben, Dokumente und vieles mehr individuell zu filtern / strukturieren.
+Verwaltet werden _Eigene Felder_ im Administrationsbereich im Menüpunkt _Eigene Felder_. Über dieses Menü gelangt man in die Listenansicht der _Eigene Felder_.
 
+image:adminhandbuch/eigene-felder_liste.png[Eigene Felder Liste]
+
+Die _Eigenen Felder_ werden spezifisch für jeden Objekttyp getrennt angelegt.
+
+Objekttypen, für die _Eigene Felder_ hinzugefügt werden können, sind in der folgenden Tabelle zu sehen.
+
+[cols="1,2"]
+|===
+|Bereich |Objekttyp
+
+.3+|Objektverwaltung
+|Objekte
+|Benutzer
+|Gruppen
+
+.4+|Aufgabenmanagement
+|Aufgaben
+|Aufgaben-Prioritäten
+|Pakete
+|Tabellen
+
+.3+|Dokumentenverwaltung
+|Dokumente
+|Dokumentationskategorien
+|DMS
+
+.2+|Zeitmanagement
+|Aufgewendete Zeit
+|Aktivitäten
+
+|===
+
+Für jeden Objekttyp, für den zumindest ein eigenes Feld angelegt wurde, ist in der Listenansicht ein Reiter vorhanden. Wird ein Objekttyp im Reiter ausgewählt, werden unterhalb die dem Objekttyp zugeordneten _Eigenen Felder_ angezeigt.
+
+== Feldformate
+
+Es stehen eine Vielzahl an Feldformaten zur Verfügung.
+
+[cols="1,2"]
+|===
+|Feldtyp |Beschreibung
+
+|Benutzer
+|Aus einer Liste der Objektmitglieder können eine oder mehrere Objektmitglied(er) gewählt werden.
+
+|Boolean
+|Ja/Nein Auswahl
+
+|Datei
+|Eine Datei kann zugeordnet werden
+
+|Datum
+|Ein Datum kann erfasst werden.
+
+|Eigenschaft/Wert-Paar
+|Ein Wertepaar aus einem Wert und einer Beschreibung kann zugeordnet werden. +
+(Bsp.: 1»sehr gut, 2»gut, 3» befriedigend, ...) +
+Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer Felder des Objekttyps ergibt.
+
+|Fließkommazahl
+|Eine Fließkommazahl kann zugeordnet werden. +
+Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer Felder des Objekttyps ergibt.
+
+|Kombinationsmatrix
+|Die Kombinationsmatrix definiert das Ergebnis einer Kombination aus zwei Feldern mit dem Format Eigenschaft/Wert-Paar. Jeder Wertekombination kann ein Ergebnis (Text) und eine Farbe zugeordnet werden. Der aufgespannte Ergebnisraum ergibt sich über das Mapping der Berechnung definiert.
+
+|Langer Text
+|Ein in seiner Größe änderbarer mehrzeiliger Text.
+
+|Link
+|Ein URL-Link kann erfasst werden.
+
+|Liste
+|Aus einer Liste, die im _Eigenen Feld_ definiert wird kann ein oder mehrere Wert(e) gewählt werden.
+
+|Paket
+|Aus einer Liste der Pakete können eine oder mehrere Paket(e) gewählt werden.
+
+|Text
+|Ein einzeiliger Text.
+
+|Zahl
+|Eine ganze Zahl
+
+|===
+
+[NOTE]
+Nicht für jeden Objekttyp stehen alle Feldformate zur Verfügung.
+
+Die Parametrierung der einzelnen Feldformate ist spezifisch. Allen eigenen Feldern gemeinsam ist 
+
+- der Name (Definiert das _Eigene Feld_),
+- die Beschreibung (Wird als Tooltip per Mouseover dem Anwender angezeigt) und
+- Erforderlich (Angehakt wird das Feld zum Pflichtfeld).
+
+Wenn nach dem Feld sinnvoll gefiltert werden kann, so wird die Auswahl _Als Filter benutzen_ angeboten. Nur wenn das Feld angehakt ist, wird das Feld als Filtermöglichkeit angeboten.
+
+Bei Auswahlfeldern (z.B. Listen, Benutzern oder Paketen) ist im Standard nur ein Wert erlaubt. Über Anhaken der Auswahl _Mehrere Werte_ kann auf Mehrfachauswahl umgestellt werden. +
+Weiter kann bei der _Anzeige_ der Auswahl zwischen der Dropdown-Liste und der Checkbox gewählt werden.
+
+Abhängig vom Objekttyp, dem das _Eigene Feld_ zugeordnet wird, besteht, die Nutzung des Feldes einzuschränken. Mögliche Filter sind
+
+- Sichtbarkeit (Rollen)
+- Aufgabentyp
+- Objektklassen
+
+== Neues eigenes Feld erstellen
+
+Durch Klick auf den Button image:adminhandbuch/button_neues-feld.png[Neues Feld] wird der Prozess zur Erstellung eines eigenen Feldes gestartet. Als erstes öffnet ein Fenster, in dem der Objekttyp, dem das eigene Feld zugeordnet ist, auszuwählen ist.
+
+image:adminhandbuch/eigene-felder_neu_objekttyp.png[Neues Feld | Objekttyp wählen]
+
+Mit _Weiter»_  gelangt man in die Bearbeitungsmaske des eigenen Feldes. Als erstes sollte das <<Feldformate,Format>> festgelegt werden, da die folgenden Attribute von dem Feldformat abhängen. 
+
+Im folgenden Bild ist der Parametersatz für ein Textfeld zum Objekttyp Aufgaben zu sehen.
+
+image:adminhandbuch/eigene-felder_neu_parameter.png[Neues Feld | Parametrieren]
+
+Pflichtfeld ist der Name, über den das Feld definiert ist. Die weiteren Attribute sind abhängig vom gewählten Format. Basisinformationen sind dem Kapitel <<Feldformate>> zu entnehmen.
+
+== Eigenes Feld bearbeiten
+
+Bei eigenen Feldern gibt zu jedem Feld aus der Listenansicht 3 Bearbeitungsoptionen.
+
+. Feldparametrierung bearbeiten
+. Reihenfolge bearbeiten
+. Kopieren
+. Löschen
+
+[]
+Feldparametrierung bearbeiten::
+
+Durch Klick auf den Feldnamen wird die Parameteriermaske des eigenen Feldes aufgerufen. Bis auf das Format können alle Parameter angepasst werden. Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Speichern] werden die Änderungen übernommen.
+
+Reihenfolge bearbeiten::
+
+Die Reihenfolge, in der die eigenen Felder im Objekt angezeigt werden, ist abhängig von der Reihenfolge, in der das eigene Feld in der Liste der _Eigenen Felder_ steht. Durch Klick und Halten der linken Maustaste auf das Icon image:adminhandbuch/button_verschieben.png[Verschieben] kann die Zeile mit dem _Eigenen Feld_ in der Liste verschoben werden. +
++
+image:adminhandbuch/eigene-felder_bearbeiten_reihenfolge.png[Reihenfolge Eigene Felder bearbeiten]
++
+An der Position, an der die linke Maustaste gelöst wird, wird das _Eigene Feld_ platziert.
+
+Kopieren::
+
+Um die Erstellung von eigenen Feldern zu erleichtern, kann auch ein bestehendes eigenes Feld zu kopieren und dieses anzupassen. Beim Kopieren (Klick auf den Button image:adminhandbuch/button_kopieren.png[Eigenes Feld kopieren]) wird bis auf den Namen die Konfiguration des Ausgangsfelds übernommen. +
++
+Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Eigenes Feld anlegen] wird das neue Feld erzeugt.
+
+Löschen::
+
+Durch Klick auf den Button image:adminhandbuch/button_loeschen.png[Eigenes Feld löschen] wird nach der Bestätigung in einem Pop-Up-Fenster das Eigene Fled gelöscht. +
++
+[WARNING]
+Mit dem Löschen des Feldes sind alle erfassten Daten gelöscht! Bei Unsicherheit sollte das eigene Feld nur im Objekt deaktiviert werden. So bleiben die Informationen erhalten und können durch erneutes Aktivieren des Feldes wieder genutzt werden.
