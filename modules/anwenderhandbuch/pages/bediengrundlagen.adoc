@@ -267,13 +267,16 @@ Nachdem eine Liste erstellt wurde, erscheint der Button image:anwenderhandbuch/b
 +
 image:anwenderhandbuch/einfuehrung_abfrage_maske.png[]
 +
-Minimal ist der Name der Abfrage festzulegen. Im Folgenden kann die Abfrage allen Nutzern oder auch nur bestimmten Rollen verfügbar gemacht werden. Wird der Haken _Für alle Objekte_ entfernt, steht die Abfrage nur in dem erstellten Objekt zur Auswahl. +
+Minimal ist der Name der Abfrage festzulegen. Im Folgenden kann die Abfrage allen Nutzern oder auch nur bestimmten Rollen verfügbar gemacht werden. Wird der Haken _Für alle Objekte_ nicht gesetzt, steht die Abfrage nur in dem erstellten Objekt zur Auswahl. +
 +
 Anschließend können in dieser Maske weitere Filter-, Sortier- und Spalteneinstellungen vorgenommen werden. +
 +
 Bei den Sortierung besteht in der Maske auch die Möglichkeit mehrstufig in bis zu drei Stufen zu sortieren. +
 +
-Mit Klick auf den Button image:anwenderhandbuch/button_speichern.png[] wird die Abfrage gespeichert und es erscheint die gewünschte Liste.
+Mit Klick auf den Button image:anwenderhandbuch/button_speichern.png[] wird die Abfrage gespeichert und es erscheint die gewünschte Liste. +
++
+[IMPORTANT]
+Eine Abfrage, die in allen Objekten aktiviert wurde, kann nach dem Speichern nicht mehr auf ein Objekt eingeschränkt werden. Die Abfrage muss neu erstellt und die nicht gewünschte Abfrage gelöscht werden.
 
 Abfrage bearbeiten::
 
