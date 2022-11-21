@@ -6,41 +6,41 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Im Bereich Aufzählung in der Administration werden für die 
+Im Bereich _Aufzählungen_ werden Werte für 
 
 - Aktivitäten,
-- Dokumentationskategorien und
+- Dokumentenkategorien und
 - Aufgaben-Prioritäten
 
-die Werte festgelegt. Dazu steht folgende Maske zur Verfügung.
+festgelegt. Die Werte werden für jeden Aufzählungstypen getrennt dargestellt.
 
 image:adminhandbuch/aufzaehlungen_liste.png[Aufzählungen]
 
-Für die drei Aufzählungen sind jeweils die Listen mit den gepflegten Werten dargestellt.
-
 == Wert hinzufügen
 
-Zwischen der Überschrift der einzelnen Aufzählungen und den dazugehörigen Tabelle ist jeweils ein Button image:adminhandbuch/button_neuer-wert.png[] platziert, über den zu der darunterliegenden Tabelle Werte hinzugefügt werden können. Mit Klick auf den Button erscheint folgende Maske:
+Jeder Aufzählungstyp hat einen Button image:adminhandbuch/button_neuer-wert.png[], über den zu der darunterliegenden Tabelle Werte hinzugefügt werden können. Mit Klick auf den Button erscheint folgendes Eingabeformular:
 
 image:adminhandbuch/aufzaehlungen_neuer-wert.png[Aufzählungen neuer Wert]
 
-Hier wird der Name für den neuen Wert vergeben. Weiter kann angegeben werden, ob der Wert Aktiv ist und damit für die Nutzung freigegeben ist. Weiter kann ein der Wert in der Liste als Standardeinstellung festgelegt werden. Wird das Häkchen gesetzt, so wird dieser Wert der Standardwert. Der bisherige Standardwert wird mit dem Setzen entzogen.
+Hier wird der Name für den neuen Wert vergeben. Weiter kann angegeben werden, ob der Wert _Aktiv_ ist und damit für die Nutzung freigegeben werden soll. Zusätzlich kann ein Wert in der Liste als Standardeinstellung festgelegt werden. 
+
+Wird das Häkchen gesetzt, so wird dieser Wert der Standardwert. Der bisherige Standardwert wird mit dem Setzen entzogen.
 
 Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Wert anlegen] wird der neue Wert der Liste hinzugefügt.
 
 == Wert bearbeiten
 
-Klickt man auf den Namen des zu bearbeitenden Werts, so gelangt man in die Bearbeitungsmaske des Werts.
+Klickt man auf den Namen des zu bearbeitenden Wertes, so gelangt man in sein Bearbeitungsformular.
 
 image:adminhandbuch/aufzaehlungen_wert-bearbeiten.png[Wert bearbeiten]
 
-In dieser Maske kann der Name verändert werden, der Wert Aktiv/Passiv geschaltet werden oder auch der Standardwert verändert werden.
+In diesem Formular kann der Name verändert werden, der Wert _Aktiv/Passiv_ geschaltet werden oder auch der Standardwert verändert werden.
 
 Mit dem image:adminhandbuch/button_speichern.png[Wert speichern] werden die Änderungen übernommen.
 
 == Reihenfolge bearbeiten
 
-Die Reihenfolge in den Aufzählungen Listen bestimmt, in welcher Reihenfolge die Werte in der Anwendung gelistet werden. Durch Klick und Halten der linken Maustaste auf das Icon image:adminhandbuch/button_verschieben.png[Verschieben] kann die Zeile mit dem Wert in der Liste verschoben werden.
+Die Reihenfolge in den Aufzählungslisten bestimmt, in welcher Reihenfolge die Werte in der Anwendung angezeigt werden. Durch Klick und Halten der linken Maustaste auf das Icon image:adminhandbuch/button_verschieben.png[Verschieben] kann die Zeile mit dem Wert in der Liste verschoben werden.
 
 image:adminhandbuch/aufzaehlungen_reihenfolge.png[Reihenfolge Aufzählungen]
 
