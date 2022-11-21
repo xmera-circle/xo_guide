@@ -26,8 +26,13 @@ Ein Dashboard wird dabei aus verschiedenen Informationsblöcken zusammengestellt
 - Dokumentenlisten,
 - RSS Feeds, 
 - Mitteilungen, 
-- Texte und 
-- Button.
+- Texte, 
+- Button,
+- Gesperrte Dateien (DMS),
+- Journal,
+- Kalendar,
+- Aufgewendete Zeiten,
+- Offene Genehmigungsworkflows (DMS).
 
 Das nachfolgende Bild zeigt beispielhaft ein Dashboard für die Informationssicherheitsbeauftragte:n.
 
