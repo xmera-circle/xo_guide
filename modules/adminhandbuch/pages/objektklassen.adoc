@@ -12,7 +12,7 @@ Objektklassen fungieren zum einen als Vorlage bei der Generierung von Objekten d
 
 === Objektklassen als Vorlage
 
-Bei der Erstellung eines Objekts kann dem Objekt eine Objektklasse zugeordnet werden. Die Zuordnung bewirkt, dass der in der Objektklasse definierten Inhalt aus den Modulen
+Bei der Erstellung eines Objekts kann dem Objekt eine Objektklasse zugeordnet werden. Die Zuordnung bewirkt, dass die in der Objektklasse definierten Inhalte aus den Modulen
 
 - Aufgaben,
 - Mitteilung,

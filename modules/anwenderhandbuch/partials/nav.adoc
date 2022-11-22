@@ -16,5 +16,3 @@
 *** xref:anwenderhandbuch:wiki.adoc[]
 *** xref:anwenderhandbuch:mitteilungen.adoc[]
 *** xref:anwenderhandbuch:wiederholende-aufgaben.adoc[]
-*** xref:anwenderhandbuch:modul-archiv.adoc[]
-*** xref:anwenderhandbuch:modul-zeiterfassung.adoc[]
