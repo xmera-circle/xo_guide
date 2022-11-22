@@ -2,7 +2,7 @@
 
 Developer project of xmera Omnia Guide
 
-![xmera Omnia Guide Version](https://img.shields.io/badge/xmera_Omnia_Guide-0.4.0-red) ![xmera Omnia Version](https://img.shields.io/badge/xmera_Omnia-v3.x.x-blue) ![Language Support](https://img.shields.io/badge/Languages-de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
+![xmera Omnia Guide Version](https://img.shields.io/badge/xmera_Omnia_Guide-0.5.0-red) ![xmera Omnia Version](https://img.shields.io/badge/xmera_Omnia-v3.7.x-blue) ![Language Support](https://img.shields.io/badge/Languages-de-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
 The xmera Omnia Guide is written in AsciiDoc and convertible into HTML by Antora or converitble into a pdf file.
 
@@ -21,7 +21,9 @@ So you need to install:
 For doing so, make sure you run the latest Node.js LTS version:
 
     node --version
-    v16.17.0
+    v18.12.1
+
+Follow the [instructions for Linux](https://docs.antora.org/antora/latest/install/linux-requirements/#upgrade-node) in order to upgrade to the latest LTS version of node.
 
 Install all dependencies of this project by
 
