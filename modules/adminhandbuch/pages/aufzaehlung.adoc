@@ -1,0 +1,55 @@
+= Aufzählungen
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Im Bereich _Aufzählungen_ werden Werte für 
+
+- Aktivitäten,
+- Dokumentenkategorien und
+- Aufgaben-Prioritäten
+
+festgelegt. Die Werte werden für jeden Aufzählungstypen getrennt dargestellt.
+
+image:adminhandbuch/aufzaehlungen_liste.png[Aufzählungen]
+
+== Wert hinzufügen
+
+Jeder Aufzählungstyp hat einen Button image:adminhandbuch/button_neuer-wert.png[], über den zu der darunterliegenden Tabelle Werte hinzugefügt werden können. Mit Klick auf den Button erscheint folgendes Eingabeformular:
+
+image:adminhandbuch/aufzaehlungen_neuer-wert.png[Aufzählungen neuer Wert]
+
+Hier wird der Name für den neuen Wert vergeben. Weiter kann angegeben werden, ob der Wert _Aktiv_ ist und damit für die Nutzung freigegeben werden soll. Zusätzlich kann ein Wert in der Liste als Standardeinstellung festgelegt werden. 
+
+Wird das Häkchen gesetzt, so wird dieser Wert der Standardwert. Der bisherige Standardwert wird mit dem Setzen entzogen.
+
+Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Wert anlegen] wird der neue Wert der Liste hinzugefügt.
+
+== Wert bearbeiten
+
+Klickt man auf den Namen des zu bearbeitenden Wertes, so gelangt man in sein Bearbeitungsformular.
+
+image:adminhandbuch/aufzaehlungen_wert-bearbeiten.png[Wert bearbeiten]
+
+In diesem Formular kann der Name verändert werden, der Wert _Aktiv/Passiv_ geschaltet werden oder auch der Standardwert verändert werden.
+
+Mit dem image:adminhandbuch/button_speichern.png[Wert speichern] werden die Änderungen übernommen.
+
+== Reihenfolge bearbeiten
+
+Die Reihenfolge in den Aufzählungslisten bestimmt, in welcher Reihenfolge die Werte in der Anwendung angezeigt werden. Durch Klick und Halten der linken Maustaste auf das Icon image:adminhandbuch/button_verschieben.png[Verschieben] kann die Zeile mit dem Wert in der Liste verschoben werden.
+
+image:adminhandbuch/aufzaehlungen_reihenfolge.png[Reihenfolge Aufzählungen]
+
+An der Position, an der die linke Maustaste gelöst wird, wird der Wert platziert.
+
+== Wert löschen
+
+Über den Button image:adminhandbuch/button_loeschen.png[Wert löschen] kann der Wert gelöscht werden. Wenn der Wert in der Anwendung bereits vergeben wurde, erscheint folgende Maske.
+
+image:adminhandbuch/aufzaehlungen_loeschen_zuweisung.png[]
+
+In dieser Maske muss angegeben werden, welchen Wert die Objekte bekommen sollen, die bisher den zu löschenden Wert nutzen. Mit image:adminhandbuch/button_anwenden.png[Zuweisung anwenden] wird die neue Zuweisung durchgeführt und der Wert gelöscht.

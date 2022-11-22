@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Bediengrundlagen :: xmera Omnia Guide</title>
-    <meta name="generator" content="Antora 3.1.1">
+    <meta name="generator" content="Antora 3.1.2">
     <link rel="stylesheet" href="../../_/css/site.css">
     <link rel="stylesheet" href="../../_/font-awesome/css/font-awesome.min.css">
     <script>var uiRootPath = '../../_'</script>
@@ -142,6 +142,9 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="mitteilungen.html">Mitteilungen</a>
   </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="wiederholende-aufgaben.html">Wiederholende Aufgaben</a>
+  </li>
 </ul>
   </li>
 </ul>
@@ -173,6 +176,12 @@
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="../adminhandbuch/workflow.html">Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../adminhandbuch/eigene-felder.html">Eigene Felder</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../adminhandbuch/aufzaehlung.html">Aufzählungen</a>
   </li>
 </ul>
   </li>
@@ -253,6 +262,7 @@ video,
   transition: all .7s cubic-bezier(.23,1,.32,1);
   box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
   border-color: #f3f4f4;
+  border-radius: 6px;
 }
 .videoblock {
   margin-top: 2rem;
@@ -742,7 +752,7 @@ Eine Mehrfachsortierung ist über eine Abfrage möglich.
 <p><span class="image"><img src="_images/anwenderhandbuch/einfuehrung_abfrage_maske.png" alt="einfuehrung abfrage maske"></span></p>
 </div>
 <div class="paragraph">
-<p>Minimal ist der Name der Abfrage festzulegen. Im Folgenden kann die Abfrage allen Nutzern oder auch nur bestimmten Rollen verfügbar gemacht werden. Wird der Haken <em>Für alle Objekte</em> entfernt, steht die Abfrage nur in dem erstellten Objekt zur Auswahl.<br></p>
+<p>Minimal ist der Name der Abfrage festzulegen. Im Folgenden kann die Abfrage allen Nutzern oder auch nur bestimmten Rollen verfügbar gemacht werden. Wird der Haken <em>Für alle Objekte</em> nicht gesetzt, steht die Abfrage nur in dem erstellten Objekt zur Auswahl.<br></p>
 </div>
 <div class="paragraph">
 <p>Anschließend können in dieser Maske weitere Filter-, Sortier- und Spalteneinstellungen vorgenommen werden.<br></p>
@@ -751,7 +761,19 @@ Eine Mehrfachsortierung ist über eine Abfrage möglich.
 <p>Bei den Sortierung besteht in der Maske auch die Möglichkeit mehrstufig in bis zu drei Stufen zu sortieren.<br></p>
 </div>
 <div class="paragraph">
-<p>Mit Klick auf den Button <span class="image"><img src="_images/anwenderhandbuch/button_speichern.png" alt="button speichern"></span> wird die Abfrage gespeichert und es erscheint die gewünschte Liste.</p>
+<p>Mit Klick auf den Button <span class="image"><img src="_images/anwenderhandbuch/button_speichern.png" alt="button speichern"></span> wird die Abfrage gespeichert und es erscheint die gewünschte Liste.<br></p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Eine Abfrage, die in allen Objekten aktiviert wurde, kann nach dem Speichern nicht mehr auf ein Objekt eingeschränkt werden. Die Abfrage muss neu erstellt und die nicht gewünschte Abfrage gelöscht werden.
+</td>
+</tr>
+</table>
 </div>
 </dd>
 <dt class="hdlist1">Abfrage bearbeiten</dt>

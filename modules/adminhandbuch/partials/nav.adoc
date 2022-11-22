@@ -7,3 +7,5 @@
 ** xref:adminhandbuch:aufgabentyp.adoc[]
 ** xref:adminhandbuch:aufgabenstatus.adoc[]
 ** xref:adminhandbuch:workflow.adoc[]
+** xref:adminhandbuch:eigene-felder.adoc[]
+** xref:adminhandbuch:aufzaehlung.adoc[]

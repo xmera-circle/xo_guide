@@ -26,6 +26,7 @@ video,
   transition: all .7s cubic-bezier(.23,1,.32,1);
   box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
   border-color: #f3f4f4;
+  border-radius: 6px;
 }
 .videoblock {
   margin-top: 2rem;
