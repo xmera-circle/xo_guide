@@ -2,16 +2,462 @@
 :doctype: article
 :icons: font
 :imagesdir: ../images/
-:web-xmera: https://xmera.de
+:web-xmera: https://docs.xmera.de
 
 Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbereich unter "Konfiguration" festgelegt.
 
+== Allgemein
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Applikationstitel
+|Name der Anwendung, der auf allen Seiten Links unterhalb des Topmenüs angezeigt wird.
+
+|Willkommenstext
+|Text, der auf der Hauptseite im Block Willkommenstext angezeigt wird.
+
+|Objekte pro Seite
+|Anzahl der Suchergebnisse auf Listenseiten. Die verschiedenen Möglichkeiten werden Komma-getrennt aufgelistet. 
+
+|Suchergebnisse pro Seite
+|Standardwert für die Anzahl von Objekten in einer Liste / an Kacheln.
+
+|Anzahl Tage pro Seite des Journals in einem Objekt
+|Anzahl der Tage, in denen die Veränderungen auf einer Seite gelistet werden. Standardwert ist 10. Wird als Wert 0 Tage eingegeben, werden im Journal keine Ergebnisse angezeigt.
+
+|Hostname
+|Die Basis URL für die Anwendung
+
+|Protokoll
+|Festlegung ob die Client-Serververbindung unverschlüsselt (HTTP) oder verschlüsselt (HTTPS) erfolgt.
+
+|Textformatierung
+|Festlegung des Textinterpreters in Langtextfeldern und dem Wicki. Auswahlmöglichkeiten sind 
+
+- kein
+- Textile
+- Markdown
+
+
+|Formatierten Text im Cache speichern
+|Auswahl, die es ermöglicht beim Kopieren von Textile- oder Markdowntexten entweder den Formatierten Text im Cache zu speichern
+
+|Wiki-Historie komprimieren
+|
+
+|Maximale Anzahl Einträge pro Atom-Feed
+|Definiert die Anzahl der feeds (Änderungen) die durch die Anwendung bereitgestellt werden.
+
+|===
+
+
+== Anzeige
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Design-Stil
+|Auswahl des Designs (Theme) in dem die Anwendung dargestellt wird. Im Standard werden Omnia (xmera Omnia Theme) und Standard (Redmine Theme) angeboten.
+
+|Standardsprache
+|Die Standardsprache wird verwendet, wenn keine andere Sprachinformation aus dem Rechnerprofil oder dem Anwenderprofil vorliegen.
+
+|Standardsprache für anonyme Benutzer erzwingen
+|Verwendete Sprache durch anonyme Benutzer nicht anpassbar.
+
+|Standardsprache für angemeldete Benutzer erzwingen
+|Verwendete Sprache durch Benutzer nicht anpassbar.
+
+|Wochenanfang
+|Setzt den Wochenanfang in der Anwendung. Bei der Auswahl _Sprachabhängig_ wird eine der Sprache fest zugeordnetes Datumsformat gewählt. Ist die Standardsprache nicht festgelegt (siehe oben) wird je nach Nutzer eine spezifisches Format gewählt.
+
+|Datumsformat
+|Setzt die Darstellung des Datums in der Anwendung. Ist die Standardsprache nicht festgelegt (siehe oben) wird je nach Nutzer eine spezifisches Format gewählt.
+
+|Zeitformat
+|Setzt die Darstellung der Zeit in der Anwendung. Ist die Standardsprache nicht festgelegt (siehe oben) wird je nach Nutzer eine spezifisches Format gewählt.
+
+|Format für Zeitspannen
+|Setzt das Format einer Zeitspanne in der Anwendung. Es kann zwischen einer dezimalen Anzeige (45 Minuten entsprechen 0,75) und einer Minuten-Anzeige (45 Minuten sind 0:45 h)
+
+|Benutzer-Anzeigeformat
+|Legt fest, wie der Benutzer, definiert aus Mitgliedsname, Vorname und Name, in der Anwendung dargestellt wird.
+
+|Gravatar-Benutzerbilder benutzen
+|Über den Haken kann die Gravatar-Funktion zugeschaltet. Im Normalfall nutzt die Funktion auf die Gravatare von gravatar.com. Es können aber auch andere Gravatarquellen in der config/configuration.yml eingestellt werden.
+
+|Standard-Gravatar-Bild
+|Werden Gravatar-Benutzerbilder genutzt kann das Standard-Gravatar-Bild gewählt werden
+
+|Vorschaubilder von Dateianhängen anzeigen
+|Auswahl legt fest ob ein Vorschaubild (bei bekannten Formaten) angezeigt wird oder nicht
+
+|Größe der Vorschaubilder (in Pixeln)
+|Legt die Größe des Vorschaubildes fest, wenn die Auswahl _Vorschaubilder von Dateianhängen anzeigen_ gewählt wurde.
+
+|Menü zum Anlegen neuer Objekte
+|Blendet je nach Auswahl spezielle Menüpunkte ein, wie z.B. das *+* im Folgenden Bild, mit denen neue Objekte erzeugt werden können. image:adminhandbuch/konfiguration_anzeige_menue_plus.png[]
+
+|===
+
+== Authentifizierung
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Authentifizierung erforderlich
+|Wird die Authentifizierung erforderlich auf ja gesetzt, kann nur auf Daten (auch öffentliche) nur nach einer Anmeldung zugegriffen werden.
+
+|Automatische Anmeldung läuft ab nach
+|Mit der Funktion automatisch Anmeldung bekommt der Anwender die Möglichkeit die Auswahl _Angemeldet bleiben_ zu setzen. 
+
+image:adminhandbuch/konfiguration_authentifizierung_automatische_anmeldung.png[]
+
+Damit braucht der User sich an dem Browser, an dem er sich angemeldet hat nicht erneut anzumelden.
+Über die Auswahl legt der Administrator fest, ob die Funktion zur Verfügung steht (im Standard ist die Funktion gesperrt) oder für wie viele Tage die automatische Anmeldung gilt. Zur Auswahl stehen 1 Tag, 7 Tage, 30 Tage oder 365 Tage.
+
+|Registrierung ermöglichen
+|In diesem Feld legt der Administrator fest, ob, und wenn ja, wie eine Selbstregistrierung durch den Anwender möglich ist. Zur Auswahl stehen
+
+- gesperrt » Eine Selbstregistrierung ist nicht möglich.
+- Kontoaktivierung durch E-Mail » Anwender erhalten nach der Eingabe der Anwenderdaten eine E-Mail mit einem Link, über den der Account aktiviert wird.
+- Manuelle Kontoaktivierung » Der Administrator erhält nach Eingabe der Registrierung des Anwenders eine E-Mail und muss dann den Anwender manuell freischalten.
+- Automatische Kontoaktivierung » Der Account des Anwender wird mit der Registrierung des Anwenders direkt freigeschaltet.
+
+|Benutzerdefinierte Felder bei der Registrierung abfragen
+|Sind _Eigene Felder_ für die Benutzermasken definiert, können diese durch setzen der Auswahl dem Anwender bei der Registrierung angezeigt werden.
+
+|Mindestlänge des Passworts
+|Legt die Mindestlänge von Passwörtern fest
+
+|Für Passwörter benötigte Zeichenklassen
+|Legt die Mindestvorgaben für die Passwortkomplexität fest. Gefordert werden können
+
+- Großbuchstaben
+- Kleinbuchstaben
+- Ziffern
+- Sonderzeichen
+
+|Erzwingen Passwortwechsel nach
+|Erzwingt einen Passwortwechsel durch den User nach einer festgelegten Zeit. Zur Auswahl stehen gesperrt (kein erzwungener Passwortwechsel), 7 Tage, 60 Tage, 90 Tage, 180 Tage und 365 Tage.
+
+|Zurücksetzen des Passworts per E-Mail erlauben
+|Mit dem setzen der Auswahl wird dem Anwender erlaubt, sein Passwort zurückzusetzen. Es erscheint in der Anmeldemaske die Auswahl _Passwort vergessen_
+
+image:adminhandbuch/konfiguration_authentifizierung_passwort_zurücksetzen.png[]
+
+Bei Klick auf die Auswahl. wird das Passwort des Anwenders zurückgesetzt und erhält einen Link, über den er ein neues Passwort erstellen kann.
+
+|Zwei-Faktor-Authentifizierung
+|Über die Auswahl wird festgelegt, welche Optionen der Anwender bzgl. der 2-Faktor-Authentifizierung hat
+
+- gesperrt » Die 2-Faktor-Authentifizierung steht dem Anwender nicht zur Verfügung.
+- optional » Die 2-Faktor-Authentifizierung steht dem Anwender optional zur Verfügung.
+- erforderlich » Die 2-Faktor-Authentifizierung muss vom Anwender verwendet werden.
+
+|Erlaube OpenID-Anmeldung und -Registrierung
+|Durch setzen der Auswahl wird eine Anmeldung über einen OpenID-Provider erlaubt.
+
+2.1+| Ende einer Sitzung
+
+|Längste Dauer einer Sitzung
+|Legt die Dauer fest, wann spätestens eine Sitzung beendet wird.
+
+|Zeitüberschreitung bei Inaktivität
+|Legt die Dauer fest, nach welcher Zeit eine Sitzung bei Inaktivität beendet wird.
+
+|===
+
+== API
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|REST-Schnittstelle aktivieren
+|Wird die Auswahl gesetzt, wird die Rest-API aktiviert.
+
+|JSONP Unterstützung aktivieren
+|Wird die Auswahl gesetzt, wird die JSONP-API aktiviert.
+
+|===
+
+== Objekte
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Neue Objekte sind standardmäßig öffentlich
+|Durch die Auswahl wird bei der Erstellung eines neuen Objekts der Parameter _öffentlich_ gesetzt. Der Paramater kann dann manuell abgewählt werden.
+
+|Standardmäßig aktivierte Module für neue Objekte
+|Die ausgewählten Module werden beim Erstellen eines neuen Objekts in der Konfiguration des Objekts automatisch gesetzt. Die Auswahl kann manuell oder auch durch die Auswahl einer Objektklasse (mit einer anderen Auswahl) angepasst werden. 
+
+|Standardmäßig aktivierter Aufgabentyp für neue Objekte
+|Die ausgewählten Aufgabentypen werden beim Erstellen eines neuen Objekts in der Konfiguration des Objekts automatisch gesetzt. Die Auswahl kann manuell oder auch durch die Auswahl einer Objektklasse (mit einer anderen Auswahl) angepasst werden. 
+
+|Fortlaufende Objektkennungen generieren
+|Mit der Aktivierung der _fortlaufenden Objektkennung_ wird die Kennung der Objekte nicht mehr über den Objektnamen generiert. Anstatt dieser wird der letzte Objektname gewählt und anschließend das letzte Zeichen hochgezählt. Handelt es sich um eine Zahl, wird diese numerisch hochgezählt. Handelt es sich um einen Buchstaben wird alphabetisch hochgezählt. 
+
+|Rolle, die einem Nicht-Administrator zugeordnet wird, der ein Objekt erstellt
+|Legt ein _Nicht-Administrator_ ein Objekt an, so erhält der Ersteller diese Rolle im Objekt. Damit wird sichergestellt, dass ein _Nicht-Administrator_ sicher Rechte erhält, mit dem er das Objekt weiter bearbeiten kann. 
+
+2.1+| Voreinstellungen Objektliste
+
+|Ergebnisse anzeigen als
+|Die Auswahl Karte oder Liste legt fest, auf welche Art die Objektliste in xmera Omnia (Zugang über TOP-Menü » Objekte) beim Aufschalten angezeigt wird.
+
+|Spaltenauswahl
+|Die Auswahl der Attribute in der Liste _Ausgewählte Spalten_ mit der Reihenfolge legt fest, welche Informationen in der xmera Omnia Objektliste (Zugang über TOP-Menü » Objekte) beim Aufschalten angezeigt werden.
+
+|===
+
+== Benutzer
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Maximale Anzahl zusätzlicher E-Mail-Adressen
+|Festlegung, wie viele zusätzliche E-Mails ein Anwender zusätzlich zu seinem Konto hinzufügen kann.
+
+|Erlaubte E-Mail Domains
+|Einschränkung der E-Mail-Domains über eine Whitelist der erlaubten Domains.
+
+|Gesperrte E-Mail Domains
+|Einschränkung der E-Mail-Domains über eine Blacklist der verbotenen Domains.
+
+|Benutzer erlauben, das eigene Benutzerkonto zu löschen
+|Über setzen der Auswahl wird dem Benutzer erlaubt, sein eigenes Konto zu löschen.
+
+2.1+|Standardwerte für neue Benutzer
+
+|E-Mail-Adresse nicht anzeigen
+|Durch die Auswahl wird beim Anlegen eines neuen Benutzers das Attribut _E-Mail Adresse nicht anzeigen_ gesetzt. Diese Einstellung kann im Rahmen der Bearbeitung geändert werden.
+
+|Standard Benachrichtigungsoption
+|Durch die Auswahl wird beim Anlegen eines neuen Benutzers das Attribut _Benachtichtigungsoption_ gesetzt. Diese Einstellung kann im Rahmen der Bearbeitung geändert werden.
+
+|Ich mochte nicht über Änderungen benachrichtigt werden, die ich selbst durchführe.
+|Durch die Auswahl wird beim Anlegen eines neuen Benutzers das Attribut _Ich mochte nicht über Änderungen benachrichtigt werden, die ich selbst durchführe._ gesetzt. Diese Einstellung kann im Rahmen der Bearbeitung geändert werden.
+
+|Zeitzone
+|Durch die Auswahl wird beim Anlegen eines neuen Benutzers das Attribut _Zeitzone_ gesetzt. Diese Einstellung kann im Rahmen der Bearbeitung geändert werden.
+
+|===
+
 == Aufgaben
 
---eventuell noch verschieben!--
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
 
-Um im Aufgaben-Katalog nachverfolgen zu können, welche Aufgaben wohin synchronisiert wurden und im weiteren Verlauf ihren Fortschritt beobachten zu können, müssen folgende Einstellungen vorgenommen werden: 
+|Aufgaben-Beziehungen zwischen Objekten erlauben
+|Mit der Auswahl wird bei der manuellen Zuordnung in der Anwendung auch eine objektübergreifende Verknüpfung von Aufgaben erlaubt. 
 
-- Aufgaben-Beziehungen zwischen Objekten erlauben
-- Aufgaben beim Kopieren verlinken: Ja
+|Aufgaben beim Kopieren verlinken
+|Die Auswahl legt fest, in wie weit die Kopie einer Aufgaben mit der Aufgabe verknüpft ist:
+
+- ja » Es wird eine Verknüpfung (Zugehörige Aufgabe) autoamatisch erstellt.
+- nein » Es wird keine Verknüpfung erstellt.
+- nachfragen » Es erfolgt eine Abfrage im Kopierprozess, ob eine Verknüpfung erstellt werden soll oder nicht.
+
+|Objektübergreifende Unteraufgaben erlauben
+|Mit der Auswahl wird bei der Erstellung von Unteraufgaben festgelegt, zu welchen Objekten Unteraufgaben zugeordnet werden können.
+
+- gesperrt » Es können nur Unteraufgaben zum aktuellen Objekt zugeordnet werden.
+- Mit allen Objekten » Es können Unteraufgaben zu allen Objekten zugeordnet werden.
+- Mit Objektbaum » Es können Unteraufgaben zu allen Objekten des Hierarchiebaums zugeordnet werden, zu dem das aktuelle Objekt gehört.
+- Mit Objekthierarchie »Es können Unteraufgaben zum aktuellen Objekt und zu allen Objekten zugeordnet werden, die im Hierarchiebaum dem aktuellen Objekt nachgelagert sind.
+- Mit Unterobjekten » Es können Unteraufgaben zum aktuellen Objekt und zu den Unteraufgaben des aktuellen Objekts zugeordnet werden.
+
+|Duplikate automatisch schließen
+|Gibt es zu einer Aufgabe ein Duplikat (zugehörige Aufgabe von der Art _Dupliziert durch_) so wird mit der Auswahl _Duplikate automatisch schließen_ beim Statuswechsel der Aufgabe auf erledigt auch das Duplikat automatisch auf den Status erledigt gesetzt. 
+
+|Aufgabenzuweisung an Gruppen erlauben
+|Mit setzen der Auswahl wird bei der Zuweisung von Aufgaben zu Mitgliedern auch die Gruppen erlaubt die als Mitglieder gepflegt sind.
+
+|Aktuelles Datum als Beginn für neue Aufgaben verwenden
+|Mit der Auswahl der Option wird beim Anlegen einer neuen Aufgabe automatisch das aktuelle Datum als Beginn eingetragen.
+
+|Aufgaben von Unterobjekten im Hauptobjekt anzeigen
+|Mit der Auswahl der Option werden in der Aufgabenliste eines Objekts auch die Aufgaben der hierarchisch untergeordneten Objekte mit angezeigt.
+
+|Berechne den Aufgaben-Fortschritt mittels
+|Wird der Eintrag _Aufgabenstatus_ gewählt, so wird der Aufgaben-Fortschritt aus den Vorgaben _% eledigt_ vom Aufgabenstatus gewählt. +
+Wir der Eintrag _Aufgaben-Feld % erledigt_ gewählt, so wird der Aufgaben-Fortschritt aus dem Attribut _% erledit_ übernommen.
+
+|Arbeitsfreie Tage
+|In der Auswahl werden die Arbeitsfreien Tage der Woche festgelegt
+
+|Maximale Anzahl Aufgaben bei CSV/PDF-Export
+|Hier wird die maximale Anzahl an Aufgaben definiert, die mit einem einzelnen Export exportiert werden können.
+
+|Maximale Anzahl von Aufgaben, die im Verlauf angezeigt werden
+|Hier wird die maximale Anzahl an Aufgaben definiert, die im Verlauf (Gantt-Diagramm) angezeigt werden.
+
+|Maximal anzeigbare Monate im Gantt-Diagramm
+|Hier wird die maximale Anzahl der angezeigten Monate definiert, die im Verlauf (Gantt-Diagramm) angezeigt werden.
+
+2.1+|Eigenschaften übergeordneter Aufgaben
+
+|Beginn / Abgabedatum
+|Festlegung, wie _Beginn_ und _Abgabedatum_ von übergeordneten Aufgaben festgelegt werden.
+
+- Abgeleitet von untergeordneten Aufgaben »  +
+Der Beginn der übergeordneten Aufgabe ist der früheste Beginn aller Unteraufgaben und das Abgabedatum ist das späteste Abgabedatum der Unteraufgaben.
+- Unabhängig von untergeordneten Aufgaben +
+Der Beginn und das Abgabedatum der übergeordneten Aufgabe sind unabhängig von den untergeordneten Aufgaben und werden nicht automatisch angepasst.
+
+|Priorität
+|Festlegung, wie die _Priorität_ von übergeordneten Aufgaben festgelegt wird.
+
+- Abgeleitet von untergeordneten Aufgaben »  +
+Die Priorität der übergeordneten Aufgabe ist die höchste Priorität der Unteraufgaben.
+- Unabhängig von untergeordneten Aufgaben  +
+Die Priorität der übergeordneten Aufgabe ist unabhängig von den untergeordneten Aufgaben und wird nicht automatisch angepasst.
+
+|% erledigt
+|Festlegung, wie die  _ Aufgaben-Fortschritte (% erledigt)_ von übergeordneten Aufgaben festgelegt wird.
+
+- Abgeleitet von untergeordneten Aufgaben »  +
+Die Aufgaben-Fortschritt der übergeordneten Aufgabe ist wird aus den Aufgaben-Fortschritten der Unteraufgaben berechnet. Jeder Aufgaben-Fortschritt berechnet sich aus der Summe der Aufgaben-Fortschritte  geteilt durch die Anzahl der (nicht stornierten oder gelöschten) Unteraufgaben.
+- Unabhängig von untergeordneten Aufgaben +
+Der Aufgaben-Fortschritt der übergeordneten Aufgabe ist unabhängig von den untergeordneten Aufgaben und wird nicht automatisch angepasst.
+
+2.1+|Standard-Spalten in der Aufgaben-Auflistung
+
+|Spaltenauswahl
+|Die Auswahl der Attribute in der Liste _Ausgewählte Spalten_ mit der Reihenfolge legt fest, welche Informationen in der Aufgabenliste beim Aufschalten angezeigt werden.
+
+|===
+
+== Zeiterfassung
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Erforderliche Felder für Zeitbuchungen
+|Legt fest, ob die Angabe der Aufgabe und/oder der Kommentar Pflichtfelder bei einer Zeitbuchung sind.
+
+|Maximale Anzahl der täglich buchbaren Stunden pro Benutzer
+|Begrenzt die für einen Benutzer maximal für einen Tag buchbaren Stunden.
+
+|Akzeptiere Buchungen mit 0 Stunden
+|Bei Anwahl wird bei einer Buchung mit 0 Stunden keine Fehlermeldung ausgegeben und die Buchung akzeptiert.
+
+|Akzeptiere Zeitbuchungen in der Zukunft
+|Bei Auswahl werden auch Zeitbuchung für die Zukunft akzeptiert.
+
+2.1+|Standard-Spalten in der Zeiten-Auflistung
+
+|Spaltenauswahl
+|Die Auswahl der Attribute in der Liste _Ausgewählte Spalten_ mit der Reihenfolge legt fest, welche Informationen in der Liste _Aufgewendetet Zeit_ beim Aufschalten angezeigt werden.
+
+|===
+
+== Dateien
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Maximale Dateigröße
+|Der Eintrag legt die maximale Größe einer Datei / eines Dateianhangs fest, der beim Upload erlaubt wird. 
+
+[IMPORTANT]
+Der Eintrag begrenzt den Speicherbedarf der Anwendung. Bei der Festlegung der Dateigröße ist immer der für die Anwendung benötigte Speicherbedarf zu prüfen / anzupassen. 
+
+|Maximalgröße für den aggregierten Download von Anhängen
+|Der Eintrag begrenzt Größe der mit einem Upload hochladbaren Dateien.
+
+|Zugelassene Dateitypen
+|Whitelist der zum Upload freigegebenen Dateitypen. Die erlaubten Dateianhänge werden kommagetrennt in das Feld eingetragen (Bsp.:txt, png). Ist das Feld leer, sind alle Anhänge erlaubt.
+
+|Nicht zugelassene Dateitypen
+|Blacklist der zum Upload freigegebenen Dateitypen. Die gesperrten Dateianhänge werden kommagetrennt in das Feld eingetragen (Bsp.:exe, pdf). Ist das Feld leer, sind alle Anhänge erlaubt.
+
+|Maximale Größe inline angezeigter Textdateien
+|Der Eintrag begrenzt (inline)-Anzeige von Text-Dateien auf die definierte Größe. Auf diese Weise sollen Performance-Probleme vermieden werden.
+
+|Maximale Anzahl anzuzeigender Diff-Zeilen
+|Der Eintrag begrenzt die Anzahl von Diff-Zeilen bei Versionsvergleichen (z.B in den Modulen Wiki oder Archiv)
+
+|Kodierung von Anhängen und Archiven
+|Mit dieser Option lassen sich für Archiv-Files die bevorzugte Kodierung von Archiv-Files festlegen. Diese Kodierung werden genutzt um Inhalten und Differenzen in Text-Dateien in die UTF-8 Kodierung umzuwandeln. Diese Koordinierung wird benötigt, um die Inhalte / Differenzen im Browser anzuzeigen. 
+
+|===
+
+== Mailbenachrichtigungen
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|E-Mail-Absender
+|Eintrag legt für den E-Mail-Versand die E-Mail-Adresse fest.
+
+|E-Mails als Blindkopie (BCC) senden
+|Bei Auswahl der Option werden die E-Mails als Blindkopiee (Empfänger sieht nicht die weiteren Empfänger der Mail) versendet.
+
+|Nur reinen Text (kein HTML) senden
+|Bei Auswahl der Option wird kein HTML-Inhalt in der Mail versendet.
+
+|Zeige Statusänderungen im Betreff der E-Mailbenachrichtigung für Aufgaben
+|Bei Auswahl der Option wird bei einer Statusänderung als Grund für den E-Mail-Versand die Statusänderung im Betreff integriert.
+
+2.1+|Bitte wählen Sie die Aktionen aus, für die eine E-Mail-Benachrichtigung gesendet werden soll.
+
+|Auswahl
+|Über die Auswahl der einzelnen Änderungsschritte wird festgelegt, bei welchen Triggern eine E-Mail versant wird.
+
+2.1+|E-Mail-Kopfzeile
+
+|Text
+|Legt den Kopftext in der E-Mail fest.
+
+2.1+|E-Mail-Fußzeile
+
+|Text
+|Legt den Fuß-Text in der E-Mail fest.
+
+|===
+
+== Eingehende E-Mails
+
+xmera Omnia bietet die Möglichkeit E-Mails zu empfangen, die einer Aufgabe als Kommentar hinzugefügt werden (in der Bemerkungszeile ist die Aufgaben-ID z.B. #123 vorhanden) oder es wird eine neue Aufgabe erzeugt. Es wird die From-Adresse zur Zuordnung zu einem User genutzt (\benutzer.name@e-mail.de).
+
+Um dieses zu ermöglichen, muss der E-Mail-Empfang auf dem Server konfiguriert werden. Eine Anleitung dazu finden sie https://www.redmine.org/projects/redmine/wiki/RedmineIssueTrackingSetup#Update-issue-done-ratios[hier].
+
+
+[cols="1,2a"]
+|===
+|Parameter |Beschreibung
+
+|Schneide E-Mail nach einer dieser Zeilen ab
+|Es wird nach einem oder mehreren Ausdücken (Zeilen im Definitionsfeld) geucht, nach der der Text im Kommentar abgeschnitten wird. So lassen sich z.B. Signaturen oder Mailverläufe entfernen. +
+Um flexibler in der Suche sein  zu können, können durch setzen des Hakens unterhalb des Eingabefeldes auch https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck[reguläre Werte] genutzt werden.
+
+|Anhänge nach Name ausschließen
+|Anhänge einer Mail werden als Dokument der Aufgabe zugeordent. Ausgeschlossen sind Anhänge, die in diesem Feld (kommagetrennt) aufgelistet sind. (z.B. smime.p7s, *.vcf) +
+Um flexibler in der Suche sein zu können, können durch setzen des Hakens unterhalb des Eingabefeldes auch https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck[reguläre Werte] genutzt werden.
+
+|Bevorzugter Teil von E-Mails im Multipart-Format
+|Festlegung, wie mit E-Mail-Texten im Miltipart-Format umgegangen wird. Im default wird nur der Text verarbeite (Auswahl Text). Als 2. Möglichkeit besteht die Auswahl HTML, in der die HTML-ausdrücke interpretiert und angezeigt werden. Diese Auswahl befindet sich aktuell im Experimentierstadium. 
+
+2.1+|
+
+|Abruf eingehender E-Mails aktivieren 
+|Um die Funktion E-Mail Eingang nutzen zu können, muss die API-Schnittstelle für den E-Mail-Empfang über die Auswahl aktiviert werden. 
+
+|API-Schlüssel für eingehende E-Mails
+|Feld zum pflegen des API-Sicherheitsschlüssels 
+
+|===
 
