@@ -2,6 +2,45 @@
 :doctype: article
 :icons: font
 :imagesdir: ../images/
-:web-xmera: https://xmera.de
+:web-xmera: https://docs.xmera.de
 
-.
+xmera Omnia bietet eine Authentifizierung von Benutzern über einen oder mehrere LDAP-Verzeichnisdienst an.
+
+Die LDAP-Verzeichnisdienste werden mit ihren Einstellungen im Administrationsbereich im Reiter LDAP-Authentifizierung verwaltet.
+
+image:adminhandbuch/ldap-vereichnisdienste-liste.png[Liste der Verzeichnisdienste]
+
+In dieser Liste sind die parametrierten Verzeichnisdienste gelistet. Aus dieser Liste kann 
+
+- durch Klick auf den Verzeichnisnamen in die Bearbeitungsmaske gesprungen werden.
+- durch Klick auf den Button image:adminhandbuch/button_testen.png[LDAP testen] der Dienst getestet werden oder 
+- durch Klick auf den Button image:adminhandbuch/button_loeschen.png[LDAP löschen] der Verzeichnisdienst gelöscht werden.
+
+== LDAP-Authentifizierung
+
+Durch Klick auf den Namen des Verzeichnisdienstes in der Liste der LDAP-Verzeichnisdienste oder durch Klick auf den Button image:adminhandbuch/button_neu_ldap-dienst.png[neuer LDAP-Verzeichnisdienst] gelangt man in die Bearbeitungsmaske für den LDAP-Authentifizierungsdienst.
+
+image:adminhandbuch/ldap-vereichnisdienste-bearbeitung.png[LDAP-Verzeichnisdienste bearbeiten / erstellen]
+
+In der Bearbeitungsmaske sind
+
+- Name
+- Host
+- Port
+- Modus-Verschlüsselung (Empfohlen wird LDAPS)
+- Konto und Passwort
+- Base DN
+- Filter
+
+zu pflegen. Wird die _On-the-fly-Benutzererstellung_ gewählt, so wird der Benutzer bei der ersten Anmeldung in xmera Omnia der Benutzer im System angelegt. Wird diese Funktion gewählt, so sind die folgenden Felder zu pflegen, über die die LDAP Attribute den Benutzer-Pflichtfledern zugeordnet werden.
+
+- Mitgliedsname-Attribut,
+- Vorname-Attribut,
+- Name-Attribut und
+- E-Mail Attribut.
+
+Durch Klicken auf den Button image:adminhandbuch/button_speichern.png[] bei der Bearbeitung eines bestehenden Dienstes bzw. image:adminhandbuch/button_anlegen.png[] bei einem neuen Dienst werden die Änderungen übernommen und man springt in die LDAP-verzeichnisdienst-Liste.
+
+== Weiter Information
+
+Weitere Informationen zur LDAP Authentifizierung sind auf der Seite https://www.redmine.org/projects/redmine/wiki/RedmineLDAP[] zu finden.
