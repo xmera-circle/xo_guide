@@ -26,7 +26,7 @@ aber auch aus der Objektkonfiguration in das Objekt übernommen werden. Somit k�
 
 === Objektklassen als (Zu-)Ordnungselement
 
-Objekte repräsentieren die Gesamtheit der Ressourcen, die im ISMS abgebildete werden. Die Objektklassen ermöglichen 
+Objekte repräsentieren die Gesamtheit der Ressourcen, die im ISMS abgebildet werden. Die Objektklassen ermöglichen 
 
 - eine leichtere Suche und Filterung von Objekten,
 - eine effizientere Erstellung von Objekt-Verknüpfungen durch Eingrenzung der möglichen Objekte auf eine sinnvolle Auswahl,
