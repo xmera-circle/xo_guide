@@ -480,7 +480,7 @@ In diesem Schritt erfolgt die Zuordnung der Aufgabenattribute zu den CSV-Attribu
 
 image:anwenderhandbuch/modul_aufgaben_import-attributzuordnung.png[]
 
-In dem Bereich_Zuordnung der Felder_ wird in dem ersten Attribut festgelegt, in welche Objekt die Aufgaben importiert werden sollen. Danach folgen alle möglichen Attribute aufgelistet, die in Aufgaben vergeben werden können. Zu jedem Attribut, kann jetzt ein Feld aus der CSV-Datei zugeordnet werden. Alle erkannten Felder der CSV-Datei können über das Auswahlmenü zugeordnet werden. Als Orientierung ist im unteren Bereich eine _Inhaltsvorschau_, in der die erkannten Felder (Überschriften) und der Inhalt der ersten Aufgabe dargestellt werden. 
+In dem Bereich _Zuordnung der Felder_ wird in dem ersten Attribut festgelegt, in welche Objekt die Aufgaben importiert werden sollen. Danach folgen alle möglichen Attribute aufgelistet, die in Aufgaben vergeben werden können. Zu jedem Attribut, kann jetzt ein Feld aus der CSV-Datei zugeordnet werden. Alle erkannten Felder der CSV-Datei können über das Auswahlmenü zugeordnet werden. Als Orientierung ist im unteren Bereich eine _Inhaltsvorschau_, in der die erkannten Felder (Überschriften) und der Inhalt der ersten Aufgabe dargestellt werden. 
 So weit möglich ordnet der Importprozess Felder bereits den Attributen imn xmera Omnia zu.
 
 [IMPORTANT]
