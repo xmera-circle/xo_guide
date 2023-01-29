@@ -162,7 +162,7 @@ Diese Schritte werden im Folgenden beschrieben.
 
 === Workflows erstellen
 
-Grundsätzlich werden globale und lokale Workflows unterschieden. Globale Workflows werden im Administrationsbereich von xmera Omnia erstellt und stehen in allen Objekten zur Verfügung. Die lokalen Workflows werden im Konfigurationsbereich des Objekts erstellt und stehen nur dem Objekt zur Verfügung. Die Erstellung eines Workflows ist in beiden Fällen gleich.
+Grundsätzlich werden xref:adminhandbuch:genehmigungs-workflows.adoc[globale] und lokale Workflows unterschieden. Globale Workflows werden im Administrationsbereich von xmera Omnia erstellt und stehen in allen Objekten zur Verfügung. Die lokalen Workflows werden im Konfigurationsbereich des Objekts erstellt und stehen nur dem Objekt zur Verfügung. Die Erstellung eines Workflows ist in beiden Fällen gleich.
 
 Die Erstellung und Pflege von lokaler Genehmigungs-Workflows erfolgt in der Objektkonfiguration im Reiter Genehmigungs-Workflow.
 
