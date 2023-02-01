@@ -21,7 +21,7 @@ So you need to install:
 For doing so, make sure you run the latest Node.js LTS version:
 
     node --version
-    v16.17.0
+    v18.13.0
 
 Install all dependencies of this project by
 
