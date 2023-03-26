@@ -12,8 +12,8 @@
 ** xref:adminhandbuch:konfiguration.adoc[]
 ** xref:adminhandbuch:ldap-authentifizierung.adoc[]
 ** xref:adminhandbuch:genehmigungs-workflows.adoc[]
+** xref:adminhandbuch:eigene-bezeichnungen.adoc[]
 // Noch nicht fertiggestellte Handbuch-Seiten
-// ** xref:adminhandbuch:eigene-bezeichnungen.adoc[]
 // ** xref:adminhandbuch:tabellenkonfiguration.adoc[]
 // ** xref:adminhandbuch:plugins.adoc[]
 // ** xref:adminhandbuch:informationen.adoc[]
