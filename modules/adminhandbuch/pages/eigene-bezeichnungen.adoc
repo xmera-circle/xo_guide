@@ -4,7 +4,7 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-In xmera Omnia kann für die Bezeichnungen zwischen verschiedenen Sprachen gewechselt werden. Vom Grundsatz wird durch den Administrator xref:konfiguration.html#_anzeige[die Standardsprache sowie die Änderbarkeit festgelegt]. xmera Omnia ist für Deutsch ausgelegt. In den anderen Sprachen wird nicht alle Bezeichnungen übersetzt.
+In xmera Omnia kann für die Bezeichnungen zwischen verschiedenen Sprachen gewechselt werden. Vom Grundsatz wird durch den Administrator xref:konfiguration#_anzeige[die Standardsprache sowie die Änderbarkeit festgelegt]. xmera Omnia ist für Deutsch ausgelegt. In den anderen Sprachen wird nicht alle Bezeichnungen übersetzt.
 
 Die Bezeichnungen können zu einem Großteil sprachenspezifisch angepasst werden. Über den Menüpunkt _Eigene Bezeichnungen_ im Administrationsmenü gelangt zur Liste der angepassten Bezeichnungen.
 
