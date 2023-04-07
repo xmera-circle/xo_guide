@@ -16,5 +16,4 @@
 ** xref:adminhandbuch:tabellenkonfiguration.adoc[]
 ** xref:adminhandbuch:support.adoc[]
 ** xref:adminhandbuch:plugins.adoc[]
-// Noch nicht fertiggestellte Handbuch-Seiten
-// ** xref:adminhandbuch:informationen.adoc[]
+** xref:adminhandbuch:informationen.adoc[]
