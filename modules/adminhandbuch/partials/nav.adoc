@@ -14,6 +14,7 @@
 ** xref:adminhandbuch:genehmigungs-workflows.adoc[]
 ** xref:adminhandbuch:eigene-bezeichnungen.adoc[]
 ** xref:adminhandbuch:tabellenkonfiguration.adoc[]
+** xref:adminhandbuch:support.adoc[]
 // Noch nicht fertiggestellte Handbuch-Seiten
 // ** xref:adminhandbuch:plugins.adoc[]
 // ** xref:adminhandbuch:informationen.adoc[]
