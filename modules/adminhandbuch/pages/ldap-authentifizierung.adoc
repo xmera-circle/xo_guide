@@ -4,9 +4,11 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
-xmera Omnia bietet eine Authentifizierung von Benutzern über einen oder mehrere LDAP-Verzeichnisdienst an.
+xmera Omnia bietet eine Authentifizierung von Benutzern über einen oder mehrere LDAP-Verzeichnisdienste an.
 
-Die LDAP-Verzeichnisdienste werden mit ihren Einstellungen im Administrationsbereich im Reiter LDAP-Authentifizierung verwaltet.
+== Übersicht
+
+Die LDAP-Verzeichnisdienste werden im Administrationsbereich über den Menüpunkt _LDAP-Authentifizierung_ verwaltet.
 
 image:adminhandbuch/ldap-vereichnisdienste-liste.png[Liste der Verzeichnisdienste]
 
@@ -16,9 +18,11 @@ In dieser Liste sind die parametrierten Verzeichnisdienste gelistet. Aus dieser 
 - durch Klick auf den Button image:adminhandbuch/button_testen.png[LDAP testen] der Dienst getestet werden oder 
 - durch Klick auf den Button image:adminhandbuch/button_loeschen.png[LDAP löschen] der Verzeichnisdienst gelöscht werden.
 
-== LDAP-Authentifizierung
+== LDAP-Authentifizierung bearbeiten
 
-Durch Klick auf den Namen des Verzeichnisdienstes in der Liste der LDAP-Verzeichnisdienste oder durch Klick auf den Button image:adminhandbuch/button_neu_ldap-dienst.png[neuer LDAP-Verzeichnisdienst] gelangt man in die Bearbeitungsmaske für den LDAP-Authentifizierungsdienst.
+Ein neuer Verzeichnisdienst kann über den Button image:adminhandbuch/button_neu_ldap-dienst.png[neuer LDAP-Verzeichnisdienst] bearbeitet und angelegt werden.
+
+Ein bestehender Dienst öffnet sich zum Bearbeiten mit Klick auf den Namen des Verzeichnisdienstes in der Liste.
 
 image:adminhandbuch/ldap-vereichnisdienste-bearbeitung.png[LDAP-Verzeichnisdienste bearbeiten / erstellen]
 
@@ -32,15 +36,17 @@ In der Bearbeitungsmaske sind
 - Base DN
 - Filter
 
-zu pflegen. Wird die _On-the-fly-Benutzererstellung_ gewählt, so wird der Benutzer bei der ersten Anmeldung in xmera Omnia der Benutzer im System angelegt. Wird diese Funktion gewählt, so sind die folgenden Felder zu pflegen, über die die LDAP Attribute den Benutzer-Pflichtfledern zugeordnet werden.
+zu pflegen. 
+
+Wird die _On-the-fly-Benutzererstellung_ gewählt, so wird ein Benutzer bei der ersten Anmeldung in xmera Omnia im System angelegt. Damit die LDAP Attribute den Benutzer-Pflichtfledern zugeordnet werden können, müssen folgenden Attribute gesetzt werden:
 
 - Mitgliedsname-Attribut,
 - Vorname-Attribut,
 - Name-Attribut und
 - E-Mail Attribut.
 
-Durch Klicken auf den Button image:adminhandbuch/button_speichern.png[] bei der Bearbeitung eines bestehenden Dienstes bzw. image:adminhandbuch/button_anlegen.png[] bei einem neuen Dienst werden die Änderungen übernommen und man springt in die LDAP-verzeichnisdienst-Liste.
+Durch Klicken auf den Button image:adminhandbuch/button_speichern.png[Speichern] oder image:adminhandbuch/button_anlegen.png[Anlegen], werden die Änderungen übernommen.
 
-== Weiter Information
+== Weitere Informationen
 
-Weitere Informationen zur LDAP Authentifizierung sind auf der Seite https://www.redmine.org/projects/redmine/wiki/RedmineLDAP[] zu finden.
+Weitere Informationen zur LDAP Authentifizierung sind auf der Seite https://www.redmine.org/projects/redmine/wiki/RedmineLDAP[redmine.org » RedmineLDAP] zu finden.
