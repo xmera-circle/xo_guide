@@ -4,63 +4,67 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-In xmera Omnia kann für die Bezeichnungen zwischen verschiedenen Sprachen gewechselt werden. Vom Grundsatz wird durch den Administrator xref:konfiguration#_anzeige[die Standardsprache sowie die Änderbarkeit festgelegt]. xmera Omnia ist für Deutsch ausgelegt. In den anderen Sprachen wird nicht alle Bezeichnungen übersetzt.
+In xmera Omnia können systemseitige Bezeichnungen in verschiedenen Sprachen angezeigt werden. Der Administrator hat aber auch die Möglichkeit die Wahl der Sprache für den Benutzer zu unterbinden, in dem er xref:konfiguration#_anzeige[eine Standardsprache verbindlich festlegt]. 
 
-Die Bezeichnungen können zu einem Großteil sprachenspezifisch angepasst werden. Über den Menüpunkt _Eigene Bezeichnungen_ im Administrationsmenü gelangt zur Liste der angepassten Bezeichnungen.
+xmera Omnia ist in Deutsch und Englisch übersetzt. In den anderen Sprachen werden nicht übersetzte Bezeichnungen automatisch in Englisch angezeigt.
 
-image:adminhandbuch/eigene-bezeichnungen_bearbeiten.png[Eigene Bezeichungen bearbeiten]
+Die Systembezeichnungen können an ISMS-Begriffe des Unternehmens angepasst werden. Über den Menüpunkt _Eigene Bezeichnungen_ im Administrationsmenü wird die Liste der angepassten Bezeichnungen angezeigt.
 
-In dieser Liste werden alle Bezeichnungen angezeigt, die durch die Vorkonfiguration oder den Administrator angepasst wurden. Diese Änderungen werden in einer YAML-Datei gespeichert und "überschreiben" die Standardwerte. 
+image:adminhandbuch/eigene-bezeichnungen_bearbeiten.png[Eigene Bezeichnungen bearbeiten]
+
+In dieser Liste werden alle Bezeichnungen angezeigt, die durch die Vorkonfiguration oder den Administrator angepasst wurden. Diese Änderungen werden in einer YAML-Datei gespeichert und überschreiben die Standardwerte. 
 
 ## Darstellung und Anzeigemöglichkeiten
 
-Die Bearbeitung der eigenen Bezeichnungen kann über Einträge in der Normalen Ansicht als Bezeichungsfeldliste
+Die Bearbeitung der eigenen Bezeichnungen kann über Einträge im _Normalen Modus_ als Bezeichungsfeldliste
 
 image:adminhandbuch/eigene-bezeichnungen_bezeichnungsliste.png[Bezeichnungsfeldliste]
 
-in der YAML-Beschreibung 
+oder im _YAML Modus_
 
 image:adminhandbuch/eigene-bezeichnungen_yaml-datei.png[YAML-Datei]
 
-erfolgen. Über die Reiter kann man zwischen _Normaler Moduls_ und _YAML-Modus_ die Ansicht gewechselt werden.
+erfolgen. 
 
-Weiter besteht die Möglichkeit die eigenen Anpassungen zu deaktivieren image:adminhandbuch/button_eigene-bezeichnungen_deaktivieren.png[eigene Bezeichnungen deaktivieren] und somit auf den Sytemstandard zu wechseln bzw. zu aktivieren image:adminhandbuch/button_eigene-bezeichnungen_aktivieren.png[eigene Bezeichnungen aktivieren]. Die yaml-Standardbeschreibung kann mit Klick auf den Button image:adminhandbuch/button_eigene-bezeichnungen_standard-yaml.png[Standard-Bezeichnungen] in einem Fenster aufzuschalten.
+Weiter besteht die Möglichkeit die eigenen Anpassungen über folgenden Button zu deaktivieren: image:adminhandbuch/button_eigene-bezeichnungen_deaktivieren.png[eigene Bezeichnungen deaktivieren]. Zurück geht es durch Klick auf image:adminhandbuch/button_eigene-bezeichnungen_aktivieren.png[eigene Bezeichnungen aktivieren].
 
-Es können dabei pro Sprache des Systems die Bezeichnungen gesondert angepasst werden. In der yaml-Datei wird hierzu das Sprachkürzel der Sprache (z.B. de) vorangestellt. Im Normalmodus ist die zu anzupassende Sprache in der Auswahl oberhalb der Liste zu wählen.
+Die Standardbezeichnungen können mit Klick auf den Button image:adminhandbuch/button_eigene-bezeichnungen_standard-yaml.png[Standard-Bezeichnungen] in einem separaten Fenster angezeigt werden.
+
+Entsprechend der Sprachauswahl wird die Liste der angepassten Bezeichnungen angezeigt.
 
 image:adminhandbuch/eigene-bezeichnungen_sprache.png[YAML-Datei]
 
-Entsprechend der Auswahl wird die Liste der angepassten Bezeichnungen angezeigt.
-
 ## Bezeichnungen suchen und ändern
 
-Grundlage für die Änderung einer Bezeichnung ist das Keywort der Bezeichnung, das zu ermitteln ist. In der YAML-Sprachdatei wird dem Keywort ein Text zugeordnet, der dann dem Benutzer angezeigt wird. Dieser Text kann mit Hilfe einer gesonderten YAML-Änderungsdatei angepasst werden. Diese Datei wird im Normalmodus für den Administrator in einer Listendarstellung aufbereitet. In der YAML-Modus kann der Administrator in einem Editor diese Anpassungen direkt in der YAML-Datei durchführen. 
+Grundlage für die Änderung einer Bezeichnung ist das Keywort der Bezeichnung. In der YAML-Sprachdatei wird jedem Keywort ein Text zugeordnet, der dann dem Benutzer angezeigt wird. 
+
+Dieser Text kann mit Hilfe einer gesonderten YAML-Änderungsdatei angepasst werden. Diese Datei wird im Normalmodus für den Administrator in einer Listendarstellung aufbereitet. Im YAML-Modus kann der Administrator in einem Editor die Anpassungen direkt in der YAML-Datei durchführen. 
 
 ### Im Normalmodus
 
-Der Normalmodus bietet eine Suchfunktion, in der nach dem Keywort oder auch dem Bezeichnung gesucht werden kann.
+Der Normalmodus bietet eine Suchfunktion, in der nach dem Keywort oder auch der Bezeichnung gesucht werden kann.
 
 image:adminhandbuch/eigene-bezeichnungen_suchfunktion.png[Suchfunktion im Normalmodus]
 
-In die Suchzeile kann der Suchbegriff eingegeben werden und es werden alle Keywort-Bezeichnung-Paare angezeigt, die den Suchbegriff beinhalten. 
+In die Suchzeile kann der Suchbegriff eingegeben werden. Sofort werden alle Keywort-Bezeichnung-Paare angezeigt, die den Suchbegriff beinhalten. 
 
-Die grau hinterlegten Wertepaare sind bereits in der Änderungsdatei vorhanden. Diese können nicht ausgewählt werden, sondern müssen in der Änderungsliste gesucht werden.
+Die grau hinterlegten Wertepaare wurden bereits bearbeitet. Daher können sie nicht ausgewählt werden. Stattdessen können diese Wertepaare direkt in der Liste geändert werden. Durch Klick auf den Button image:adminhandbuch/button_speichern.png[Speichern] wird die Änderung übernommen.
 
-Ist das Feld weiß hinterlegt, so wird beim Klick auf das Wertepaar dieses in die erste Zeile der Änderungsliste mit dem Keywort und der Standardbezeichnung eingebunden. Die Bezeichnung kann dann geändert werden. Mit Klick auf den Button image:adminhandbuch/button_speichern.png[] wird die Änderung in die Anwendung übernommen.
+Ist das Feld weiß hinterlegt, so kann die Bezeichnung mit Klick auf das Wertepaar geändert werden. Mit Klick auf den Button image:adminhandbuch/button_speichern.png[] wird die Änderung übernommen.
 
-Jeder Anpassung der Bezeichnung kann in der Liste geändert werden. Durch klick auf den Button image:adminhandbuch/button_speichern.png[] wird diese Änderung übernommen.
-
-Eine geänderte Bezeichnung kann durch klick auf das Symbol image:adminhandbuch/button_eigene-bezeichnungen_loeschen.png[Eigene Bezeichnung löschen] aus der Liste gelöscht werden. Das Löschen der Bezeichnung wird nach dem Speichern der Änderung (Klick auf image:adminhandbuch/button_speichern.png[] unterhalb der Liste) übernommen.
+Eine geänderte Bezeichnung kann durch Klick auf das Symbol image:adminhandbuch/button_eigene-bezeichnungen_loeschen.png[Eigene Bezeichnung löschen] aus der Liste gelöscht werden. Das Löschen der Bezeichnung wird nach dem Speichern der Änderung (Klick auf image:adminhandbuch/button_speichern.png[] unterhalb der Liste) übernommen.
 
 ### In der YAML-Datei
 
-Im YAML-Modus ist keine Suchfunktion vorhanden. Das Keywort kann in der Standardbezeichnungen erfolgen. Hierzu kann über den Button image:adminhandbuch/button_eigene_bezeichnungen_standardbezeichnungen.png[] ein Fenster mit dem Inhalt der Standardbezeichnungen geöffnet werden. In diesem Fenster kann über die Standard-Browser-Suche (Strg-f) nach der Keywort-Bezeichungskombination gesucht werden.
+Im YAML-Modus ist keine Suchfunktion vorhanden. Das Keywort muss daher in den Standardbezeichnungen gesucht werden. Hierzu kann über den Button image:adminhandbuch/button_eigene_bezeichnungen_standardbezeichnungen.png[] ein Fenster mit dem Inhalt der Standardbezeichnungen geöffnet werden. 
+
+In diesem Fenster kann über die Standard-Browser-Suche (Strg-F) nach der Keywort-Bezeichungskombination gesucht werden.
 
 image:adminhandbuch/eigene-bezeichnungen_yaml_suche.png[]
 
-Das Keywort, in dem Beispiel oben _button_apply: Anwenden_, kann dann verwendet werden um den Alternativtext in der YAML-Datei zu ändern. Mit dem Eintrag
+Das Keywort in dem Beispiel oben kann dann verwendet werden, um einen Alternativtext in der YAML-Datei anzulegen. Mit dem Eintrag
 
  de:
-   label_home: Alternativtext
+   button_apply: Alternativtext
 
-in das Editorfenster und anschließendem image:adminhandbuch/button_speichern.png[] wird der Text bei Sprachauswahl _Deutsch_ von _Anwenden_ auf _Alternativtext_ geändert.
+in das Editorfenster und anschließendem image:adminhandbuch/button_speichern.png[Speichern] wird der Text bei Sprachauswahl _Deutsch_ von _Anwenden_ auf _Alternativtext_ geändert.
