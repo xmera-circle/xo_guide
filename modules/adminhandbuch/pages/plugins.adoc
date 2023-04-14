@@ -1,11 +1,11 @@
-= Plugins
+= Konfigurierbare Plugins
 :doctype: article
 :icons: font
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-xmera Omnia baut auf einer Basissoftware (redmine) auf, die um spezifische Plugins ergänzt ist. Einige dieser Plugins bieten eine "Basiskonfiguration" an. Diese Pluginkonfiguration lässt sich über den Menüpunkt _Konfiguration Plugins erreichen.
+xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration lässt sich über den Menüpunkt _Konfigurierbare Plugins_ erreichen.
 
-image:adminhandbuch/plugins_liste.png[]
+image:adminhandbuch/plugins_liste.png[Konfigurierbare Plugins]
 
-In diesem Menüpunkt sind die konfigurierbaren Plugins gelistet. Durch Klick auf den Listeneintrag gelangt man auf die Konfigurationsseite des Plugins. Hier sind zumeist selbsterklärende Einstellungen möglich. 
+Durch Klick auf den Link unter der Pluginbeschreibung öffnet sich die Konfigurationsseite des gewählten Plugins. Hier sind die Einstellungsmöglichkeiten selbsterklärend. 
