@@ -4,9 +4,10 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
-Um im Rahmen der Subscription Support durch die xmera Solutions GmbH zu erhalten ist die Eingabe der Auftragsnummer und des Subskriptionsschlüssels Voraussetzung. Die Eingabe erfolgt im Adminbereich im Menü _Support_.
+Unsere Kunden erhalten auf alle Fragen zur Anwendung und zum Betrieb ihres Informationssicherheitsmanagementsystem mit xmera Omnia umfassende Anworten von uns. Zusätzlich untertützen wir bei der Installation, Updates und Upgrades.
+
+Um diesen Service zu aktivieren, müssen die Auftragsnummer und der Subskriptionsschlüssel eingegeben werden.
 
 image:adminhandbuch/support_schluessel_eingabe.png[]
 
-In dem ersten Teil wird die Auftragsnummer und im zweiten Teil der Subskriptionsschlüssel eingegeben, den der xmera Omnia Subscriptionskunde über im Supportportal erhält.
-
+Der Subskriptionsschlüssel wird im Serviceportal von xmera Solutions für jeden Kunden in seinem persönlichen Servicebereich angezeigt.
