@@ -8,12 +8,12 @@ Im Administrationsbereich im Menüpunkt _Informationen_ sind zur Installation ve
 
 image:adminhandbuch/informationen_gesamt.png[]
 
-Zum einen werden wichtige im ersten Teil überprüft, ob einige Sicherheitseinstellungen umgesetzt wurden und ob optionale Tools aktiviert wurden.
+Im ersten Teil werden Sicherheitseinstellungen und der Status von optionalen Tools überprüft.
 
 image:adminhandbuch/informationen_einstellungen.png[]
 
-Im zweiten Teil werden Umgebungsparameter sowie die Versionsstände von für die Anwendung wichtiger Softwarepakete gelistet.
+Im zweiten Teil werden Umgebungsparameter und Versionsstände relevanter Software angezeigt. Die nachstehende Liste ist beispielhaft und spiegelt nicht den aktuellen Stand wieder.
 
 image:adminhandbuch/informationen_installation.png[]
 
-Die Liste kann bei der Fehlersuche oder auch bei der Analyse der Betroffenheit bei Schwachstellen-Meldungen helfen.
+Die Liste kann bei der Fehlersuche oder der Analyse von Schwachstellen-Meldungen helfen.
