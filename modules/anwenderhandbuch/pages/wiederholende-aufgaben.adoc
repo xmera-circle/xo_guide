@@ -6,7 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Mit dem Modul _Wiederholende Aufgaben_ lassen sich zyklische Aufgaben planen. Das Modul erzeugt automatisch beim _Nächsten Lauf_ eine neue Aufgabe, die die Werte der geplanten Aufgabe enthält und erhöht das Datum für den _Nächsten Lauf_ um das definierte _Intervall_. Somit wird die Aufgabe zyklisch im Projekt erzeugt.
+Mit dem Modul _Wiederholende Aufgaben_ lassen sich zyklische Aufgaben planen. Das Modul erzeugt automatisch beim _Nächsten Lauf_ eine neue Aufgabe, die die Werte der geplanten Aufgabe enthält und erhöht das Datum für den _Nächsten Lauf_ um das definierte _Intervall_. Somit wird die Aufgabe zyklisch im Objekt erzeugt.
 
 [IMPORTANT]
 Damit das Modul funktioniert, muss ein CronJob auf dem Server eingerichtet sein, der die Erstellungsroutine startet. Der Zyklus des CronJobs gibt vor, wann ein Lauf zur Erstellung von Aufgaben gestartet wird. Dabei werden dann alle Aufgaben erzeugt, dessen nächster Lauf in der Vergangenheit liegt.

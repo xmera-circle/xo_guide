@@ -16,4 +16,3 @@
 *** xref:anwenderhandbuch:wiki.adoc[]
 *** xref:anwenderhandbuch:mitteilungen.adoc[]
 *** xref:anwenderhandbuch:wiederholende-aufgaben.adoc[]
-

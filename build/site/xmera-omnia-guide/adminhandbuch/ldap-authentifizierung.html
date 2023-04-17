@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -38,7 +38,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link main-item" href="#">Service</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://www.redmine.org/projects/redmine/boards">Community Support</a>
+            <a class="navbar-item" href="https://xmera.de/community-support">Community Support</a>
             <a class="navbar-item" href="https://service.xmera.de/">Enterprise Support</a>
             <a class="navbar-item" href="https://xmera.de/subskription/">Preise</a>
             <a class="navbar-item" href="https://docs.xmera.de/">Dokumentation</a>
@@ -85,7 +85,7 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></h3>
+    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -145,12 +145,6 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="../anwenderhandbuch/wiederholende-aufgaben.html">Wiederholende Aufgaben</a>
   </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-archiv.html">Modul Archiv</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-zeiterfassung.html">Modul Zeiterfassung</a>
-  </li>
 </ul>
   </li>
 </ul>
@@ -205,7 +199,10 @@
     <a class="nav-link" href="tabellenkonfiguration.html">Tabellenkonfiguration</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="plugins.html">Plugins</a>
+    <a class="nav-link" href="support.html">Support</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="plugins.html">Konfigurierbare Plugins</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="informationen.html">Informationen</a>
@@ -222,12 +219,12 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">xmera Omnia Handbücher</span>
+    <span class="title">xmera Omnia Guide</span>
     <span class="version">latest</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a>
+      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a>
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="../anwenderhandbuch/bediengrundlagen.html">latest</a>
@@ -245,12 +242,12 @@
   <a href="../index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></li>
+    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></li>
     <li>Administratorhandbuch</li>
     <li><a href="ldap-authentifizierung.html">LDAP-Authentifizierung</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fantora-ui-omnia">Seite bearbeiten</a></div>
+  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fxo_docs">Seite bearbeiten</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Schnellzugriff" data-levels="2">
@@ -258,8 +255,157 @@
 </aside>
 <article class="doc">
 <h1 class="page">LDAP-Authentifizierung</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>.</p>
+<p><style>
+.distance-25 {
+  display:block;
+  height:25px;
+}
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.video-container {
+  flex: 0 0 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.center {
+  text-align:center;
+}
+video {  width: 100%; }
+video,
+.image img,
+.imageblock img {
+  height: auto;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  -webkit-transition: all .7s cubic-bezier(.23,1,.32,1);
+  transition: all .7s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  border-color: #f3f4f4;
+  border-radius: 6px;
+}
+.videoblock {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.doc .imageblock.text-left{
+  align-items: flex-start;
+}
+.red {
+  color: #9e1030;
+}
+</style></p>
+</div>
+<div class="paragraph">
+<p>xmera Omnia bietet eine Authentifizierung von Benutzern über einen oder mehrere LDAP-Verzeichnisdienste an.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_übersicht"><a class="anchor" href="#_übersicht"></a>Übersicht</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die LDAP-Verzeichnisdienste werden im Administrationsbereich über den Menüpunkt <em>LDAP-Authentifizierung</em> verwaltet.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/ldap-vereichnisdienste-liste.png" alt="Liste der Verzeichnisdienste"></span></p>
+</div>
+<div class="paragraph">
+<p>In dieser Liste sind die parametrierten Verzeichnisdienste gelistet. Aus dieser Liste kann</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>durch Klick auf den Verzeichnisnamen in die Bearbeitungsmaske gesprungen werden.</p>
+</li>
+<li>
+<p>durch Klick auf den Button <span class="image"><img src="_images/adminhandbuch/button_testen.png" alt="LDAP testen"></span> der Dienst getestet werden oder</p>
+</li>
+<li>
+<p>durch Klick auf den Button <span class="image"><img src="_images/adminhandbuch/button_loeschen.png" alt="LDAP löschen"></span> der Verzeichnisdienst gelöscht werden.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ldap_authentifizierung_bearbeiten"><a class="anchor" href="#_ldap_authentifizierung_bearbeiten"></a>LDAP-Authentifizierung bearbeiten</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ein neuer Verzeichnisdienst kann über den Button <span class="image"><img src="_images/adminhandbuch/button_neu_ldap-dienst.png" alt="neuer LDAP-Verzeichnisdienst"></span> bearbeitet und angelegt werden.</p>
+</div>
+<div class="paragraph">
+<p>Ein bestehender Dienst öffnet sich zum Bearbeiten mit Klick auf den Namen des Verzeichnisdienstes in der Liste.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/ldap-vereichnisdienste-bearbeitung.png" alt="LDAP-Verzeichnisdienste bearbeiten / erstellen"></span></p>
+</div>
+<div class="paragraph">
+<p>In der Bearbeitungsmaske sind</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Name</p>
+</li>
+<li>
+<p>Host</p>
+</li>
+<li>
+<p>Port</p>
+</li>
+<li>
+<p>Modus-Verschlüsselung (Empfohlen wird LDAPS)</p>
+</li>
+<li>
+<p>Konto und Passwort</p>
+</li>
+<li>
+<p>Base DN</p>
+</li>
+<li>
+<p>Filter</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>zu pflegen.</p>
+</div>
+<div class="paragraph">
+<p>Wird die <em>On-the-fly-Benutzererstellung</em> gewählt, so wird ein Benutzer bei der ersten Anmeldung in xmera Omnia im System angelegt. Damit die LDAP Attribute den Benutzer-Pflichtfledern zugeordnet werden können, müssen folgenden Attribute gesetzt werden:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Mitgliedsname-Attribut,</p>
+</li>
+<li>
+<p>Vorname-Attribut,</p>
+</li>
+<li>
+<p>Name-Attribut und</p>
+</li>
+<li>
+<p>E-Mail Attribut.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Durch Klicken auf den Button <span class="image"><img src="_images/adminhandbuch/button_speichern.png" alt="Speichern"></span> oder <span class="image"><img src="_images/adminhandbuch/button_anlegen.png" alt="Anlegen"></span>, werden die Änderungen übernommen.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_weitere_informationen"><a class="anchor" href="#_weitere_informationen"></a>Weitere Informationen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Weitere Informationen zur LDAP Authentifizierung sind auf der Seite <a href="https://www.redmine.org/projects/redmine/wiki/RedmineLDAP">redmine.org » RedmineLDAP</a> zu finden.</p>
+</div>
+</div>
 </div>
 </article>
   </div>

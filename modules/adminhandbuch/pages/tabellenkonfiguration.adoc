@@ -1,0 +1,72 @@
+= Tabellenkonfiguration
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://docs.xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+In der Tabellenkonfiguration können Tabellen für Objekte angelegt, bearbeitet oder auch gelöscht werden. Wird im Administrationsbereich der Menüpunkt _Tabellenkonfiguration_ gewählt, gelangt man zur Liste der Tabellen.
+
+image:adminhandbuch/tabellenkonfig_liste.png[Liste der Tabellen]
+
+In der Liste werden zu jeder Tabelle der Name, die Beschreibung, die verwendeten Spalten sowie die zugeordneten Objektklassen dargestellt.
+
+In dieser Ansicht bestehen die Möglichkeiten
+
+- eine Tabelle durch Klick auf den Button image:adminhandbuch/button_loeschen.png[neue Tabelle anlegen] in der entsprechenden Tabellenzeile zu löschen,
+- eine neue Tabelle durch Klick auf den Button image:adminhandbuch/button_neue_tabelle.png[] zu erstellen,
+- eine bestehende Tabelle durch Klick auf den Tabellennamen zu bearbeiten oder
+- durch Klick auf den Button image:adminhandbuch/button_berechnungen.png[] in die Ansicht der Berechnungen zu wechseln.
+
+== Tabelle anlegen und bearbeiten
+
+Eine neue Tabelle wird über den Button image:adminhandbuch/button_neue_tabelle.png[neue Tabelle anlegen] erzeugt.
+
+Bestehende Tabellen können über einen Klick auf den Tabellennamen im Bearbeitungsmodus angezeigt werden.
+
+image:adminhandbuch/tabellenkonfig_bearbeiten.png[Tabellenkonfiguration bearbeiten]
+
+Im oberen Block werden der Tabellenname (Pflichtfeld) und die Tabellenbeschreibung festgelegt.
+
+Im zweiten Block können die Spalten der Tabelle ausgewählt werden. Zur Auswahl stehen xref:eigene-felder.adoc[eigene Felder] zum Objekttyp _Tabellen_. Durch Klick auf den Button image:adminhandbuch/button_administration.png[]
+gelangt man in die Liste der xref:eigene-felder.adoc[eigenen Felder] und kann dort Felder hinzufügen oder bearbeiten.
+
+[NOTE]
+Die Reihenfolge der Spalten wird über die Reihenfolge der Felder in der Liste der xref:eigene-felder.adoc[eigenen Felder] bestimmt und kann dort bearbeitet werden.
+
+Im letzten Block können die xref:objektklassen.adoc[Objektklassen] ausgewählt werden, in denen die Tabelle zur Verfügung stehen soll.
+
+== Berechnungen
+
+In Tabellen können einfache Berechnungen durchgeführt werden. Aktuell sind das _Maximum_, _Minimum_ und Summe. Weiter besteht die Möglichkeit Ergebnisse von assoziierten Objekten / Klient-Objekten mit einzubeziehen, um so z.B. die Vererbung des Schutzbedarfs abbilden zu können.
+
+Die Konfiguration von Tabellen-Berechnungen kann aus der Listenanzeige der Tabellenkonfiguration durch Klick auf den Button image:adminhandbuch/button_berechnungen.png[] aufgerufen werden. Man gelangt so in die Übersichtsseite der Berechnungen. 
+
+image:adminhandbuch/tabellenkonfig_berechnungen_liste.png[]
+
+In dieser Liste werden die bereits erstellten Berechnungen mit ihrem Namen, der zugeordneten Tabelle, der Beschreibung, der Berechnungsart, den Feldern und der Auswahl _Spalte_ angezeigt.
+
+=== Berechnungen anlegen und bearbeiten
+
+Die Ansicht für das Anlegen und Bearbeiten von Berechnungen wird über den Button image:adminhandbuch/button_neue_berechnung.png[neue Berechnung anlegen] für eine neue Berechnung oder Klick auf den Berechnungsnamen der zu bearbeitenden Berechnung aufgerufen.
+
+image:adminhandbuch/tabellenkonfig_berechnungen_bearbeiten.png[Tabellenkonfiguration bearbeiten]
+
+In der Ansicht zum Erfassen bzw. bearbeiten einer Berechnung sind der Berechnungsname, die Beschreibung, die zugehörige Tabelle, die Formel (Maximum, Minimum, Summe), sowie die Spaltenauswahl, in denen die Berechnung durchgeführt werden soll.
+
+Weiter besteht die Möglichkeit der Auswahl _Ergebnisse von assoziierten Objekten aggregieren_. Die Funktionsweise wird im folgenden Abschnitt erläutert.
+
+Im Bereich _Berechnung Über:_ besteht in der dieser Version nur die Auswahl _Tabellenspalten_. Zu einem späteren Zeitpunkt soll eine Berechnung über Zeilen ermöglicht werden.
+
+Eine neue Berechnung wird durch Klick auf den Button image:adminhandbuch/button_anlegen.png[Berechnung anlegen] angelegt. Änderungen werden durch Klick auf den Button image:adminhandbuch/button_speichern.png[Berechnung speichern] übernommen.
+
+=== Berechnungen mit assoziierten Objekten
+
+Mit Aktivieren der Funktion _Ergebnisse von assoziierten Objekten aggregieren_ werden im Objekt die Berechnungsergebnisse der assoziierten bzw. der verknüpften Objekte dargestellt. Das Ergebnis der eigenen Tabelle und die einzelnen Berechnungsergebnisse der verknüpften Tabellen werden dabei in ein gemeinsames Berechnungsergebnis zusammengeführt. 
+
+Im folgenden Bild ist ein Beispiel einer solchen Berechnung zu sehen.
+
+image:adminhandbuch/tabellenkonfig_berechnungen_assoziiert.png[]
+
+Auf diese Weise lassen sich Vererbungen von Informationen an nachgelagerte Objekte abbilden. Nähere Informationen sind im Anwenderhandbuch in der Modulbeschreibung xref:anwenderhandbuch:tabellen#_assoziierte_tabellen[Tabellen] zu finden.

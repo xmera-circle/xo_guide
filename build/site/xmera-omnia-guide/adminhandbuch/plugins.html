@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Plugins :: xmera Omnia Guide</title>
+    <title>Konfigurierbare Plugins :: xmera Omnia Guide</title>
     <meta name="generator" content="Antora 3.1.2">
     <link rel="stylesheet" href="../../_/css/site.css">
     <link rel="stylesheet" href="../../_/font-awesome/css/font-awesome.min.css">
@@ -38,7 +38,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link main-item" href="#">Service</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://www.redmine.org/projects/redmine/boards">Community Support</a>
+            <a class="navbar-item" href="https://xmera.de/community-support">Community Support</a>
             <a class="navbar-item" href="https://service.xmera.de/">Enterprise Support</a>
             <a class="navbar-item" href="https://xmera.de/subskription/">Preise</a>
             <a class="navbar-item" href="https://docs.xmera.de/">Dokumentation</a>
@@ -85,7 +85,7 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></h3>
+    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -145,12 +145,6 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="../anwenderhandbuch/wiederholende-aufgaben.html">Wiederholende Aufgaben</a>
   </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-archiv.html">Modul Archiv</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-zeiterfassung.html">Modul Zeiterfassung</a>
-  </li>
 </ul>
   </li>
 </ul>
@@ -204,8 +198,11 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="tabellenkonfiguration.html">Tabellenkonfiguration</a>
   </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="support.html">Support</a>
+  </li>
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="plugins.html">Plugins</a>
+    <a class="nav-link" href="plugins.html">Konfigurierbare Plugins</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="informationen.html">Informationen</a>
@@ -222,12 +219,12 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">xmera Omnia Handbücher</span>
+    <span class="title">xmera Omnia Guide</span>
     <span class="version">latest</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a>
+      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a>
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="../anwenderhandbuch/bediengrundlagen.html">latest</a>
@@ -245,21 +242,70 @@
   <a href="../index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></li>
+    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></li>
     <li>Administratorhandbuch</li>
-    <li><a href="plugins.html">Plugins</a></li>
+    <li><a href="plugins.html">Konfigurierbare Plugins</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fantora-ui-omnia">Seite bearbeiten</a></div>
+  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fxo_docs">Seite bearbeiten</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Schnellzugriff" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Plugins</h1>
+<h1 class="page">Konfigurierbare Plugins</h1>
 <div class="paragraph">
-<p>.</p>
+<p><style>
+.distance-25 {
+  display:block;
+  height:25px;
+}
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.video-container {
+  flex: 0 0 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.center {
+  text-align:center;
+}
+video {  width: 100%; }
+video,
+.image img,
+.imageblock img {
+  height: auto;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  -webkit-transition: all .7s cubic-bezier(.23,1,.32,1);
+  transition: all .7s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  border-color: #f3f4f4;
+  border-radius: 6px;
+}
+.videoblock {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.doc .imageblock.text-left{
+  align-items: flex-start;
+}
+.red {
+  color: #9e1030;
+}
+</style></p>
+</div>
+<div class="paragraph">
+<p>xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration lässt sich über den Menüpunkt <em>Konfigurierbare Plugins</em> erreichen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/plugins_liste.png" alt="Konfigurierbare Plugins"></span></p>
+</div>
+<div class="paragraph">
+<p>Durch Klick auf den Link unter der Pluginbeschreibung öffnet sich die Konfigurationsseite des gewählten Plugins. Hier sind die Einstellungsmöglichkeiten selbsterklärend.</p>
 </div>
 </article>
   </div>

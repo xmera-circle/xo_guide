@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xmera-circle/xo_guide.git"
+  },
+  "dependencies": {
+    "npm": "^9.3.1"
   }
 }

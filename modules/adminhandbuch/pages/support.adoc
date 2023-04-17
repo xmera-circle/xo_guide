@@ -1,0 +1,15 @@
+= Support
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://docs.xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Unsere Kunden erhalten auf alle Fragen zur Anwendung und zum Betrieb ihres Informationssicherheitsmanagementsystem mit xmera Omnia umfassende Anworten von uns. Zusätzlich untertützen wir bei der Installation, Updates und Upgrades.
+
+Um diesen Service zu aktivieren, müssen die Auftragsnummer und der Subskriptionsschlüssel eingegeben werden.
+
+image:adminhandbuch/support_schluessel_eingabe.png[]
+
+Der Subskriptionsschlüssel wird im Serviceportal von xmera Solutions für jeden Kunden in seinem persönlichen Servicebereich angezeigt.

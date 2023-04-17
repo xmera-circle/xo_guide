@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -38,7 +38,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link main-item" href="#">Service</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://www.redmine.org/projects/redmine/boards">Community Support</a>
+            <a class="navbar-item" href="https://xmera.de/community-support">Community Support</a>
             <a class="navbar-item" href="https://service.xmera.de/">Enterprise Support</a>
             <a class="navbar-item" href="https://xmera.de/subskription/">Preise</a>
             <a class="navbar-item" href="https://docs.xmera.de/">Dokumentation</a>
@@ -85,7 +85,7 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></h3>
+    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -145,12 +145,6 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="../anwenderhandbuch/wiederholende-aufgaben.html">Wiederholende Aufgaben</a>
   </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-archiv.html">Modul Archiv</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-zeiterfassung.html">Modul Zeiterfassung</a>
-  </li>
 </ul>
   </li>
 </ul>
@@ -205,7 +199,10 @@
     <a class="nav-link" href="tabellenkonfiguration.html">Tabellenkonfiguration</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="plugins.html">Plugins</a>
+    <a class="nav-link" href="support.html">Support</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="plugins.html">Konfigurierbare Plugins</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="informationen.html">Informationen</a>
@@ -222,12 +219,12 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">xmera Omnia Handbücher</span>
+    <span class="title">xmera Omnia Guide</span>
     <span class="version">latest</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a>
+      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a>
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="../anwenderhandbuch/bediengrundlagen.html">latest</a>
@@ -245,12 +242,12 @@
   <a href="../index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></li>
+    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></li>
     <li>Administratorhandbuch</li>
     <li><a href="eigene-bezeichnungen.html">Eigene Bezeichnungen</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fantora-ui-omnia">Seite bearbeiten</a></div>
+  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fxo_docs">Seite bearbeiten</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Schnellzugriff" data-levels="2">
@@ -258,8 +255,155 @@
 </aside>
 <article class="doc">
 <h1 class="page">Eigene Bezeichnungen</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>.</p>
+<p><style>
+.distance-25 {
+  display:block;
+  height:25px;
+}
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.video-container {
+  flex: 0 0 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.center {
+  text-align:center;
+}
+video {  width: 100%; }
+video,
+.image img,
+.imageblock img {
+  height: auto;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  -webkit-transition: all .7s cubic-bezier(.23,1,.32,1);
+  transition: all .7s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  border-color: #f3f4f4;
+  border-radius: 6px;
+}
+.videoblock {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.doc .imageblock.text-left{
+  align-items: flex-start;
+}
+.red {
+  color: #9e1030;
+}
+</style></p>
+</div>
+<div class="paragraph">
+<p>In xmera Omnia können systemseitige Bezeichnungen in verschiedenen Sprachen angezeigt werden. Der Administrator hat aber auch die Möglichkeit die Wahl der Sprache für den Benutzer zu unterbinden, in dem er <a href="konfiguration.html#_anzeige" class="xref page">eine Standardsprache verbindlich festlegt</a>.</p>
+</div>
+<div class="paragraph">
+<p>xmera Omnia ist in Deutsch und Englisch übersetzt. In den anderen Sprachen werden nicht übersetzte Bezeichnungen automatisch in Englisch angezeigt.</p>
+</div>
+<div class="paragraph">
+<p>Die Systembezeichnungen können an ISMS-Begriffe des Unternehmens angepasst werden. Über den Menüpunkt <em>Eigene Bezeichnungen</em> im Administrationsmenü wird die Liste der angepassten Bezeichnungen angezeigt.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_bearbeiten.png" alt="Eigene Bezeichnungen bearbeiten"></span></p>
+</div>
+<div class="paragraph">
+<p>In dieser Liste werden alle Bezeichnungen angezeigt, die durch die Vorkonfiguration oder den Administrator angepasst wurden. Diese Änderungen werden in einer YAML-Datei gespeichert und überschreiben die Standardwerte.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_darstellung_und_anzeigemöglichkeiten"><a class="anchor" href="#_darstellung_und_anzeigemöglichkeiten"></a>Darstellung und Anzeigemöglichkeiten</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Die Bearbeitung der eigenen Bezeichnungen kann über Einträge im <em>Normalen Modus</em> als Bezeichungsfeldliste</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_bezeichnungsliste.png" alt="Bezeichnungsfeldliste"></span></p>
+</div>
+<div class="paragraph">
+<p>oder im <em>YAML Modus</em></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_yaml-datei.png" alt="YAML-Datei"></span></p>
+</div>
+<div class="paragraph">
+<p>erfolgen.</p>
+</div>
+<div class="paragraph">
+<p>Weiter besteht die Möglichkeit die eigenen Anpassungen über folgenden Button zu deaktivieren: <span class="image"><img src="_images/adminhandbuch/button_eigene-bezeichnungen_deaktivieren.png" alt="eigene Bezeichnungen deaktivieren"></span>. Zurück geht es durch Klick auf <span class="image"><img src="_images/adminhandbuch/button_eigene-bezeichnungen_aktivieren.png" alt="eigene Bezeichnungen aktivieren"></span>.</p>
+</div>
+<div class="paragraph">
+<p>Die Standardbezeichnungen können mit Klick auf den Button <span class="image"><img src="_images/adminhandbuch/button_eigene-bezeichnungen_standard-yaml.png" alt="Standard-Bezeichnungen"></span> in einem separaten Fenster angezeigt werden.</p>
+</div>
+<div class="paragraph">
+<p>Entsprechend der Sprachauswahl wird die Liste der angepassten Bezeichnungen angezeigt.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_sprache.png" alt="YAML-Datei"></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bezeichnungen_suchen_und_ändern"><a class="anchor" href="#_bezeichnungen_suchen_und_ändern"></a>Bezeichnungen suchen und ändern</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Grundlage für die Änderung einer Bezeichnung ist das Keywort der Bezeichnung. In der YAML-Sprachdatei wird jedem Keywort ein Text zugeordnet, der dann dem Benutzer angezeigt wird.</p>
+</div>
+<div class="paragraph">
+<p>Dieser Text kann mit Hilfe einer gesonderten YAML-Änderungsdatei angepasst werden. Diese Datei wird im Normalmodus für den Administrator in einer Listendarstellung aufbereitet. Im YAML-Modus kann der Administrator in einem Editor die Anpassungen direkt in der YAML-Datei durchführen.</p>
+</div>
+<div class="sect2">
+<h3 id="_im_normalmodus"><a class="anchor" href="#_im_normalmodus"></a>Im Normalmodus</h3>
+<div class="paragraph">
+<p>Der Normalmodus bietet eine Suchfunktion, in der nach dem Keywort oder auch der Bezeichnung gesucht werden kann.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_suchfunktion.png" alt="Suchfunktion im Normalmodus"></span></p>
+</div>
+<div class="paragraph">
+<p>In die Suchzeile kann der Suchbegriff eingegeben werden. Sofort werden alle Keywort-Bezeichnung-Paare angezeigt, die den Suchbegriff beinhalten.</p>
+</div>
+<div class="paragraph">
+<p>Die grau hinterlegten Wertepaare wurden bereits bearbeitet. Daher können sie nicht ausgewählt werden. Stattdessen können diese Wertepaare direkt in der Liste geändert werden. Durch Klick auf den Button <span class="image"><img src="_images/adminhandbuch/button_speichern.png" alt="Speichern"></span> wird die Änderung übernommen.</p>
+</div>
+<div class="paragraph">
+<p>Ist das Feld weiß hinterlegt, so kann die Bezeichnung mit Klick auf das Wertepaar geändert werden. Mit Klick auf den Button <span class="image"><img src="_images/adminhandbuch/button_speichern.png" alt="button speichern"></span> wird die Änderung übernommen.</p>
+</div>
+<div class="paragraph">
+<p>Eine geänderte Bezeichnung kann durch Klick auf das Symbol <span class="image"><img src="_images/adminhandbuch/button_eigene-bezeichnungen_loeschen.png" alt="Eigene Bezeichnung löschen"></span> aus der Liste gelöscht werden. Das Löschen der Bezeichnung wird nach dem Speichern der Änderung (Klick auf <span class="image"><img src="_images/adminhandbuch/button_speichern.png" alt="button speichern"></span> unterhalb der Liste) übernommen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_in_der_yaml_datei"><a class="anchor" href="#_in_der_yaml_datei"></a>In der YAML-Datei</h3>
+<div class="paragraph">
+<p>Im YAML-Modus ist keine Suchfunktion vorhanden. Das Keywort muss daher in den Standardbezeichnungen gesucht werden. Hierzu kann über den Button <span class="image"><img src="_images/adminhandbuch/button_eigene_bezeichnungen_standardbezeichnungen.png" alt="button eigene bezeichnungen standardbezeichnungen"></span> ein Fenster mit dem Inhalt der Standardbezeichnungen geöffnet werden.</p>
+</div>
+<div class="paragraph">
+<p>In diesem Fenster kann über die Standard-Browser-Suche (Strg-F) nach der Keywort-Bezeichungskombination gesucht werden.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/eigene-bezeichnungen_yaml_suche.png" alt="eigene bezeichnungen yaml suche"></span></p>
+</div>
+<div class="paragraph">
+<p>Das Keywort in dem Beispiel oben kann dann verwendet werden, um einen Alternativtext in der YAML-Datei anzulegen. Mit dem Eintrag</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>de:
+  button_apply: Alternativtext</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>in das Editorfenster und anschließendem <span class="image"><img src="_images/adminhandbuch/button_speichern.png" alt="Speichern"></span> wird der Text bei Sprachauswahl <em>Deutsch</em> von <em>Anwenden</em> auf <em>Alternativtext</em> geändert.</p>
+</div>
+</div>
+</div>
 </div>
 </article>
   </div>

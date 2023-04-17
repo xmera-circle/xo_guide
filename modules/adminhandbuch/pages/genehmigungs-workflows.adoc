@@ -1,0 +1,31 @@
+= Genehmigungs-Workflows
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://docs.xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Im Themenbereich _Genehmigungs-Workflows_ können Workflows zur Genehmigung von Dokumenten des Moduls *Dokumentenmanagement (DMS)* erstellt werden.
+
+[NOTE]
+Dieser Menüpunkt ist nur vorhanden, wenn das Modul DMS installiert wurde.
+
+Globale Genehmigungs-Workflows stehen den Mitgliedern in allen Objekten zur Verfügung. Dagegen stehen xref:anwenderhandbuch:dokumentenmanagement.adoc#_workflows_erstellen[lokale Workflows] nur in dem Objekt, in dem sie erstellt wurden, zur Verfügung. 
+
+== Genehmigungs-Workflows anwenden
+
+Mit Klick auf den Menüpunkt _Gehemigungs-Workflows_ wird die Listenansicht angezeigt.
+
+image:adminhandbuch/genehmigungs-workflows_liste.png[Listenanasicht Genehmigungs-Workflows]
+
+In dieser Liste werden die aktiven Genehmigungs-Workflows angezeigt. Sollen auch die gesperrten Workflows angezeigt werden, ist der Filter anzupassen.
+
+Der Umgang mit Genehmigungs-Workflows wird im Anwenderhandbuch im xref:anwenderhandbuch:dokumentenmanagement.adoc[Modul Dokumentenmanagement (DMS)] im Kapitel xref:anwenderhandbuch:dokumentenmanagement.adoc#-genehmigungs_workflow[Genehmigungs-Workflow] beschrieben.
+
+== Genehmigungs-Workflows erstellen und bearbeiten
+
+Globale Genehmigungs-Workflows können genauso wie lokale erstellt und bearbeitet werden:
+
+- xref:anwenderhandbuch:dokumentenmanagement.adoc#_workflows_erstellen[Genehmigungs-Workflows erstellen]
+- xref:anwenderhandbuch:dokumentenmanagement.adoc#_workflows_bearbeiten[Genehmigungs-Workflows bearbeiten]

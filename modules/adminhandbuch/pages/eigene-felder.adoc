@@ -6,7 +6,6 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-
 Eigene Felder bieten die Möglichkeit für Objekte und ihre Module individuelle Felder anzulegen, um Informationen zu dokumentieren, die mit der xmera Omnia Standardkonfiguration nicht abgebildet werden.
 
 Verwaltet werden _Eigene Felder_ im Administrationsbereich im Menüpunkt _Eigene Felder_. Über dieses Menü gelangt man in ihre Listenansicht.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -38,7 +38,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link main-item" href="#">Service</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://www.redmine.org/projects/redmine/boards">Community Support</a>
+            <a class="navbar-item" href="https://xmera.de/community-support">Community Support</a>
             <a class="navbar-item" href="https://service.xmera.de/">Enterprise Support</a>
             <a class="navbar-item" href="https://xmera.de/subskription/">Preise</a>
             <a class="navbar-item" href="https://docs.xmera.de/">Dokumentation</a>
@@ -85,7 +85,7 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></h3>
+    <h3 class="title"><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -145,12 +145,6 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="../anwenderhandbuch/wiederholende-aufgaben.html">Wiederholende Aufgaben</a>
   </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-archiv.html">Modul Archiv</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../anwenderhandbuch/modul-zeiterfassung.html">Modul Zeiterfassung</a>
-  </li>
 </ul>
   </li>
 </ul>
@@ -205,7 +199,10 @@
     <a class="nav-link" href="tabellenkonfiguration.html">Tabellenkonfiguration</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="plugins.html">Plugins</a>
+    <a class="nav-link" href="support.html">Support</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="plugins.html">Konfigurierbare Plugins</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="informationen.html">Informationen</a>
@@ -222,12 +219,12 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">xmera Omnia Handbücher</span>
+    <span class="title">xmera Omnia Guide</span>
     <span class="version">latest</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a>
+      <a class="title" href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a>
       <ul class="versions">
         <li class="version is-current is-latest">
           <a href="../anwenderhandbuch/bediengrundlagen.html">latest</a>
@@ -245,12 +242,12 @@
   <a href="../index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Handbücher</a></li>
+    <li><a href="../anwenderhandbuch/bediengrundlagen.html">xmera Omnia Guide</a></li>
     <li>Administratorhandbuch</li>
     <li><a href="genehmigungs-workflows.html">Genehmigungs-Workflows</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fantora-ui-omnia">Seite bearbeiten</a></div>
+  <div class="edit-this-page"><a href="https://github.com/login?return_to=%2Fxmera-circle%2Fxo_docs">Seite bearbeiten</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Schnellzugriff" data-levels="2">
@@ -258,8 +255,105 @@
 </aside>
 <article class="doc">
 <h1 class="page">Genehmigungs-Workflows</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>.</p>
+<p><style>
+.distance-25 {
+  display:block;
+  height:25px;
+}
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.video-container {
+  flex: 0 0 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.center {
+  text-align:center;
+}
+video {  width: 100%; }
+video,
+.image img,
+.imageblock img {
+  height: auto;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  -webkit-transition: all .7s cubic-bezier(.23,1,.32,1);
+  transition: all .7s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 2px 8px 0 rgba(31,32,68,.16);
+  border-color: #f3f4f4;
+  border-radius: 6px;
+}
+.videoblock {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.doc .imageblock.text-left{
+  align-items: flex-start;
+}
+.red {
+  color: #9e1030;
+}
+</style></p>
+</div>
+<div class="paragraph">
+<p>Im Themenbereich <em>Genehmigungs-Workflows</em> können Workflows zur Genehmigung von Dokumenten des Moduls <strong>Dokumentenmanagement (DMS)</strong> erstellt werden.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Dieser Menüpunkt ist nur vorhanden, wenn das Modul DMS installiert wurde.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Globale Genehmigungs-Workflows stehen den Mitgliedern in allen Objekten zur Verfügung. Dagegen stehen <a href="../anwenderhandbuch/dokumentenmanagement.html#_workflows_erstellen" class="xref page">lokale Workflows</a> nur in dem Objekt, in dem sie erstellt wurden, zur Verfügung.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_genehmigungs_workflows_anwenden"><a class="anchor" href="#_genehmigungs_workflows_anwenden"></a>Genehmigungs-Workflows anwenden</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Mit Klick auf den Menüpunkt <em>Gehemigungs-Workflows</em> wird die Listenansicht angezeigt.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/adminhandbuch/genehmigungs-workflows_liste.png" alt="Listenanasicht Genehmigungs-Workflows"></span></p>
+</div>
+<div class="paragraph">
+<p>In dieser Liste werden die aktiven Genehmigungs-Workflows angezeigt. Sollen auch die gesperrten Workflows angezeigt werden, ist der Filter anzupassen.</p>
+</div>
+<div class="paragraph">
+<p>Der Umgang mit Genehmigungs-Workflows wird im Anwenderhandbuch im <a href="../anwenderhandbuch/dokumentenmanagement.html" class="xref page">Modul Dokumentenmanagement (DMS)</a> im Kapitel <a href="../anwenderhandbuch/dokumentenmanagement.html#-genehmigungs_workflow" class="xref page">Genehmigungs-Workflow</a> beschrieben.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_genehmigungs_workflows_erstellen_und_bearbeiten"><a class="anchor" href="#_genehmigungs_workflows_erstellen_und_bearbeiten"></a>Genehmigungs-Workflows erstellen und bearbeiten</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Globale Genehmigungs-Workflows können genauso wie lokale erstellt und bearbeitet werden:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../anwenderhandbuch/dokumentenmanagement.html#_workflows_erstellen" class="xref page">Genehmigungs-Workflows erstellen</a></p>
+</li>
+<li>
+<p><a href="../anwenderhandbuch/dokumentenmanagement.html#_workflows_bearbeiten" class="xref page">Genehmigungs-Workflows bearbeiten</a></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </article>
   </div>
