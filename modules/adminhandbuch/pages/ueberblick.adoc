@@ -4,4 +4,5 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
-Einführung
+include::ROOT:partial$custom-css.adoc[]
+

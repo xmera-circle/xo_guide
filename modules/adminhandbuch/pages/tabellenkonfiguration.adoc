@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 In der Tabellenkonfiguration können Tabellen für Objekte angelegt, bearbeitet oder auch gelöscht werden. Wird im Administrationsbereich der Menüpunkt _Tabellenkonfiguration_ gewählt, gelangt man zur Liste der Tabellen.
 
 image:adminhandbuch/tabellenkonfig_liste.png[Liste der Tabellen]

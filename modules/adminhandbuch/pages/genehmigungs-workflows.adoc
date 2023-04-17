@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 Im Themenbereich _Genehmigungs-Workflows_ können Workflows zur Genehmigung von Dokumenten des Moduls *Dokumentenmanagement (DMS)* erstellt werden.
 
 [NOTE]

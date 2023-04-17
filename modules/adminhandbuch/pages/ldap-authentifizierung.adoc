@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 xmera Omnia bietet eine Authentifizierung von Benutzern über einen oder mehrere LDAP-Verzeichnisdienste an.
 
 == Übersicht

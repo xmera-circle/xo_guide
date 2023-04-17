@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://docs.xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbereich unter _Konfiguration_ festgelegt.
 
 == Allgemein

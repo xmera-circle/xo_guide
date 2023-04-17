@@ -4,6 +4,8 @@
 :imagesdir: ../images/
 :web-xmera: https://xmera.de
 
+include::ROOT:partial$custom-css.adoc[]
+
 In xmera Omnia können systemseitige Bezeichnungen in verschiedenen Sprachen angezeigt werden. Der Administrator hat aber auch die Möglichkeit die Wahl der Sprache für den Benutzer zu unterbinden, in dem er xref:konfiguration#_anzeige[eine Standardsprache verbindlich festlegt]. 
 
 xmera Omnia ist in Deutsch und Englisch übersetzt. In den anderen Sprachen werden nicht übersetzte Bezeichnungen automatisch in Englisch angezeigt.
