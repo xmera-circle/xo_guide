@@ -13,6 +13,10 @@ ui:
     url: https://github.com/xmera-circle/antora-ui-omnia/releases/download/0.2.4/ui-bundle.zip
     snapshot: true
 
+output:
+  clean: true
+  dir: build
+
 antora:
   extensions:
   - require: '@antora/lunr-extension'
