@@ -6,9 +6,8 @@ site:
 content:
   sources:
   - url: .
-    # tags: [0.1, 0.3]
     branches: HEAD
-    start_path: .
+    start_paths: .
 
 ui: 
   bundle: 
