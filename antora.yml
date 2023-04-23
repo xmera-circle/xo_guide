@@ -1,8 +1,6 @@
 name: xmera-omnia-guide
 title: xmera Omnia Guide
-version: ~
-display_version: latest
+version: 'latest'
 start_page: anwenderhandbuch:bediengrundlagen.adoc
 nav:
-
 - modules/ROOT/partials/nav.adoc

@@ -26,11 +26,11 @@ html_browser: #: Generate Antora HTML output AND open index.html in browser
 ifeq ($(LOCAL), 1)
 	echo '--> npm is installed locally'; \
 	${PATH_TO_FILE}/antora playbook.yml; \
-	firefox build/site/index.html;
+	firefox build/index.html;
 else
 	echo '--> npm is installed globally'; \
 	antora playbook.yml; \
-	firefox build/site/index.html;
+	firefox build/index.html;
 endif
 
 ## Not working right now!!! ##

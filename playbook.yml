@@ -1,19 +1,21 @@
 site:
   title: xmera Omnia Guide
-  url: /
+  url: https://docs.xmera.de
   start_page: xmera-omnia-guide:ROOT:index.adoc
 
 content:
   sources:
   - url: .
-    # tags: [0.1, 0.3]
     branches: HEAD
-    start_path: .
 
-ui: 
-  bundle: 
+ui:
+  bundle:
     url: https://github.com/xmera-circle/antora-ui-omnia/releases/download/0.2.4/ui-bundle.zip
     snapshot: true
+
+output:
+  clean: true
+  dir: build
 
 antora:
   extensions:
