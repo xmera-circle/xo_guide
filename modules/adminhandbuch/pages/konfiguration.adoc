@@ -167,9 +167,6 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 - optional » Die 2-Faktor-Authentifizierung steht dem Anwender optional zur Verfügung.
 - erforderlich » Die 2-Faktor-Authentifizierung muss vom Anwender verwendet werden.
 
-|Erlaube OpenID-Anmeldung und -Registrierung
-|Die Anmeldung über einen OpenID-Provider wird erlaubt.
-
 2.1+| Ende einer Sitzung
 
 |Längste Dauer einer Sitzung
