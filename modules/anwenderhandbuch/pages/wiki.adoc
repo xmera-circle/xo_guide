@@ -162,22 +162,26 @@ Die Umschaltung zwischen dem Bearbeitungsmodus und der Vorschau erfolgt über de
 
 Die Bearbeitung erfolgt über die folgenden Button:
 
-- image:anwenderhandbuch/modul_wiki_toolbar_fett.png[] Schrift in fett
-- image:anwenderhandbuch/modul_wiki_toolbar_kursiv.png[] Schrift in kursiv
-- image:anwenderhandbuch/modul_wiki_toolbar_unterstrichen.png[] Text unterstrichen
-- image:anwenderhandbuch/modul_wiki_toolbar_durchgestrichen.png[] Text durchgestrichen
-- image:anwenderhandbuch/modul_wiki_toolbar_quelltext.png[] Darstellung des Texts als Quelltext ohne Formatierung
-- image:anwenderhandbuch/modul_wiki_toolbar_ueberschrift.png[] Überschriften der Ebene 1 bis 3
-- image:anwenderhandbuch/modul_wiki_toolbar_aufzaehlung.png[] Aufzählung 
-- image:anwenderhandbuch/modul_wiki_toolbar_num_liste.png[] nummerierte Auflistung
-- image:anwenderhandbuch/modul_wiki_toolbar_zitat.png[] Darstellung / Rücknahme eines Zitatbereichs
-- image:anwenderhandbuch/modul_wiki_toolbar_tabelle.png[] Erstellen eines Tabellenrahmens
-- image:anwenderhandbuch/modul_wiki_toolbar_praeformatierter_text.png[] Darstellung eines Textes in einem gesonderten Feld
-- image:anwenderhandbuch/modul_wiki_toolbar_highlighted_code.png[] Abbildung von Code-Elementen mit farblicher Hervorhebung der Syntax
-- image:anwenderhandbuch/modul_wiki_toolbar_link.png[] Link zu einer anderen Wiki-Seite
-- image:anwenderhandbuch/modul_wiki_toolbar_grafik.png[] Einbindung einer Grafik.
-- image:anwenderhandbuch/modul_wiki_toolbar_drawio_diagramm.png[] Einbindung eines Drawio Diagramms
-- image:anwenderhandbuch/modul_wiki_toolbar_hilfe.png[] Öffnen einer Hilfe für die verwendete Auszeichnungssprache (hier Markdown)
+- image:anwenderhandbuch/wikitoolbar/bt_strong.png[] Schrift in fett
+- image:anwenderhandbuch/wikitoolbar/bt_em.png[] Schrift in kursiv
+- image:anwenderhandbuch/wikitoolbar/bt_ins.png[] Text unterstrichen
+- image:anwenderhandbuch/wikitoolbar/bt_del.png[] Text durchgestrichen
+- image:anwenderhandbuch/wikitoolbar/bt_code.png[] Darstellung des Texts als Quelltext ohne Formatierung
+- image:anwenderhandbuch/wikitoolbar/bt_h1.png[] image:anwenderhandbuch/wikitoolbar/bt_h2.png[] image:anwenderhandbuch/wikitoolbar/bt_h3.png[] Überschriften der Ebene 1 bis 3
+- image:anwenderhandbuch/wikitoolbar/bt_ul.png[] Aufzählung 
+- image:anwenderhandbuch/wikitoolbar/bt_ol.png[] Nummerierte Auflistung
+- image:anwenderhandbuch/wikitoolbar/bt_tl.png[] Aufgabenliste (nur CommonMark Editor)
+- image:anwenderhandbuch/wikitoolbar/bt_quote+.png[] Darstellung eines Zitatbereichs
+-  image:anwenderhandbuch/wikitoolbar/bt_quote-.png[] Rücknahme eines Zitatbereichs
+- image:anwenderhandbuch/wikitoolbar/bt_table.png[] Erstellen eines Tabellenrahmens
+- image:anwenderhandbuch/wikitoolbar/bt_pre.png[] Darstellung eines Textes in einem gesonderten Feld
+- image:anwenderhandbuch/wikitoolbar/bt_precode.png[] Abbildung von Code-Elementen mit farblicher Hervorhebung der Syntax
+- image:anwenderhandbuch/wikitoolbar/bt_link.png[] Link zu einer anderen Wiki-Seite
+- image:anwenderhandbuch/wikitoolbar/bt_img.png[] Einbindung einer Grafik.
+- image:anwenderhandbuch/wikitoolbar/bt_drawio.png[] Einbindung eines Drawio Diagramms
+- image:anwenderhandbuch/wikitoolbar/bt_drawio_dms.png[] Einbindung eines Drawio Diagramms aus dem Dokumentenmanagementsystem
+- image:anwenderhandbuch/wikitoolbar/bt_dmsf.png[] Dokumente aus dem Dokumentenmanagementsystem einbinden
+- image:anwenderhandbuch/wikitoolbar/bt_help.png[] Öffnen einer Hilfe für die verwendete Auszeichnungssprache (hier Markdown)
 
 Diese Funktionen lassen sich gut über die Vorschau ausprobieren. Das erleichtert die Einarbeitung in die Auszeichnungssprache. Am Ende der Tollbar können weitere Hilfen aufgerufen werden. So erhält der Nutzer weitere Tipps zur Formatierung der Texte und zum Einbinden von Informationen aus dem restlichen System. Einige wichtige Elemente sind für Markdown im Kapitel <<Syntax Markdown, Syntax Markdown>> beschrieben.
 
@@ -262,7 +266,7 @@ Weitere https://www.youtube.com/c/drawioapp/videos[Videos].
 
 Um Drawio in xmera Omnia nutzen zu können, muss dass System im Anwendungsbereich entsprechend konfiguriert sein. 
 
-Bevor mit dem Zeichnen begonnen werden kann, wird eine Standarddatei mit Hilfe der Wiki-Toolbar erstellt. Hierzu muss image:anwenderhandbuch/modul_wiki_toolbar_drawio_diagramm.png[] gelickt werden. Es erscheint folgendes Eingabefenster:
+Bevor mit dem Zeichnen begonnen werden kann, wird eine Standarddatei mit Hilfe der Wiki-Toolbar erstellt. Hierzu muss image:anwenderhandbuch/wikitoolbar/drawio_diagramm.png[] gelickt werden. Es erscheint folgendes Eingabefenster:
 
 image:anwenderhandbuch/modul_wiki_grafik_erstellen.png[]
 
@@ -278,6 +282,6 @@ image:anwenderhandbuch/modul_wiki_drawio_editor.png[Drawio Editor]
 
 Markdown ist eine Auszeichnungssprache die auch aus dem git-Umdeld bekannt ist. Sie ermöglicht es einen Fließtext durch einfache Ergänzungen in eine formatierte Form zu bringen.
 
-Die wichtigsten Hilfen sind über den Button image:anwenderhandbuch/modul_wiki_toolbar_hilfe.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
+Die wichtigsten Hilfen sind über den Button image:anwenderhandbuch/wikitoolbar/hilfe.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
 
 Wenn weitere Hilfe benötigt wird, hilft die Suche im Internet mit dem Suchbegriff __Markdown Redmine__.
