@@ -41,6 +41,7 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 - kein
 - Textile
 - Markdown
+- CommonMark Markdown (GitHub Flavored) - experimental
 
 
 |Formatierten Text im Cache speichern
