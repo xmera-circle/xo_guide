@@ -136,7 +136,7 @@ So braucht der Anwender sich nicht erneut anmelden, wenn er die Anwendung mit de
 - Manuelle Kontoaktivierung » Der Administrator erhält nach Übertragung der Registrierung des Anwenders eine E-Mail und muss dann den Anwender manuell freischalten.
 - Automatische Kontoaktivierung » Der Account des Anwender wird mit der Registrierung des Anwenders direkt freigeschaltet.
 
-|Benutzerdefinierte Felder bei der Registrierung abfragen
+|Eigene Felder bei der Registrierung abfragen
 |Sind _Eigene Felder_ für Benutzer definiert, können diese dem Anwender bei der Registrierung angezeigt werden.
 
 |Mindestlänge des Passworts
