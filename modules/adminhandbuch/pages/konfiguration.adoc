@@ -165,6 +165,7 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 
 - gesperrt » Die 2-Faktor-Authentifizierung steht dem Anwender nicht zur Verfügung.
 - optional » Die 2-Faktor-Authentifizierung steht dem Anwender optional zur Verfügung.
+- erforderlich für Administratoren » Die 2-Faktor Authentifizierung ist für Administratoren erforderlich. Für alle anderen Anwender ist sie optional.
 - erforderlich » Die 2-Faktor-Authentifizierung muss vom Anwender verwendet werden.
 
 2.1+| Ende einer Sitzung
