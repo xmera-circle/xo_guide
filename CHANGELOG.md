@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.0 - 2023-04-28
+
+### Added
+
+* adminhandbuch: further 2FA authentication options
+* adminhandbuch: commonmark editor
+* anwenderhandbuch: user mention for task comments
+* adminhandbuch: default queries for objects and tasks
+* anwenderhandbuch: hint for integrated dms documentation
+
+### Changed
+
+* anwenderhandbuch: protection requirement inheritance image
+* anwenderhandbuch: periodic task image
+* anwenderhandbuch: wiki help icons
+* adminhandbuch: translation for 'Benutzerdefinierte Felder'
+
+### Deleted
+
+* adminhandbuch: removes openid authentication
+
 ## 0.6.0 - 2023-04-17
 
 ### Added
