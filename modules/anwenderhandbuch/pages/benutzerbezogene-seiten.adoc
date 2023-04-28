@@ -8,35 +8,41 @@ include::ROOT:partial$custom-css.adoc[]
 
 == Mein Konto
 
-_Mein Konto_ enthält Einstellungen, die ein Nutzer zu seinem Benutzerkonto machen kann. Im folgenden ist die Einstellungsmaske zu sehen.
+_Mein Konto_ enthält Einstellungsmöglichkeiten, aus denen ein Anwender für sich wählen kann.
 
 image:anwenderhandbuch/individuell_konto_einstellungen.png[]
 
 Es lassen sich
 
-- der Name
-- die E-Mail Adresse bzw. Adressen
-- die Sprache
-- das Passwort und ggf. die 2-Faktor-Authentifizierung
+- der Name,
+- eine oder mehrere E-Mail-Adressen,
+- die Sprache,
+- das Passwort und ggf. die 2-Faktor-Authentifizierung,
 - allgemeine Einstellungen zur E-Mail Benachrichtigung und 
 - allgemeine Präferenzen
 
-Der Mitgliedsname, über den die Anmeldung und Autorenkennzeichnung in der Anwendung erfolgt, kann nur durch den Administrator geändert werden. Pflichteingaben sind der Vorname, der Name und die E-Mailadresse. Die Sprache wird im _Automodus_ automatisch ermittelt, kann aber auch manuell angepasst werden. Alle Übersetzungen liegen in der Standardkonfiguration bislang nur für die Sprache Deutsch vor.
+einstellen.
+
+Der Mitgliedsname, über den die Anmeldung und Autorenkennzeichnung in der Anwendung erfolgt, kann nur durch den Administrator geändert werden. 
+
+Pflichteingaben sind der Vorname, der Name und die E-Mail-Adresse. Die Sprache wird im _Automodus_ automatisch ermittelt, kann aber auch manuell angepasst werden. 
+
+xmera Omnia wird vollumfänglich in den Sprachen Deutsch und Englisch unterstützt. 
 
 [NOTE]
 Für unsere Kunden stellen wir auf Wunsch weitere Sprachen bereit!
 
 E-Mails::
 
-Neben der Haupt-E-Mailadresse des Kontos können zum Konto noch weitere E-Mailadressen verwaltet werden. Durch Klick auf den Button image:anwenderhandbuch/button_e-mails.png[] öffnet sich ein weiteres Fenster, in dem zusätzliche E-Mailadressen verwaltet werden können. +
+Neben der Haupt-E-Mail-Adresse des Kontos können zum Konto noch weitere E-Mail-Adressen verwaltet werden. Durch Klick auf den Button image:anwenderhandbuch/button_e-mails.png[] öffnet sich ein weiteres Fenster, in dem zusätzliche E-Mail-Adressen verwaltet werden können. +
 +
 image:anwenderhandbuch/individuell_konto_e-mails.png[]
 +
-Der schwarze Briefumschlag image:anwenderhandbuch/button_e-mail_aktiv.png[] neben der E-Mailadresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwenderhandbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann eine Adresse aktiviert oder deaktiviert werden. +
+Der schwarze Briefumschlag image:anwenderhandbuch/button_e-mail_aktiv.png[] neben der E-Mail-Adresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwenderhandbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann eine Adresse aktiviert oder deaktiviert werden. +
 +
-Soll eine weitere E-Mailadresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwenderhandbuch/button_hinzufuegen_rot.png[] wird die E-Mailadresse in die Liste übernommen. +
+Soll eine weitere E-Mail-Adresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwenderhandbuch/button_hinzufuegen_rot.png[] wird die E-Mail-Adresse in die Liste übernommen. +
 +
-Über den Button image:anwenderhandbuch/button_loeschen.png[] ist das Löschen einer E-Mailadresse möglich. Nach dem Klick muss das Löschen nochmals in einem neuen Fenster bestätigt werden. Anschließend wird die E-Mailadresse aus der Konfiguration entfernt.
+Über den Button image:anwenderhandbuch/button_loeschen.png[] ist das Löschen einer E-Mail-Adresse möglich. Nach dem Klick muss das Löschen nochmals in einem neuen Fenster bestätigt werden. Anschließend wird die E-Mail-Adresse aus der Konfiguration entfernt.
 
 Passwort ändern::
 

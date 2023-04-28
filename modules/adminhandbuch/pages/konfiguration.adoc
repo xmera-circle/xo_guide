@@ -222,6 +222,12 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 |Spaltenauswahl
 |Standardauswahl der Tabellenspalten für das Format _Liste_.
 
+|Standardabfrage
+|Standardabfrage für die Darstellung der Objekte, die allen Benutzern angezeigt wird.
+
+[NOTE]
+Jeder Benutzer kann diese Einstellung für sich in seinem Konto anpassen.
+
 |===
 
 == Benutzer
@@ -346,6 +352,13 @@ Der Aufgaben-Fortschritt der übergeordneten Aufgabe ist unabhängig von den unt
 
 |Spaltenauswahl
 |Legt fest, welche Informationen in der Aufgabenliste angezeigt werden.
+
+|Standardabfrage
+|Standardabfrage für die Darstellung von Aufgaben, die allen Benutzern angezeigt wird.
+
+[NOTE]
+Jeder Benutzer kann diese Einstellung für sich in seinem Konto anpassen. 
+Zusätzlich kann für jedes Objekt eine eigene Standardabfrage konfiguriert werden.
 
 |===
 
