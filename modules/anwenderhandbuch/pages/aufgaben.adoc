@@ -298,6 +298,9 @@ image:anwenderhandbuch/modul_aufgaben_historie-kommentare.png[]
  
 Es werden 3 Reiter angezeigt, __Historie, Notizen und Eigenschaftsänderungen__. Beim Anzeigen einer Aufgabe wird im Standard der Reiter __Notiz__ aufgeblendet. In diesem Reiter werden eingefügte Kommentare dargestellt. Im Reiter __Eigenschaftsänderungen__ werden dagegen alle Änderungen im Bereich des Aufgabenstatus, der Aufgabenbeschreibung und der Verknüpfungen dargestellt. Im Reiter __Historie__ werden alle Änderungen chronologisch ungefiltert aufgelistet.
 
+[TIP]
+Anwender können im Kommentarfeld direkt mit ihrem Namen angesprochen werden:  Bei Eingabe des Zeichens `@` werden Benutzernamen vorgeschlagen. Wird ein Anwender erwähnt, bekommt er eine E-Mail-Benachrichtigung darüber.
+
 === Aufgabe bearbeiten
 &#10130;
 Über den Button image:anwenderhandbuch/button_bearbeiten.png[] gelangt man in den Bearbeitungsmodus der Aufgabe. In diesem Bereich lassen sich die Attribute der Aufgabe anpassen.
