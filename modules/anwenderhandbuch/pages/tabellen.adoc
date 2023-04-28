@@ -60,24 +60,26 @@ Das Beispiel zeigt eine Schutzbedarfsfeststellung, bei der die Werte aller Zeile
 
 == Assoziierte Tabellen
 
-xmera Omnia bietet über die Funktionalität der Aggregation von assoziierten Tabellen an, Vererbungen abzubilden. 
+xmera Omnia bietet an Berechnungsergebnisse an assoziierte Objekte zu vererben.
 
-Assoziierte Tabellen sind Datenblätter mit gleichem Tabellentyp, wodurch die Tabellen miteinander verknüpft werden können. Wird in der Berechnungskonfiguration die Option _aggregation von assoziierten Tabellen_ gewählt, dann wird dem aktuellen Datenblatt eine neue Tabelle zugeordnet.
+Assoziierte Objekte sind Objekte dessen Klassen in Klient-Service-Beziehung zueinander stehen. Diese Beziehungen werden im xref:adminhandbuch:objektklassen.adoc[Administrationsbereich in den Objektklassen] festgelegt.
+
+Die Vererbungsfunktion wird im Administrationsbereich mit der Option _Ergebnisse von assoziierten Objekten vererben_ aktiviert.
 
 === Beipiel Schutzbedarfsanalyse und -feststellung
 
-In diesem Beispiel werden die Ergebnisse der zugehörigen Datenblätter und das Berechnungsergebnis der Analyse im Objekt selbst, wie im folgenden Bild zu sehen, in der Rubrik _einzelne Berechnungsergebnisse_ angezeigt.
+Die Ergebnisse der Schutzbedarffeststellung von assoziierten Objekten (hier Klienten) werden im unteren Teil der nachstehenden Abbildung angezeigt.
 
-image::anwenderhandbuch/modul_tabellen_assosiiert.png[]
+Hieraus errechnet sich das Ergebnis wie im mittleren Teil zu sehen. Für das Beispiel _Schutzbedarf_ wurde für die Berechnung das Maximum konfiguriert.
 
-Die Zusammenfassung der Ergebnisse aus allen assoziierten Datenblättern wird in der Zeile _Berechnete Ergebnisse_ dargestellt.
+Der obere Teil in der Abbildung zeigt das Endergebnis. Der verantwortliche Mitarbeiter kann das berechnete Ergebnis übernehmen oder anpassen. 
 
-Mit dem Button _Übernehmen_ im _Berechneten Ergebnis_ wird das Ergebnis in die Zeile _Berechnung_ übernommen.
+In beiden Fällen muss das Endergebnis begründet werden. 
+
+image::anwenderhandbuch/modul_tabellen_assoziiert.png[]
 
 [IMPORTANT]
-Erst mit der Übernahme bzw. mit der manuellen Pflege der _Berechnung_ steht das Ergebnis den verknüpften Objekten zur Verfügung und wird vererbt.
-
-Das Ergebnis der Berechnung kann manuell verändert werden. Hierzu den Button image:anwenderhandbuch/button_bearbeiten.png[] klicken. Bei einer manuellen Bearbeitung ist zwingend die Bemerkung zu füllen.
+Erst mit der Übernahme oder der manuellen Anpassung steht das Ergebnis den verknüpften Objekten zur Verfügung und wird vererbt.
 
 [NOTE]
-Im xmera Omnia wird das Ergebnis der Schutzbedarfsfeststellung auf der Übersichtsseite des Objekt dargestellt.
+Im xmera Omnia wird das Ergebnis der Schutzbedarfsfeststellung auf der Übersichtsseite des Objektes dargestellt.
