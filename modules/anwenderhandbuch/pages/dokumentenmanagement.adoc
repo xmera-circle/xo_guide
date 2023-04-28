@@ -253,3 +253,9 @@ In dieser Maske kann das Dokument genehmigt, abgelehnt (nur mit Begründung) ode
 Sind die Freigaben für den 1. Schritt abgeschlossen, so beginnt der Prozess für den Folgeschritt. Dieses wird bis zum letzten Schritt fortgesetzt. Ist der letzte Schritt genehmigt, ist das Dokument genehmigt.
 
 Wird ein Workflow _Abgelehnt_ so muss eine neue Version erstellt werden und der Workflow neu gestartet werden.
+
+== Weiterführende Hilfe
+
+Es gibt einen umfassenend Guide für das Dokumentenmanagement, der in xmera Omnia integriert ist.
+
+image:anwenderhandbuch/modul_dms_hilfe_funktion.png[]
