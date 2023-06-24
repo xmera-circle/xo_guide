@@ -19,7 +19,7 @@ In xmera Omnia kann das Wiki in jedem Objekt aktiviert werden. Zu den wichtigste
 
 Die Wikigestaltung wird durch die <<Wiki-Toolbar>>, mit der die Texte formatiert werden können, und der Möglichkeit Bilder und Grafiken einzubinden, unterstützt. 
 
-Zum Erstellen von Grafiken muss die https://https://www.diagrams.net/[Drawio]-Integration im Administrationsbereich konfiguriert worden sein.
+Zum Erstellen von Grafiken muss die https://www.drawio.com/[Drawio]-Integration im Administrationsbereich konfiguriert worden sein.
 
 == Wiki erstellen
 
