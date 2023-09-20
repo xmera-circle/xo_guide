@@ -20,7 +20,7 @@ Ist die Zwei-Faktor-Authentifizierung aktiviert, erscheint anschließend die Abf
 
 image:anwenderhandbuch/einfuehrung_otp.png[]
 
-Nach erfolgreichem Login wird Dir die Hauptseite von xmera Omnia angezeigt. Diese beinhaltet das xref:dashboards.adoc[System Dashboard].
+Nach erfolgreichem Login wird Dir die Hauptseite von xmera Omnia angezeigt. Sie beinhaltet das xref:dashboards.adoc[System Dashboard].
 
 == Anwendungsmenüs
 
@@ -33,7 +33,7 @@ In xmera Omnia gibt es vier Menüs:
 
 image:anwenderhandbuch/einfuehrung_menues.png[]
 
-Topmenü::
+➊ Topmenü::
 
 Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen von xmera Omnia: +
 +
@@ -42,7 +42,7 @@ Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen vo
 - *Objekte:* Zugang zu den xref:objekte.adoc[Objekten] (z.B. Projekte, Prozesse, Assets)
 - *DMS:* Zugang zum xref:dokumentenmanagement.adoc[Dokumentenmanagement (DMS)]
 
-Nutzermenü::
+➋ Nutzermenü::
 
 Das Nutzermenü, im rechten Teil des Seitenkopfs, führt zu Deinen persönlichen Daten und Einstellungen sowie zur Abmeldung aus dem System:
 
@@ -51,7 +51,7 @@ Das Nutzermenü, im rechten Teil des Seitenkopfs, führt zu Deinen persönlichen
 - *Mein Konto:* Link zu den Nutzereinstellungen
 - *Abmelden:* Button zur Abmeldung des Nutzers
 
-Hauptmenü::
+➌ Hauptmenü::
 
 Das Hauptmenü wird nach einem Klick auf *Objekte* im Topmenü angezeigt. Es bietet Dir Zugriff auf aktivierte Objektmodule, dessen Inhalte systemweit angezeigt werden können. Dazu gehören:
 
@@ -66,7 +66,7 @@ Das Hauptmenü wird nach einem Klick auf *Objekte* im Topmenü angezeigt. Es bie
 [NOTE]
 Die globale Systemübersicht zeigt Dir stets nur jene Elemente, die Du aufgrund Deines Berechtigungsprofils sehen darfst.
 
-Objektmenü::
+➊ Objektmenü::
 
 Das Objektmenü wird ausschließlich in xref:objekte.adoc[Objektseiten] angezeigt und bietet Zugriff auf die aktivierten Objektmodule.
 
@@ -94,23 +94,23 @@ In dasSuchfenster kannst Du einen Text eingegeben, nach dem in allen Objekten un
 +
 image:anwenderhandbuch/einfuehrung_suchergebnisse.png[]
 +
-Im oberen Bereich (grau hinterlegt) kann die Suche weiter eingeschränkt oder der Suchtext angepasst werden. +
+Im oberen Bereich kann die Suche weiter eingeschränkt oder der Suchtext angepasst werden. +
 +
 [NOTE]
 Die Suche wird, wenn diese aus einem Objekt aufgerufen wird, auf das Objekt mit seinen Unterobjekten eingegrenzt.
 +
-Unterhalb des grauen Bereichs sind die Suchergebnisse aufgeführt.
+Weiter unten sind die Suchergebnisse aufgeführt.
 
 [TIP]
 Wird in das Suchfeld die ID einer Aufgabe (Sicherheitsanforderungen, Risikobewertungen, Maßnahmen, ...) eingegeben, so bekommst Du diese Aufgabe direkt als Einzelansicht angezeigt.
 
 === Breite des Inhaltsbereichs anpassen
 
-Der Inhaltsbereich kann in xmera Omnia auf eine feste Breite begrenzt werden, wodurch das Lesen von Texten angenehmer wird. Im nachfolgenden Bild ist der Inhaltsbereich entsprechend begrenzt, was die gelben Flächen verdeutlichen sollen. Diese Breite ist auf den meisten Seiten der Standard. Der gelb markierte Randbereich rechts und links wird je nach Größe des Browserfensters automatisch angepasst.
+Der Inhaltsbereich kann in xmera Omnia auf eine feste Breite begrenzt werden, wodurch das Lesen von Texten angenehmer wird. Im nachfolgenden Bild ist der Inhaltsbereich entsprechend begrenzt, was die leeren Flächen (➊, ➋) verdeutlichen sollen. Diese Breite ist auf den meisten Seiten der Standard. Der Randbereich rechts und links wird je nach Größe des Browserfensters automatisch angepasst.
 
 image:anwenderhandbuch/einfuehrung_seite_schmal.png[]
 
-Bei Bedarf kann der selbe Inhalt auch über die gesamte Seitenbreite angezeigt werden. Das erreichst Du durch einen Klick auf das rote Plus-Symbol (rot umrandet im Bild oben). 
+Bei Bedarf kann der selbe Inhalt auch über die gesamte Seitenbreite angezeigt werden. Das erreichst Du durch einen Klick auf das orange Plus-Symbol (umrandet im Bild oben). 
 
 Das folgende Beispiel zeigt die gesamte Seitenbreite.
 
@@ -118,13 +118,13 @@ image:anwenderhandbuch/einfuehrung_seite_breit.png[]
 
 == Objekt- und Aufgabenlisten
 
-Die Darstellung von Objekten und Aufgaben kannst Du durch Filtern, Gruppieren und Tabellenspaltenauswahl an Deine Anforderungen anpassen und speichern.
+Die Darstellung von Objekten und Aufgaben kannst Du durch Filtern, Gruppieren und Tabellenspaltenauswahl an Deine Anforderungen anpassen und speichern (➌).
 
-Das untere Bild zeigt den Filterbereich (grün umrandet) sowie weitere Optionen zum Gruppieren und zur Auswahl von Tabellenspalten (magenta umrandet) am Beispiel der Sicherheitsanforderungen.
+Das untere Bild zeigt den Filterbereich (➋) sowie weitere Optionen zum Gruppieren und zur Auswahl von Tabellenspalten am Beispiel der Sicherheitsanforderungen (➊)
 
 image:anwenderhandbuch/einfuehrung_liste_allgemein.png[]
 
-Auf diese Weise können individuelle Listen durch Abfragen (blau) gestaltet werden. So erhältst Du verschiedenste Sichten auf die umfangreiche Datenbasis des Informationssicherheitsmanagementsystems (ISMS) und damit einen schnellen Überblick.
+Auf diese Weise können individuelle Listen durch Abfragen (➍) gestaltet werden. So erhältst Du verschiedenste Sichten auf die umfangreiche Datenbasis des Informationssicherheitsmanagementsystems (ISMS) und damit einen schnellen Überblick.
 
 Über den Button image:anwenderhandbuch/button_zuruecksetzen.png[Zurücksetzen] wird der Filter wieder auf die Standard-Liste zurückgesetzt.
 
@@ -213,13 +213,13 @@ Mit Klick auf den Button image:anwenderhandbuch/button_anwenden_grau.png[] werde
 
 Gruppierung::
 
-Mit der Option _Gruppieren_ kann die Liste nach einem definierten Attribut gruppieren. Im Beispiel wird die Liste nach dem Attribut _Kapitel_ gruppiert. +
+Mit der Option _Gruppieren_ kannst Du die Liste nach einem definierten Attribut gruppieren. Im Beispiel wird die Liste nach dem Attribut _Kapitel_ gruppiert. +
 +
 image:anwenderhandbuch/einfuehrung_option_gruppieren.png[]
 +
 Über das Auswahlfeld im Bereich _Gruppiere Ergebnisse nach_ werden die möglichen Gruppierungsattribute angezeigt. Mit Klick auf den Button image:anwenderhandbuch/button_anwenden_grau.png[] werden die Änderungen übernommen. +
 +
-In der gruppierten Liste werden die Anzahl der Elemente pro Gruppe als rot hinterlegte Zahl dargestellt. Die Elemente der Gruppe können über Klicken auf den Pfeil image:anwenderhandbuch/button_einklappen.png[] eingeklappt bzw. über den Pfeil image:anwenderhandbuch/button_ausklappen.png[] ausgeklappt werden.
+In der gruppierten Liste werden die Anzahl der Elemente pro Gruppe als orange hinterlegte Zahl dargestellt. Die Elemente der Gruppe können über Klicken auf den Pfeil image:anwenderhandbuch/button_einklappen.png[] eingeklappt bzw. über den Pfeil image:anwenderhandbuch/button_ausklappen.png[] ausgeklappt werden.
 
 Summe:: 
 
@@ -264,7 +264,7 @@ Abfrage erstellen::
 
 Eine Abfrage wird erstellt, in dem eine Liste mit den gewünschten Filter- und Gestalungsoptionen erstellt, angewendet und diese anschließend gespeichert wird. +
 +
-Nachdem eine Liste erstellt wurde, erscheint der Button image:anwenderhandbuch/button_speichern.png[]. Wird das Speichern geklickt, erscheint der Konfigurationsdialog. +
+Wird der Button _Speichern_ geklickt, erscheint der Konfigurationsdialog. +
 +
 image:anwenderhandbuch/einfuehrung_abfrage_maske.png[]
 +
