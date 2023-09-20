@@ -87,7 +87,7 @@ Die Sichbarkeit von Benutzerprofilen wird im Administrationsbereich über die Ro
 
 == Meine Seite
 
-_Meine Seite_ dient Dir als Übersicht über all Deine Arbeiten und Informationen, die für Dich wichtig sind. _Meine Seite_ erreichst Du über das Top-Menü. 
+_Meine Seite_ dient Dir als Übersicht über all Deine Arbeiten und Informationen, die für Dich wichtig sind. _Meine Seite_ erreichst Du über das Topmenü. 
 
 image:anwenderhandbuch/individuell_meine-seite.png[]
 
