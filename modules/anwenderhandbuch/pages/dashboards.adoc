@@ -76,7 +76,7 @@ Nach dem Speichern wird das neue Dashboard mit einem Standardblock geöffnet. An
 
 ==== Informationsblöcke hinzufügen
 
-Über das Auswahlfeld _Block hinzufügen:_ können verschiedene Informationsblöcke der Seite hinzugefügt werden.
+Über das Auswahlfeld _Block hinzufügen:_ kannst Du verschiedene Informationsblöcke der Seite hinzugefügen.
 
 image:anwenderhandbuch/modul_dashboard_block_hinzufuegen.png[]
 
