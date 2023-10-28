@@ -258,7 +258,7 @@ image:anwenderhandbuch/modul_wiki_macro_list.png[Liste aktueller Makros]
 
 == Grafiken erstellen
 
-Grafiken spielen im Rahmen des ISMS eine wichtige Rolle. Typische Grafiken sind der Netzplan, Prozesslandkarten oder Prozessablaufdiagramme. Hierfür eignet sich die Integration von https://www.diagrams.net/blogyou[Drawio] besonders gut.
+Grafiken spielen im Rahmen des ISMS eine wichtige Rolle. Typische Grafiken sind der Netzplan, Prozesslandkarten oder Prozessablaufdiagramme. Hierfür eignet sich die Integration von https://www.diagrams.net/blog[Drawio] besonders gut.
 
 video::cCMVEgmLazw[youtube]
 
