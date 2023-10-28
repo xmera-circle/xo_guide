@@ -8,9 +8,11 @@ include::ROOT:partial$custom-css.adoc[]
 
 == Systemdashboard
 
-Über den Menüpunkt _Hauptseite_ gelangt man zu den Dashboards in xmera Omnia. Das Dashboard dient dazu wichtige Informationen übersichtlich darzustellen. 
+Über den Menüpunkt _Hauptseite_ gelangst Du zu den Dashboards in xmera Omnia. 
 
-Dabei können durch die Nutzer eigene Dashboards angelegt und auch öffentliche Dashboards bereitgestellt werden. Beim Aufruf der Hauptseite wird das Systemdashboard (festgelegt durch die Administration) oder das vom Benutzer zuletzt besuchte Dashboard geöffnet.
+Das Dashboard dient dazu Dir wichtige Informationen übersichtlich darzustellen. Deshalb kannst Du eigene Dashboards anlegen, die nur für Dich sichtbar sind. Du kannst auch Dashboards gestalten, die nur für bestimmte Rollen sichtbar sein sollen. Öffentliche Dashboards dagegen können alle eingeloggten Nutzer lesen. 
+
+Beim Aufruf der Hauptseite wird das Systemdashboard (festgelegt durch die Administration) oder das vom Benutzer zuletzt besuchte Dashboard geöffnet.
 
 image::anwenderhandbuch/modul_system_dashboard.png[]
 
@@ -40,13 +42,13 @@ image::anwenderhandbuch/modul_dashboard_isb.png[]
 
 === Dashboard aufrufen
 
-Ein Benutzer kann über das 3-Punkte-Menü ein beliebiges öffentliches Dashboard aufrufen.
+Du kannst über das 3-Punkte-Menü ein beliebiges Dashboard aufrufen, für das Du die Leseberechtigung hast.
 
 image:anwenderhandbuch/modul_dashboard_waehlen.png[]
 
-Im Beispiel oben stehen die Dashboards _Test-Dashboard_ und _Welcome dashboard_ zur Auswahl, die durch einen Klick auf das entsprechende Menüelement aufgerufen werden können.
+Im Beispiel oben stehen die Dashboards _Geschäftsführer-Dashboard_ und _Welcome dashboard_ zur Auswahl. Sie können durch einen Klick auf das entsprechende Menüelement aufgerufen werden.
 
-Alternativ besteht die Möglichkeit eine Seitenleiste anzuzeigen. Wird diese Option gewählt, erscheint auf der linken Seite des Dashboards eine Sidebar, über die andere Dashboards aufgerufen werden können. Zusätzlich werden Informationen zum aktuell aufgeblendeten Dashboard gezeigt.
+Alternativ besteht die Möglichkeit eine Seitenleiste anzuzeigen. Wählst Du diese Option, erscheint auf der linken Seite des Dashboards eine Sidebar, über die andere Dashboards aufgerufen werden können. Zusätzlich werden Meta-Daten über das aktuell aufgeblendeten Dashboard gezeigt.
 
 image:anwenderhandbuch/modul_dashboard_sidebar.png[]
 
@@ -58,11 +60,13 @@ Jeder Nutzer, der die entsprechende Berechtigung hat, kann eigene Dashboards anl
 
 image:anwenderhandbuch/modul_dashboard_neu.png[]
 
-Pflichtfeld ist der Name des Dashboards, der durch eine Beschreibung ergänzt werden kann. Unter der Beschreibung wird die Sichtbarkeit des Dashboards festgelegt. Standardmäßig ist das Dashboard privat und kann nicht von anderen Nutzern gesehen werden. Es kann aber auch für alle Nutzer oder für bestimmte Rollen freigegeben werden. Weiterhin kann für das Dashboard festgelegt werden, ob die Seitenleiste beim Aufrufen angezeigt werden soll. 
+Der Name des Dashboards it ein Pflichtfeld. Du kannst ihn mit einer Beschreibung ergänzen. Unter der Beschreibung wird die Sichtbarkeit des Dashboards festgelegt. Standardmäßig ist das Dashboard privat und kann nicht von anderen Nutzern gesehen werden. 
+
+Alternativ kannst Du es für alle Nutzer oder bestimmte Rollen freigeben. Weiterhin kann für das Dashboard festgelegt werden, ob die Seitenleiste beim Aufrufen angezeigt werden soll. 
 
 Hat der Nutzer Administrationsrechte, kann er das Dashboard zum Systemdashboard machen, das automatisch allen Nutzern angezeigt wird. Wird der Haken gesetzt, dann wird das bisherige Systemdashboard durch dieses Dashboard ersetzt.
 
-Nach dem Speichern wird das neue Dashboard mit einem Standardblock geöffnet. Anschließend kann es angepasst werden.
+Nach dem Speichern wird das neue Dashboard mit einem Standardblock geöffnet. Anschließend kannst Du es nach Deinen Vorstellungen gestalten.
 
 === Dashboard bearbeiten
 
@@ -72,7 +76,7 @@ Nach dem Speichern wird das neue Dashboard mit einem Standardblock geöffnet. An
 
 ==== Informationsblöcke hinzufügen
 
-Über das Auswahlfeld _Block hinzufügen:_ können verschiedene Informationsblöcke der Seite hinzugefügt werden.
+Über das Auswahlfeld _Block hinzufügen:_ kannst Du verschiedene Informationsblöcke der Seite hinzugefügen.
 
 image:anwenderhandbuch/modul_dashboard_block_hinzufuegen.png[]
 

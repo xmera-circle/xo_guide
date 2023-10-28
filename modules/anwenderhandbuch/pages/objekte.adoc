@@ -7,13 +7,13 @@
 include::ROOT:partial$custom-css.adoc[]
 
 == Funktion der Objekte
-Objekte sind das zentrale Ordnungselement in xmera Omnia. Eine ihrer Hauptaufgabe ist die Bereitstellung des Assetsregisters im Rahmen des Informationssicherheitsmanagementsystems (ISMS).
+Objekte sind das zentrale Ordnungselement in xmera Omnia. Eine ihrer Hauptaufgaben ist die Bereitstellung des Assetsregisters im Rahmen des Informationssicherheitsmanagementsystems (ISMS).
 
-Objekte zeichnen sich durch folgende Eigenschaften aus:
+Objekte zeichnen sich durch folgende Funktionen aus:
 
-- Objekte können hierarchisch strukturiert werden,
+- Objekte können hierarchisch angeordnet werden,
 - Objekten können Mitglieder mit Rollen zugeordnet werden,
-- Objekte können Funktionsmodule bereitstellen,
+- Objekte stellen Funktionsmodule bereit,
 - Objekte gehören einer Objektklasse an,
 - Objekte können mit anderen Objekten logisch verknüpft werden.
 
@@ -21,25 +21,28 @@ Die Übersicht der Objekte wird im xref:bediengrundlagen.adoc#_anwendungsmenüs[
 
 == Objektübersicht
 
-Die Objektdaten werden in der Objektübersicht dargestellt (siehe Kasten 3 im nachfolgenden Bild):
+Jedes Objekt verfügt über eine Übersichtsseite. Welche Elemente die Objektübersicht enthält, hängt von der konkreten Konfiguration eines Objektes ab.
+
+Das nachfolgende Bild zeigt typische Elemente an:
 
 image::anwenderhandbuch/objektuebersicht_undefined.png[Objekthierarchie]
 
 &#10122; Objektbezeichung (Hierarchiepfad und <<Objektname>>) +
-&#10123; <<Objektbeschreibung>> +
+&#10123; <<Objektbeschreibung>> (hier: grafisch, Text ist ebenfalls möglich) +
 &#10124; Spezifische <<Objektdaten>> (Eigene Felder) +
 &#10125; xref:aufgaben.adoc[Aufgaben] +
 &#10126; <<Mitglieder verwalten, Mitglieder>> des Objekts mit ihren Rollen +
 &#10127; <<Objekthierarchie,Unterobjekte>> (Hierarchie) +
-&#10128; <<Objektverknüpfungen, Verknüpfte Objekte>> (logische Zusammenhänge)
+&#10128; <<Objektverknüpfungen, Verknüpfte Objekte>> (logische Zusammenhänge) +
+&#10129; xref:tabellen.adoc[Tabellen] (hier: Schutzbedarf)
 
 == Objekthierarchie
 
-Die Objekthierarchie bietet die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten/Organisationen als auch Sicherheitszonen/Cluster strukturiert darzustellen. Die hierarchische Struktur wird durch die Festlegung des übergeordneten Objekts bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objekts>> definiert. So entsteht ein Objektbaum, der sich in der Listenanzeige der __Objektübersicht__ darstellen läßt.
+Mit Hilfe eines hierarchischen Aufbaus der Objekte hast Du die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten/Organisationen oder auch Sicherheitszonen/Cluster strukturiert darzustellen. Die hierarchische Struktur legst Du fest, indem Du das übergeordnete Objekt des Dir vorliegenden Objektes definierst. Diese Einstellung nimmst Du  am Besten bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objektes>> vor. Sie lässt sich auch später vornehmen oder ändern. So entsteht ein Objektbaum, der sich in der Listenanzeige auf der Übersichtsseite aller Objekte (siehe Top-Menü) beispielsweise so darstellen läßt:
 
 image:anwenderhandbuch/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
-In der __Objektübersicht__ wird die Struktur in der Objektbezeichung, wie im nachfolgenden Bild an Pkt. &#10122; zu sehen, mit den Links zu den übergeordneten Objekten dargestellt.
+Auf der __Übersicht__ eines Objektes wird Dir die Position des aktuellen Objekts im Hierarchiebaum angezeigt. Das nachfolgenden Bild zeigt Dir dafür an Pkt. &#10122; ein Beispiel. Die übergeordneten Objekte im dargestellten Pfad werden als Link dargestellt.
 
 image:anwenderhandbuch/objektuebersicht_hierarchie_undefined.png[Objekthierarchie]
 
@@ -57,9 +60,9 @@ Beispiele für solche Verknüpfungen sind
 
 Die <<Objektverknüpfungen, Festlegung der Objektverknüpfung>> erfolgt in der Objektkonfiguration.
 
-== Objektmitglieder
+== Teammitglieder
 
-Die <<Mitglieder verwalten, Verwaltung von Mitgliedern>> und deren Rollen ist nicht zentral für die Anwendung definiert, sondern erfolgt in jedem Objekt einzeln. 
+Die <<Mitglieder verwalten, Verwaltung von Mitgliedern>> und deren Rollen ist nicht zentral für die Anwendung definiert, sondern erfolgt in jedem Objekt. 
 
 Zentral verwaltet werden
 
@@ -86,7 +89,7 @@ image:anwenderhandbuch/objektuebersicht_neues-unterobjekt_undefined.png[Neues Un
 [NOTE]
 Wird die Auswahl __Neues Objekt__ oder __Neues Unterobjekt__ nicht angezeigt, so fehlt dem Anwender das entsprechende Recht.
 
-Es wird dann die Konfigurationsmaske des neuen Objekts geöffnet. Die wichtigsten Punkte werden in den folgenden Unterkapiteln beschrieben. 
+Bei Klick auf einem der Button wird eine Konfigurationsmaske für das neue Objekt geöffnet. Die wichtigsten Punkte werden in den folgenden Unterkapiteln beschrieben. 
 
 [IMPORTANT]
 Die mit [.red]#*# gekennzeichneten Felder sind Pflichtfelder und müssen ausgefüllt werden.
@@ -173,7 +176,7 @@ Wenn die Importdatei gut vorbereitet wurde, konnten alle Datenfelder automatisch
 [#objekt_import_feldzuordnung]
 image:anwenderhandbuch/objekt_import_feldzuordnung.png[Feldzuordnung für den Objektimport]
 +
-Dann auf __Importieren__ klicken, um den Import zu starten
+Dann auf __Importieren__ klicken, um den Import zu starten.
 
 Import durchführen::
 +
@@ -186,22 +189,21 @@ Andernfalls erhält der Benutzer entsprechende Fehlermeldungen wie beispielhaft 
 image:anwenderhandbuch/objekt_import_failure.png[Liste neuer Objekte und Fehlermeldungen nach fehlerhaften Import]
 
 [IMPORTANT]
-Der Importprozess wird nicht abgebrochen, wenn eine Zeile der CSV-Datei nicht fehlerfrei in ein Objekt überführt werden kann. Die nicht importierten Zeilen werden in Form ihrer Positionsnummer in der Fehlermeldung angezeigt und müssen separat in einem zweiten Versuch importiert werden.
+Der Importprozess wird auch dann fortgesetzt, wenn eine oder mehrere Zeilen der CSV-Datei fehlerhaft sind. Die nicht importierten Zeilen werden in Form ihrer Positionsnummer in der Fehlermeldung angezeigt und müssen nach Korrektur separat in einem zweiten Versuch importiert werden.
 
 == Objekte konfigurieren
 
 === Objektklassen
 
-Objektklassen beschreiben einen typischen Aufbau eines Objekts. Dieser Aufbau wird im __Objektklassen Master__ durch den Administrator gepflegt. Anpassbar sind beispielsweise
+In einer Objektklasse werden Aufbau und ggf. Inhalt für Objekte, die auf Basis dieser Klasse generiert werden sollen, vordefiniert. Dieser Aufbau wird im __Objektklassen Master__ durch den Administrator gepflegt. Anpassbar sind beispielsweise
 
-- Metadaten zu einem Objekt/Asset,
-- Schutzbedarfsfeststellungen für Prozesse oder Informationsobjekte,
+- Metadaten zu einem Objekt,
+- Schutzbedarfsfeststellungen für Informationsobjekte, Prozesse oder Anwendungen,
 - Sicherheitsanforderungen,
 - Gefährdungen,
-- Standardaufgaben,
 - Wiederkehrende Aufgaben,
-- Wiki-Inhalte
-- Tabellen wie bspw. Gerätelisten, Raumlisten, usw.
+- Wiki-Seiten und Inhalte,
+- Tabellen wie bspw. Gerätelisten, Raumlisten, usw.,
 - diverse Aufgabenformulare,
 - Kalender und Gantt-Diagramm,
 - usw.
@@ -209,9 +211,11 @@ Objektklassen beschreiben einen typischen Aufbau eines Objekts. Dieser Aufbau wi
 [NOTE]
 Objektklassen werden zusätzlich als Parameter in einigen Objektmodulen und globalen Systemeinstellungen benötigt. Beispiele hierfür sind das Modul __Aufgaben__, __Aufgaben-Synchronisation__  und das Modul __Tabellen__.
 
-Die Vorkonfiguration wird nach dem ersten Speichern beim Anlegen eines neuen Objekts an dieses übertragen. Die Vorkonfiguration von Objektklassen erfolgt aus der Administration der Anwendung.
+Bevor ein Objekt von einer Objektklasse abgeleitet werden kann, müssen die Pflichtfelder, __Unterobjekt von__ und __Benutzer erben__ ausgefüllt werden. Nach dem Speichern, werden die Konfiguration und Inhalte der Objektklasse auf das neue Objekt übertragen. 
 
-Wird ein Objekt von einer Objektklasse abgeleitet müssen lediglich die Pflichtfelder, __Unterobjekt von__ und __Benutzer erben__ ausgefüllt werden.  Wird ein Objekt nicht von einer Objektklasse abgeleitet, erfolgt die Objektkonfiguration manuell. 
+Die Vorkonfiguration von Objektklassen erfolgt aus der Administration der Anwendung.
+
+Soll ein Objekt nicht von einer Objektklasse abgeleitet werden, muss es manuell konfiguriert werden. 
 
 [IMPORTANT]
 Objekte, die Asstes darstellen, müssen von einer Objektklasse abgeleitet werden, da die Schutzbedarfvererbung auf das Konzept der Objektklassen angewiesen ist!
@@ -246,7 +250,7 @@ Das Feld __Objekt-Homepage__ bietet eine Möglichkeit einen externen Link auf ei
 
 === Öffentlich
 
-Mit setzen des Feldes wird das Objekt öffentlich. Alle Nutzer, die Zugang zu xmera Omnia haben, können Informationen des Objekts sehen. Ein nicht angemeldeter Nutzer ist automatisch mit den  Rechten der Rolle __Anonym__ ausgestattet. Jeder angemeldete Benutzer erhält automatisch die Rollenrechte der Rolle __Nichtmitglied__.
+Mit Setzen des Feldes wird das Objekt öffentlich. Alle Nutzer, die Zugang zu xmera Omnia haben, können Informationen des Objekts sehen. Ein nicht angemeldeter Nutzer ist automatisch mit den  Rechten der Rolle __Anonym__ ausgestattet. Jeder angemeldete Benutzer erhält automatisch die Rollenrechte der Rolle __Nichtmitglied__.
 
 [IMPORTANT]
 Der Administrator kann in der Konfiguration vorgeben, dass eine Anmeldung zwingend notwendig ist. Damit wird verhindert, dass nicht autorisierte Nutzer mit dem System arbeiten können.
@@ -268,37 +272,38 @@ xmera Omnia bietet die Möglichkeit Objekten __Eigene Felder__ zuzufügen. Die e
 Die Verknüpfungen basieren auf den Objektklassen. In der Konfiguration einer Objektklassen wird festgelegt, welche Objektklassen Dienste anbieten, die von anderen Objektklassen genutzt werden. In der Konfiguration des Objekts werden dann die konkreten Objektverknüpfungen festgelegt.
 
 [IMPORTANT]
-Das Objekt mit seiner Objektklasse muss, damit die Objektverküpfungen aktiviert werden können, im xmera Omnia bekannt sein. Damit wird die Auswahl erst nach dem ersten Speichern des Objekts angezeigt.
+Das Objekt mit seiner Objektklasse muss, damit die Objektverküpfungen aktiviert werden können, im xmera Omnia bekannt sein. Daher wird die Auswahl für mögiche Verküpfungen erst nach dem ersten Speichern des Objekts angezeigt.
 
 Das folgende Bild zeigt die Konfigurationsmaske eines Beispielobjekts.
 
 image:anwenderhandbuch/verknuepfung_konfiguration_undefined.png[Verknüpfung mit Diensten (Objekte)]
 
-Zu sehen sind die bereitgestellten Dienste (Objekte einer Objektklasse), die mit dem Objekt in der Konfiguration verknüpft werden können.
+Zu sehen sind die verfügbaren Dienste (Objekte einer Objektklasse), die mit dem Objekt verknüpft werden können.
 
 === Objektmodule
 
-Objektmodule sind die Werkzeuge im xmera Omnia. Nicht in jedem Objekt werden alle Module benötigt. Damit die Anwendung nicht zu unübersichtlich wird, können die Module zu jedem Objekt ein und ausgeschaltet werden.
+Einige Funktionen sind im xmera Omnia in Modulen zusammengefasst. Nicht in jedem Objekt werden alle Module benötigt. Damit die Anwendung nicht zu unübersichtlich wird, können die Module in jedem Objekt ein- und ausgeschaltet werden.
 
 Ein Beispiel ist im folgenden Bild zu sehen:
 
 image:anwenderhandbuch/objekt_konfig_module_auswahl.png[Module ein- und ausschalten]
 
-Die aktivierten Module werden als Reiter in den Objektmasken angezeigt. Für die oben dargestellte Auswahl ergibt sich dann folgende Menüleiste:
+Die aktivierten Module werden im Menü des Objekts angezeigt. Für die oben dargestellte Auswahl ergibt sich dann folgende Menüleiste:
 
 image:anwenderhandbuch/objekt_konfig_module_darstellung.png[Aktivierte Module in Menüleiste]
 
 [NOTE]
-Wird ein Modul deaktiviert, in dem bereits Daten erfasst wurden, so werden die bereits erfassten Daten nicht gelöscht. Wird das Modul wieder aktiviert, so werden diese Daten wieder angezeigt.
+Wird ein Modul deaktiviert, in dem bereits Daten erfasst wurden, so werden die bereits erfassten Daten nicht gelöscht. Wird das Modul wieder aktiviert, werden diese Daten wieder angezeigt.
 
-=== Mitglieder verwalten
+=== Teammitglieder verwalten
 
-Über den Reiter __Mitglieder__ der Konfigurationsseite eines Objekts lassen sich Mitgliederrollen verwalten.
+Über den Tab __Teammitglieder__ der Konfigurationsseite eines Objekts lassen sich Mitgliederrollen verwalten.
 
 image:anwenderhandbuch/objekt_konfig_mitglieder_liste.png[Konfiguration Mitglieder]
 
-In der Liste sind, siehe Punkt &#10122;, alle Mitglieder und Gruppen mit ihren Rollen gelistet. Über den Button &#10123; können neue Mitglieder mit aufgenommen werden und mit der Bearbeitung bzw. dem Löschen &#10124; lassen sich die Einträge verändern oder entfernen. +
-Nutzern mit Administrationsrechten wird der Button Administration &#10125; angeboten. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung.
+In der Liste (&#10122;) werden alle aktuellen Teammitglieder und Gruppen mit ihren Rollen angezeigt. Über den Button (&#10123;) können neue Mitglieder aufgenommen werden. Durch __Bearbeiten__ oder __Löschen__ (&#10124;) lassen sich Einträge verändern oder entfernen.
+
+Nutzern mit Administrationsrechten wird der Button __Administration__ (&#10125;) angeboten. Über diesen Button kommt der Administrator direkt in die Benutzerverwaltung.
 
 [NOTE]
 Aus einem überlagerten Objekt geerbte Mitglieder und deren Rollen können nicht gelöscht werden. Es können nur weitere Mitglieder oder Rollen hinzugefügt werden und nur diese Einträge lassen sich auch wieder löschen.
@@ -307,23 +312,23 @@ Sollen neue Mitglieder hinzugefügt werden, wird ein weiteres Fenster mit den m�
 
 image:anwenderhandbuch/objekt_konfig_mitglieder_neu.png[neue Mitglieder hinzufügen]
 
-Für die Aufnahme von Mitgliedern sind die Benutzer bzw. die Gruppen auszuwählen, die aufgenommen werden sollen. Weiter ist die Rolle bzw. sind die Rollen auszuwählen, die Mitglieder in diesem Objekt haben sollen. Nur in der Kombination aus Benutzer/Gruppe mit der/den Rolle(n) können neue Mitglieder durch Klicken des Buttons __Hinzufügen__ aufgenommen werden.
+Für die Aufnahme von Mitgliedern sind die gewünschten Benutzer oder Gruppen auszuwählen. Weiter ist mindestens eine Rolle auszuwählen. Nur in der Kombination aus Benutzer/Gruppe mit der/den Rolle(n) können neue Mitglieder durch Klicken des Buttons __Hinzufügen__ aufgenommen werden.
 
-Sollen Rollen eines Mitglieds oder einer Gruppe verändert werden, so erfogt das über den Button __Bearbeiten__. +
+Sollen Rollen eines Mitglieds oder einer Gruppe verändert werden, so erfolgt das über den Button __Bearbeiten__. +
 
 image:anwenderhandbuch/objekt_konfig_mitglieder_bearbeiten.png[Rollen von Mitgliedern bearbeiten]
 
-Es wird der Listeintrag des ausgewählten Mitarbeiters aufgeklappt und durch An- oder Abwahl können die Rollen verändert werden. Rollen, die ein Mitglied von einer Gruppe oder dem vorgelagerten Objekt geerbt hat, können nicht verädert werden. Dieses ist in der Maske gekennzeichnet. Werden alle Rollen eines Mitglieds gelöscht, wird dieses Mitglied gelöscht.
+Es wird der Eintrag des ausgewählten Mitarbeiters aufgeklappt. Durch An- oder Abwahl können die Rollen verändert werden. Rollen, die ein Mitglied von einer Gruppe oder dem vorgelagerten Objekt geerbt hat, können nicht verädert werden. Werden alle Rollen eines Mitglieds gelöscht, wird dieser Anwender als Mitglied in dem Objekt entfernt.
 
 == Objektjournal
 
 Das Journal eines Objekts zeigt die Aktivitäten von ausgewählten Modulen chronologisch an. Beim Standardaufruf werden die letzten 10 Tage bis zum aktuellen Datum angezeigt. Das Datum kann durch den Nutzer geändert werden.
 
 [NOTE]
-Die Anzahl der Tage, im Standard 10, die chronologisch dargestellt werden, kann in der Systemkonfiguration angepasst werden.
+Die Anzahl der Tage, die chronologisch dargestellt werden, kann in der Systemkonfiguration angepasst werden. Der Standardwert beträgt 10 Tage.
 
 image::anwenderhandbuch/objekt_journal_undefined.png[Objektjournal]
 
-In der Sidebar besteht die Möglichkeit die Aktivitäten zu filtern. So können die Aktivitäten durch Auswahl der Module, die betrachtet werden sollen, eingeschränkt werden. Weiter können die angezeigten Aktivitäten auf eine Person eingegrenzt werden. Änderungen werden mit dem Button __Anwenden__ übernommen. Die Liste der Aktivitäten wird danach neu aufgebaut.
+In der Seitenleiste besteht die Möglichkeit Aktivitäten zu filtern. So kann die Ansicht von Aktivitäten auf bestimmte Module eingeschränkt werden. Weiter können die angezeigten Aktivitäten auf eine Person eingegrenzt werden. Änderungen werden mit dem Button __Anwenden__ übernommen. Die Liste der Aktivitäten wird danach neu aufgebaut.
 
 Die Aktivitäten sind als Links dargestellt, so dass direkt zu den Änderungen gesprungen werden kann.

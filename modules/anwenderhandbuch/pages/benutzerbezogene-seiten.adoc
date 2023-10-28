@@ -8,24 +8,23 @@ include::ROOT:partial$custom-css.adoc[]
 
 == Mein Konto
 
-_Mein Konto_ enthält Einstellungsmöglichkeiten, aus denen ein Anwender für sich wählen kann.
+_Mein Konto_ enthält Einstellungsmöglichkeiten, aus denen Du als Anwender für Dich wählen kannst.
 
 image:anwenderhandbuch/individuell_konto_einstellungen.png[]
 
-Es lassen sich
+Zu diesen Themen kannst Du Anpassungen vornehmen:
 
-- der Name,
+- Name,
+- Lichtbild (Avatar),
 - eine oder mehrere E-Mail-Adressen,
-- die Sprache,
-- das Passwort und ggf. die 2-Faktor-Authentifizierung,
+- Sprache,
+- Passwort und ggf. die 2-Faktor-Authentifizierung,
 - allgemeine Einstellungen zur E-Mail Benachrichtigung und 
-- allgemeine Präferenzen
+- allgemeine Präferenzen.
 
-einstellen.
+Der Benutzername, über den die Anmeldung und Autorenkennzeichnung in der Anwendung erfolgt, kann nur durch den Administrator geändert werden. 
 
-Der Mitgliedsname, über den die Anmeldung und Autorenkennzeichnung in der Anwendung erfolgt, kann nur durch den Administrator geändert werden. 
-
-Pflichteingaben sind der Vorname, der Name und die E-Mail-Adresse. Die Sprache wird im _Automodus_ automatisch ermittelt, kann aber auch manuell angepasst werden. 
+Pflichteingaben sind Dein Vorname, Dein Name und eine E-Mail-Adresse. Die Sprache wird im _Automodus_ automatisch ermittelt. Du kannst sie aber auch manuell angepassen.
 
 xmera Omnia wird vollumfänglich in den Sprachen Deutsch und Englisch unterstützt. 
 
@@ -34,27 +33,27 @@ Für unsere Kunden stellen wir auf Wunsch weitere Sprachen bereit!
 
 E-Mails::
 
-Neben der Haupt-E-Mail-Adresse des Kontos können zum Konto noch weitere E-Mail-Adressen verwaltet werden. Durch Klick auf den Button image:anwenderhandbuch/button_e-mails.png[] öffnet sich ein weiteres Fenster, in dem zusätzliche E-Mail-Adressen verwaltet werden können. +
+Neben der Haupt-E-Mail-Adresse Deines Kontos kannst Du weitere E-Mail-Adressen verwalten. Durch Klick auf den Button image:anwenderhandbuch/button_e-mails.png[] öffnet sich ein weiteres Fenster, in dem Du zusätzliche E-Mail-Adressen pflegen kannst. +
 +
 image:anwenderhandbuch/individuell_konto_e-mails.png[]
 +
-Der schwarze Briefumschlag image:anwenderhandbuch/button_e-mail_aktiv.png[] neben der E-Mail-Adresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwenderhandbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kann eine Adresse aktiviert oder deaktiviert werden. +
+Der schwarze Briefumschlag image:anwenderhandbuch/button_e-mail_aktiv.png[] neben der E-Mail-Adresse zeigt an, dass diese Adresse aktiv ist. Ist das Symbol weiß image:anwenderhandbuch/button_e-mail_inaktiv.png[], so ist diese Adresse inaktiv. Durch einen Klick auf das Symbol kannst Due eine Adresse aktivieren oder deaktivieren. +
 +
-Soll eine weitere E-Mail-Adresse hinzugefügt werden, so wird diese in das Eingabefeld unterhalb der Liste eingetragen. Mit Klick auf den Button image:anwenderhandbuch/button_hinzufuegen_rot.png[] wird die E-Mail-Adresse in die Liste übernommen. +
+Möchtest Du eine weitere E-Mail-Adresse hinzugefügen, so trägst Du sie in das Eingabefeld unterhalb der Liste ein. Mit Klick auf den Button image:anwenderhandbuch/button_hinzufuegen_orange.png[] wird die E-Mail-Adresse übernommen. +
 +
 Über den Button image:anwenderhandbuch/button_loeschen.png[] ist das Löschen einer E-Mail-Adresse möglich. Nach dem Klick muss das Löschen nochmals in einem neuen Fenster bestätigt werden. Anschließend wird die E-Mail-Adresse aus der Konfiguration entfernt.
 
 Passwort ändern::
 
-Mit dem Klick auf den Button image:anwenderhandbuch/button_passwort_aendern.png[Passwort ändern] wird ein neues Fenster zum Ändern des Passworts geöffnet. +
+Mit dem Klick auf den Button image:anwenderhandbuch/button_passwort_aendern.png[Passwort ändern] wird ein neues Fenster geöffnet. +
 +
 image:anwenderhandbuch/individuell_konto_passwort_aendern.png[]
 +
-Hier sind das aktuell gültige Passwort und zwei mal das neue Passwort einzutragen. Mit dem Klick auf den Button image:anwenderhandbuch/button_anwenden.png[Anwenden] wird das Passwort geändert. Werden Fehler bei der Eingabe gemacht, wie z.B. die Vorgaben für ein gültiges Passwort nicht eingehalten, so wird der Änderungsprozess nicht durchgeführt und der Nutzer in einem roten Feld auf den Fehler hingewiesen.
+Hier trägst Du das aktuell gültige Passwort und zwei mal das neue Passwort ein. Mit dem Klick auf den Button image:anwenderhandbuch/button_anwenden.png[Anwenden] wird Dein Passwort geändert. Eine fehlerhafte Eingabe, weil bspw. die Vorgaben für ein gültiges Passwort nicht erfüllt ist, führt zu einem Abbruch. Du wirst in einem roten Feld darauf hingewiesen, was Du anpassen musst.
 
 2-Faktor-Authentifizierung::
 
-xmera Omnia bietet die Möglichkeit sich über eine 2-Faktor-Authentifizierung mit Hilfe eines One-Time-Passworts (OTP) anzumelden. Ist diese für ein Konto nicht eingerichtet, so kann der Nutzer durch Klick auf _Authentifizierungs-App aktivieren_ die Einrichtung der 2-Faktor-Authentifizierung beginnen. +
+xmera Omnia bietet die Möglichkeit sich über eine 2-Faktor-Authentifizierung (2FA) mit Hilfe eines One-Time-Passworts (OTP) anzumelden. Ist diese für ein Konto nicht eingerichtet, so kannst Du durch Klick auf _Authentifizierungs-App aktivieren_ die Einrichtung der 2-Faktor-Authentifizierung beginnen. +
 +
 image:anwenderhandbuch/individuell_konto_ohne_2f.png[]
 +
@@ -62,17 +61,17 @@ Es erscheint ein Fenster zum Einrichten der 2-Faktor-Authentifizierung. +
 +
 image:anwenderhandbuch/individuell_konto_2f_einrichten.png[]
 +
-Diese Maske zeigt den Schlüssel als QR-Code und als Klar-Text-Schlüssel an. Dieser Schlüssel ist in die Authenfizierungs-App zu übertragen. +
+Diese Maske zeigt Dir den Schlüssel als QR-Code und als Klar-Text-Schlüssel an. Diesen Schlüssel überträgst Du in die Authenfizierungs-App. +
 +
-Anschließend ist mit der Authentifizierungs-App ein OTP zu generieren und in das Feld _Code_ zu übertragen. Wenn Anschließend der Button image:anwenderhandbuch/button_aktivieren.png[Aktivieren] betätigt wird, ist die 2-Faktor-Authentifizierung aktiviert. + 
+Anschließend generierst Du mit der Authentifizierungs-App ein OTP.  Die Zahlenreihe wird in das Feld _Code_ übertragen. Nach dem Klick auf _Aktivieren_ ist die 2-Faktor-Authentifizierung eingerichtet. + 
 +
-Danach ergeben sich in der Konto-Information weitere Bedienmöglichkeiten. +
+Danach hast Du weitere Bedienmöglichkeiten. +
 +
 image:anwenderhandbuch/individuell_konto_mit_2f.png[]
 +
-Zum Deaktivieren klickt man auf den Link _Deaktivieren_. Damit erscheint die Aufforderung das OTP aus der Authentifizierungs-App einzugeben. Ist dieses erfolgt, ist die 2-Faktor-Authentifizierung deaktiviert. +
+Zum Deaktivieren der 2FA klickst Du auf den Link _Deaktivieren_. Damit erscheint die Aufforderung das OTP aus der Authentifizierungs-App einzugeben. Ist dieses erfolgt, ist die 2-Faktor-Authentifizierung deaktiviert. +
 +
-Der Backup-Code hilft, wenn die Authentifizierungs-App nicht zur Verfügung steht. Für diesen Fall wird mit dieser Funktion eine Liste von Codes erstellt, mit denen ersatzweise gearbeitet werden kann. Um diese Liste zu generieren, klickt man auf den Link _Backup-Codes generieren_. Es erscheint ein Fenster, in dem man den aktuellen OTP-Code einträgt. Anschließend wird die Liste der Backup-Codes ausgegeben. +
+Der Backup-Code hilft Dir, wenn Dir die Authentifizierungs-App nicht zur Verfügung steht. Für diesen Fall wird mit dieser Funktion eine Liste von Codes erstellt, mit denen Du ersatzweise arbeiten kannst. Um diese Liste zu generieren, klickst Du auf den Link _Backup-Codes generieren_. Es erscheint ein Fenster, in dem Du den aktuellen OTP-Code einträgst. Anschließend wird die Liste der Backup-Codes ausgegeben. +
 +
 image:anwenderhandbuch/individuell_konto_2f_backupcode.png[]
 +
@@ -88,11 +87,11 @@ Die Sichbarkeit von Benutzerprofilen wird im Administrationsbereich über die Ro
 
 == Meine Seite
 
-_Meine Seite_ dient dem Nutzer als Übersicht über all seine Arbeiten und Informatione, die für ihn wichtig sind. _Meine Seite_ ist über das Hauptmenü zugänglich. 
+_Meine Seite_ dient Dir als Übersicht über all Deine Arbeiten und Informationen, die für Dich wichtig sind. _Meine Seite_ erreichst Du über das Topmenü. 
 
 image:anwenderhandbuch/individuell_meine-seite.png[]
 
-Die Informationen werden auf der Seite in Blöcken zur Verfügung gestellt. Der Nutzer kann dabei die Blöcke nach seinem Wunsch zusammenstellen und positionieren.
+Die Informationen werden auf der Seite in Blöcken zur Verfügung gestellt. Du kannst dabei die Blöcke nach Deinem Wunsch zusammenstellen und positionieren.
 
 Block hinzufügen:
 
