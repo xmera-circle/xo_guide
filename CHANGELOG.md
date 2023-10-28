@@ -15,6 +15,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * broken link to drawio
 
+## 1.0.1 - 2023-10-28
+
+### Deleted
+
+* dms workflow warning
+
+### Fixed
+
+* broken drawio links
+* broken image names
+
+### Changed
+
+* naming of plugin menu item in admin area
+
 ## 1.0.0 - 2023-04-28
 
 ### Added

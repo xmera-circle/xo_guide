@@ -170,9 +170,6 @@ image:anwenderhandbuch/modul_dms_lokale_workflows.png[]
 
 Hier finden sich die für das Objekt definierten Workflows. Es können über den Button image:anwenderhandbuch/button_neuer_genehmigungs_workflow.png[] ein neuer Workflow erstellt, durch Klicken auf den Namen des Workflows in der Liste der Workflow bearbeitet werden oder durch Klicken auf image:anwenderhandbuch/button_loeschen.png[] der lokale Workflow gelöscht werden.
 
-[WARNING]
-Ein Workflow kann gelöscht werden, obwohl er bereits einem Dokument zugeordnet wurde. Dieses führt zur Fehlern, die nicht über die Anwendung zu reparieren sind.
-
 Wird ein neuer Workflow erstellt, so erscheint folgende Maske:
 
 image:anwenderhandbuch/modul_dms_neuer_workflow.png[]

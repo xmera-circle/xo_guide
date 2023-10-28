@@ -1,4 +1,4 @@
-= Konfigurierbare Plugins
+= Plugins
 :doctype: article
 :icons: font
 :imagesdir: ../images/
@@ -6,8 +6,8 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration lässt sich über den Menüpunkt _Konfigurierbare Plugins_ erreichen.
+xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration lässt sich über den Menüpunkt _Plugins_ erreichen.
 
-image:adminhandbuch/plugins_liste.png[Konfigurierbare Plugins]
+image:adminhandbuch/plugins_liste.png[Plugins]
 
 Durch Klick auf den Link unter der Pluginbeschreibung öffnet sich die Konfigurationsseite des gewählten Plugins. Hier sind die Einstellungsmöglichkeiten selbsterklärend. 
