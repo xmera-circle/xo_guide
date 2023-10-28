@@ -266,7 +266,7 @@ Weitere https://www.youtube.com/c/drawioapp/videos[Videos].
 
 Um Drawio in xmera Omnia nutzen zu können, muss dass System im Anwendungsbereich entsprechend konfiguriert sein. 
 
-Bevor mit dem Zeichnen begonnen werden kann, wird eine Standarddatei mit Hilfe der Wiki-Toolbar erstellt. Hierzu muss image:anwenderhandbuch/wikitoolbar/drawio_diagramm.png[] gelickt werden. Es erscheint folgendes Eingabefenster:
+Bevor mit dem Zeichnen begonnen werden kann, wird eine Standarddatei mit Hilfe der Wiki-Toolbar erstellt. Hierzu muss image:anwenderhandbuch/wikitoolbar/bt_drawio.png[] gelickt werden. Es erscheint folgendes Eingabefenster:
 
 image:anwenderhandbuch/modul_wiki_grafik_erstellen.png[]
 
@@ -282,6 +282,6 @@ image:anwenderhandbuch/modul_wiki_drawio_editor.png[Drawio Editor]
 
 Markdown ist eine Auszeichnungssprache die auch aus dem git-Umdeld bekannt ist. Sie ermöglicht es einen Fließtext durch einfache Ergänzungen in eine formatierte Form zu bringen.
 
-Die wichtigsten Hilfen sind über den Button image:anwenderhandbuch/wikitoolbar/hilfe.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
+Die wichtigsten Hilfen sind über den Button image:anwenderhandbuch/wikitoolbar/bt_help.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
 
 Wenn weitere Hilfe benötigt wird, hilft die Suche im Internet mit dem Suchbegriff __Markdown Redmine__.
