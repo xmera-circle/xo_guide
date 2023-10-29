@@ -1,4 +1,4 @@
-= Aufgaben-Synchronisation
+= 
 :doctype: article
 :icons: font
 :imagesdir: ../images/
@@ -6,9 +6,9 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-== Funktionen Aufgaben-Synchronisation
+== Funktionen 
 
-Das Modul __Aufgaben-Synchronisation__ ist entwickelt worden, um die Modellierung von Sicherheitsanforderungen, Zuordnung von Gefährdungen oder eigenen Anforderungen/Aufgaben im ISMS-Umfeld automatisiert durchführen zu können. 
+Das Modul ____ ist entwickelt worden, um die Modellierung von Sicherheitsanforderungen, Zuordnung von Gefährdungen oder eigenen Anforderungen/Aufgaben im ISMS-Umfeld automatisiert durchführen zu können. 
 
 == Voraussetungen zur Synchronisation
 
@@ -17,13 +17,13 @@ Die Synchronisation dient der automatisierten Zuordnung von Aufgaben zu Objekten
 - Es existiert ein Katalog-Objekt, das die zu synchronisierenden Elemente enthält.
 - Das Katalog-Objekt wurde innerhalb der globalen Konfiguration angegeben. 
 - Ein _Eigenes Feld_ wurde innerhalb der globalen Konfiguration als Zuordnungselement gewählt.
-- Das Modul _Aufgaben-Synchronisation_ ist in dem zu synchronisierenden Objekt aktiviert und konfiguriert.
+- Das Modul __ ist in dem zu synchronisierenden Objekt aktiviert und konfiguriert.
 
 In der Administration wird festgelegt, in welchem Objekt die Aufgaben liegen, die synchronisiert werden sollen (Katalog-Objekt). Weiter wird festgelegt, welche Aufgabentypen zur Synchronisation genutzt werden können und in welchem eigenen Feld die Zuordnungselemente abgebildet werden.
 
 Die zu synchronisierenden Aufgaben müssen dieses _Eigenes Feld_ besitzen und dem gewählten Aufgabentyp entsprechen.
 
-In dem zu synchronisierenden Objekt muss das Modul _Aufgaben-Synchronisation_ aktiviert sein und es muss in der Modulkonfiguration mindestens ein _möglicher Wert_ als Zuordnungselement ausgewählt sein.
+In dem zu synchronisierenden Objekt muss das Modul __ aktiviert sein und es muss in der Modulkonfiguration mindestens ein _möglicher Wert_ als Zuordnungselement ausgewählt sein.
 
 image:anwenderhandbuch/modul_sync_konfig_objekt.png[]
 
@@ -32,7 +32,7 @@ Bei der Synchronisation werden die Standard-Kopiermechanismen des Systems genutz
 
 == Starten und Durchführen der Synchronisation
 
-Gestartet wird die Aufgaben-Synchronisation aus dem Reiter Aufgaben. Hier wird bei Aktivierung des Moduls __Aufgaben-Synchronisation__ im 3-Punkte-Menü die Auswahl __Synchronisieren__ angeboten.
+Gestartet wird die  aus dem Reiter Aufgaben. Hier wird bei Aktivierung des Moduls ____ im 3-Punkte-Menü die Auswahl __Synchronisieren__ angeboten.
 
 image:anwenderhandbuch/modul_sync_3-punkte-menue.png[]
 
@@ -41,8 +41,6 @@ Mit dem Klick auf __Synchronisieren__ wird der Synchoronisationsdialog geöffnet
 image:anwenderhandbuch/modul_sync_maske_start.png[]
 
 In dieser Maske werden zunächst Quell- und Zielobjekt dargestellt. Wenn bei der Aufgabensynchronisation mehrere Aufgabentypen für die Synchronisation konfiguriert wurden, besteht die Möglichkeit, die Synchronisation auf einen (Dropdown) oder mehrere ( + ) Aufgabentypen  einzugrenzen.
-
-Nach einer Änderung in der Auswahl eines Aufgabentyps muss durch einen Klick auf _Aktualisieren_ die Neuberechnung der zu synchronisierenden Aufgaben angestoßen werden.
 
 Unterhalb der Auswahl der Aufgabentypen werden die Zielobjektklassen aufgelistet. Im Beispiel sind es die Klassen: Büroraum, Home-Office/Mobiler Arbeitsplatz, Serverraum, Technikraum.
 

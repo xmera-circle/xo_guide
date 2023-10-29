@@ -207,7 +207,7 @@ Objektklassen beschreiben einen typischen Aufbau eines Objekts. Dieser Aufbau wi
 - usw.
 
 [NOTE]
-Objektklassen werden zusätzlich als Parameter in einigen Objektmodulen und globalen Systemeinstellungen benötigt. Beispiele hierfür sind das Modul __Aufgaben__, __Aufgaben-Synchronisation__  und das Modul __Tabellen__.
+Objektklassen werden zusätzlich als Parameter in einigen Objektmodulen und globalen Systemeinstellungen benötigt. Beispiele hierfür sind das Modul __Aufgaben__, ____  und das Modul __Tabellen__.
 
 Die Vorkonfiguration wird nach dem ersten Speichern beim Anlegen eines neuen Objekts an dieses übertragen. Die Vorkonfiguration von Objektklassen erfolgt aus der Administration der Anwendung.
 
