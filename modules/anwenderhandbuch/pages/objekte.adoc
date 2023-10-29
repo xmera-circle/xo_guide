@@ -209,7 +209,7 @@ In einer Objektklasse werden Aufbau und ggf. Inhalt für Objekte, die auf Basis 
 - usw.
 
 [NOTE]
-Objektklassen werden zusätzlich als Parameter in einigen Objektmodulen und globalen Systemeinstellungen benötigt. Beispiele hierfür sind das Modul __Aufgaben__, __Aufgaben-Synchronisation__  und das Modul __Tabellen__.
+Objektklassen werden zusätzlich als Parameter in einigen Objektmodulen und globalen Systemeinstellungen benötigt. Beispiele hierfür sind das Modul __Aufgaben__, __Aufgabensynchronisation__  und das Modul __Tabellen__.
 
 Bevor ein Objekt von einer Objektklasse abgeleitet werden kann, müssen die Pflichtfelder, __Unterobjekt von__ und __Benutzer erben__ ausgefüllt werden. Nach dem Speichern, werden die Konfiguration und Inhalte der Objektklasse auf das neue Objekt übertragen. 
 
