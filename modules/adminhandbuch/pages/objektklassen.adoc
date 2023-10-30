@@ -8,7 +8,7 @@ include::ROOT:partial$custom-css.adoc[]
 
 == Funktion von Objektklassen
 
-Objektklassen fungieren zum einen als Vorlage bei der Generierung von Objekten der vorliegenden Klasse, zum anderen sind sie Ordnungs- und Zuordnungskriterium für Objekte. Mit Hilfe von Objektklassen wird bspw. die funktionale Verknüpfung von Objekten gesteuert.
+Objektklassen fungieren als Vorlage bei der Generierung von Objekten. Die Zuordnung eines Objekts zu einer Objektklasse ermöglicht weiter klassenbezogene Funktonen und Abfragen. Die Objektklasse dient damit als Ordnungs- und Zuordnungskriterium. 
 
 === Objektklassen als Vorlage
 
@@ -40,9 +40,9 @@ Objektklassen werden in der Administration über den Menüpunkt image:adminhandb
 
 image:adminhandbuch/objektklassen_liste.png[]
 
-Hier lassen sich Objektklassen entsprechend der Bedienung in der xref:anwenderhandbuch:objekte.adoc#_objekte_konfigurieren[Objektkonfiguration] bearbeiten.
+Hier lassen sich Objektklassen analog der xref:anwenderhandbuch:objekte.adoc#_objekte_konfigurieren[Objektkonfiguration] bearbeiten.
 
-Neue Objektklassen lassen sich über den Button image:adminhandbuch/button_objektklassen_neu.png[]. Die Konfigurationsmaske unterscheidet sich, wie im folgenden Bild zu sehen, nur im obersten Bereich. 
+Neue Objektklassen lassen sich über den Button image:adminhandbuch/button_objektklassen_neu.png[] erstellen. Die Konfigurationsmaske unterscheidet sich, wie im folgenden Bild zu sehen, nur im obersten Bereich. 
 
 image:adminhandbuch/objektklassen_neues_objekt.png[]
 
@@ -52,7 +52,7 @@ Ansonsten entsprechen die Einträge dem der xref:anwenderhandbuch:objekte.adoc[O
 
 == Objektklasseninhalte pflegen
 
-Um Inhalte einer Objektklasse zu pflegen, klickt man auf den Namen der Objektklasse in der Liste. Man gelangt in die Objektklassenbearbeitung. Die Inhalte lassen sich entsprechend der xref:anwenderhandbuch:objekte.adoc[Objektbearbeitung] pflegen und anpassen.
+Um Inhalte einer Objektklasse zu pflegen, klickt man auf den Namen der Objektklasse in der Liste. Es öffnet sich die Objektklassenbearbeitung. Die Inhalte lassen sich entsprechend der xref:anwenderhandbuch:objekte.adoc[Objektbearbeitung] pflegen und anpassen.
 
 [IMPORTANT]
 Änderungen in der Objektklasse betreffen nur neu angelegte Objekte dieser Objektklasse. Bestehende Objekte der Objektklasse werden nicht verändert.
