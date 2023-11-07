@@ -11,7 +11,7 @@ include::ROOT:partial$custom-css.adoc[]
 Das DMS ist das umfangreichste Modul zur Verwaltung von Dokumenten. Es beinhaltet zahlreiche Funktionen:
 
 - Ordnerstruktur
-- Verknüpfungen
+- Verknüpfungen (insb. zu externen Dokumenten)
 - Dokumentenstatus
 - Metadaten
 - Versionierung
@@ -21,7 +21,7 @@ Das DMS ist das umfangreichste Modul zur Verwaltung von Dokumenten. Es beinhalte
 
 Damit bietet es notwendigen Funktionen, um das Dokumentenmanagement auch bei komplexeren Anforderungen abbilden zu können.
 
-Auf der Übersichtsseite gibt es die bekannten Filter und Darstellungsoptionen, mit denen nach Dokumenten gesucht werden kann. Filterabfragen können gespeichert werden.
+Auf der Übersichtsseite gibt es die bekannten Filter und Darstellungsoptionen, mit denen nach Dokumenten gesucht werden kann. Filterabfragen können auch hier gespeichert werden.
 
 image:anwenderhandbuch/modul_dms_uebersicht.png[]
 
@@ -35,19 +35,19 @@ Ein neues Dokument wird über den Button image:anwenderhandbuch/button_neue-date
 
 image:anwenderhandbuch/modul_dms_neue-datei.png[]
 
-Hier kann über den Button image:anwenderhandbuch/button_durchsuchen.png[] der Dateiexplorer des eigenen Rechners aufgerufen und die hochzuladenden Dateien hinzugefügt werden oder durch Drag & Drop Dateien hinzugefügt werden. Mit Klick auf den Button image:anwenderhandbuch/button_upload.png[] erscheint folgende Maske zum Erfassen der Metadaten der Datei.
+Hier kann über den Button image:anwenderhandbuch/button_durchsuchen.png[] der Dateiexplorer des eigenen Rechners aufgerufen und die hochzuladenden Dateien hinzugefügt werden oder durch Drag & Drop Dateien hinzugefügt werden. Mit Klick auf den Button image:anwenderhandbuch/button_upload.png[] erscheint folgende Ansicht zum Erfassen der Metadaten der Datei.
 
 image:anwenderhandbuch/modul_dms_hochgeladene-datei.png[]
 
-In dieser Maske werden die Metadaten wie ein beschreibender Text, die Version, ein Kommentar des Bearbeiters sowie _Eigene Felder_, die dem DMS durch den Administrator hinzugefügt wurden.
+In diesem Formular können verschiedenste Metadaten gepflegt werden: ein beschreibender Text, die Version, ein Kommentar des Bearbeiters sowie _Eigene Felder_, die dem DMS durch den Administrator hinzugefügt wurden.
 
-Mit dem Klick auf den Button image:anwenderhandbuch/button_upload.png[] wird die Datei hochgeladen. Werden mehrere Dateien hochgeladen, wird für jede Datei untereinander angeordnet eine gesonderte Maske angezeigt.
+Mit Klick auf den Button image:anwenderhandbuch/button_upload.png[] wird die Datei hochgeladen. Werden mehrere Dateien hochgeladen, wird für jede Datei untereinander angeordnet eine gesondertes Eingabeformular angezeigt.
 
 === Neue Dokumentversion anlegen
 
-Ein zentrales Element ist die Versionierung von Dokumenten. Soll ein Dokument verändert werden, so wird dieses nicht ersetzt. Sondern es wird eine neue Version mit den geänderten Daten angelegt. Somit sind die Änderungen eines Dokuments immer nachvollziehbar.
+Ein zentrale Funktion in einem Dokumentenmanagementsystem ist die Versionierung der Dokumente. Soll ein Dokument verändert werden, so wird dieses nicht ersetzt. Sondern es wird eine neue Version mit den geänderten Daten angelegt. Somit sind alle Änderungen eines Dokuments nachvollziehbar.
 
-Wird ein Dokument erstellt, so wir die erste Version angelegt. Diese Version sollte nur durch die Administration wieder gelöscht werden können. Soll dieses Dokument geändert werden, so wird eine neue Version erstellt. Im folgenden Bild sind im Bearbeitungsfenster des Dokuments zwei Versionen zu sehen.
+Wird ein Dokument erstellt, so wird die erste Version angelegt. Diese Version sollte nur durch die Administration wieder gelöscht werden können. Soll dieses Dokument geändert werden, so wird eine neue Version erstellt. Im folgenden Bild sind im Bearbeitungsfenster des Dokuments zwei Versionen zu sehen.
 
 image:anwenderhandbuch/modul_dms_versionierung.png[]
 
@@ -67,11 +67,11 @@ Im DMS können auch Verknüpfungen erstellt werden. Eine Verknüpfung kann im 3-
 
 image:anwenderhandbuch/modul_dms_3-punkte-menue.png[]
 
-über den Menüpunkt _Verknüpfung anlegen_ angelegt werden. Es erscheint folgende Maske: 
+über den Menüpunkt _Verknüpfung anlegen_ angelegt werden. Es erscheint folgendes Menü: 
 
 image:anwenderhandbuch/modul_dms_verknuepfung_intern.png[]
 
-Dabei wird zwischen internen und externen Verknüpfungen unterschieden. Interne Verknüpfungen zeigen auf Dateien, die in anderen Objekten abgelegt wurden. Entsprechend ist in diesem Fall das Quellobjekt und die Quelldatei zu wählen. Quellordner und Name werden automatisch übernommen.
+Dabei wird zwischen internen und externen Verknüpfungen unterschieden. Interne Verknüpfungen zeigen auf Dateien innerhalb des Systems. Entsprechend ist in diesem Fall das Quellobjekt und die Quelldatei zu wählen. Quellordner und Name werden automatisch übernommen.
 
 Externe Verknüpfungen sind Verbindungen zu externen Servern, die über eine URL erreicht werden können. Entsprechend ändert sich die Maske bei der Auswahl _Extern_ wie folgt.
 
@@ -90,11 +90,11 @@ Die E-Mail wird an die im Benutzerprofil angegebene E-Mailadresse versand.
 
 === Löschen von Dokumenten
 
-Ein Löschen von Dokumenten ist aus der Dokumentenliste möglich. In der Dokumentenleiste kann, bei entsprechender Berechtigung über den Button image:anwenderhandbuch/button_loeschen.png[] das Dokument gelöscht werden. 
+In der Dokumentenleiste kann, bei entsprechender Berechtigung über den Button image:anwenderhandbuch/button_loeschen.png[] das Dokument gelöscht werden. Diese Funktion steht nur den Benutzern zur Verfügung, die die Berechtigung zum Löschen haben.
 
 === Löschen von Dokumentversionen
 
-Wird über das 3-Punkte-Menü die Bearbeitung aufgerufen, kann eine Version gelöscht werden. Das Löschen erreicht man über das 3-Punkte-Menü neben der Version.
+Wird über das 3-Punkte-Menü die Bearbeitung aufgerufen, kann eine Version gelöscht werden. Das Löschen erreichst Du über das 3-Punkte-Menü neben der Version.
 
 Wurde ein Dokument über einen Genehmigungs-Workflow freigegeben, so kann das Dokument nicht gelöscht werden. Hier besteht nur die Möglichkeit die Version zu sperren.
 
@@ -108,11 +108,11 @@ Ist ein Dokument gesperrt, so wird im Datumsfeld das Symbol image:anwenderhandbu
 
 === Metadaten
 
-xmera Omnia bietet die Möglichkeit in der Administration eigene Felder zu jedem Dokument hinzuzufügen. Zum Beispiel sind es hier, wie im folgenden Bild zu sehen, die Vertraulichkeitsklasse und der Bearbeitungsstatus.
+xmera Omnia bietet die Möglichkeit in der Administration eigene Felder zu jedem Dokument hinzuzufügen. In diesem Beispiel sind es die Vertraulichkeitsklasse und der Bearbeitungsstatus:
 
 image:anwenderhandbuch/modul_dms_eigene_felder.png[]
 
-Diese eigenen Felder ermöglichen weitere Klassifizierungs- und Strukturierungsmöglichkeiten, nach denen in der Dokumentenliste auch gefiltert / gruppiert werden kann.
+Diese eigenen Felder ermöglichen weitere Klassifizierungs- und Strukturierungsmöglichkeiten, nach denen in der Dokumentenliste auch gefiltert und gruppiert werden kann.
 
 == Ordnerstruktur
 
@@ -126,24 +126,24 @@ image:anwenderhandbuch/modul_dms_neuer_ordner.png[]
 
 Neben dem Datum kann eine Beschreibung, sowie weiter individuelle Einträge (_eigenen Felder_) dem Ordner zugeordnet werden.
 
-Weiter können die Zugriffe auf den Ordner durch die Auswahlfelder im Bereich _Zugriff erlaubt für_ eingeschränkt werden. Sind keine Haken gesetzt, wird die Zugriff durch die Rollenberechtigungen bestimmt. Die Berechtigung kann durch Auswahl einzelner Rollen oder Benutzer weiter eingeschränkt werden.
-Benutzer werden zunächst nicht angezeigt. Durch Klicken auf den Button image:anwenderhandbuch/button_benutzer_suchen.png[] können Benutzer / Gruppen des Objekts hinzugefügt werden.
+Weiter können die Zugriffe auf den Ordner durch die Auswahlfelder im Bereich _Zugriff erlaubt für_ eingeschränkt werden. Sind keine Haken gesetzt, wird der Zugriff durch die Rollenberechtigungen bestimmt. Die Berechtigung kann durch Auswahl einzelner Rollen oder Benutzer weiter eingeschränkt werden.
+Benutzer werden zunächst nicht angezeigt. Durch Klicken auf den Button image:anwenderhandbuch/button_benutzer_suchen.png[] können Benutzer und Gruppen des Objekts hinzugefügt werden.
 
 === Navigieren
 
-Durch Klicken auf den Ordnernamen in der Dokumentenliste gelangt man in die Liste des Ordners.
+Durch Klicken auf den Ordnernamen in der Dokumentenliste wird Dir der Inhalt des Ordners angezeigt.
 
 image:anwenderhandbuch/modul_dms_ordnerstruktur.png[]
 
-Angezeigt wird der aktuelle Ordner in der Zeile unterhalb des Objektmenüs. In dem Beispiel oben ist es Dateien / Protokolle / Lenkungskreis. Durch Klicken auf den Ordnernamen in der Ordnerstruktur kann man direkt in die Dokumentenliste des entsprechenden Ordners springen.
+Der aktuelle Ordner wird auf der linken Seite unterhalb des Objektmenüs angezeigt. In dem Beispiel oben ist es `Dateien / Richtlinien / Informationssicherheit`. Durch Klicken auf den Ordnernamen in der Ordnerstruktur kannst Du direkt in die Dokumentenliste des entsprechenden Ordners springen.
 
 === Ordner und Dokumente verschieben/kopieren
 
-Neue Dokumente werden immer dem Ordner zugeordnet, von dem aus eine neue Datei hinzugefügt wird. Eine Datei, aber auch ein ganzer Ordner lassen sich im Nachgang auch verschieben oder kopieren. Im 3-Punkte-Menu in der Zeile des Ordner oder der Datei, die verschoben werden soll, wählt man den Button image:anwenderhandbuch/button_kopieren_verschieben.png[]. Es erscheint folgende Maske:
+Neue Dokumente werden immer dem Ordner zugeordnet, von dem aus eine neue Datei hinzugefügt wird. Eine Datei, aber auch ein ganzer Ordner lassen sich im Nachgang auch verschieben oder kopieren. Im 3-Punkte-Menu in der Zeile des Ordner oder der Datei, die verschoben werden soll, wählst Du den Button image:anwenderhandbuch/button_kopieren_verschieben.png[]. Es erscheint folgende Ansicht:
 
 image:anwenderhandbuch/modul_dms_kopieren_verschieben.png[]
 
-In der Maske kann das Zielobjekt und der Zielordner gewählt werden, in das das Dokument/Ordner verschoben bzw. kopiert werden soll. Die Auswahl, ob es sich um eine Kopie oder ob es ich um ein Verschieben handelt, wird durch Klicken auf den Button image:anwenderhandbuch/button_kopieren_rot.png[] oder image:anwenderhandbuch/button_verschieben.png[] festgelegt.
+In der Maske kann das Zielobjekt und der Zielordner gewählt werden, in das das Dokument/Ordner verschoben bzw. kopiert werden soll. Die Auswahl, ob es sich um eine Kopie oder ob es ich um ein Verschieben handelt, wird durch Klicken auf den Button image:anwenderhandbuch/button_kopieren_orange.png[] oder image:anwenderhandbuch/button_verschieben.png[] festgelegt.
 
 === Ordner löschen
 
@@ -153,7 +153,7 @@ Ein Ordner kann mit der Funktion image:anwenderhandbuch/button_loeschen.png[] im
 
 Mit dem Genehmigungs-Workflow bietet xmera Omnia die Möglichkeit Genehmigungsprozesse für Dokumente abzubilden. Hierzu wird 
 
-- ein Workflow festgelegt, in welchen Schritten die Genehmigung zu erfolgen hat
+- ein Workflow festgelegt, der die Genehmigungsschritte definiert,
 - der Workflow einem Dokument zugeordnet,
 - der Freigabeprozess gestartet und
 - die Freigabe im Dokument gespeichert.
@@ -164,31 +164,34 @@ Diese Schritte werden im Folgenden beschrieben.
 
 Grundsätzlich werden xref:adminhandbuch:genehmigungs-workflows.adoc[globale] und lokale Workflows unterschieden. Globale Workflows werden im Administrationsbereich von xmera Omnia erstellt und stehen in allen Objekten zur Verfügung. Die lokalen Workflows werden im Konfigurationsbereich des Objekts erstellt und stehen nur dem Objekt zur Verfügung. Die Erstellung eines Workflows ist in beiden Fällen gleich.
 
-Die Erstellung und Pflege von lokaler Genehmigungs-Workflows erfolgt in der Objektkonfiguration im Reiter Genehmigungs-Workflow.
+Die Erstellung und Pflege lokaler Genehmigungs-Workflows erfolgt in der Objektkonfiguration im Reiter Genehmigungs-Workflow.
 
 image:anwenderhandbuch/modul_dms_lokale_workflows.png[]
 
-Hier finden sich die für das Objekt definierten Workflows. Es können über den Button image:anwenderhandbuch/button_neuer_genehmigungs_workflow.png[] ein neuer Workflow erstellt, durch Klicken auf den Namen des Workflows in der Liste der Workflow bearbeitet werden oder durch Klicken auf image:anwenderhandbuch/button_loeschen.png[] der lokale Workflow gelöscht werden.
+Hier finden sich die für das Objekt definierten Workflows. Workflows können mit image:anwenderhandbuch/button_neuer_genehmigungs_workflow.png[] erstellt werden, durch Klicken auf den Namen des Workflows in der Liste bearbeitet oder durch Klicken auf image:anwenderhandbuch/button_loeschen.png[] gelöscht werden.
 
-Wird ein neuer Workflow erstellt, so erscheint folgende Maske:
+Wird ein neuer Workflow erstellt, so erscheint folgender Dialog:
 
 image:anwenderhandbuch/modul_dms_neuer_workflow.png[]
 
 Hier wird der Name des Workflows festgelegt und es kann optional als Vorlage ein bestehender Workflow gewählt werden.
 
-Mit dem Button image:anwenderhandbuch/button_anlegen.png[] oder durch Bearbeiten eines bestehenden Workflows gelangt man in die Bearbeitungsmaske des Workflows.
+Mit dem Button image:anwenderhandbuch/button_anlegen.png[] oder durch Bearbeiten eines bestehenden Workflows gelangst Du in die Bearbeitungsmaske des Workflows.
 
 image:anwenderhandbuch/modul_dms_workflow_bearbeiten.png[]
 
-In dieser Maske kann zum einen der Name des Workflows verändert werden und es können die Workflow Schritte bearbeitet werden. 
-Der Ablauf des Workflows erfolgt in Schritten. Es werden die Genehmiger des 1. Schritts zur Genehmigung/Ablehnung aufgefordert werden. Ist dieser Schritt genehmigt, wird der die Genehmiger des folgenden Schritts zur Genehmigung/Ablehnung aufgefordert. Sind alle Schritte genehmigt, so wird das Dokument als genehmigt klassifiziert.
+In dieser Ansicht kann zum einen der Name des Workflows verändert und es können die Workflow Schritte bearbeitet werden. 
+Dafür werden die Genehmiger des 1. Schritts zur Genehmigung/Ablehnung aufgefordert. Ist dieser Schritt genehmigt, wird der Genehmiger des folgenden Schritts zur Genehmigung/Ablehnung aufgefordert. Sind alle Schritte genehmigt, so wird das Dokument als genehmigt markiert.
 
-Mit dem Button image:anwenderhandbuch/button_neuer_schritt.png[] wird eine Maske geöffnet, mit der Objektmitglieder einem neuen oder einem bestehenden Schritt hinzugefügt werden können.
+Mit dem Button image:anwenderhandbuch/button_neuer_schritt.png[] wird eine Ansicht geöffnet, mit der Objektmitglieder einem neuen oder bestehenden Schritt hinzugefügt werden können.
 
 image:anwenderhandbuch/modul_dms_workflow_neuer_schritt.png[]
 
 Hier müssen als erstes die Mitglieder der Gruppe gewählt werden, die dem Bearbeitungsschritt zugeordnet werden sollen. Als nächstes ist der Schritt zu wählen, dem diese Mitglieder zugeordnet werden sollen. Bei der Erstellung eines neuen Schritts ist der Name des Schritts neben dem Auswahlfeld zu setzen.
-Mit dem Wählen der Auswahl *_UND_* oder *_ODER_* wird der Schritt erstellt bzw. geändert. Alle Mitglieder die mit einem *_UND_* dem Schritt zugeordnet sind müssen den Schritt genehmigen, damit der Schritt abgeschlossen sind. Alle Mitglieder die mit *_ODER_* dem Schritt zugeordnet sind, sind optional. Sind nur Mitglieder mit *_ODER_* dem Schritt zugeordnet, muss zur Freigabe des Schritts mindestens ein Mitglied den Schritt freigeben.
+
+Mit dem Wählen der Auswahl *_UND_* oder *_ODER_* wird der Schritt erstellt oder geändert. Alle Mitglieder die mit einem *_UND_* dem Schritt zugeordnet sind müssen den Schritt genehmigen, damit der Schritt abgeschlossen sind. 
+
+Alle Mitglieder die mit *_ODER_* dem Schritt zugeordnet sind, sind optional. Sind nur Mitglieder mit *_ODER_* dem Schritt zugeordnet, muss zur Freigabe des Schritts mindestens ein Mitglied die Freigabe erteilen.
 
 Über den Button image:anwenderhandbuch/button_neuer_schritt.png[] können weitere Schritte hinzugefügt werden.
 
@@ -203,11 +206,11 @@ Die Bearbeitung teilt sich in drei Aspekte auf:
 
 __Neue Mitglieder__ werden über den Prozess image:anwenderhandbuch/button_neuer_schritt.png[] in einen neuen Schritt eingebunden. Der Ablauf entspricht dem Vorgehen beim Erstellen eines neuen Schrittes. Bei dem Hinzufügen wird der Schritt ausgewählt, in dem das Mitglied bzw. die Mitglieder hinzugefügt werden sollen.
  
-Soll die Auswahl *_UND_* / *_ODER_* für ein Mitglied verändert werden oder soll ein Mitglied aus einem Schritt entfernt werden, so geht man über den Button image:anwenderhandbuch/button_bearbeiten.png[] in der Zeile des zu bearbeitenden Schritts. Es öffnet sich die Zeile im Bearbeitungsmodus. 
+Soll die Auswahl *_UND_* / *_ODER_* für ein Mitglied verändert werden oder soll ein Mitglied aus einem Schritt entfernt werden, so gehst Du über den Button image:anwenderhandbuch/button_bearbeiten.png[] in der Zeile des zu bearbeitenden Schritts. Es öffnet sich die Zeile im Bearbeitungsmodus. 
  
 image:anwenderhandbuch/modul_dms_workflow_schritt_bearbeiten.png[]
  
-Hier kann der Name des Schritts angepasst werden, pro Mitglied die Option *_UND_* bzw. *_ODER_* verändert werden oder das Mitglied gelöscht werden. Mit dem Button _Wechseln_ wird die Änderung übernommen und mit _Abbrechen_ verworfen. 
+Hier kann der Name des Schritts angepasst werden, pro Mitglied die Option *_UND_* oder *_ODER_* verändert oder das Mitglied gelöscht werden. Mit dem Button _Wechseln_ wird die Änderung übernommen und mit _Abbrechen_ verworfen. 
 
 Die Reihenfolge der Schritte kann über eine Drag & Drop Funktion verändert werden. Mit gehaltener linker Maustaste auf das Symbol image:anwenderhandbuch/button_reihenfolge_veraendern.png[] kann die gewählte Zeile verschoben werden. An der Stelle, an der die Maus gelöst wird, wird der Schritt hin verschoben.
 
