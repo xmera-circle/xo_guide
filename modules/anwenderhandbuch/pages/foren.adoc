@@ -8,6 +8,8 @@ include::ROOT:partial$custom-css.adoc[]
 
 Im Rahmen des Informationssicherheitsmanagements ist der Gesprächs- und Diskussionsbedarf innerhalb der Organisation in der Regel recht hoch. Um den Informationsaustausch auch asynchron zu ermöglichen, gibt es in xmera Omnia Diskussionsforen.
 
+image:anwenderhandbuch/modul_forum_uebersicht.png[]
+
 == Forum anlegen
 
 Foren werden in der Objektkonfiguration angelegt nachdem das Modul aktiviert wurde. 
