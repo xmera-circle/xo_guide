@@ -12,15 +12,15 @@ Tabellen dienen im xmera Omnia der Erfassung von Listen, die zum einen der Dokum
 
 Der Tabellenaufbau, das heißt die einzelnen Tabellenspalten und ggf. die Berechnungen werden durch den Administrator festgelegt. Der Anwender legt dann Datenblätter an, die auf den administrierten Tabellen basieren.
 
-Ist das Modul __Tabellen__ in einem Objekt aktiviert, kommt der Anwender durch Klicken auf den Menüpunkt _Tabellen_ auf die Übersichtsseite der Tabellen.
+Ist das Modul __Tabellen__ in einem Objekt aktiviert, kommst Du durch Klicken auf den Menüpunkt _Tabellen_ auf die Übersichtsseite der Tabellen.
 
 image::anwenderhandbuch/modul_tabellen_uebersicht.png[]
 
-Auf der Übersichtsseite werden die bereits bestehenden Datenblätter als Kacheln und in der Sidebar (die durch den roten Pfeil ein- und ausgeklappt werden kann) dargestellt. 
+Auf der Übersichtsseite werden die bereits bestehenden Datenblätter als Kacheln und in der Seitenleiste (die durch den roten Pfeil ein- und ausgeklappt werden kann) dargestellt. 
 
 Eine Kachel enthält den Datenblattnamen und wenn vorhanden die Beschreibung des Datenblatts sowie das Berechnungsergebnis.
 
-In der Sidebar sind die Datenblätter nach der zu grunde liegenden Tabelle sortiert. Dem Datenblatt unterlagert wird das Berechnungsergebnis dargestellt. durch Klicken auf den Datenblattnamen erscheint die Bearbeitungsseite des Datenblatts. Durch Klicken auf den Button image:anwenderhandbuch/button_neues-datenblatt.png[] öffnet sich die Erfassungsmaske für ein neues Datenblatt.
+In der Seitenleiste sind die Datenblätter nach der zu grunde liegenden Tabelle sortiert. Dem Datenblatt unterlagert wird das Berechnungsergebnis dargestellt. Durch Klicken auf den Datenblattnamen erscheint die Bearbeitungsseite des Datenblatts. Durch Klicken auf den Button image:anwenderhandbuch/button_neues-datenblatt.png[] öffnet sich die Erfassungsmaske für ein neues Datenblatt.
 
 == Datenblatt erstellen und bearbeiten
 
@@ -40,7 +40,7 @@ Die Übersichtsseite zeigt die erfassten Zeilen mit den erfassten Spaltenwerten.
 
 image:anwenderhandbuch/modul_tabellen_datenblatt.png[]
 
-Durch Klicken auf den Button image:anwenderhandbuch/button_neue-zeile.png[] oder durch Klicken auf den Button image:anwenderhandbuch/button_bearbeiten.png[] im rechten Teil der Zeile wird die Bearbeitungsmakse für die neue bzw. die gewählte Zeile geöffnet.
+Durch Klicken auf den Button image:anwenderhandbuch/button_neue-zeile.png[] oder durch Klicken auf den Button image:anwenderhandbuch/button_bearbeiten.png[] im rechten Teil der Zeile wird die Bearbeitungsmakse für die neue oder gewählte Zeile geöffnet.
 
 image:anwenderhandbuch/modul_tabellen_zeile_bearbeiten.png[]
 
@@ -60,7 +60,7 @@ Das Beispiel zeigt eine Schutzbedarfsfeststellung, bei der die Werte aller Zeile
 
 == Assoziierte Tabellen
 
-xmera Omnia bietet an Berechnungsergebnisse an assoziierte Objekte zu vererben.
+xmera Omnia bietet an, Berechnungsergebnisse an assoziierte Objekte zu vererben.
 
 Assoziierte Objekte sind Objekte dessen Klassen in Klient-Service-Beziehung zueinander stehen. Diese Beziehungen werden im xref:adminhandbuch:objektklassen.adoc[Administrationsbereich in den Objektklassen] festgelegt.
 
