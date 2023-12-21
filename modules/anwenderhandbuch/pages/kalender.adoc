@@ -14,23 +14,22 @@ image:anwenderhandbuch/modul_kalender_seite.png[]
 
 === Kalendereinträge filtern
 
-Die Filterfunktion &#10122; ermöglicht, die Aufgaben, die angezeigt werden, nach eigenen Kriterien zu filtern. Dafür können Aufgabenattribute oder ein Monat &#10123; ausgewählt werden. Mit den Buttons &#10124; kann der Kalender monatsweise vor oder zurück geblättert werden.
+Die Filterfunktion &#10122; ermöglicht, die Aufgaben, die angezeigt werden sollen, nach eigenen Kriterien zu filtern. Dafür können Aufgabenattribute oder ein Monat &#10123; ausgewählt werden. Mit den Buttons &#10124; kann der Kalender monatsweise vor oder zurück geblättert werden. Dargestellt werden die Termine in der Monatsansicht &#10125;.
 
 === Anzeige von Kalendereinträgen
 
-Im Kalenderbereich werden die gefilterten Aufgaben jeweils an dem Tag, an dem die Aufgabe beginnt und an dem sie endet, angezeigt. Pakete werden an angezeigt, wenn der Kalendertag dem Enddatum enstpricht.
+Im Kalenderbereich werden die gefilterten Aufgaben jeweils an dem Tag, an dem die Aufgabe beginnt und an dem sie endet, angezeigt. Pakete werden angezeigt, wenn der Kalendertag dem Enddatum enstpricht.
 
-Im folgenden Beispiel werden die Aufgaben am Donnerstag den 30.10. dargestellt.
+Im folgenden Beispiel werden zwei Aufgaben und ein Arbeitspaket, das am 22. April fällig ist, dargestellt.
 
 image:anwenderhandbuch/modul_kalender_tagesdetails.png[]
 
-An diesem Tag enden zwei Aufgaben (#297 und #295) und ein Paket (Meldungen-Q3-2021).
 
 [NOTE]
-Die Rote Schrift zeigt an, dass die Aufgaben überfällig sind.
+Die rote Schrift zeigt an, dass die Aufgaben überfällig sind.
 
-Zu jeder Aufgabe wird zunächst das Objekt angezeigt, anschließend ein Icon gemäß Legende &#10125;, danach der Aufgabentyp mit Aufgabennummer (#...) und dann der Aufgabentitel. Beim Darübergleiten mit der Maus werden, wie im folgenden zu sehen, weitere Informationen eingeblendet.
+Zu jeder Aufgabe wird zunächst das Objekt angezeigt, anschließend ein Icon gemäß Legende &#10126;. Dann folgt der Aufgabentyp mit Aufgabennummer (#...) und schließlich der Aufgabentitel. Beim Darübergleiten mit der Maus werden, wie im folgenden zu sehen, werden weitere Informationen eingeblendet.
 
 image:anwenderhandbuch/modul_kalender_mouse-over.png[]
 
-Durch Klicken auf den Aufgabentitel gelangt man in die Aufgabenmaske.
+Durch Klicken auf den Aufgabentitel gelangt man in die Einzelansicht der Aufgabe.
