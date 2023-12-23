@@ -21,7 +21,7 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 |Text, der auf der Hauptseite im Dashboard-Block _Willkommenstext_ angezeigt wird.
 
 |Objekte pro Seite
-|Anzahl der Elemente auf Listenseiten. Die verschiedenen Werte werden Komma-getrennt aufgelistet. 
+|Anzahl der Elemente auf Listenseiten. Die verschiedenen Werte werden Komma-getrennt aufgelistet. Standardwerte sind 25, 50 oder 100 Elemente pro Seite.
 
 |Suchergebnisse pro Seite
 |Standardwert für die Anzahl von Suchergebnissen.
