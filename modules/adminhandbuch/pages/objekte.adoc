@@ -49,12 +49,12 @@ Das Objekt steht mit allen Unterobjekten den Benutzern nicht mehr zur Verfügung
 [WARNING]
 *Gelöscht* ist kein Status eines Objekts, da mit dem Löschen eines Objekts, dass Objekt mit all seinen Unterobjekten und zugeordneten Aufgaben und Informationen nicht mehr zur Verfügung stehen. Eine Reaktivierung der Daten ist nicht möglich.
 
-Ein Objekt ist mit der Erstellung sofort aktiv. Es kann auf seiner Übersichtsseite über das 3-Punkte-Menü geschlossen werden.
+Ein Objekt ist mit der Erstellung sofort aktiv. Es kann auf seiner Übersichtsseite des Objekts über das 3-Punkte-Menü geschlossen werden.
 
 image:adminhandbuch/objekte_schliessen_3_punkte_menue.png[]
 
 Über den gleichen Weg lässt es sich wieder öffnen.
 
-Das Archivieren von Objekten ist nur über die Administration möglich. Über den Button image:adminhandbuch/button_archivieren.png[], in der Zeile des zu archivierenden Objekts, wird es in den neuen Status versetzt.
+Das Archivieren von Objekten ist nur über die Administration aus der Objektliste möglich. Über den Button image:adminhandbuch/button_archivieren.png[], in der Zeile des zu archivierenden Objekts, wird es in den neuen Status versetzt.
 
 Über den dann zur Verfügung stehenden Button image:adminhandbuch/button_entarchivieren.png[], lässt sich das Objekt wieder herstellen.
