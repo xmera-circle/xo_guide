@@ -6,7 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Im Administrationsbereich im Menüpunkt _Informationen_ sind zur Installation verschiedenste Parameter und Versionsstände der aktuellen Softwareinstallation aufgeführt.
+Im Administrationsbereich unter dem Menüpunkt _Informationen_ sind zur Installation verschiedenste Parameter und Versionsstände der aktuellen Softwareinstallation aufgeführt.
 
 image:adminhandbuch/informationen_gesamt.png[]
 
@@ -14,7 +14,7 @@ Im ersten Teil werden Sicherheitseinstellungen und der Status von optionalen Too
 
 image:adminhandbuch/informationen_einstellungen.png[]
 
-Im zweiten Teil werden Umgebungsparameter und Versionsstände relevanter Software angezeigt. Die nachstehende Liste ist beispielhaft und spiegelt nicht den aktuellen Stand wieder.
+Im zweiten Teil werden Umgebungsparameter und Versionsstände relevanter Software angezeigt. Die nachstehende Liste ist beispielhaft und spiegelt nicht den aktuellen Stand wider.
 
 image:adminhandbuch/informationen_installation.png[]
 
