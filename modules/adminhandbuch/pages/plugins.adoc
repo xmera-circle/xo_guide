@@ -6,7 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration lässt sich über den Menüpunkt _Plugins_ erreichen.
+xmera Omnia wird von uns kontinuierlich modular erweitert. Die einzelnen Module werden mit Hilfe von Plugins in das System integriert. Einige der Plugins können konfiguriert werden. Die Pluginkonfiguration erreichst Du über den Menüpunkt _Plugins_.
 
 image:adminhandbuch/plugins_liste.png[Plugins]
 
