@@ -6,10 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Im Themenbereich _Genehmigungs-Workflows_ können Workflows zur Genehmigung von Dokumenten des Moduls *Dokumentenmanagement (DMS)* erstellt werden.
-
-[NOTE]
-Dieser Menüpunkt ist nur vorhanden, wenn das Modul DMS installiert wurde.
+Im Themenbereich _Genehmigungs-Workflows_ können globale Workflows zur Genehmigung von Dokumenten des Moduls *Dokumentenmanagement (DMS)* erstellt werden.
 
 Globale Genehmigungs-Workflows stehen den Mitgliedern in allen Objekten zur Verfügung. Dagegen stehen xref:anwenderhandbuch:dokumentenmanagement.adoc#_workflows_erstellen[lokale Workflows] nur in dem Objekt, in dem sie erstellt wurden, zur Verfügung. 
 
