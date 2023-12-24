@@ -40,7 +40,7 @@ In der Bearbeitungsmaske sind
 
 zu pflegen. 
 
-Wird die _On-the-fly-Benutzererstellung_ gewählt, so wird ein Benutzer bei der ersten Anmeldung in xmera Omnia im System angelegt. Damit die LDAP Attribute den Benutzer-Pflichtfledern zugeordnet werden können, müssen folgenden Attribute gesetzt werden:
+Wird die _On-the-fly-Benutzererstellung_ gewählt, so wird ein Benutzer bei der ersten Anmeldung in xmera Omnia im System angelegt. Damit die LDAP-Attribute den Benutzer-Pflichtfledern zugeordnet werden können, musst Du folgende Werte eingeben:
 
 - Mitgliedsname-Attribut,
 - Vorname-Attribut,
