@@ -50,13 +50,13 @@ Im Vergleich zur Bearbeitung des Benutzerkontos:
 * ein Ändern des Passworts bei der nächsten Benutzeranmeldung zu erzwingen
 - können dem Benutzer per E-Mail seine Kontodaten gesendet werden.
 
-Die Parametrierung der 2-Faktor-Authentifizierung (2FA) steht in der Administratoransicht des Benutzerkontos nicht zur Verfügung. Im xref:adminhandbuch:konfiguration.adoc[Konfigurationsbereich] der Anwendung kann jedoch eine generelle Einstellung dazu vorgenommen werden, ob die 2FA verfplichtend oder optional sein soll.
+Die Parametrierung der 2-Faktor-Authentifizierung (2FA) steht in der Administratoransicht des Benutzerkontos nicht zur Verfügung. Im xref:adminhandbuch:konfiguration.adoc[Konfigurationsbereich] der Anwendung kann jedoch eine generelle Einstellung dazu vorgenommen werden, ob die 2FA verpflichtend oder optional sein soll.
 
 === Importieren
 
 Über eine CSV-Schnittstelle können Benutzer in xmera Omnia importiert werden. Für den Import muss die Importdatei mindestens die Pflichtfelder enthalten.
 
-Der Bemutzerimport erfolgt in 5 Schritten:
+Der Benutzerimport erfolgt in 5 Schritten:
 
 Importdatei vorbereiten::
 
@@ -84,7 +84,7 @@ Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinh
 |*E-Mail*
 |String
 |E-Mail Adresse des Benutzers. Muss eine gültige Form besitzen. (Pflichtfeld)
-|test.user@testprovider.org
+|`test.user@testprovider.org`
 
 |*Sprache*
 |String
@@ -239,8 +239,19 @@ Durch den Button image:adminhandbuch/button_loeschen.png[Löschen] kann die Roll
 
 Objektzuordnung hinzufügen:: 
 
-Soll ein Benutzer Rollen in Objekten erhalten, die noch nicht in der Liste enthalten sind, so erfolgt dieses über den Button image:adminhandbuch/button_objekt_hinzufuegen.png[Objekt hinzufügen]. Es wird eine Maske mit der Objektstruktur und den Rollen angezeigt.
-
+Soll ein Benutzer Rollen in Objekten erhalten, die noch nicht in der Liste enthalten sind, so erfolgt dieses über den Button image:adminhandbuch/button_objekt_hinzufuegen.png[Objekt hinzufügen]. Es wird eine Maske mit der Objektstruktur und den Rollen angezeigt. +
++
 image:adminhandbuch/benutzer_bearbeiten_objekte_hinzufuegen.png[Objektrollen hinzufügen]
-
++
 In dieser Maske ist die Kombination aus Objekt(en) und Rolle(n) auszuwählen, die dem Benutzer zugeordnet werden sollen. Mit Klick auf den Button image:adminhandbuch/button_hinzufuegen.png[Hinzufügen] werden die Anpassungen übernommen.
+
+=== Avatar
+
+Der Tab _Avatar_ bietet die Möglichkeit dem Benutzer ein Avatar (Bild) zuzuordnen. Ist durch die Administration in der Konfiguration 
+xref:konfiguration.adoc#_anzeige[im Tab Anzeige] Gravatar aktiviert, so wird direkt das der E-Mail-Adresse zugeordnete Gravatarbild angezeigt. Andernfalls ist dem Benutzer kein Bild zugeordnet.
+
+image:adminhandbuch/benutzer_bearbeiten_avatar.png[Benutzer-Avatar bearbeiten]
+
+Über den Button image:adminhandbuch/button_datei_auswaehlen.png[Datei auswählen] kann ein Bild hochgeladen und durch image:adminhandbuch/button_speichern.png[speichern] dem Benutzer zugeordnet werden.
+
+Mit dem Button image:adminhandbuch/button_loeschen_einfach.png[löschen] kann das Bild wieder entfernt werden.
