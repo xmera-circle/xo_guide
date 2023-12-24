@@ -6,7 +6,7 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-In xmera Omnia können systemseitige Bezeichnungen in verschiedenen Sprachen angezeigt werden. Der Administrator hat aber auch die Möglichkeit die Wahl der Sprache für den Benutzer zu unterbinden, in dem er xref:konfiguration#_anzeige[eine Standardsprache verbindlich festlegt]. 
+In xmera Omnia können systemseitige Bezeichnungen in verschiedenen Sprachen angezeigt werden. Als Administrator hast Du die Möglichkeit die Wahl der Sprache für den Benutzer zu unterbinden, in dem Du xref:konfiguration#_anzeige[eine Standardsprache verbindlich festlegst]. 
 
 xmera Omnia ist in Deutsch und Englisch übersetzt. In den anderen Sprachen werden nicht übersetzte Bezeichnungen automatisch in Englisch angezeigt.
 
@@ -34,13 +34,13 @@ Die Standardbezeichnungen können mit Klick auf den Button image:adminhandbuch/b
 
 Entsprechend der Sprachauswahl wird die Liste der angepassten Bezeichnungen angezeigt.
 
-image:adminhandbuch/eigene-bezeichnungen_sprache.png[YAML-Datei]
+image:adminhandbuch/eigene-bezeichnungen_sprache.png[]
 
 ## Bezeichnungen suchen und ändern
 
 Grundlage für die Änderung einer Bezeichnung ist das Keywort der Bezeichnung. In der YAML-Sprachdatei wird jedem Keywort ein Text zugeordnet, der dann dem Benutzer angezeigt wird. 
 
-Dieser Text kann mit Hilfe einer gesonderten YAML-Änderungsdatei angepasst werden. Diese Datei wird im Normalmodus für den Administrator in einer Listendarstellung aufbereitet. Im YAML-Modus kann der Administrator in einem Editor die Anpassungen direkt in der YAML-Datei durchführen. 
+Dieser Text kann mit Hilfe einer gesonderten YAML-Änderungsdatei angepasst werden. Diese Datei wird im __Normalmodus__ für den Administrator in einer Listendarstellung aufbereitet. Im __YAML-Modus__ kann der Administrator in einem Editor die Anpassungen direkt in der YAML-Änderungsdatei durchführen. 
 
 ### Im Normalmodus
 
