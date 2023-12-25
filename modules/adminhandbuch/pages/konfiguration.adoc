@@ -21,7 +21,7 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 |Text, der auf der Hauptseite im Dashboard-Block _Willkommenstext_ angezeigt wird.
 
 |Objekte pro Seite
-|Anzahl der Elemente auf Listenseiten. Die verschiedenen Werte werden Komma-getrennt aufgelistet. Standardwerte sind 25, 50 oder 100 Elemente pro Seite.
+|Anzahl der Elemente auf Listenseiten. Die verschiedenen Werte werden komma-getrennt aufgelistet. Standardwerte sind 25, 50 oder 100 Elemente pro Seite.
 
 |Suchergebnisse pro Seite
 |Standardwert für die Anzahl von Suchergebnissen.
@@ -30,7 +30,7 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 |Anzahl der Tage, für chronologisch gelistete Änderungen pro Seite. Standardwert ist 10. Wird 0 eingegeben, werden im Journal keine Ergebnisse angezeigt.
 
 |Hostname
-|Die Basis URL für die Anwendung.
+|Die Basis URL für die Anwendung. Sie wird in E-Mail für Links verwendet.
 
 |Protokoll
 |Festlegung, ob die Client-Serververbindung unverschlüsselt (HTTP) oder verschlüsselt (HTTPS) erfolgt.
@@ -45,7 +45,7 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 
 
 |Formatierten Text im Cache speichern
-|Texte, die größer als 2 KB sind werden gecacht.
+|Texte, die größer als 2 KB sind, werden gecacht.
 
 |Wiki-Historie komprimieren
 |Wiki-Inhalte werden versioniert. Versionen werden mit _gzip_ komprimiert bevor der Text in der Datenbank gespeichert wird.
@@ -72,10 +72,10 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 |Anonyme Benutzer bekommen Inhalte stets in Standardsprache präsentiert. 
 
 [NOTE]
-Das kann für die Ausführung von automatisierten Aufgaben relevant sein.
+Das kann für die Ausführung von automatisierten Aufgaben relevant sein, sie von einem anonymen Benutzer ausgeführt werden.
 
 |Standardsprache für angemeldete Benutzer erzwingen
-|Anonyme Benutzer bekommen Inhalte stets in Standardsprache präsentiert. Die Sprachauswahl wird für den Benutzer dann nicht angezeigt.
+|Angemeldete Benutzer bekommen Inhalte stets in Standardsprache präsentiert. Die Sprachauswahl wird für den Benutzer in dem Fall nicht mehr angezeigt.
 
 |Wochenanfang
 |Setzt den Wochenanfang in der Anwendung. Bei der Auswahl _Sprachabhängig_ wird ein der Sprache fest zugeordnetes Datumsformat gewählt. Ist die Standardsprache nicht festgelegt (siehe oben), wird je nach Nutzer eine spezifisches Format gewählt.
@@ -93,18 +93,16 @@ Das kann für die Ausführung von automatisierten Aufgaben relevant sein.
 |Legt fest, wie der Benutzer, definiert aus Mitgliedsname, Vorname und Name, in der Anwendung dargestellt wird.
 
 |Gravatar-Benutzerbilder benutzen
-|Über den Haken kann die Gravatar-Funktion zugeschaltet. Im Normalfall nutzt die Funktion die Gravatare von gravatar.com. Es können aber auch andere Gravatarquellen in der `config/configuration.yml` oder `config/env.yml` eingestellt werden. +
-[CAUTION]
-Diese Funktion wird aktuell nicht von der Content Security Policy unterstützt!
+|Über das Kontrollkästchen kann die Gravatar-Funktion aktiviert werden. Im Normalfall nutzt die Funktion die Gravatare von gravatar.com. Es können aber auch andere Gravatarquellen in der `config/env.yml` eingestellt werden. +
 
 |Standard-Gravatar-Bild
 |Werden Gravatar-Benutzerbilder genutzt, kann das Standard-Gravatar-Bild gewählt werden.
 
 |Vorschaubilder von Dateianhängen anzeigen
-|Auswahl legt fest, ob ein Vorschaubild (bei bekannten Formaten) angezeigt wird oder nicht.
+|Diese Option legt fest, ob ein Vorschaubild (bei bekannten Formaten) angezeigt wird oder nicht.
 
 |Größe der Vorschaubilder (in Pixeln)
-|Legt die Größe des Vorschaubildes fest, wenn die Auswahl _Vorschaubilder von Dateianhängen anzeigen_ gewählt wurde.
+|Legt die Größe des Vorschaubildes fest, wenn die Auswahl _Vorschaubilder von Dateianhängen anzeigen_ aktiviert wurde.
 
 |Menü zum Anlegen neuer Objekte
 |Blendet je nach Auswahl spezielle Menüpunkte ein, wie z.B. das *+* im folgenden Bild, mit denen neue Objekte erzeugt werden können. image:adminhandbuch/konfiguration_anzeige_menue_plus.png[]
@@ -135,7 +133,7 @@ So braucht der Anwender sich nicht erneut anmelden, wenn er die Anwendung mit de
 - gesperrt » Eine Selbstregistrierung ist nicht möglich.
 - Kontoaktivierung durch E-Mail » Anwender erhalten nach der Eingabe der Kontodaten eine E-Mail mit einem Link, über den der Account aktiviert wird.
 - Manuelle Kontoaktivierung » Der Administrator erhält nach Übertragung der Registrierung des Anwenders eine E-Mail und muss dann den Anwender manuell freischalten.
-- Automatische Kontoaktivierung » Der Account des Anwender wird mit der Registrierung des Anwenders direkt freigeschaltet.
+- Automatische Kontoaktivierung » Der Account des Anwenders wird nach Registrierung direkt freigeschaltet.
 
 |Eigene Felder bei der Registrierung abfragen
 |Sind _Eigene Felder_ für Benutzer definiert, können diese dem Anwender bei der Registrierung angezeigt werden.
@@ -212,7 +210,7 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 |Für die Kennung der Objekte wird der letzte Objektname gewählt und anschließend das letzte Zeichen hochgezählt. Handelt es sich um eine Zahl, wird diese numerisch hochgezählt. Handelt es sich um einen Buchstaben wird alphabetisch hochgezählt. 
 
 |Rolle, die einem Nicht-Administrator zugeordnet wird, der ein Objekt erstellt
-|Legt ein _Nicht-Administrator_ ein Objekt an, so erhält der Ersteller die vordefinierte Rolle. Damit wird sichergestellt, dass ein _Nicht-Administrator_ Rechte erhält, mit dem er bei Bedarf das Objekt weiter bearbeiten kann. 
+|Legt ein _Nicht-Administrator_ ein Objekt an, so erhält der Ersteller die vordefinierte Rolle. Damit wird sichergestellt, dass ein _Nicht-Administrator_ Rechte erhält, mit denen er bei Bedarf das Objekt weiter bearbeiten kann. 
 
 2.1+| Voreinstellungen Objektliste
 
@@ -248,7 +246,7 @@ E-Mail-Benachrichtigungen und -erinnerungen werden an alle Adressen gesendet.
 |Einschränkung der E-Mail-Domains über eine Blacklist.
 
 |Benutzer erlauben, das eigene Benutzerkonto zu löschen
-|Wird ein Benutzer gelöscht, werden alle Referenzen zu seiner Person mit dem Benutzer _Anonym_ verknüpft. Das Konto über den Administrator zu sperren, ist oft die bessere Alternative.
+|Wird ein Benutzer gelöscht, werden alle Referenzen zu seiner Person und ihre Beiträge mit dem Benutzer _Anonym_ verknüpft. Das Konto über den Administrator zu sperren, ist oft die bessere Alternative.
 
 2.1+|Standardwerte für neue Benutzer
 
@@ -428,9 +426,6 @@ Der Eintrag begrenzt den Speicherbedarf der Anwendung. Bei der Festlegung der Da
 |E-Mail-Absender
 |Eintrag legt die E-Mail-Adresse für den E-Mail-Versand fest.
 
-|E-Mails als Blindkopie (BCC) senden
-|Bei Auswahl der Option werden die E-Mails als Blindkopiee (Empfänger sieht nicht die weiteren Empfänger der Mail) versendet.
-
 |Nur reinen Text (kein HTML) senden
 |Bei Auswahl der Option wird kein HTML-Inhalt in der Mail versendet.
 
@@ -490,3 +485,6 @@ Um flexibler in der Suche zu sein, können auch https://rubular.com/[reguläre W
 
 |===
 
+== Archive
+
+Archive sind im Rahme des Informationssicherheitsmanagements nicht relevant. Daher wird an dieser Stelle nicht weiter darauf eingegangen.
