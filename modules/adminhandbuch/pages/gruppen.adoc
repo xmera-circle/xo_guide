@@ -42,7 +42,7 @@ Durch Klick auf den Button image:adminhandbuch/button_neue_gruppe.png[] wird die
 
 image:adminhandbuch/gruppen_neue_gruppe.png[]
 
-In dieser Maske muss nur der Gruppenname festgelegt werden. Durch einen Klick auf _Anlegen_ wird die Gruppe erstellt und der Benutzer wieder zur Standardansicht geleitet. Durch einen Klick auf _Anlegen und weiter_ wird nach dem Klicken wiedrum die Maske zum Erfassen einer neuen Gruppe geöffnet.
+In dieser Maske muss nur der Gruppenname festgelegt werden. Durch einen Klick auf _Anlegen_ wird die Gruppe erstellt und der Benutzer wieder zur Standardansicht geleitet. Durch einen Klick auf _Anlegen und weiter_ wird nach dem Klicken wiederum die Maske zum Erfassen einer neuen Gruppe geöffnet.
 
 == Gruppe bearbeiten
 
