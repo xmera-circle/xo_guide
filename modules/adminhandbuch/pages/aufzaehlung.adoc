@@ -18,7 +18,7 @@ image:adminhandbuch/aufzaehlungen_liste.png[Aufzählungen]
 
 == Wert hinzufügen
 
-Jeder Aufzählungstyp hat einen Button image:adminhandbuch/button_neuer-wert.png[], über den zu der darunterliegenden Tabelle Werte hinzugefügt werden können. Mit Klick auf den Button erscheint folgendes Eingabeformular:
+Jeder Aufzählungstyp hat einen Button image:adminhandbuch/button_neuer-wert.png[], über den Du zu der darunterliegenden Tabelle Werte hinzugefügen kannst. Mit Klick auf den Button erscheint folgendes Eingabeformular:
 
 image:adminhandbuch/aufzaehlungen_neuer-wert.png[Aufzählungen neuer Wert]
 
@@ -30,7 +30,7 @@ Mit Klick auf den Button image:adminhandbuch/button_anlegen.png[Wert anlegen] wi
 
 == Wert bearbeiten
 
-Klickt man auf den Namen des zu bearbeitenden Wertes, so gelangt man in sein Bearbeitungsformular.
+Klickst Du auf den Namen des zu bearbeitenden Wertes, so gelangst Du in sein Bearbeitungsformular.
 
 image:adminhandbuch/aufzaehlungen_wert-bearbeiten.png[Wert bearbeiten]
 
@@ -48,8 +48,8 @@ An der Position, an der die linke Maustaste gelöst wird, wird der Wert platzier
 
 == Wert löschen
 
-Über den Button image:adminhandbuch/button_loeschen.png[Wert löschen] kann der Wert gelöscht werden. Wenn der Wert in der Anwendung bereits vergeben wurde, erscheint folgende Maske.
+Über den Button image:adminhandbuch/button_loeschen.png[Wert löschen] kann der Wert gelöscht werden. Wenn der Wert in der Anwendung bereits vergeben wurde, erscheint folgender Dialog.
 
 image:adminhandbuch/aufzaehlungen_loeschen_zuweisung.png[]
 
-In dieser Maske muss angegeben werden, welchen Wert die Objekte bekommen sollen, die bisher den zu löschenden Wert nutzen. Mit image:adminhandbuch/button_anwenden.png[Zuweisung anwenden] wird die neue Zuweisung durchgeführt und der Wert gelöscht.
+In diesem Dialog musst Du angegeben, welchen Wert die Objekte bekommen sollen, die bisher den zu löschenden Wert nutzen. Mit image:adminhandbuch/button_anwenden.png[Zuweisung anwenden] wird die neue Zuweisung durchgeführt und der Wert schließlich gelöscht.
