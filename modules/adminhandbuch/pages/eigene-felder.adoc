@@ -175,3 +175,32 @@ Durch Klick auf den Button image:adminhandbuch/button_loeschen.png[Eigenes Feld 
 +
 [WARNING]
 Mit dem Löschen des Feldes sind alle erfassten Daten gelöscht! Bei Unsicherheit sollte das eigene Feld nur im Objekt deaktiviert werden. So bleiben die Informationen erhalten und können durch erneutes Aktivieren des Feldes wieder genutzt werden.
+
+== Mit eigenen Feldern rechnen
+
+Mit einigen Feldformaten können einfache Berechnungen durchgeführt werden. Diese Funktion wird in folgenden Formaten unterstützt:
+
+- (Ganz-)Zahl,
+- Fließkommazahl,
+- Eigenschaft/Wert-Paare,
+- Kombinationsmatrix.
+
+Bei diesen Formaten wird die Konfiguration zur Berechnung angezeigt.
+
+image:adminhandbuch/eigene-felder_berechnen.png[Mit eigenen Feldern rechnen]
+
+[NOTE]
+Für das Format __Liste__ wird Dir zwar auch die Konfiguration zur Berechnung angezeigt. Doch sie funktioniert aktuell nicht.
+
+Zu den möglichen Berechnungen gehören:
+
+- Minimum `min()`
+- Maximum `max()`
+- Summe `sum()`
+- Produkt `product()`
+- Division `division()`
+- Zuordnung `mapping()`
+- Benutzerdefiniert `custom()`
+
+[IMPORTANT]
+Unterstützt ein eigenes Feld eine Mehrfachauswahl, kann keine Berechnung durchgeführt werden.
