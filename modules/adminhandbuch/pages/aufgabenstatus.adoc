@@ -6,28 +6,42 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Der Aufgabenstatus beschreibt den aktuellen Prozessschritt im Aufgabenablauf (Workflow). Die Aufgabenstatus können im Administrationsbereich über den Menüpunkt _Aufgabenstatus_ bearbeitet werden. Es öffnet sich eine Liste der im System gepflegten Aufgabenstatus.
+Die Hauptfunktion des Aufgabenstatus liegt darin den aktuellen Prozessschritt im Aufgabenablauf (Workflow) zu beschreiben. 
+
+In einer weiteren Funktion kann der Aufgabenstatus dazu herangezogen werden, den Aufgabenfortschritt zu berechnen. Das ist vor allem dann sehr praktisch, wenn Du in Deiner ISMS-Richtlinie bereits eine Regelung dazu getroffen hast, bei welchem Umsetzungsgrad eine Maßnahme als umgesetzt gilt. Das nachfolgende Bild zeigt wie diese Regelung ausgestaltet sein könnte:
+
+image:adminhandbuch/aufgabenstatus_liste_mit_aufgabenfortschritt.png[Liste der Aufgabenstatus mit Aufgabenfortschritt]
+
+In der Liste sind der _Statusname_, der Umsetzungsgrad (__%-erledigt__) sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
+
+Die Verknüpfung von Status mit einem Umsetzungsgrad muss in der globalen xref:konfiguration.adoc#_aufgaben[Konfiguration] von xmera Omnia aktiviert werden. Sie hat zur Folge, dass für alle Aufgabentypen die zugehörigen Status mit einem Aufgabenfortschritt verknüpft werden müssen.
+
+In der Standardkonfiguration wird der Aufgabenfortschritt auf Basis des manuell gesetzten Aufgabenattributs __%-erledigt__ berechnet. Die Liste der im System gepflegten Aufgabenstatus sieht dann so aus:
 
 image:adminhandbuch/aufgabenstatus_liste.png[Liste der Aufgabenstatus]
 
-In der Liste sind der _Statusname_ sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
+In der Liste sind lediglich der _Statusname_ sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
 
 [IMPORTANT]
 Der Aufgabenstatus wird erst funktional wirksam, wenn dieser über den xref:workflow.adoc[Workflow] mit den Aufgabentypen und den Rollen verknüpft wird.
 
 == Aufgabenstatus bearbeiten
 
-Durch einen Klick auf den Statusnamen in der Liste, gelangt man in die Bearbeitungsmaske des gewählten Aufgabenstatus.
+Durch einen Klick auf den Statusnamen in der Liste, gelangst Du in die Bearbeitungsmaske des gewählten Aufgabenstatus. Ohne Verknüpfung mit dem Aufgabenfortschritt sieht das Formular so aus:
 
 image:adminhandbuch/aufgabenstatus_bearbeiten.png[Aufgabenstatus bearbeiten]
 
-Der Aufgabenstatus hat nur zwei Attribute. Den Namen des Aufgabenstatus (Pflichtfeld) und die Auswahl _Aufgabe geschlossen_. Wird die Auswahl gesetzt, wird eine Aufgabe mit diesem Status im Standardfilter _Status offen_ *nicht* angezeigt.
+Der Aufgabenstatus hat nur zwei Attribute. Den Namen des Aufgabenstatus (Pflichtfeld) und die Auswahl _Aufgabe geschlossen_.
+
+Mit der aktiven Einstellung zur Verknüpfung von Aufgabenstatus mit dem Aufgabenfortschritt wird ein zusätzliches Feld angezeigt:
+
+image:adminhandbuch/aufgabenstatus_bearbeiten_mit_Aufgabenfortschritt.png[Aufgabenstatus mit Aufgabenfortschritt bearbeiten]
 
 Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Änderungen speichern] werden die Änderungen übernommen.
 
 == Neuer Aufgabenstatus
 
-Soll ein neuer Aufgabenstatus hinzugefügt werden, geschieht dieses über den Button image:adminhandbuch/button_neuer_status.png[Neuer Aufgabenstatus] im rechten oberen Bereich der Aufgabenstatusliste. Durch Klick auf den Button erscheint die aus der Bearbeitung bekannte Maske.
+Soll ein neuer Aufgabenstatus hinzugefügt werden, geschieht dieses über den Button image:adminhandbuch/button_neuer_status.png[Neuer Aufgabenstatus] im rechten oberen Bereich der Aufgabenstatusliste. Durch Klick auf den Button erscheint das aus der Bearbeitung bekannte Eingabeformular - mit oder ohne Zusatzfeld __%-erledigt__.
 
 image:adminhandbuch/aufgabenstatus_neu.png[Neuer Aufgabenstatus]
 
