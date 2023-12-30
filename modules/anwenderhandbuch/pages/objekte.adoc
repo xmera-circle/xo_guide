@@ -104,7 +104,7 @@ Importdatei vorbereiten::
 
 Eine für den Import von Objekten geeignete Importdatei muss folgende Daten beinhalten:
 +
-[cols="1,1,1,1"]
+[cols="1,1,1a,1"]
 |===
 |Spaltenbezeichnung |Datentyp | Beschreibung | Beispiel
 
@@ -140,8 +140,12 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 
 |*Objektklasse*
 |String
-|Kennung der Objektklasse, von der das zu erzeugende Objekt abgeleitet werden soll. (Pflichtfeld)
-|okm-prozess
+|Kennung der Objektklasse, von der das zu erzeugende Objekt abgeleitet werden soll. (Pflichtfeld) 
+
+[IMPORTANT] 
+Jede Objektklasse bekommt nach der Erstellung einen Präfix. Schaue Dir die Kennung noch einmal an!
+
+|okm-prozess 
 
 |*[Objekt-Eigenes-Feld]*
 |[Feldtyp]
