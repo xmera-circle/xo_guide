@@ -6,12 +6,12 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
-Aufgabentypen repräsentieren die verschiedenen Tätigkeiten, die im Rahmen des ISMS-Betriebs durchzuführen und zu dokumentieren sind. Beispiele sind z.B. Maßnahmen, Risikobewertungen oder Vorfälle.
+Aufgabentypen repräsentieren die verschiedenen Tätigkeiten, die im Rahmen des ISMS-Betriebs und ggf. auch IT-/OT-Betrieb durchzuführen und zu dokumentieren sind. Beispiele sind z.B. Maßnahmen, Risikobewertungen oder Vorfälle.
 
 Ein Aufgabentyp ermöglicht es
 
-- nach bestimmten Aufgaben zu suchen, zu filtern oder sie zu gruppiern,
-- die Attribute zu bestimmen (Standardfelder oder eigene Felder) die bearbeitet werden,
+- nach bestimmten Aufgaben zu suchen, zu filtern oder sie zu gruppieren,
+- die Attribute zu bestimmen (Standardfelder oder eigene Felder), die bearbeitet werden,
 - die Nutzbarkeit auf ausgewählte Objektklassen zu begrenzen,
 - einen spezifischen Workflow abzubilden.
 
@@ -31,7 +31,7 @@ Um einen Aufgabentyp zu bearbeiten, klickt man in der Liste auf den Namen des zu
 
 image:adminhandbuch/aufgabentyp_bearbeiten.png[Aufgabentypen bearbeiten]
 
-In dieser Maske werden allgemeine Daten, eingeblendete Felder und die Objektklassenauswahl festgelegt.
+In dieser Maske werden allgemeine Daten, Standardfelder, eigene Felder und die Objektklassenauswahl festgelegt.
 
 Allgemeine Daten:: 
 
@@ -42,8 +42,8 @@ image:adminhandbuch/aufgabentyp_bearbeiten_allgemein.png[Aufgabentypen » allgem
 In diesem Bereich werden folgende Attribute abgefragt: + 
 
 - *Name*: Die Bezeichnung für den Aufgabentyp,
-- *Standardstatus*: Status, der beim Erstellen einer Aufgabe von diesem Typ gesetzt wird,
-- *im Stapel anzeigen*: Option, ob dieser Aufgabentyp standardmäßig im xref:anwenderhandbuch:aufgaben.adoc#_aufgabenpakte[Paketstapel] automatisch angezeigt werden soll,
+- *Standardstatus*: Status, der beim Erstellen einer Aufgabe mit diesem Typ gesetzt wird,
+- *In den Zielen anzeigen*: Option, ob dieser Aufgabentyp automatisch im xref:anwenderhandbuch:aufgaben.adoc#_aufgabenpakte[Aufgabenziel] angezeigt werden soll,
 - *Beschreibung*: Beschreibung des Aufgabentyps zur leichteren Zuordnung im Betrieb.
 
 +
@@ -55,13 +55,13 @@ Der Name und der Standardstatus sind dabei Pflichtfelder. Bei der Änderung des 
  +
 Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
 
-Eingeblendete Felder::
+Standardfelder und Eigene Felder::
 
 Unterhalb der allgemeinen Daten können die Formularfelder ausgewählt werden, die für diesen Aufgabentyp benötigt werden. +
 +
 image:adminhandbuch/aufgabentyp_bearbeiten_felder.png[Aufgabentypen » eingeblendete Felder]
 +
-Zum einen können Standardfelder, die optional sind, ein- und ausgeblendet werden. Zum anderen können diesem Aufgabentyp xref:eigene-felder.adoc[eigene Felder] zugeordnet werden. +
+Zum einen können Standardfelder, die optional sind, ein- und ausgeblendet werden. Zum anderen können einem Aufgabentyp xref:eigene-felder.adoc[eigene Felder] zugeordnet werden. +
 +
 Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
 
@@ -71,7 +71,9 @@ Die Objektklassenauswahl ermöglicht es, den Aufgabentyp nur bei bestimmten Obje
 +
 image:adminhandbuch/aufgabentyp_bearbeiten_objektklassen.png[Aufgabentypen » Objektklassen]
 +
-Durch Klick auf den grünen Haken neben der Blocküberschrift lassen sich alle Objektklassen aus- und abwählen. Durch Klick auf die Auswahlfelder neben den Objektklassen lässt sich die Auswahl anpassen. Sind einer Objektklasse Objekte zugeordnet werden sie unter _Zugehörige Objekte_ gelistet. Dort besteht die Möglichkeit die Auswahl auf einzelne Objekte einzuschränken. +
+Durch Klick auf den grünen Haken neben der Blocküberschrift lassen sich alle Objektklassen aus- und abwählen. 
+
+Durch Klick auf die Auswahlfelder neben den Objektklassen lässt sich die Auswahl anpassen. Sind einer Objektklasse Objekte zugeordnet werden sie unter _Zugehörige Objekte_ gelistet. Dort besteht die Möglichkeit die Auswahl auf einzelne Objekte einzuschränken. +
  +
 Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Aufgabentyp speichern] werden die Änderungen übernommen.
 
