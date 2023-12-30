@@ -48,7 +48,7 @@ Für jedes Funktionsmodul, für das mindestens ein eigenes Feld angelegt wurde, 
 
 Es stehen eine Vielzahl an Feldformaten zur Verfügung.
 
-[cols="1,2"]
+[cols="1,2a"]
 |===
 |Feldtyp |Beschreibung
 
@@ -84,6 +84,14 @@ Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer
 
 |Liste
 |Aus einer Liste, die im _Eigenen Feld_ definiert wird können ein oder mehrere Wert(e) gewählt werden.
+
+|Objekt
+|Aus einer Liste mit im System bestehenden Objekten können ein oder mehrere Wert(e) gewählt werden. Den Umfang der Objekte, die dem Benutzer als Auswahl angezeigt werden, kann der Administrator wählen:
+
+- alle: Alle aktiven Objekte des Systems stehen zur Auswahl,
+- nur sichtbare Objekte: Nur die für den Benutzer sichtbaren Objekte stehen zur Auswahl,
+- nur öffentliche Objekte: Nur Objekte, die als öffentlich markiert wurden, stehen zur Auswahl,
+- nur sichtbare Objekte der Klasse: Nur Objekte einer oder mehrerer Objektklassen stehen zur Auswahl.
 
 |Objektklassen Master
 |Aus einer Liste mit im System bestehenden Objektklassen können ein oder mehrere Wert(e) gewählt werden.

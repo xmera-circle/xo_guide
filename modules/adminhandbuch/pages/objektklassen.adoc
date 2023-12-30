@@ -52,10 +52,26 @@ Ansonsten entsprechen die Einträge dem der xref:anwenderhandbuch:objekte.adoc[O
 
 == Objektklasseninhalte pflegen
 
-Um Inhalte einer Objektklasse zu pflegen, klickt man auf den Namen der Objektklasse in der Liste. Es öffnet sich die Objektklassenbearbeitung. Die Inhalte lassen sich entsprechend der xref:anwenderhandbuch:objekte.adoc[Objektbearbeitung] pflegen und anpassen.
+Um Inhalte einer Objektklasse zu pflegen, klickst Du auf den Namen der Objektklasse in der Liste. Es öffnet sich die Objektklassenbearbeitung. Die Inhalte lassen sich entsprechend der xref:anwenderhandbuch:objekte.adoc[Objektbearbeitung] pflegen und anpassen.
+
+Zur leichteren Unterscheidung von Objekten und Objektklassen kannst Du die Objektklassen an ihrer Markierung neben ihrem Namen oben links unter dem Topmenü erkennen.
+
+image:adminhandbuch/objektklassen_markierung.png[]
 
 [IMPORTANT]
 Änderungen in der Objektklasse betreffen nur neu angelegte Objekte dieser Objektklasse. Bestehende Objekte der Objektklasse werden nicht verändert.
+
+=== Datenblätter zwischen Objektklassen kopieren
+
+Hast Du in einer Objektklasse eine aufwendige Tabelle mit Inhalten erstellt, kannst Du sie in andere Objektklassen kopieren. 
+
+Klicke hierfür auf der Übersichtsseite der Datenblätter auf das Drei-Punkte-Menü auf den Menüpunkt __Kopieren__. Dir wird dann eine mit dem Auswahlfeld __Objektklasse__ erweiterte Ansicht für ein neues Datenblatt angezeigt. 
+
+image:adminhandbuch/objektklassen_datenblatt_kopieren.png[]
+
+[IMPORTANT]
+Diese Funktion ist nur in Objektklassen, nicht in Objekten, vorhanden.
+
 
 == Objektklassen verwalten
 

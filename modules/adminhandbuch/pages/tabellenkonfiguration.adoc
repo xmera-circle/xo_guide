@@ -15,9 +15,13 @@ In der Liste werden zu jeder Tabellenkonkfiguration der Name, die Beschreibung, 
 In dieser Ansicht bestehen die Möglichkeiten
 
 - eine Tabellenkonfiguration durch Klick auf den Button image:adminhandbuch/button_loeschen.png[neue Tabellenkonfiguration anlegen] in der entsprechenden Tabellenzeile zu löschen,
+- über das image:adminhandbuch/button_verschieben.png[Verschieben] Icon die Reihenfolge der Tabellenkonfigurationen zu verändern,
 - eine neue Tabellenkonfiguration durch Klick auf den Button image:adminhandbuch/button_neue_tabelle.png[] zu erstellen,
 - eine bestehende Tabellenkonfiguration durch Klick auf den Tabellennamen zu bearbeiten oder
 - durch Klick auf den Button image:adminhandbuch/button_berechnungen.png[] in die Ansicht der Berechnungen zu wechseln.
+
+[NOTE]
+Über das image:adminhandbuch/button_verschieben.png[Verschieben] Icon steuerst Du gleichzeitig die Reihenfolge, in der die Datenblätter in den Objekten angezeigt werden.
 
 == Tabellenkonfiguration anlegen und bearbeiten
 
