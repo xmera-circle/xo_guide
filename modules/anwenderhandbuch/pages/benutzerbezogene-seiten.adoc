@@ -15,7 +15,7 @@ image:anwenderhandbuch/individuell_konto_einstellungen.png[]
 Zu diesen Themen kannst Du Anpassungen vornehmen:
 
 - Name,
-- Lichtbild (Avatar),
+- Lichtbild (xref:adminhandbuch:benutzer.adoc#_avatar[Avatar]),
 - eine oder mehrere E-Mail-Adressen,
 - Sprache,
 - Passwort und ggf. die 2-Faktor-Authentifizierung,
