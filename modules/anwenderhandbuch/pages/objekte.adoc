@@ -135,7 +135,7 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 
 |*Benutzer erben*
 |Boolean
-|Das zu erzeugende Objekt bekommt die selben Benutzer wie das Elternobjekt. (Optional)
+|Das zu erzeugende Objekt bekommt die selben Benutzer wie das Elternobjekt. (Standard: false)
 |false
 
 |*Objektklasse*
