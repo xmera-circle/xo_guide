@@ -30,9 +30,13 @@ Mit dem Button image:anwenderhandbuch/button_neues-datenblatt.png[] kann der Anw
 
 image:anwenderhandbuch/modul_tabellen_neues_datenblatt.png[]
 
-Dem Datenblatt muss einen Namen erhalten. Die Beschreibung des Datenblatts ist optional. Zur Erstellung der Beschreibung steht die Wiki-Toolbar zur Verfügung.
+Das Datenblatt muss einen Namen erhalten. Bei der Eingabe bekommst Du Vorschläge für den Namen basierend auf bestehenden Datenblättern. So bleibt die Benennung konsistent. Das ist insbesondere dann wichtig, wenn Du die Vererbung von Berechnungsergebnissen nutzen möchtest wie es beispielsweise beim Schutzbearf notwendig ist.
 
-Die Tabelle, auf der das Datenblatt beruht, ist wiederum ein Pflichtfeld. Mit dem Button image:anwenderhandbuch/button_anlegen.png[] wird das Datenblatt erstellt. Danach wird die Übersichtsseite des Datenblatts angezeigt.
+Die Beschreibung des Datenblatts ist optional. Zur Erstellung der Beschreibung steht die Wiki-Toolbar zur Verfügung.
+
+Die Tabelle, auf der das Datenblatt beruht, ist wiederum ein Pflichtfeld. Hat das Objekt, in dem Du das Datenblatt anlegen möchtest, eine Objektklasse, in der Inhalte für das Datenblatt gepflegt wurden, kannst Du diese Inhalte übernehmen. Dafür kreuzt Du das Kontrollkästchen __Inhalte übernehmen__ an.
+
+Mit dem Button image:anwenderhandbuch/button_anlegen.png[] wird das Datenblatt erstellt. Danach wird die Übersichtsseite des Datenblatts angezeigt.
 
 === Datenblatt bearbeiten
 
