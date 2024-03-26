@@ -38,7 +38,7 @@ image::anwenderhandbuch/objektuebersicht_undefined.png[Objekthierarchie]
 
 == Objekthierarchie
 
-Mit Hilfe eines hierarchischen Aufbaus der Objekte hast Du die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten/Organisationen oder auch Sicherheitszonen/Cluster strukturiert darzustellen. Die hierarchische Struktur legst Du fest, indem Du das übergeordnete Objekt des Dir vorliegenden Objektes definierst. Diese Einstellung nimmst Du  am Besten bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objektes>> vor. Sie lässt sich auch später vornehmen oder ändern. So entsteht ein Objektbaum, der sich in der Listenanzeige auf der Übersichtsseite aller Objekte (siehe Top-Menü) beispielsweise so darstellen läßt:
+Mit Hilfe eines hierarchischen Aufbaus der Objekte hast Du die Möglichkeit Arbeitsbereiche, Verantwortlichkeiten/Organisationen oder auch Sicherheitszonen/Cluster strukturiert darzustellen. Die hierarchische Struktur legst Du fest, indem Du das übergeordnete Objekt des Dir vorliegenden Objektes definierst. Diese Einstellung nimmst Du am Besten bei der <<Objekte erstellen und konfigurieren, Erstellung/Konfiguration des Objektes>> vor. Sie lässt sich auch später vornehmen oder ändern. So entsteht ein Objektbaum, der sich in der Listenanzeige auf der Übersichtsseite aller Objekte (siehe Top-Menü) beispielsweise so darstellen läßt:
 
 image:anwenderhandbuch/objekt_hierarchiebaum_undefined.png[Objekthierarchie]
 
@@ -54,9 +54,9 @@ Neben der hierarchischen Verknüpfung der Objekte bietet xmera Omnia noch die _l
 
 Beispiele für solche Verknüpfungen sind
 
-- Prozess nutzt Anwendung,
-- Client nutzt Server oder
-- Server steht im Serverraum.
+- Prozess nutzt den Dienst Anwendung,
+- Client nutzt den Dienst Server oder
+- Server nutzt den Dienst Serverraum.
 
 Die <<Objektverknüpfungen, Festlegung der Objektverknüpfung>> erfolgt in der Objektkonfiguration.
 
@@ -97,6 +97,9 @@ Die mit [.red]#*# gekennzeichneten Felder sind Pflichtfelder und müssen ausgef�
 === Objekte importieren
 
 Über eine CSV-Schnittstelle können Objekte in großer Zahl in xmera Omnia eingebracht werden. Voraussetzung dafür ist, dass entsprechend vorkonfigurierte <<Objektklassen>> bestehen. 
+
+[NOTE]
+Ein Import von Objekten ohne zugewiesene Objektklasse ist auch möglich. Diese Objekte müssen dann nach dem Import noch konfiguriert werden.
 
 Der Objektimport erfolgt in 5 Schritten:
 

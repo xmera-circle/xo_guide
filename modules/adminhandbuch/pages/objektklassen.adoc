@@ -8,19 +8,23 @@ include::ROOT:partial$custom-css.adoc[]
 
 == Funktion von Objektklassen
 
-Objektklassen fungieren als Vorlage bei der Generierung von Objekten. Die Zuordnung eines Objekts zu einer Objektklasse ermöglicht weiter klassenbezogene Funktonen und Abfragen. Die Objektklasse dient damit als Ordnungs- und Zuordnungskriterium. 
+Objektklassen fungieren als Vorlage bei der Generierung von Objekten. Die Zuordnung eines Objekts zu einer Objektklasse ermöglicht weiter klassenbezogene Funktionen und Abfragen. Die Objektklasse dient damit als Ordnungs- und Zuordnungskriterium. 
 
 === Objektklassen als Vorlage
 
 Bei der Erstellung eines Objekts kann dem Objekt eine Objektklasse zugeordnet werden. Die Zuordnung bewirkt, dass die in der Objektklasse definierten Inhalte aus den Modulen
 
 - Aufgaben,
-- Mitteilung,
-- Wiki,
+- Aufgabenpakete,
+- Aufgabenkategorien,
+- Aufgabenabfragen,
+- Aufgabenanhänge (Dateien),
 - Tabellen,
 - Wiederholdende Aufgaben,
 - Dokumente,
-- DMS
+- DMS,
+- Wiki,
+- Foren
 
 aber auch aus der Objektkonfiguration in das Objekt übernommen werden. Somit können für Objekte typische Einstellungen vorab definiert werden, was die Erfassung von Objekten effizient gestaltet.
 
