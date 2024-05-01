@@ -10,7 +10,7 @@ Die Benutzerverwaltung im Administrationsbereich von xmera Omnia zeigt in der St
 
 image:adminhandbuch/benutzer_liste.png[]
 
-In dieser Liste werden alle aktiven Benutzer mit ihrem Mitgliedsnamen, dem Vor- und Nachnamen, der E-Mailadresse, der Kennung, dem Status als Administrator, wann das Konto angelegt wurde und wann die letzte Anmeldung durchgeführt wurde.
+In dieser Liste werden alle aktiven Benutzer mit ihrem Benutzernamen, dem Vor- und Nachnamen, der E-Mailadresse, der Kennung, dem Status als Administrator, wann das Konto angelegt wurde und wann die letzte Anmeldung durchgeführt wurde.
 
 Aus dieser Liste können die einzelnen Benutzerkonten durch die Button in der entsprechenden Benutzerzeile _aktiviert_, _gesperrt_ oder auch _gelöscht_ werden.
 
@@ -43,7 +43,7 @@ Das Formular ähnelt sehr dem des Benutzerkontos wie es im Anwenderhandbuch im K
 
 Im Vergleich zur Bearbeitung des Benutzerkontos:
 
-- wird der Mitgliedsname (Benutzer-ID) gefordert, 
+- wird der Benutzername (Benutzer-ID) gefordert, 
 - besteht die Möglichkeit den Nutzer Administrationsrechte zu geben,
 - besteht im Bereich der Authentifizierung die Möglichkeit 
 * automatisch ein Passwort zu generieren,
@@ -66,7 +66,7 @@ Eine für den Import von Benutzern geeignete CSV-Datei muss folgende Daten beinh
 |===
 |Spaltenbezeichnung |Datentyp | Beschreibung | Beispiel
 
-|*Mitgliedsname*
+|*Benutzername*
 |String
 |Anmeldename für den Benutzer. Nur Kleinbuchstaben, Ziffern und die Sonderzeichen _ - . ohne Leerzeichen erlaubt (Pflichtfeld)
 |max.mustermann
@@ -160,7 +160,7 @@ Der Importprozess wird nicht abgebrochen, wenn eine oder mehrere Zeilen nicht ve
 
 === Selbstregistrierung
 
-Über die Konfiguration kann bei der Authentifizierung die Selbstregistrierung gewählt werden. Bei dieser Art, kann sich ein neuer Benutzer mit seinen Daten (Mitgliedsnamen, Vor- und Nachnamen, E-Mailadresse und Passwort) registrieren. Je nach Anmeldeoption kann der registrierte Benutzer automatisch, nach einer E-Mailbestätigung oder durch einen Administrator aktiviert werden.
+Über die Konfiguration kann bei der Authentifizierung die Selbstregistrierung gewählt werden. Bei dieser Art, kann sich ein neuer Benutzer mit seinen Daten (Benutzernamen, Vor- und Nachnamen, E-Mailadresse und Passwort) registrieren. Je nach Anmeldeoption kann der registrierte Benutzer automatisch, nach einer E-Mailbestätigung oder durch einen Administrator aktiviert werden.
 
 === LDAP-Benutzer
 
@@ -168,7 +168,7 @@ Benutzer können über eine LDAP-Kopplung mit einem LDAP-Server verwaltet werden
 
 == Benutzer bearbeiten
 
-Durch Klick auf den Mitgliedsnamen in der Benutzerliste gelangt man in die Bearbeitungsmaske des Benutzers. Im oberen Bereich finden sich mehrere Taps und Funktionsbutton.
+Durch Klick auf den Benutzernamen in der Benutzerliste gelangt man in die Bearbeitungsmaske des Benutzers. Im oberen Bereich finden sich mehrere Taps und Funktionsbutton.
 
 image:adminhandbuch/benutzer_bearbeiten_funktionen.png[Funktionen Benutzer bearbeiten]
 
@@ -222,7 +222,7 @@ Im Beispiel unten hat der Benutzer in einem der gelisteten Objekte gleich zwei R
 
 Objektzuordnung ändern::
 
-Die Rollenzuordnung zu jedem einzelnen Objekt kann in der Objektkonfiguration xref:anwenderhandbuch:objekte.adoc#_mitglieder_verwalten[im Tab Mitglieder] festgelegt werden. +
+Die Rollenzuordnung zu jedem einzelnen Objekt kann in der Objektkonfiguration xref:anwenderhandbuch:objekte.adoc#_mitglieder_verwalten[im Tab Teammitglieder] festgelegt werden. +
 +
 Der Administrator hat aber auch hier die Möglichkeit die Zuordnung zu bearbeiten. Die Rollen, die ein Benutzer in einem der aufgeführten Objekte hat, kann über den Button image:adminhandbuch/button_bearbeiten.png[Bearbeiten] erfolgen. Es werden verfügbare Rollen gelistet und durch Setzen oder Entfernen der Häkchen werden die Rollen aktiviert oder deaktiviert. +
 +
