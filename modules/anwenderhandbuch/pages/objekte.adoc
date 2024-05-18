@@ -128,7 +128,7 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 
 |*Öffentlich*
 |Boolean
-|Soll das Objekt für alle Systembenutzer ohne Mitgliedschaft zugänglich sein? (Standard: false)
+|Soll das Objekt für alle Systembenutzer ohne Mitgliedschaft zugänglich sein? (Standard: false oder der Wert in der zugehörigen Objektklasse) 
 |false
 
 |*Unterobjekt von*
@@ -138,7 +138,7 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 
 |*Benutzer erben*
 |Boolean
-|Das zu erzeugende Objekt bekommt die selben Benutzer wie das Elternobjekt. (Standard: false)
+|Das zu erzeugende Objekt bekommt die selben Benutzer wie das Elternobjekt. (Standard: false oder der Wert in der zugehörigen Objektklasse)
 |false
 
 |*Objektklasse*
@@ -153,6 +153,10 @@ Jede Objektklasse bekommt nach der Erstellung einen Präfix. Schaue Dir die Kenn
 |*[Objekt-Eigenes-Feld]*
 |[Feldtyp]
 |[Objekt-Eigenes-Feld] = Name des eigenen Felds, das in der Objektlasse des erzeugenden Objekts definiert ist. [Feldtyp] hängt vom eigenen Feld ab und bestimmt den Wert. (Optional)
+
+[NOTE]
+Wird kein Wert gesetzt, wird das Objekt mit dem Wert der Objektklasse für das entsprechende Feld erzeugt.
+
 |Für ein Beispiel siehe Bild <<objekt_import_feldzuordnung, Feldzuordnung>>.
 |===
 
