@@ -89,7 +89,7 @@ image:anwenderhandbuch/objektuebersicht_neues-unterobjekt_undefined.png[Neues Un
 [NOTE]
 Wird die Auswahl __Neues Objekt__ oder __Neues Unterobjekt__ nicht angezeigt, so fehlt dem Anwender das entsprechende Recht.
 
-Bei Klick auf einem der Button wird eine Konfigurationsmaske für das neue Objekt geöffnet. Die wichtigsten Punkte werden in den folgenden Unterkapiteln beschrieben. 
+Bei Klick auf einem der Button wird eine Konfigurationsmaske für das neue Objekt geöffnet. Die wichtigsten Punkte werden im Kapitel <<Objekte konfigurieren>> beschrieben. 
 
 [IMPORTANT]
 Die mit [.red]#*# gekennzeichneten Felder sind Pflichtfelder und müssen ausgefüllt werden.
@@ -264,7 +264,10 @@ Das Feld __Objekt-Homepage__ bietet eine Möglichkeit einen externen Link auf ei
 Mit Setzen des Feldes wird das Objekt öffentlich. Alle Nutzer, die Zugang zu xmera Omnia haben, können Informationen des Objekts sehen. Ein nicht angemeldeter Nutzer ist automatisch mit den  Rechten der Rolle __Anonym__ ausgestattet. Jeder angemeldete Benutzer erhält automatisch die Rollenrechte der Rolle __Nichtmitglied__.
 
 [IMPORTANT]
-Der Administrator kann in der Konfiguration vorgeben, dass eine Anmeldung zwingend notwendig ist. Damit wird verhindert, dass nicht autorisierte Nutzer mit dem System arbeiten können.
+Der Administrator kann in der Konfiguration vorgeben, dass eine Anmeldung zwingend notwendig ist. Damit wird verhindert, dass anonyme Nutzer entsprechend der gegebenen Rechte mit öffentlichen Objekten am System arbeiten können.
+
+[NOTE]
+Bei der manuellen Erzeugung eines Objektes auf Basis seiner Objektklasse wird der Wert für das Attribut _Öffentlich_ entsprechend der Objektklasse gesetzt. Abweichungen davon müssen im Nachgang gesetzt werden.
 
 === Unterobjekt von
 
@@ -273,6 +276,9 @@ Durch die Zuordnung des Objekts zu einem überlagerten Objekt wird der Hierarchi
 === Benutzer erben
 
 Mit Setzen des Feldes werden die Mitglieder mit ihren Rollen aus dem übergeordneten Objekt übernommen.
+
+[NOTE]
+Bei der manuellen Erzeugung eines Objektes auf Basis seiner Objektklasse wird der Wert für das Attribut _Benutzer erben_ entsprechend der Objektklasse gesetzt. Abweichungen davon müssen im Nachgang gesetzt werden.
 
 === Objektdaten
 
