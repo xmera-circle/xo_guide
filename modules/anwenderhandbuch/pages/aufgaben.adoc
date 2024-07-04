@@ -408,11 +408,11 @@ Als Pflichtfeld muss ein _Name_ vergeben werden. Weiter kann eine _Beschreibung_
 |Nicht gemeinsam verwenden 
 |Das Aufgabenpaket steht nur in dem Objekt zur Auswahl, in dem es erstellt wurde.
 |Mit Unterobjekten 
-|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch *in allen Unterlagerten Objekten* zur Verfügung.
+|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch *in allen unterlagerten Objekten* zur Verfügung.
 |Mit Objekthierarchie
-|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch in allen Unterlagerten Objekten *sowie den übergeordneten Objekten* zur Verfügung.
+|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch in allen unterlagerten Objekten *sowie den übergeordneten Objekten* zur Verfügung.
 |Mit Objektbaum
-|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch in allen Unterlagerten Objekten, den übergeordneten Objekten *sowie den von den übergeordneten Objekten abzweigenden Objekten* zur Verfügung.
+|Das Aufgabenpaket steht neben dem Objekt, in dem es erstellt wurde, noch in allen unterlagerten Objekten, den übergeordneten Objekten *sowie den von den übergeordneten Objekten abzweigenden Objekten* zur Verfügung.
 |Mit allen Objekten
 |Das Aufgabenpaket steht *in allen Objekten* zur Auswahl.
 |===
