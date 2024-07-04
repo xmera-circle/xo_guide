@@ -279,3 +279,33 @@ Markdown ist eine Auszeichnungssprache die auch aus dem git-Umdeld bekannt ist. 
 Die wichtigsten Hilfen sind über den Button image:anwenderhandbuch/wikitoolbar/bt_help.png[Hilfe] in der Wiki-Toolbar zu erhalten. Es öffnet sich ein Fenster mit den wichtigsten Formatierungs- und Verlinkungsmöglichkeiten. Am Ende ist ein Link mit _mehr Informationen_. Dieser Link öffnet wiederum eine neue Seite mit detaillierteren Beschreibungen.
 
 Wenn weitere Hilfe benötigt wird, hilft die Suche im Internet mit dem Suchbegriff __Markdown Redmine__.
+
+== Wiki exportieren
+
+Du kannst sowohl einzelne Seiten als auch das gesamte Wiki exportieren. Dafür stehen Dir verschiedene Formate zur Verfügung:
+
+- PDF
+- HTML
+- Text
+
+=== Einzelne Wikiseite exportieren
+
+Um eine Wikiseite zu exportieren, öffne die gewünschte Seite und scrolle bis an das Seitenende. Dort findest Du die Exportbuttons.
+
+image:anwenderhandbuch/button_export_formats.png[Exportbuttons Wiki]
+
+[NOTE]
+Enthält Deine Wikiseite ein Inhaltsverzeichnis, wird es aktuell nur im HTML Format ausgegeben.  
+
+=== Alle Wikiseiten exportieren
+
+Wenn Du alle Seiten Deines Wikis exportieren möchtest, dann klicke in der Seitenleiste auf *Seiten nach Titel sortiert*.
+
+image:anwenderhandbuch/modul_wiki_nach-titel-sortiert.png[Wiki nach Titel sortiert]
+
+
+Dir werden Deine Wikiseiten in alphabetischer Reihenfolge der Titel angezeigt. Scrolle wieder bis an das Seitenende und wähle ein Exportformat.
+
+Als PDF-Dokument exportiert, wird Dir Dein Wiki mit einem Inhaltsverzeichnis erstellt:
+
+image:anwenderhandbuch/modul_wiki_als_pdf_export.png[Wiki als PDF Export]
