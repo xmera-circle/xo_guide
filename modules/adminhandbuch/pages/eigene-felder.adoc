@@ -58,6 +58,9 @@ Es stehen eine Vielzahl an Feldformaten zur Verfügung.
 |Boolean
 |Ja/Nein Auswahl
 
+|DMS Dokument Rev.
+|Download der aktuellen Version eines Dokuments im DMS.
+
 |Datei
 |Eine Datei kann zugeordnet werden
 
