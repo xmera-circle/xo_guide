@@ -28,7 +28,7 @@ Funktionsmodule, für die _Eigene Felder_ hinzugefügt werden können, sind in d
 .4+|Aufgabenmanagement
 |Aufgaben
 |Aufgaben-Prioritäten
-|Pakete
+|Aufgabenpakete
 |Tabellen
 
 .3+|Dokumentenverwaltung
@@ -51,6 +51,9 @@ Es stehen eine Vielzahl an Feldformaten zur Verfügung.
 [cols="1,2a"]
 |===
 |Feldtyp |Beschreibung
+
+|Aufgabenpaket
+|Aus einer Liste der Aufgabenpakete können ein oder mehrere Pakete gewählt werden.
 
 |Benutzer
 |Aus einer Liste der Objektmitglieder können eine oder mehrere Objektmitglied(er) gewählt werden.
@@ -99,9 +102,6 @@ Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer
 |Objektklassen Master
 |Aus einer Liste mit im System bestehenden Objektklassen können ein oder mehrere Wert(e) gewählt werden.
 
-|Paket
-|Aus einer Liste der Pakete können ein oder mehrere Pakete gewählt werden.
-
 |Text
 |Ein einzeiliger Text, der formatierbar ist.
 
@@ -121,7 +121,7 @@ Die Parametrierung der einzelnen Feldformate ist verschieden. Allen eigenen Feld
 
 Wenn nach dem Feld sinnvoll gefiltert werden kann, so wird die Auswahl _Als Filter benutzen_ angeboten.
 
-Bei Auswahlfeldern (z.B. Listen, Benutzern oder Paketen) ist im Standard nur ein Wert erlaubt. Über Aktivieren der Auswahl _Mehrere Werte_ kann auf Mehrfachauswahl umgestellt werden. +
+Bei Auswahlfeldern (z.B. Listen, Benutzern oder Aufgabenpaketen) ist im Standard nur ein Wert erlaubt. Über Aktivieren der Auswahl _Mehrere Werte_ kann auf Mehrfachauswahl umgestellt werden. +
 Weiter kann bei der _Anzeige_ der Auswahl zwischen der Dropdown-Liste und der Checkbox gewählt werden.
 
 Abhängig vom Funktionsmodul, dem das _Eigene Feld_ zugeordnet wird, besteht die Möglichkeit, die Nutzung des Feldes einzuschränken. Mögliche Einschränkungen sind
