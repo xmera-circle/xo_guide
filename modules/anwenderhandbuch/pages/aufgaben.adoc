@@ -417,6 +417,9 @@ Als Pflichtfeld muss ein _Name_ vergeben werden. Weiter kann eine _Beschreibung_
 |Das Aufgabenpaket steht *in allen Objekten* zur Auswahl.
 |===
 +
+[NOTE]
+Die Option ein Aufgabenpaket *in allen Objekten* zu teilen ist nur für den Administrator sichtbar. +
++
 Mit der Auswahl _Standard-Aufgabenpaket_ kann festgelegt werden, dass bei einer neuen Aufgabe automatisch dieses Aufgabenpaket gesetzt wird. +
 +
 Mit dem Button image:anwenderhandbuch/button_anlegen.png[] wird das Aufgabenpaket gespeichert.
