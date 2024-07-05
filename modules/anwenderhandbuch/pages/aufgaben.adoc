@@ -488,6 +488,9 @@ In diesem Schritt erfolgt die Zuordnung der Aufgabenattribute zu den CSV-Attribu
 +
 image:anwenderhandbuch/modul_aufgaben_import-attributzuordnung.png[]
 +
+[TIP]
+Starte den Aufgabenimport entweder direkt in dem Objekt, das die Aufgaben erhalten soll, oder wähle das passende Objekt im ersten Zuordnungsfeld oben aus.
++
 In dem Abschnitt _Zuordnung der Felder_ wird im ersten Attribut festgelegt, in welches Objekt die Aufgaben importiert werden sollen. +
 +
 Danach werden alle möglichen Attribute aufgelistet, die in Aufgaben vergeben werden können. Zu jedem Attribut, kann jetzt ein Feld aus der CSV-Datei zugeordnet werden. +
