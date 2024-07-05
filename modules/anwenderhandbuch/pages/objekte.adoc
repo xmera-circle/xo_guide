@@ -107,41 +107,48 @@ Importdatei vorbereiten::
 
 Eine für den Import von Objekten geeignete Importdatei muss folgende Daten beinhalten:
 +
-[cols="1,1,1a,1"]
+[cols="1,1,1,1a,1"]
 |===
-|Spaltenbezeichnung |Datentyp | Beschreibung | Beispiel
+|Spaltenbezeichnung (de) |Spaltenbezeichnung (neutral) |Datentyp | Beschreibung | Beispiel
 
 |*Name*
+|name
 |String
 |Name des zu erzeugenden Objekts. (Pflichtfeld)
 |Softwareentwicklung
 
 |*Beschreibung*
+|description
 |String
 |Beschreibung des zu erzeugenden Objekts. (Optional)
 |Entwicklung von Standardsoftware zur Produktionssteuerung
 
 |*Kennung*
+|identifier
 |String
 |Kennung des zu erzeugenden Objekts: Länge zwischen 1 und 100 Zeichen. Kleinbuchstaben (a-z), Ziffern, Binde- und Unterstriche erlaubt. (Pflichtfeld)
 |softwareentwicklung
 
 |*Öffentlich*
+|is_public
 |Boolean
 |Soll das Objekt für alle Systembenutzer ohne Mitgliedschaft zugänglich sein? (Standard: false oder der Wert in der zugehörigen Objektklasse) 
 |false
 
 |*Unterobjekt von*
+|parent_id
 |String
 |Kennung des gewünschten Elternobjektes. (Pflichtfeld)
 |prozess-informationen
 
 |*Benutzer erben*
+|inherit_members
 |Boolean
 |Das zu erzeugende Objekt bekommt die selben Benutzer wie das Elternobjekt. (Standard: false oder der Wert in der zugehörigen Objektklasse)
 |false
 
 |*Objektklasse*
+|project_type_id
 |String
 |Kennung der Objektklasse, von der das zu erzeugende Objekt abgeleitet werden soll. (Pflichtfeld) 
 
@@ -151,6 +158,7 @@ Jede Objektklasse bekommt nach der Erstellung einen Präfix. Schaue Dir die Kenn
 |okm-prozess 
 
 |*[Objekt-Eigenes-Feld]*
+|cf_[id]
 |[Feldtyp]
 |[Objekt-Eigenes-Feld] = Name des eigenen Felds, das in der Objektlasse des erzeugenden Objekts definiert ist. [Feldtyp] hängt vom eigenen Feld ab und bestimmt den Wert. (Optional)
 
