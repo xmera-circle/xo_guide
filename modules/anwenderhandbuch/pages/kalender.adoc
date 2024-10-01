@@ -20,13 +20,10 @@ Die Filterfunktion &#10122; ermöglicht, die Aufgaben, die angezeigt werden soll
 
 Im Kalenderbereich werden die gefilterten Aufgaben jeweils an dem Tag, an dem die Aufgabe beginnt und an dem sie endet, angezeigt. Pakete werden angezeigt, wenn der Kalendertag dem Enddatum enstpricht.
 
-Im folgenden Beispiel werden zwei Aufgaben und ein Arbeitspaket, das am 22. April fällig ist, dargestellt.
+Im folgenden Beispiel werden zwei Aufgaben und ein Arbeitspaket, das am 23. Oktober fällig ist, dargestellt.
 
 image:anwenderhandbuch/modul_kalender_tagesdetails.png[]
 
-
-[NOTE]
-Die rote Schrift zeigt an, dass die Aufgaben überfällig sind.
 
 Zu jeder Aufgabe wird zunächst das Objekt angezeigt, anschließend ein Icon gemäß Legende &#10126;. Dann folgt der Aufgabentyp mit Aufgabennummer (#...) und schließlich der Aufgabentitel. Beim Darübergleiten mit der Maus werden, wie im folgenden zu sehen, werden weitere Informationen eingeblendet.
 
