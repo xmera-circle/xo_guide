@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.5.0 - 2024-10-01
+
+### Added
+
+* export of all pages on wiki page
+* explanation about object choice in issue import diaglog
+* a note for setting 'Aufgabenpaket für alle Objekt' to be visible only for 
+  administrators
+* dms revision as new custom field
+
+### Changed
+
+* wiki screenshots to show toc in text area
+* search results screen to show issue filter button
+* object and object class screenshots in admin realm to show new filter
+* issue releated screenshots to show new color scheme for schedule issues
+* naming of 'Pakete' to 'Aufgabenpakete' in 'Eigne Felder'
+* object import description with alternative column names
+
+### Fixed
+
+* typo in 'Aufgabenpakete'
+
 ## 1.4.2 - 2024-05-22
 
 ### Changed
