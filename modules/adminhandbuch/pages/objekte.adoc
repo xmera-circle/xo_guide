@@ -27,7 +27,7 @@ Die Objektliste wird beim Aufrufen der Objekte in der Administration angezeigt. 
 
 image:adminhandbuch/objekte_liste_aktive.png[]
 
-Über den Filter lässt sich der angezeigte Objektstatus ändern oder es kann nach Objekten gesucht werden.
+Über den Filter lässt sich der angezeigte Objektstatus ändern oder es kann nach Objekten mit bestimmten Attributen gesucht werden.
 
 image:adminhandbuch/objekte_liste_filter.png[]
 
@@ -45,6 +45,9 @@ Das Objekt steht mit seinen Informationen den Anwendern zur Verfügung, es kann 
 
 archiviert::
 Das Objekt steht mit allen Unterobjekten den Benutzern nicht mehr zur Verfügung. Es wurde im Vergleich zum Löschen nicht aus der Datenbank gelöscht und kann damit auch reaktiviert werden.
+
+zum Löschen vorgesehen::
+Das Objekt steht in der Warteschlange und wird gelöscht, wenn es an der Reihe ist. Der Administrator bekommt eine Bestätigungsmeldung per E-Mail.
 
 [WARNING]
 *Gelöscht* ist kein Status eines Objekts, da mit dem Löschen eines Objekts, dass Objekt mit all seinen Unterobjekten und zugeordneten Aufgaben und Informationen nicht mehr zur Verfügung stehen. Eine Reaktivierung der Daten ist nicht möglich.
