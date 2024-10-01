@@ -12,7 +12,7 @@ In einer weiteren Funktion kann der Aufgabenstatus dazu herangezogen werden, den
 
 image:adminhandbuch/aufgabenstatus_liste_mit_aufgabenfortschritt.png[Liste der Aufgabenstatus mit Aufgabenfortschritt]
 
-In der Liste sind der _Statusname_, der Umsetzungsgrad (__%-erledigt__) sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
+In der Liste sind der _Statusname_, der Umsetzungsgrad (__%-erledigt__), der Vermerk _Aufgabe geschlossen_ sowie eine _Beschreibung_ dargestellt. 
 
 Die Verknüpfung von Status mit einem Umsetzungsgrad muss in der globalen xref:konfiguration.adoc#_aufgaben[Konfiguration] von xmera Omnia aktiviert werden. Sie hat zur Folge, dass für alle Aufgabentypen die zugehörigen Status mit einem Aufgabenfortschritt verknüpft werden müssen.
 
@@ -20,7 +20,7 @@ In der Standardkonfiguration wird der Aufgabenfortschritt auf Basis des manuell 
 
 image:adminhandbuch/aufgabenstatus_liste.png[Liste der Aufgabenstatus]
 
-In der Liste sind lediglich der _Statusname_ sowie der Vermerk _Aufgabe geschlossen_ dargestellt. 
+In der Liste sind lediglich der _Statusname_, der Vermerk _Aufgabe geschlossen_ sowie eine _Beschreibung_ dargestellt. 
 
 [IMPORTANT]
 Der Aufgabenstatus wird erst funktional wirksam, wenn dieser über den xref:workflow.adoc[Workflow] mit den Aufgabentypen und den Rollen verknüpft wird.
@@ -31,11 +31,11 @@ Durch einen Klick auf den Statusnamen in der Liste, gelangst Du in die Bearbeitu
 
 image:adminhandbuch/aufgabenstatus_bearbeiten.png[Aufgabenstatus bearbeiten]
 
-Der Aufgabenstatus hat nur zwei Attribute. Den Namen des Aufgabenstatus (Pflichtfeld) und die Auswahl _Aufgabe geschlossen_.
+Der Aufgabenstatus hat nur drei Attribute. Den Namen des Aufgabenstatus (Pflichtfeld), ein Beschreibungsfeld und die Auswahl _Aufgabe geschlossen_.
 
 Mit der aktiven Einstellung zur Verknüpfung von Aufgabenstatus mit dem Aufgabenfortschritt wird ein zusätzliches Feld angezeigt:
 
-image:adminhandbuch/aufgabenstatus_bearbeiten_mit_Aufgabenfortschritt.png[Aufgabenstatus mit Aufgabenfortschritt bearbeiten]
+image:adminhandbuch/aufgabenstatus_bearbeiten_mit_aufgabenfortschritt.png[Aufgabenstatus mit Aufgabenfortschritt bearbeiten]
 
 Mit Klick auf den Button image:adminhandbuch/button_speichern.png[Änderungen speichern] werden die Änderungen übernommen.
 
