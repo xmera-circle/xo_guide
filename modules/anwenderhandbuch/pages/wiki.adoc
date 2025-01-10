@@ -258,7 +258,16 @@ video::cCMVEgmLazw[youtube]
 
 Weitere https://www.youtube.com/c/drawioapp/videos[Videos].
 
-Um Drawio in xmera Omnia nutzen zu können, muss dass System im Anwendungsbereich entsprechend konfiguriert sein. 
+Um Drawio in xmera Omnia nutzen zu können, muss dass System im Anwendungsbereich entsprechend konfiguriert sein. In Deinem Konto hast Du Dir ein für Dich passendes Drawio UI (User Interface) aussuchen. Diese Themes stehen zur Auswahl:
+
+- Standard: https://www.drawio.com/blog/diagram-editor-theme#default
+- Atlas: https://www.drawio.com/blog/diagram-editor-theme#atlas
+- Einfach: https://www.drawio.com/blog/simple-mode-diagrams
+- Minimal: https://www.drawio.com/blog/diagram-editor-theme#minimal
+- Sketch: https://www.drawio.com/blog/diagram-editor-theme#sketch
+
+[NOTE]
+Dark Mode wird nicht unterstützt!
 
 Bevor mit dem Zeichnen begonnen werden kann, wird eine Standarddatei mit Hilfe der Wiki-Toolbar erstellt. Hierzu muss image:anwenderhandbuch/wikitoolbar/bt_drawio.png[] gelickt werden. Es erscheint folgendes Eingabefenster:
 
