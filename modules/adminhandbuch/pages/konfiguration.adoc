@@ -160,12 +160,19 @@ image:adminhandbuch/konfiguration_authentifizierung_passwort_zurücksetzen.png[]
 Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhält einen Link, über den er ein neues Passwort erstellen kann.
 
 |Zwei-Faktor-Authentifizierung
-|Es wird festgelegt welche Optionen der Anwender bzgl. der 2-Faktor-Authentifizierung hat:
+|Es wird festgelegt, welche Optionen der Anwender bzgl. der 2-Faktor-Authentifizierung hat:
 
 - gesperrt » Die 2-Faktor-Authentifizierung steht dem Anwender nicht zur Verfügung.
 - optional » Die 2-Faktor-Authentifizierung steht dem Anwender optional zur Verfügung.
 - erforderlich für Administratoren » Die 2-Faktor Authentifizierung ist für Administratoren erforderlich. Für alle anderen Anwender ist sie optional.
 - erforderlich » Die 2-Faktor-Authentifizierung muss vom Anwender verwendet werden.
+
+|E-Mail-Validierungscode
+|Der Administrator legt fest wie die 2-Faktor-Authentifizierung mittels E-Mail-Validierungscode eingesetzt werden soll:
+
+- gesperrt » Die 2-Faktor-Authentifizierung mittels E-Mail-Validierungscode steht dem Anwender nicht zur Verfügung.
+- optional » Der Administrator kann den E-Mail-Validierungscode für einzelne Nutzer aktivieren.
+- erforderlich, falls keine Authentifizierungs-App aktiv ist » Der E-Mail-Validierungscode dient als Ersatzlösung, falls kein 2. Faktor mittels App eingerichtet wurde.
 
 2.1+| Ende einer Sitzung
 
