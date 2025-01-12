@@ -181,7 +181,7 @@ Mit dem Löschen des Feldes sind alle erfassten Daten gelöscht! Bei Unsicherhei
 
 == Mit eigenen Feldern rechnen
 
-Mit einigen Feldformaten können einfache Berechnungen durchgeführt werden. Diese Funktion wird in folgenden Formaten unterstützt:
+Mit einigen Feldformaten können Berechnungen durchgeführt werden. Diese Funktion wird in folgenden Formaten unterstützt:
 
 - (Ganz-)Zahl,
 - Fließkommazahl,
@@ -192,18 +192,19 @@ Bei diesen Formaten wird die Konfiguration zur Berechnung angezeigt.
 
 image:adminhandbuch/eigene-felder_berechnen.png[Mit eigenen Feldern rechnen]
 
-[NOTE]
-Für das Format __Liste__ wird Dir zwar auch die Konfiguration zur Berechnung angezeigt. Doch sie funktioniert aktuell nicht.
+In den unterstützen Feldformaten ist rechts neben dem Formelfeld ein Info-Icon. Wenn Du es anklickst, bekommst Du eine Übersicht der für das vorliegende Format unterstützten Funktionen. Im obigen Bild ist das Icon umrandet.
 
 Zu den möglichen Berechnungen gehören:
 
-- Minimum `min()`
-- Maximum `max()`
-- Summe `sum()`
-- Produkt `product()`
-- Division `division()`
-- Zuordnung `mapping()`
+- Mittelwert `average()`
+- Mittelwert ohne Nil Werte `average_net_of_nil()`
 - Benutzerdefiniert `custom()`
+- Division `division()`
+- Maximum `max()`
+- Minimum `min()`
+- Produkt `product()`
+- Auf Ganzzahl runden `round_to_int()`
+- Summe `sum()`
+- Zuordnung `mapping()`
 
-[IMPORTANT]
-Unterstützt ein eigenes Feld eine Mehrfachauswahl, kann keine Berechnung durchgeführt werden.
+In den Formeln können negative Vorzeichen und fixe Zahlenwerte verwendet werden. Du kannst Funktionen auch verschachteln und Ergebnisfelder einbinden, um komplexere Berechnungen durchführen zu können.
