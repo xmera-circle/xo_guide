@@ -17,6 +17,8 @@ image:anwenderhandbuch/modul_wiederholende_aufgaben_liste.png[Wiederholende Aufg
 
 Aus der Liste heraus lassen sich einzelne Aufgaben durch Klick auf den Button image:anwenderhandbuch/button_loeschen.png[löschen] löschen oder die _Wiederholende Aufgabe_ bearbeiten image:anwenderhandbuch/button_bearbeiten_2.png[bearbeiten]. 
 
+Mit Klick auf das Thema wird die wiederholdende Aufgabe angezeigt. Das Symbol links vom Thema zeigt Dir an, ob der letzte Lauf zur Erstellung der Aufgaben auf Basis der jeweiligen wiederholenden Aufgabe erfolgreich war. Siehst Du ein rotes Warndreieck und fährst mit der Maus darüber, wird Dir die zugehörige Fehlermeldung angezeigt.
+
 == Wiederholende Aufgaben erstellen
 
 In der Listenansicht des Moduls _Wiederholende Aufgaben_ kann durch Klick auf den Button image:anwenderhandbuch/button_wiederholende_aufgaben_erstellen.png[Wiederholende Aufgabe erstellen] eine leere Bearbeitungsseite für eine neue _Wiederholenden Aufgaben_ aufgerufen werden. 
@@ -48,8 +50,35 @@ werden beim Erstellen einer Aufgabe in die korrespondierenden Felder übernommen
 
 Mit dem Klick auf den Button image:anwenderhandbuch/button_speichern.png[speichern] unterhalb der Erfassungsfelder wird die sich wiederholende Aufgabe angelegt.
 
+== Wiederholende Aufgaben anzeigen
+
+Mit Klick auf das Thema in der Liste der wiederholenden Aufgaben wird Dir die Aufgabe in Einzelansicht angezeigt. So kannst Du die Details beispielsweise dem Auditor zeigen, ohne in den Bearbeitungsmodus wechhseln zu müssen. 
+
+image:anwenderhandbuch/modul_wiederholende_aufgaben_anzeigen.png[Wiederholende Aufgabe anzeigen]
+
+Ist während des letzten Laufs ein Fehler aufgetreten, wird er Dir in der linken Seitenleiste angezeigt.
+
 == Wiederholende Aufgaben bearbeiten
 
 Aus der Liste der wiederholenden Aufgaben wird durch Klick auf den Button image:anwenderhandbuch/button_bearbeiten_2.png[bearbeiten] die Bearbeitungsseite der gewählten Aufgabe angezeigt. Ein Beispiel ist im folgenden Bild zu sehen.
 
 Die Informationen zur Bearbeitung sind dem Kapitel <<Wiederholende Aufgaben erstellen>> zu entnehmen.
+
+== Wiederholende Aufgaben in einer Objektklasse bearbeiten
+
+Werden wiederholende Aufgaben bereits in einer Objektklasse erstellt, enthält jedes Objekt nach seiner Erzeugung die wiederholdenden Aufgaben seiner Klasse.
+
+Die Bearbeitungsansicht von wiederholenden Aufgaben in einer Objektklasse hat zusätzliche Einstellungsmöglichkeiten, mit denen Du die Erzeugung von der ersten Aufgabe auf Basis der wiederholenden Aufgabe steuern kannst.
+
+image:anwenderhandbuch/modul_wiederholende_aufgaben_in_objektklasse_erstellen.png[Wiederholende Aufgabe in Objektklasse erstellen]
+
+Die Erstellung einer ersten Aufgabe kann mit den nachfolgenden Optionen gesteuert werden:
+
+- Nächster Lauf
+- Berechne nächsten Lauf bei Objekterstellung
+- Erste Aufgabe bei Objekterstellung
+
+Die Erläuterung findest Du zu jeder Option direkt darunter.
+
+[NOTE]
+Eine Objektklasse kann ausschließlich vom Administrator bearbeitet werden!
