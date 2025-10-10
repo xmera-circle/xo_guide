@@ -102,6 +102,20 @@ Die Sidebar sieht dann in dem Beispiel wie folgt aus:
 
 image:anwenderhandbuch/modul_wiki_sidebar_manuell.png[]
 
+=== Metadaten zuordnen
+
+Einem Wiki können Metadaten zugeordnet werden, die beim Exportieren einer Wiki-Seite oder eines gesamten Wikis im PDF-Fußbereich angezeigt werden. Diese Metadaten kannst Du selbst mit Hilfe der xref:adminhandbuch:eigene-felder.adoc[Eigenen Felder] bestimmen. Diese Metadaten stehen in allen Wikis zur Verfügung.
+
+image::anwenderhandbuch/modul_wiki_metadaten_pdf_export.png[]
+
+Um einem Wiki erstmalig Metadaten zuzuordnen, öffnest Du den Menüpunkt _Metadaten bearbeiten_ im Drei-Punkte-Menü.
+
+image::anwenderhandbuch/modul_wiki_metadaten_bearbeiten_menu.png[]
+
+Nach dem Speichern werden Dir die Metadaten in der Seitenleiste des Wikis angezeigt.
+
+image::anwenderhandbuch/modul_wiki_metadaten_sidebar.png[]
+
 
 === Seite umbenennen
 

@@ -31,10 +31,11 @@ Funktionsmodule, für die _Eigene Felder_ hinzugefügt werden können, sind in d
 |Aufgabenpakete
 |Tabellen
 
-.3+|Dokumentenverwaltung
+.4+|Dokumentenverwaltung
 |Dokumente
 |Dokumentationskategorien
 |DMS
+|Wiki
 
 .2+|Zeitmanagement
 |Aufgewendete Zeit
