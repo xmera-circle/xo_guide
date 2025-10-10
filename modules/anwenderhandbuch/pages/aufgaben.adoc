@@ -435,15 +435,15 @@ Neu ist das Feld _Status_. Das Aufgabenpaket kann folgende Status annehmen: +
 [cols="2,3"]
 |===
 |offen
-|Das Aufgabenpaket kann für Aufgaben ausgewählt werden und wird im Stapel angezeigt.
+|Das Aufgabenpaket kann für Aufgaben ausgewählt werden und wird in der Liste angezeigt.
 |gesperrt
-|Das Aufgabenpaket steht in Aufgaben nicht mehr zur Verfügung wird aber im Stapel angezeigt.
+|Das Aufgabenpaket steht in Aufgaben nicht mehr zur Verfügung wird aber in der Liste angezeigt.
 |abgeschlossen
-|Das Aufgabenpaket steht in Aufgaben nicht zur Verfügung und wird nicht im Stapel angezeigt.
+|Das Aufgabenpaket steht in Aufgaben nicht zur Verfügung und wird nicht in der Liste angezeigt.
 |===
 +
 [NOTE]
-Im Stapel können auch abgeschlossenen Aufgabenpakete angezeigt werden, in dem über den Filter (wird über das Symbol image:anwenderhandbuch/button_einblenden.png[] am linken Bildschirmrand eingeblendet) geschlossene Arbeitspakete hinzugefügt werden. +
+In der Liste können auch abgeschlossenen Aufgabenpakete angezeigt werden, in dem über den Filter (wird über das Symbol image:anwenderhandbuch/button_einblenden.png[] am linken Bildschirmrand eingeblendet) geschlossene Arbeitspakete hinzugefügt werden. +
 +
 In der Bearbeitung von Objekten fehlt die Möglichkeit, das Arbeitspaket als Standardpaket zu deklarieren. Dieses ist nach der Erstellung nur noch über die <<Aufgaben konfigurieren,Aufgabenkonfiguration>> des Objekts möglich.
 
