@@ -23,6 +23,10 @@ Das Systemdashboard kann nur vom Administrator gestaltet werden. Darüberhinaus 
 Ein Dashboard wird dabei aus verschiedenen Informationsblöcken zusammengestellt. Dazu gehören aktuell: 
 
 - Kennzahlen aus Abfragen,
+- Kennzahlen aus Objekten,
+- Aufgabenzähler,
+- Objektzähler,
+- Aufgabenfortschritte,
 - Aufgabenlisten,
 - Diagramme,
 - Dokumentenlisten,
