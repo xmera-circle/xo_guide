@@ -17,13 +17,13 @@ image:anwenderhandbuch/modul_wiederholende_aufgaben_liste.png[Wiederholende Aufg
 
 Aus der Liste heraus lassen sich einzelne Aufgaben durch Klick auf den Button image:anwenderhandbuch/button_loeschen.png[löschen] löschen oder die _Wiederholende Aufgabe_ bearbeiten image:anwenderhandbuch/button_bearbeiten_2.png[bearbeiten]. 
 
-Mit Klick auf das Thema wird die wiederholdende Aufgabe angezeigt. Das Symbol links vom Thema zeigt Dir an, ob der letzte Lauf zur Erstellung der Aufgaben auf Basis der jeweiligen wiederholenden Aufgabe erfolgreich war. Siehst Du ein rotes Warndreieck und fährst mit der Maus darüber, wird Dir die zugehörige Fehlermeldung angezeigt.
+Mit Klick auf das Thema wird die wiederholende Aufgabe angezeigt. Das Symbol links vom Thema zeigt Dir an, ob der letzte Lauf zur Erstellung der Aufgaben auf Basis der jeweiligen wiederholenden Aufgabe erfolgreich war. Siehst Du ein rotes Warndreieck und fährst mit der Maus darüber, wird Dir die zugehörige Fehlermeldung angezeigt.
 
 == Wiederholende Aufgaben erstellen
 
 In der Listenansicht des Moduls _Wiederholende Aufgaben_ kann durch Klick auf den Button image:anwenderhandbuch/button_wiederholende_aufgaben_erstellen.png[Wiederholende Aufgabe erstellen] eine leere Bearbeitungsseite für eine neue _Wiederholenden Aufgaben_ aufgerufen werden. 
 
-image:anwenderhandbuch/modul_wiederholende_aufgaben_erstellen.png[Wiederholende Aufgaben erstellem]
+image:anwenderhandbuch/modul_wiederholende_aufgaben_erstellen.png[Wiederholende Aufgaben erstellen]
 
 Die Felder _Thema_ und _Aufgabentyp_ sind Pflichtfelder.
 
@@ -66,7 +66,7 @@ Die Informationen zur Bearbeitung sind dem Kapitel <<Wiederholende Aufgaben erst
 
 == Wiederholende Aufgaben in einer Objektklasse bearbeiten
 
-Werden wiederholende Aufgaben bereits in einer Objektklasse erstellt, enthält jedes Objekt nach seiner Erzeugung die wiederholdenden Aufgaben seiner Klasse.
+Werden wiederholende Aufgaben bereits in einer Objektklasse erstellt, enthält jedes Objekt nach seiner Erzeugung die wiederholenden Aufgaben seiner Klasse.
 
 Die Bearbeitungsansicht von wiederholenden Aufgaben in einer Objektklasse hat zusätzliche Einstellungsmöglichkeiten, mit denen Du die Erzeugung von der ersten Aufgabe auf Basis der wiederholenden Aufgabe steuern kannst.
 
@@ -82,3 +82,14 @@ Die Erläuterung findest Du zu jeder Option direkt darunter.
 
 [NOTE]
 Eine Objektklasse kann ausschließlich vom Administrator bearbeitet werden!
+
+== Wiederholende Aufgaben kopieren
+
+Soll eine wiederholende Aufgabe als Vorlage für eine neue wiederholende Aufgabe dienen, kann mit dem Button image:anwenderhandbuch/button_kopieren.png[Kopieren] die Parametrierung in eine _neue wiederholende Aufgabe_ übernommen werden. In der sich öffnenden Bearbeitungsansicht sind alle Einstellungen aus der Vorlage übernommen.
+Das Kopieren kann sowohl aus der Liste der wiederholenden Aufgaben, als auch der Einzelansicht einer wiederholenden Aufgabe erfolgen.
+
+Die wiederholende Aufgabe lässt sich in jedes Objekt kopieren, auf das Du Zugriff hast.
+
+
+image:anwenderhandbuch/modul_wiederholende_aufgaben_kopieren.png[Wiederholende Aufgabe kopieren]
+
