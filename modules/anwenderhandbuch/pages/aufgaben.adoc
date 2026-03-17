@@ -324,11 +324,24 @@ In der Administration kann festgelegt werden, dass die kopierte Aufgabe mit der 
 
 === 3-Punkte-Menü
 &#9452; 
-Das 3-Punkte-Menü beinhaltet zwei Funktionen. Die erste Funktion ist _Link kopieren_, womit die URL zur Aufgabe kopiert wird. Die andere Funktion ermöglicht die Aufgabe zu löschen. Letztere wird nur angezeigt, wenn der Benutzer das Recht zum Löschen hat.
+Das 3-Punkte-Menü beinhaltet drei Funktionen. Die erste Funktion ist _Wiederholende Aufgabe erstellen_. Damit lässt sich aus den Inhalten einer Aufgabe, eine wiederholende Aufgabe erstellen, vorausgesetzt man hat die entsprechenden Rechte. Siehe hierzu <<Wiederholende Aufgabe erstellen>>.
+Die zweite Funktion ist _Link kopieren_, womit die URL zur Aufgabe kopiert wird. Die dritte Funktion ermöglicht die Aufgabe zu löschen. Letztere wird nur angezeigt, wenn der Benutzer das Recht zum Löschen hat.
+
+image:anwenderhandbuch/modul_aufgaben_ansicht_3-punkte-menue.png[Aufgaben Ansicht 3-Pünkte-Menü]
 
 === Aufgabe abrufen
 &#9453; 
 Die Aufgabe kann zum einen durch Klicken des Button image:anwenderhandbuch/button_atom.png[] als Atom-xml exportiert werden, um die Aufgabe in andere Systeme zu importieren. Zum Anderen kann mit Klicken des Buttons image:anwenderhandbuch/button_pdf.png[] ein PDF erstellt werden, um die Informationen der Aufgabe außerhalb des Systems zu nutzen.
+
+== Wiederholende Aufgabe erstellen
+
+Soll eine Aufgabe als Vorlage für eine sich wiederholende Aufgabe dienen, kannst Du mit einem Klick auf den Button image:anwenderhandbuch/button_wiederholende_aufgabe_erstellen_2.png[Wiederholende Aufgabe erstellen] 
+die Inhalte der Aufgabe für eine wiederholende Aufgabe übernehmen.
+Um diese Funktion zu nutzen sind die Rechte zum _Kopieren von Aufgaben_ und der _Verwaltung von wiederholenden Aufgaben_ notwendig. Den Button findest Du im _3-Punkte-Menü_ der Aufgabenansicht, oder im _3-Punkte-Menü_ der Aufgabenliste.
+
+image:anwenderhandbuch/modul_aufgaben_liste_3-punkte-menue.png[Aufgabenliste 3-Pünkte-Menü]
+
+Für weitere Details siehe hierzu xref:anwenderhandbuch:wiederholende-aufgaben.adoc[Wiederholende Aufgaben].
 
 == Aufgaben konfigurieren
 
