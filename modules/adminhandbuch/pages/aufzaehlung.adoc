@@ -8,6 +8,7 @@ include::ROOT:partial$custom-css.adoc[]
 
 Im Bereich _Aufzählungen_ werden Werte für 
 
+- Abfragenkategorien,
 - Aktivitäten,
 - Dokumentenkategorien und
 - Aufgaben-Prioritäten
