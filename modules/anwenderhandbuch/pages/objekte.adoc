@@ -150,7 +150,7 @@ Eine für den Import von Objekten geeignete Importdatei muss folgende Daten bein
 |*Objektklasse*
 |project_type_id
 |String
-|Kennung der Objektklasse, von der das zu erzeugende Objekt abgeleitet werden soll. (Pflichtfeld) 
+|Kennung der Objektklasse, von der das zu erzeugende Objekt abgeleitet werden soll.
 
 [IMPORTANT] 
 Jede Objektklasse bekommt nach der Erstellung einen Präfix. Schaue Dir die Kennung noch einmal an!
