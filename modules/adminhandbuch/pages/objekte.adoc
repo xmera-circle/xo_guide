@@ -61,3 +61,5 @@ image:adminhandbuch/objekte_schliessen_3_punkte_menue.png[]
 Das Archivieren von Objekten ist nur über die Administration aus der Objektliste möglich. Über den Button image:adminhandbuch/button_archivieren.png[], in der Zeile des zu archivierenden Objekts, wird es in den neuen Status versetzt.
 
 Über den dann zur Verfügung stehenden Button image:adminhandbuch/button_entarchivieren.png[], lässt sich das Objekt wieder herstellen.
+
+Für weitere Informationen zum Löschen eines Objektes, siehe xref:adminhandbuch:objektklassen.adoc#_objektklassen_verwalten[Objektklassen verwalten].
