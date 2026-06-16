@@ -345,6 +345,23 @@ image:anwenderhandbuch/objekt_konfig_mitglieder_bearbeiten.png[Rollen von Mitgli
 
 Es wird der Eintrag des ausgewählten Mitarbeiters aufgeklappt. Durch An- oder Abwahl können die Rollen verändert werden. Rollen, die ein Mitglied von einer Gruppe oder dem vorgelagerten Objekt geerbt hat, können nicht verädert werden. Werden alle Rollen eines Mitglieds gelöscht, wird dieser Anwender als Mitglied in dem Objekt entfernt.
 
+== Objekte verwalten
+
+Unter dem 3-Punkte Menü auf der Übersichtsseite eines Objektes, befinden sich Menüpunkte um ein Objekt zu schließen oder zu löschen.
+
+=== Objekt schließen
+
+image:anwenderhandbuch/button_sperren.png[]: Ein geschlossenes Objekt steht mit seinen Informationen den Anwendern zur Verfügung, es kann aber nicht weiter bearbeitet werden. Durch einen Klick auf den Button image:anwenderhandbuch/button_entsperren.png[] kann das Objekt wieder geöffnet werden.
+
+=== Objekt löschen
+
+image:anwenderhandbuch/button_loeschen.png[]: Löscht das Objekt und dessen verbundene Objekte. Um eine versehentliche Löschung zu vermeiden, muss die Löschung gesondert bestätigt werden.
+
+image:anwenderhandbuch/objekte_loeschbestaetigung.png[]
+
+In dieser Bestätigung werden die verbundenen Objekte gelistet und es muss ein Bestätigungscode eingegeben werden.
+
+
 == Objektjournal
 
 Das Journal eines Objekts zeigt die Aktivitäten von ausgewählten Modulen chronologisch an. Beim Standardaufruf werden die letzten 10 Tage bis zum aktuellen Datum angezeigt. Das Datum kann durch den Nutzer geändert werden.
