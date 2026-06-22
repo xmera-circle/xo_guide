@@ -125,6 +125,19 @@ Wenn nach dem Feld sinnvoll gefiltert werden kann, so wird die Auswahl _Als Filt
 Bei Auswahlfeldern (z.B. Listen, Benutzern oder Aufgabenpaketen) ist im Standard nur ein Wert erlaubt. Über Aktivieren der Auswahl _Mehrere Werte_ kann auf Mehrfachauswahl umgestellt werden. +
 Weiter kann bei der _Anzeige_ der Auswahl zwischen der Dropdown-Liste und der Checkbox gewählt werden.
 
+Eigene Felder mit den Feldformaten _Boolean_, _Datum_, _Liste_, _Zahl_ und _Text_ unterstützen das Attribut _Werte mit URL verknüpfen_. Durch bestimmte Variablen lassen sich damit benutzerdefinierte Links erstellen.
+Die möglichen Variablen sind:
+
+-  `%value%`: Wert des eigenen Feldes
+-  `%id%`: ID des zugehörigen Funktionsmoduls des eigenen Feldes (z.B. Aufgabe, Benutzer etc.)
+-  `%project_id%`: ID des zugehörigen Objektes
+-  `%project_identifier%`: Kennzeichnung des zugehörigen Objektes
+-  `%m1%, %m2%...`: Erfassungsgruppen des regulären Ausdrucks
+
+Beispiel um einen Link zu einer Aufgabe zu erstellen:
+`/issues/%value%`
+
+
 Abhängig vom Funktionsmodul, dem das _Eigene Feld_ zugeordnet wird, besteht die Möglichkeit, die Nutzung des Feldes einzuschränken. Mögliche Einschränkungen sind
 
 - Sichtbarkeit (Rollen)
