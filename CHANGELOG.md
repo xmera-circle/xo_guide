@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * progress bar field format 
 
+### Changed
+
+* wiki sort by title screenshot
+
 ## 1.8.1 - unreleased
 
 ### Added
