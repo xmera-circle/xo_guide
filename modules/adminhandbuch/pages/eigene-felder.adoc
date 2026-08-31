@@ -80,6 +80,9 @@ Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer
 |Eine Fließkommazahl kann zugeordnet werden. +
 Das Feld kann das Ergebnis einer Rechnung sein, dass sich aus den Werten anderer Felder des Funktionsmoduls ergibt.
 
+|Fortschrittsbalken
+|Grafische Fortschrittsdarstellung. Verfügbar als Fünfer- oder Zehnerskala.
+
 |Kombinationsmatrix
 |Die Kombinationsmatrix definiert das Ergebnis einer Kombination aus zwei Feldern mit dem Format Eigenschaft/Wert-Paar. Jeder Wertekombination kann ein Ergebnis (Text) und eine Farbe zugeordnet werden.
 
