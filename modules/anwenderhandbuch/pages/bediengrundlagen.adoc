@@ -44,10 +44,11 @@ Das Topmenü, im linken Bereich des Seitenkopfs, führt zu den Hauptelementen vo
 
 ➋ Nutzermenü::
 
-Das Nutzermenü, im rechten Teil des Seitenkopfs, führt zu Deinen persönlichen Daten und Einstellungen sowie zur Abmeldung aus dem System:
+Das Nutzermenü, welches sich hinter einem Klick auf Deinen Avatar im rechten Teil des Seitenkopfs verbirgt, führt zu Deinen persönlichen Daten und Einstellungen sowie zur Abmeldung aus dem System:
 
-- *Angemeldet als _Nutzername_:* Link zum Nutzerprofil
+- *_Nutzername_:* Dein Profilname
 - *Neue Mitteilungen:* Anzahl der neuen Mitteilungen und Verlinkung zu einer Liste mit ungelesenen Mitteilungen
+- *Profil*: Link zum Nutzerprofil
 - *Mein Konto:* Link zu den Nutzereinstellungen
 - *Abmelden:* Button zur Abmeldung des Nutzers
 
