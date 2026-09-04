@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * progress bar field format
+* custom field 'link values to URL' attribute explanation
 
 ### Changed
 
@@ -24,10 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 * requirement of an object class when importing objects
-
-### Added
-
-* custom field 'link values to URL' attribute explanation
 
 ## 1.8.0 - 2026-03-30
 
