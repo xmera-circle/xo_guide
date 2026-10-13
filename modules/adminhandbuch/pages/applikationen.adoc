@@ -1,0 +1,44 @@
+= Applikationen
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://docs.xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+xmera Omnia kann als OAuth2 Provider eingesetzt werden. Externe Anwendungen erhalten so Zugriff auf die xmera Omnia API, ohne dass Zugangsdaten an die Anwendung weitergegeben werden müssen. Der Zugriff ist über Berechtigungen (Scopes) kontrollierbar, erlaubt damit einen feiner abgestuften Zugriff als mit dem persönlichen API-Key.
+
+== Neue Applikation erstellen
+
+Über den Button image:adminhandbuch/button_neue_applikation.png[neue Applikation Button] auf der Applikationsliste kann eine neue Applikation erstellt werden.
+
+image:adminhandbuch/applikationen_neu.png[neue Applikation]
+
+&#10122; Name der Applikation +
+&#10123; Weiterleitungs-URI: Die Adresse, an die xmera Omnia den Benutzer nach der Autorisierung weiterleitet. Bei mehreren URIs müssen diese zeilenweise getrennt eingetragen werden. +
+&#10124; Scopes: Berechtigungen, die man der Applikation erlaubt. Die Applikation wird dabei nie mehr Berechtigungen haben als hier erlaubt und wird zusätzlich durch die Rollen und Objektmitgliedschaften des Benutzers, der sie autorisiert hat, beschränkt. +
+
+== Übersicht der Applikation
+
+Nach dem Erstellen der Applikation gelangst Du auf ihre Übersichtsseite. Hier stehen neben den aufgelisteten Berechtigungen noch die _Applikations-ID_ und das _Geheimnis_, die in der externen Anwendung hinterlegt werden müssen.
+
+image:adminhandbuch/applikationen_uebersicht.png[Applikationsübersicht]
+
+[NOTE]
+====
+Das Geheimnis wird nur einmal angezeigt. Lege es deshalb am besten an einem sicheren Ort ab.
+====
+
+== Applikation autorisieren
+
+Mit einem Klick auf image:adminhandbuch/button_autorisieren.png[Button autorisieren] gelangst Du auf die Autorisierungsseite. Hier hast Du noch einmal eine Übersicht der Berechtigungen und die Möglichkeit, die Applikation für Dein Konto zu autorisieren oder abzulehnen.
+
+image:adminhandbuch/applikationen_autorisieren.png[Applikation autorisieren]
+
+Eine Übersicht der autorisierten Applikationen findest Du unter _Mein Konto_. Siehe hierzu xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_autorisierte_applikationen[Mein Konto » Applikationen].
+
+== Liste der Applikationen
+
+Mit einem Klick auf image:adminhandbuch/button_applikationen.png[Applikationen] gelangst Du zur Liste aller erstellten Applikationen. Von hier aus kannst Du weitere Applikationen erstellen oder bestehende bearbeiten oder löschen.
+
+image:adminhandbuch/applikationen_liste.png[Liste der Applikationen]
