@@ -114,6 +114,20 @@ image:anwenderhandbuch/individuell_webhook_uebersicht.png[]
 
 In der Webhook-Übersicht kannst Du Deine Webhooks anzeigen, bearbeiten oder löschen. Mit einem Klick auf image:anwenderhandbuch/button_neuer_webhook.png[] kannst Du einen neuen Webhook erstellen.
 
+=== Autorisierte Applikationen
+
+Externe Anwendungen können über OAuth2 auf die xmera Omnia API zugreifen, ohne dass Deine Zugangsdaten an die Anwendung weitergegeben werden. Der Berechtigungsumfang der externen Anwendung wird vom Administrator festgelegt und umfasst maximal die Berechtigungen, die Deinen Rollen und Objektmitgliedschaften entsprechen.
+
+Meldest Du Dich erstmals aus einer externen Anwendung bei xmera Omnia an, wirst Du auf die Autorisierungsseite weitergeleitet.
+
+image:anwenderhandbuch/applikationen_autorisieren.png[Applikation autorisieren]
+
+Hier kannst Du die Anwendung autorisieren oder ablehnen und erhältst einen Überblick über die Berechtigungen, die die Anwendung haben wird. Nach der Autorisierung wirst Du zur Anwendung weitergeleitet.
+
+Mit einem Klick auf image:anwenderhandbuch/button_autorisierte_applikationen.png[Button autorisierte Applikationen] in _Mein Konto_ gelangst Du zur Übersicht Deiner autorisierten Applikationen. Von hier aus kannst Du die Autorisierung einer Anwendung jederzeit widerrufen. Die Anwendung verliert damit den Zugriff und sie muss beim nächsten Zugriff erneut autorisiert werden.
+
+image:anwenderhandbuch/individuell_autorisierte_applikationen.png[Liste der autorisierten Applikationen]
+
 == Mein Profil
 
 Das Benutzerprofil enthält verschiedene nutzerbezogene Daten, die je nach Konfiguration von anderen Nutzern des Systems eingesehen werden können. Das Profil ist im Nutzermenü durch Klick auf den Link _Profil_ erreichbar. 
