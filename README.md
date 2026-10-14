@@ -29,13 +29,17 @@ Install all dependencies of this project by
 
 ## Create xmera Omnia Guide via Makefile
 
-Create the Antora HTML pages and start the guide with Firefox:
+Create the Antora HTML pages and open in browser. On headless systems, starts a local server automatically:
 
     make html_browser
 
 Create the pages without starting the browser:
 
     make html
+
+Start a local HTTP server on port 8000 to serve the built documentation:
+
+    make server
 
 Create the pdf document and start the document in the document reader:
 
