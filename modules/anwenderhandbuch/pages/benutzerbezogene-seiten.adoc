@@ -6,6 +6,10 @@
 
 include::ROOT:partial$custom-css.adoc[]
 
+Mit einem Klick auf Deinen Avatar, erscheint ein Untermenü mit Links zu Deiner Profilseite, Einstellungen, einem Abmeldebutton sowie der Anzahl an neuen Mitteilungen.
+
+image:anwenderhandbuch/avatar_menu.png[]
+
 == Mein Konto
 
 _Mein Konto_ enthält Einstellungsmöglichkeiten, aus denen Du als Anwender für Dich wählen kannst.
@@ -79,7 +83,7 @@ Die Liste sollte ausgedruckt und an einem sicheren Ort verwahrt werden.
 
 == Mein Profil
 
-Das Benutzerprofil enthält verschiedene nutzerbezogene Daten, die je nach Konfiguration von anderen Nutzern des Systems eingesehen werden können. Das Profil ist im Nutzermenü durch Klick auf den Benutzernamen erreichbar. 
+Das Benutzerprofil enthält verschiedene nutzerbezogene Daten, die je nach Konfiguration von anderen Nutzern des Systems eingesehen werden können. Das Profil ist im Nutzermenü durch Klick auf den Link _Profil_ erreichbar. 
 
 image:anwenderhandbuch/individuell_nutzer_profile.png[]
 
