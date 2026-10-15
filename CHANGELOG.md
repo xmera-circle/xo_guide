@@ -10,10 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * progress bar field format
+* custom field 'link values to URL' attribute explanation
 
 ### Changed
 
 * wiki sort by title screenshot
+
+### Changed
+
+* progress bar field format 
 
 ## 1.8.1 - unreleased
 
