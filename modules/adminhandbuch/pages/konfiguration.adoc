@@ -400,7 +400,7 @@ Zusätzlich kann für jedes Objekt eine eigene Standardabfrage konfiguriert werd
 2.1+|Standard-Spalten für verknüpfte und untergeordnete Aufgaben
 
 |Spaltenauswahl
-|Legt fest, welche Informationen in der Liste der zugehörigen Aufgaben angezeigt werden soll.
+|Legt fest, welche Informationen in der Aufgabenliste angezeigt werden.
 
 |Spaltenüberschriften anzeigen
 |Legt fest, ob die Spaltenüberschriften angezeigt werden sollen.
