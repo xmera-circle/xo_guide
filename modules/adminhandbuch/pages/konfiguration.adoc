@@ -53,6 +53,9 @@ Einstellungen, die eine globale Wirkung entfalten, werden im Administrationsbere
 |Maximale Anzahl Einträge pro Atom-Feed
 |Definiert die Anzahl der Einträge im RSS-Feed, den die Anwendung bereitstellt.
 
+|Reaktionsbutton aktiviert
+|Zeigt einen Reaktionsbutton für Aufgaben, Journale, Mitteilungen, Kommentare und Forenthemen an.
+
 |===
 
 
@@ -106,6 +109,9 @@ Das kann für die Ausführung von automatisierten Aufgaben relevant sein, sie vo
 
 |Menü zum Anlegen neuer Objekte
 |Blendet je nach Auswahl spezielle Menüpunkte ein, wie z.B. das *+* im folgenden Bild, mit denen neue Objekte erzeugt werden können. image:adminhandbuch/konfiguration_anzeige_menue_plus.png[]
+
+|JavaScript-basierte Tabellensortierung in Wiki-Inhalten
+|Legt fest, ob Tabellenspalten sortierbar sein sollen.
 
 |===
 
@@ -184,7 +190,7 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 
 |===
 
-== API
+== Integrationen
 
 [cols="1,2a"]
 |===
@@ -195,6 +201,9 @@ Bei Klick auf den Link wird das Passwort des Anwenders zurückgesetzt. Er erhäl
 
 |JSONP Unterstützung aktivieren
 |Daten können im JSON-Format systemübergreifend synchronisiert werden.
+
+|Webhooks aktivieren
+|Webhooks ermöglichen die Echtzeit-Kommunikation mit externen Systemen bei bestimmten Ereignissen wie dem Erstellen, Aktualisieren oder Löschen von Daten.
 
 |===
 
@@ -269,6 +278,9 @@ E-Mail-Benachrichtigungen und -erinnerungen werden an alle Adressen gesendet.
 |Zeitzone
 |Beim Anlegen eines neuen Benutzers wird das Attribut _Zeitzone_ gesetzt. Diese Einstellung kann im Rahmen der Bearbeitung geändert werden.
 
+|Automatisch beobachten
+|Legt fest, welche Aufgaben standardmäßig von Benutzern beobachtet werden sollen. Zur Auswahl stehen _Aufgaben von mir erstellt_, _Aufgaben zu denen ich beigetragen habe_ und _Mir zugewiesene Aufgaben_.
+
 |===
 
 == Aufgaben
@@ -290,6 +302,13 @@ E-Mail-Benachrichtigungen und -erinnerungen werden an alle Adressen gesendet.
 [NOTE]
 Eine Verknüpfung kann jederzeit manuell aufgehoben und wieder hergestellt werden.
 
+|Anhänge beim Kopieren einer Aufgabe auch kopieren
+|Legt fest, ob Abhänge beim Kopieren einer Aufgabe mitkopiert werden sollen:
+
+- Ja » Die Anhänge werden kopiert.
+- Nein » Die Anhänge werden nicht kopiert.
+- Nachfragen » Zeigt beim Kopierprozess eine Option an, mit der sich das Mitkopieren der Anhänge wahlweise deaktivieren lässt.
+
 |Objektübergreifende Unteraufgaben erlauben
 |Mit der Auswahl wird festgelegt, zu welchen Objekten Unteraufgaben zugeordnet werden können:
 
@@ -305,8 +324,18 @@ Eine Verknüpfung kann jederzeit manuell aufgehoben und wieder hergestellt werde
 |Aufgabenzuweisung an Gruppen erlauben
 |Aufgaben können nicht nur an Mitglieder sondern auch an Gruppen zugewiesen werden. Benachrichtigungen werden an alle Gruppenmitglieder gesendet.
 
+|Anzeigeformat der Aufgabenzuweisung
+|Legt das Anzeigeformat der Aufgabenzuweisung fest:
+
+- Benutzer dann Gruppen » Listet zunächst Benutzer und anschließend Gruppen
+- Gruppen dann Benutzer » Listet zunächst Gruppen und anschließend Benutzer
+- Benutzer sortiert nach Gruppen » Listet Benutzer sortiert nach ihren Gruppen
+
 |Aktuelles Datum als Beginn für neue Aufgaben verwenden
 |Beim Anlegen einer neuen Aufgabe wird automatisch das aktuelle Datum in das Feld _Beginn_ eingetragen.
+
+|Standardmäßiges Abgabedatum für neue Aufgaben aktivieren
+|Ermöglicht das Einstellen eines Abgabedatums relativ zum heutigen Tag
 
 |Aufgaben von Unterobjekten im Hauptobjekt anzeigen
 |Mit der Auswahl der Option werden in der Aufgabenliste eines Objekts auch die Aufgaben der hierarchisch untergeordneten Objekte mit angezeigt.
@@ -314,6 +343,9 @@ Eine Verknüpfung kann jederzeit manuell aufgehoben und wieder hergestellt werde
 |Berechne den Aufgaben-Fortschritt mittels
 |Wird die Option _Aufgabenstatus_ gewählt, so kann für jeden Aufgabenstatus der Fortschritt in % vordefiniert werden. +
 Wird die Option _Aufgaben-Feld % erledigt_ gewählt, trägt der Anwender den Fortschritt selbst in das Aufgabenformular ein.
+
+|Intervalloptionen für %-erledigt
+|Ermöglicht das Einstellen für %-erledigt in Fünfer- oder Zehnerschritten.
 
 |Arbeitsfreie Tage
 |Arbeitsfreie Tage werden im Kalender grau hinterlegt.
@@ -365,6 +397,14 @@ Der Aufgaben-Fortschritt der übergeordneten Aufgabe ist unabhängig von den unt
 Jeder Benutzer kann diese Einstellung für sich in seinem Konto anpassen. 
 Zusätzlich kann für jedes Objekt eine eigene Standardabfrage konfiguriert werden.
 
+2.1+|Standard-Spalten für verknüpfte und untergeordnete Aufgaben
+
+|Spaltenauswahl
+|Legt fest, welche Informationen in der Aufgabenliste angezeigt werden.
+
+|Spaltenüberschriften anzeigen
+|Legt fest, ob die Spaltenüberschriften angezeigt werden sollen.
+
 |===
 
 == Zeiterfassung
@@ -384,6 +424,9 @@ Zusätzlich kann für jedes Objekt eine eigene Standardabfrage konfiguriert werd
 
 |Akzeptiere Zeitbuchungen in der Zukunft
 |Bei Auswahl werden auch Zeitbuchungen für die Zukunft akzeptiert.
+
+|Zeiterfassung für geschlossene Aufgaben erlauben
+|Legt fest, ob Zeiterfassungen auch für geschlossene Aufgaben erlaubt sind
 
 2.1+|Standard-Spalten in der Zeiten-Auflistung
 
