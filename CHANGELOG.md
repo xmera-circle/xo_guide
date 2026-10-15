@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.8.1 - unreleased
 
+### Added
+
+* chapter on how to delete and close a project on user docs
+
 ### Removed
 
 * requirement of an object class when importing objects
