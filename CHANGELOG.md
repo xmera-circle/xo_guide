@@ -5,26 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.0.0 - unreleased
-
-### Added
-
-* progress bar field format
-* adds applications subchapter to user pages
-* OAuth applications chapter to admin page
-* admin webhook chapter
-* custom field 'link values to URL' attribute explanation
-
-### Changed
-
-* wiki sort by title screenshot
-* progress bar field format 
-
-## 1.8.1 - unreleased
+## 2.0.0 - 2026-10-16
 
 ### Added
 
 * chapter on how to delete and close a project on user docs
+* progress bar field format
+* adds applications subchapter to user pages
+* OAuth applications chapter to admin page
+* admin webhook chapter on user and admin pag
+* custom field 'link values to URL' attribute explanation
+* Ruby webrick server support to serve antora pages for internal remote access
+
+### Changed
+
+* wiki sort by title screenshot
+* progress bar field format
+* Explain the variables for custom fields with URL
+* screenshots on 'Benutzerbezogene Seiten' to show the new user dropdown menu
+* 'Konfiguration' page with new settings of RM 7.0.0/7.0.1
+* wiki screenshot for exporting all pages
+* npm to version 12.2.0
+* antora meta package to version 3.2.1
+* the title in the sidebar of this docs
 
 ### Removed
 
