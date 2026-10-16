@@ -14,4 +14,4 @@ In der Liste siehst Du wer den Webhook erstellt hat, ob er aktiv ist, an welche 
 
 Mit einem Klick auf image:adminhandbuch/button_neuer_webhook.png[Button neuer Webhook] kannst Du weitere Webhooks erstellen.
 
-Für mehr Infos zu Webhooks siehe xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#__webhooks[Mein Konto » Webhooks].
+Für mehr Infos zu Webhooks siehe xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_webhooks[Mein Konto » Webhooks].
