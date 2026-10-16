@@ -1,0 +1,17 @@
+= Webhooks
+:doctype: article
+:icons: font
+:imagesdir: ../images/
+:web-xmera: https://xmera.de
+
+include::ROOT:partial$custom-css.adoc[]
+
+Unter dem Menüpunkt Webhooks können alle von Benutzern erstellte Webhooks betrachtet und verwaltet werden.
+
+image:adminhandbuch/webhooks_liste.png[Webhooks Liste]
+
+In der Liste siehst Du wer den Webhook erstellt hat, ob er aktiv ist, an welche URL und für welche Ereignisse er geschickt wird und in welchen Objekten er ausgelöst wird.
+
+Mit einem Klick auf image:adminhandbuch/button_neuer_webhook.png[Button neuer Webhook] kannst Du weitere Webhooks erstellen.
+
+Für mehr Infos zu Webhooks siehe xref:anwenderhandbuch:benutzerbezogene-seiten.adoc#_webhooks[Mein Konto » Webhooks].
